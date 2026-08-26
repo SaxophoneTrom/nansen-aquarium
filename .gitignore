@@ -1,0 +1,15 @@
+# secrets — NEVER commit API keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# scratch
+scripts/_debug/
+.playwright-mcp/

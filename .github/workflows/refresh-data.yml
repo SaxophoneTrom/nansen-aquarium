@@ -1,0 +1,98 @@
+name: Refresh data
+
+# Pulls fresh Nansen data into public/data/ and commits it.
+#
+# Requires the NANSEN_API_KEY repository secret. Until that secret exists the
+# scheduled runs fail fast at the fetch step and nothing is committed.
+#
+# Every endpoint the fetcher calls sits in the ✅ Allowed tier of Nansen's Data
+# Redistribution Guidelines, so this snapshot is safe to republish with the
+# attribution the app already carries:
+# https://docs.nansen.ai/guides/redistribution-guide
+#
+# Budget: 4 feed runs + 1 full run per day = 56 credits/day.
+
+on:
+  schedule:
+    # feed only — replays the tokens already in tank.json (5 credits x 4/day)
+    - cron: '17 */6 * * *'
+    # full refresh — re-casts the tokens and the roster (36 credits x 1/day)
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: What to refresh
+        type: choice
+        options:
+          - feed
+          - full
+        default: feed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch data
+        env:
+          NANSEN_API_KEY: ${{ secrets.NANSEN_API_KEY }}
+          # The daily cron and an explicit "full" dispatch do the whole tank;
+          # everything else refreshes the feed only.
+          SCHEDULE: ${{ github.event.schedule }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          set -euo pipefail
+          if [ -z "${NANSEN_API_KEY:-}" ]; then
+            echo "::error::NANSEN_API_KEY secret is not set — see docs before enabling this workflow."
+            exit 1
+          fi
+          if [ "$SCHEDULE" = "0 9 * * *" ] || [ "$MODE" = "full" ]; then
+            echo "full refresh"
+            node scripts/fetch.mjs ethereum
+          else
+            echo "feed-only refresh"
+            node scripts/fetch.mjs ethereum --feed-only
+          fi
+
+      - name: Commit and push
+        id: commit
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain -- public/data)" ]; then
+            echo "no data changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- public/data
+          git commit -m 'chore(data): refresh Nansen snapshot'
+          git push || { git pull --rebase --autostash && git push; }
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  # A push made with GITHUB_TOKEN does not fire the `push` trigger, so the
+  # deploy is invoked directly instead of waiting for an event that never comes.
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy-pages.yml

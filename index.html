@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nansen Aquarium</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2090%2060'%3E%3Cellipse%20cx='38'%20cy='30'%20rx='26'%20ry='18'%20fill='%234FD8FF'/%3E%3Cpath%20d='M62%2030%20L84%2014%20C80%2024%2080%2036%2084%2046%20Z'%20fill='%234FD8FF'/%3E%3Ccircle%20cx='26'%20cy='26'%20r='4'%20fill='%2304070F'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="stage">
+    <!-- ambient background layers -->
+    <div class="godray r1"></div>
+    <div class="godray r2"></div>
+    <div class="godray r3"></div>
+    <div id="seabed">
+      <svg width="100%" height="170" viewBox="0 0 1440 170" preserveAspectRatio="none">
+        <path d="M0 170 L0 112 C90 84 170 126 260 104 C360 80 440 136 560 116 C680 96 780 146 920 124 C1060 102 1180 148 1320 122 C1370 112 1415 126 1440 116 L1440 170 Z" fill="#0A1626"></path>
+        <path class="ridge" d="M0 112 C90 84 170 126 260 104 C360 80 440 136 560 116 C680 96 780 146 920 124 C1060 102 1180 148 1320 122 C1370 112 1415 126 1440 116" fill="none" stroke="#4FD8FF" stroke-opacity="0.15" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+        <circle cx="230" cy="128" r="4" fill="#6FF7D1" opacity="0.8"></circle>
+        <circle cx="244" cy="120" r="3" fill="#4FD8FF" opacity="0.7"></circle>
+        <circle cx="620" cy="140" r="4" fill="#C77DFF" opacity="0.7"></circle>
+        <circle cx="636" cy="132" r="3" fill="#FF8ED4" opacity="0.6"></circle>
+        <circle cx="1050" cy="136" r="4" fill="#6FF7D1" opacity="0.7"></circle>
+        <circle cx="1290" cy="130" r="3" fill="#4FD8FF" opacity="0.7"></circle>
+      </svg>
+    </div>
+
+    <!-- creatures + fx live here -->
+    <div id="tank"></div>
+
+    <!-- UI overlay -->
+    <header id="topbar">
+      <div class="brand">
+        <span class="brand-icon"></span>
+        <span class="brand-name">Nansen Aquarium</span>
+      </div>
+      <nav id="chains">
+        <button class="chain active" data-chain="ethereum">Ethereum</button>
+        <button class="chain soon" data-chain="solana" title="This tank opens soon">Solana</button>
+        <button class="chain soon" data-chain="base" title="This tank opens soon">Base</button>
+      </nav>
+    </header>
+
+    <aside id="feedpanel">
+      <div class="feed-head">
+        <span class="livedot"></span>
+        <span class="feed-title">LIVE FEED</span>
+        <span class="replay-badge" title="Replaying the last 24h of real DEX trades on Ethereum">REPLAY</span>
+      </div>
+      <div id="feed-rows"></div>
+      <div class="feed-legend">
+        <span class="pnl-key"><i class="pnl-dot up"></i>in profit</span>
+        <span class="pnl-key"><i class="pnl-dot down"></i>down</span>
+      </div>
+    </aside>
+
+    <div id="cta">
+      <div class="cta-caption">Every wallet is a sea creature. Which one are you?</div>
+      <form id="cta-form" autocomplete="off">
+        <input id="cta-input" type="text" placeholder="0x&#8230; or vitalik.eth" spellcheck="false">
+        <button id="cta-btn" type="submit">Hatch my fish</button>
+      </form>
+    </div>
+
+    <div id="hoverchip" hidden></div>
+
+    <div id="egg-modal" hidden>
+      <div class="egg-card">
+        <svg width="110" height="138" viewBox="0 0 120 150" fill="none">
+          <path d="M60 8 C88 8 108 46 108 88 C108 122 87 142 60 142 C33 142 12 122 12 88 C12 46 32 8 60 8 Z" fill="#0F2440" stroke="#4FD8FF" stroke-opacity="0.6" stroke-width="2"></path>
+          <circle class="egg-core" cx="60" cy="88" r="16" fill="#4FD8FF" opacity="0.7"></circle>
+          <circle class="egg-core" cx="60" cy="88" r="7" fill="#B8ECFF"></circle>
+        </svg>
+        <div class="egg-title">Your egg is incubating&#8230;</div>
+        <div class="egg-sub">The nursery opens <b>Sept 14</b>. Come back to watch it hatch.</div>
+        <button id="egg-close">Back to the tank</button>
+      </div>
+    </div>
+
+    <footer id="credit">Powered by <a href="https://app.nansen.ai/smart-money?ref=saxo55" target="_blank" rel="noopener"><b>Nansen API</b></a> &#183; replaying the last 24h of real DEX trades on Ethereum</footer>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "nansen-aquarium",
+  "version": "0.1.0",
+  "description": "A deep-sea aquarium where the top onchain traders swim as glowing creatures — built on the Nansen API",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.18"
+  },
+  "scripts": {
+    "fetch": "node --env-file-if-exists=.env --env-file-if-exists=../.env scripts/fetch.mjs",
+    "fetch:feed": "node --env-file-if-exists=.env --env-file-if-exists=../.env scripts/fetch.mjs --feed-only",
+    "dev": "node scripts/serve.mjs"
+  }
+}
