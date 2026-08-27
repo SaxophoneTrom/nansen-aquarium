@@ -5,12 +5,21 @@ const rand = (a, b) => a + Math.random() * (b - a);
 const clamp = (v, a, b) => (v < a ? a : v > b ? b : v);
 const GAP = [4500, 9000];      // ms between replayed events
 const SINK = 60;               // coin sink speed px/s
+const COIN_Y0 = -60;           // where a buy coin enters, above the tank
+const COIN_WOBBLE = 9;         // px of sway on the way down
 const CATCH = 40;              // capture radius px
-const SEEK_TIMEOUT = 14;       // s — bail out if the fish never reaches the coin
+const COIN_LIFE = 14;          // s after the drop before the coin gives up
 const POP_RISE = 54;           // px the amount pop travels up — matches @keyframes popUp
 const POP_TOP = 80;            // header band the pop must never enter
 const POP_PAD = 8;             // breathing room against the viewport edges
-const COIN_BAND = 0.28;        // buy coins drop inside [W*0.28, W*0.72], never at the edges
+const COIN_BAND = 0.28;        // buy coins want to drop inside [W*0.28, W*0.72] …
+const COIN_EDGE = 0.10;        // … and never outside [W*0.10, W*0.90]
+const LEAD = [3, 4];           // s of ordinary swimming the mark is read off
+const TRAVEL = [9, 13];        // s a resident / a guest may spend reaching it
+const LIFT = [36, 68];         // px it rises off its lane to take the coin
+const MILL = [26, 110];        // px it may drift past the mark while it waits
+const MISSED = 150;            // px below the mark a coin sinks before it is written off
+const TURN_S = 0.4;            // the scaleX flip, matching TURN_MS in tank.js
 
 const guestSpecies = (usd) => (usd >= 100_000 ? 'shark' : usd >= 20_000 ? 'dolphin' : 'fish');
 
@@ -85,50 +94,112 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
     feed.push({ ...evt, species, chain });
   }
 
-  // buy: coin sinks from above, the wallet chases it down and gulps it
-  function playBuy(evt, c, done) {
-    // The coin is offered near the wallet, but always inside the middle band of
-    // the tank — a fish loitering at the edge would otherwise drop the whole
-    // performance half off screen. tank.W is re-read here so it follows resizes.
-    const startX = clamp(tank.centerOf(c).x + rand(-200, 200), tank.W * COIN_BAND, tank.W * (1 - COIN_BAND));
-    const coin = coinEl(startX, -60);
-    let cx = startX, cy = -60, t = 0, captured = false;
+  /**
+   * Works out where this wallet and its coin should meet.
+   *
+   * The mark is read off the course the creature is already on — where its
+   * mouth would be after LEAD seconds of ordinary swimming — and then pulled
+   * into the middle of the tank so the feeding plays in view. Three things can
+   * move it from there, in order:
+   *
+   *   · the middle band can land it *behind* the creature, which is fine: it
+   *     turns, and the swim back is what burns the coin's fall;
+   *   · nothing swims faster than it swims — a whale covers 8px a second — so
+   *     the mark is finally cut back to somewhere this creature can honestly
+   *     be inside its travel budget, even if that is short of the band;
+   *   · if it will still arrive early, the surplus becomes `mill`: how far past
+   *     the mark it may drift before turning back, so the wait is spent
+   *     swimming rather than parked.
+   *
+   * The coin is then dropped `delay` seconds late so its fall and that swim
+   * finish together. tank.js absorbs whatever error is left.
+   *
+   * The mark comes back twice over: `coinX` is where the *mouth* has to be, and
+   * so where the coin is offered; `ix` is the same place expressed for the body
+   * centre, which is what tank.js can actually steer on without the mouth
+   * swinging out from under it every time the creature turns.
+   * @param {object} c the performing creature
+   * @returns {{ix: number, coinX: number, meetY: number, mill: number,
+   *            deadline: number, delay: number}}
+   */
+  function planBuy(c) {
+    const swing = c.w * (0.5 - c.spec.mouth.x);       // mouth, px ahead of the centre
+    const mid = c.x + c.w / 2;
+    const nose = mid + c.dir * swing;
+    const rest = c.baseY + c.h * c.spec.mouth.y;      // where its mouth rides normally
+    const meetY = clamp(rest - rand(LIFT[0], LIFT[1]), 64, tank.H - 56);
+    const fall = (meetY - COIN_Y0) / SINK;            // s of falling before they meet
 
-    c.mode = 'seek';
-    c.seekFn = () => {
-      const m = tank.mouthOf(c);
-      return { dx: cx - m.x, dy: cy - m.y };
+    const lo = tank.W * COIN_BAND, hi = tank.W * (1 - COIN_BAND);
+    let coinX = clamp(nose + c.dir * c.speed * Math.max(rand(LEAD[0], LEAD[1]), fall), lo, hi);
+
+    let turn = c.dir * (coinX - nose) < 0;
+    if (turn) coinX = clamp(nose - c.dir * c.speed * Math.max(1, fall - TURN_S), lo, hi);
+
+    coinX = clamp(coinX, tank.W * COIN_EDGE, tank.W * (1 - COIN_EDGE));
+    const budget = (c.guest ? TRAVEL[1] : TRAVEL[0]) - (turn ? TURN_S : 0);
+    coinX = clamp(coinX, nose - c.speed * budget, nose + c.speed * budget);
+
+    turn = c.dir * (coinX - nose) < 0;
+    const ix = coinX - (turn ? -c.dir : c.dir) * swing;
+    const eta = (turn ? TURN_S : 0) + Math.abs(ix - mid) / c.speed;
+    return {
+      ix, coinX, meetY,
+      mill: clamp((c.speed * Math.max(0, fall - eta)) / 2, MILL[0], MILL[1]),
+      deadline: Math.max(eta, fall),
+      delay: Math.max(0, eta - fall),
     };
+  }
 
-    const off = tank.onFrame((dt) => {
-      if (captured) return;
-      t += dt;
-      cy += SINK * dt;
-      cx = startX + 12 * Math.sin(t * 3.6);
-      coin.style.transform = `translate3d(${cx.toFixed(1)}px, ${cy.toFixed(1)}px, 0)`;
+  // buy: the wallet swims on as it was, a coin sinks onto the spot it is headed
+  // for, and it tips its nose up at the last moment and takes it
+  function playBuy(evt, c, done) {
+    const plan = planBuy(c);
+    let coin = null, cx = plan.coinX, cy = COIN_Y0, t = 0, ct = 0, over = false;
 
-      const m = tank.mouthOf(c);
-      const near = Math.hypot(cx - m.x, cy - m.y) < CATCH;
-      const lost = t > SEEK_TIMEOUT || cy > tank.H + 80;
-      if (!near && !lost) return;
+    tank.beginFeed(c, { ...plan, coin: () => (coin ? { x: cx, y: cy } : null) });
 
-      captured = true;
+    const settleUp = (caught) => {
+      if (over) return;
+      over = true;
       off();
-      coin.classList.add('eaten');
-      setTimeout(() => coin.remove(), 240);
-
-      if (near) {
+      if (coin) {
+        coin.classList.add(caught ? 'eaten' : 'lost');
+        const el = coin;
+        setTimeout(() => el.remove(), caught ? 240 : 460);
+      }
+      if (caught) {
+        const m = tank.mouthOf(c);
         c.el.classList.add('gulp');
         setTimeout(() => c.el.classList.remove('gulp'), 320);
         sparkle(m.x, m.y);
+        pop(tank.centerOf(c).x, c.y - 10, `+${fmtUsd(evt.amount_usd)} ${evt.token}`, 'buy');
       }
-      const ctr = tank.centerOf(c);
-      pop(ctr.x, c.y - 10, `+${fmtUsd(evt.amount_usd)} ${evt.token}`, 'buy');
+      // The trade happened either way, so the panel records it either way — a
+      // missed interception just ends quietly instead of announcing itself.
       feedRow(evt, c.species);
-
-      c.seekFn = null;
       tank.release(c);
-      setTimeout(done, 1200);
+      setTimeout(done, caught ? 1200 : 500);
+    };
+
+    const off = tank.onFrame((dt) => {
+      if (over) return;
+      t += dt;
+      if (!coin) {
+        if (t < plan.delay) return;   // the swim is still catching the fall up
+        coin = coinEl(cx, cy);
+        return;
+      }
+      ct += dt;
+      cy = COIN_Y0 + SINK * ct;
+      cx = plan.coinX + COIN_WOBBLE * Math.sin(ct * 2.2);
+      coin.style.transform = `translate3d(${cx.toFixed(1)}px, ${cy.toFixed(1)}px, 0)`;
+
+      const m = tank.mouthOf(c);
+      // Sinking well past the mark means the interception did not happen — call
+      // it there rather than letting the coin ride all the way to the gravel.
+      if (Math.hypot(cx - m.x, cy - m.y) < CATCH) settleUp(true);
+      else if (ct > COIN_LIFE || cy > plan.meetY + MISSED || cy > tank.H + 80) settleUp(false);
     });
   }
 
@@ -192,9 +263,12 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
     }
 
     const done = () => finish();
+    // A buy guest starts its performance the moment it is spawned: the mark is
+    // taken from where it enters, so the course it swims in on is already the
+    // course to the coin. A sell guest still gets a beat to appear first.
     if (reduced) playReduced(evt, c, done);
-    else if (guest) setTimeout(() => (evt.side === 'buy' ? playBuy(evt, c, done) : playSell(evt, c, done)), 900);
     else if (evt.side === 'buy') playBuy(evt, c, done);
+    else if (guest) setTimeout(() => playSell(evt, c, done), 900);
     else playSell(evt, c, done);
   }
 

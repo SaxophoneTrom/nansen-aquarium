@@ -3,6 +3,15 @@ import { fmtUsd } from './feed.js';
 
 const TURN_MS = 400;   // scaleX flip duration
 const EDGE = 100;      // turn this far inside the viewport
+
+// A guest is a walk-on: it has one performance to swim in from off screen, take
+// its coin and leave again, where a resident has all day. So it travels at a
+// visitor's pace — which is still its *own* normal speed, and the feeding
+// choreography never asks anything to beat that by more than FEED_HURRY.
+const GUEST_PACE = 2;
+const RETURN_S = [2, 3];   // s for the band anchor to ease home after a performance,
+                           // the longer end for the creatures that ended furthest off it
+
 const rand = (a, b) => a + Math.random() * (b - a);
 const clamp = (v, a, b) => (v < a ? a : v > b ? b : v);
 const easeOut = (p) => 1 - Math.pow(1 - p, 3);
@@ -109,11 +118,11 @@ export function createTank(root, roster, { reduced = false } = {}) {
     const c = {
       data, guest, species: data.species, el, body, w, h, wUnit,
       spec, bandPos, bandHome: bandPos,
-      speed: spec.speed * rand(0.8, 1.2),
+      speed: spec.speed * rand(0.8, 1.2) * (guest ? GUEST_PACE : 1),
       amp: rand(10, 16), period: rand(6, 9), phase: rand(0, Math.PI * 2),
       dir: Math.random() < 0.5 ? -1 : 1,
-      speedMul: 1, mode: 'swim', returnT: 0, yOff: 0,
-      seekFn: null, x: 0, y: 0, baseY: 0, sx: 0, sy: 0, speedBias: 0,
+      speedMul: 1, mode: 'swim', returnT: 0, returnS: RETURN_S[0], yOff: 0,
+      feed: null, x: 0, y: 0, baseY: 0, sx: 0, sy: 0, speedBias: 0,
       yieldT: 0, turnCool: rand(0, 2),
     };
     c.face = -c.dir;
@@ -182,6 +191,17 @@ export function createTank(root, roster, { reduced = false } = {}) {
   const turnMargin = (c) => Math.min(EDGE, Math.max(10, (tank.W - c.w) / 2 - 6));
 
   /**
+   * Keeps a creature inside the tank without ever shoving it. A plain clamp
+   * teleports a guest that is still half a body-length off screen straight to
+   * the boundary; this one only ever tightens, so something already outside is
+   * free to swim in at its own speed and is caught only once it is in.
+   */
+  function holdX(c, nx) {
+    const lo = -c.w * 0.3, hi = tank.W - c.w * 0.7;
+    return Math.min(Math.max(nx, Math.min(lo, c.x)), Math.max(hi, c.x));
+  }
+
+  /**
    * Accumulates the crowding each creature feels into c.sx / c.sy as a
    * dimensionless push — ±1 for a pair of equals in full contact, and up to
    * twice that for the lighter half of a mismatched pair. Shared by the live
@@ -231,7 +251,7 @@ export function createTank(root, roster, { reduced = false } = {}) {
         -SEP_SLACK, 1 + SEP_SLACK);
       layout(c);
 
-      c.x = clamp(c.x + sx * SEP_PUSH * agi * dt, -c.w * 0.3, tank.W - c.w * 0.7);
+      c.x = holdX(c, c.x + sx * SEP_PUSH * agi * dt);
       c.speedBias = clamp(sx, -1, 1) * c.dir * SEP_BIAS;
 
       // Being pushed against your own heading means you are swimming into
@@ -331,9 +351,31 @@ export function createTank(root, roster, { reduced = false } = {}) {
     return c;
   };
 
+  /**
+   * Hands a performer back to the shoal. Whatever the choreography left it —
+   * mid-tank, nose up, facing whichever way it was — is simply where it is now:
+   * nothing is restored to a remembered position. Only the band anchor eases
+   * home, over RETURN_S, by holding the offset it ended on and letting it decay.
+   * @param {object} c
+   */
   tank.release = (c) => {
-    if (c.guest) c.mode = 'exit';
-    else { c.mode = 'return'; c.returnT = 0; c.yOff = c.y - swimY(c); }
+    c.feed = null;
+    c.returnT = 0;
+    c.yOff = c.y - swimY(c);
+    c.returnS = clamp(Math.abs(c.yOff) / 40, RETURN_S[0], RETURN_S[1]);
+    c.mode = c.guest ? 'exit' : 'return';
+  };
+
+  /**
+   * Starts the buy choreography. `plan` is worked out in events.js from where
+   * this creature was already headed — see stepFeed for what each field drives.
+   * @param {object} c
+   * @param {{ix: number, meetY: number, mill: number, deadline: number,
+   *          coin: () => ({x: number, y: number}|null)}} plan
+   */
+  tank.beginFeed = (c, plan) => {
+    c.feed = { t: 0, ...plan };
+    c.mode = 'feed';
   };
 
   tank.remove = (c) => {
@@ -391,22 +433,85 @@ export function createTank(root, roster, { reduced = false } = {}) {
     chip.style.transform = `translate3d(${x.toFixed(0)}px, ${y.toFixed(0)}px, 0)`;
   }
 
+  // ---- the buy choreography ----------------------------------------------
+  // A feeding wallet does not lunge. It carries on at its own swimming speed
+  // toward a mark events.js read off the course it was already on, and only
+  // once the coin is within FEED_ARC of its nose does it tip up and take it.
+  // Every line below is an increment on the position the creature already had —
+  // nothing here ever assigns one outright — so the performance can be joined
+  // or abandoned on any frame without the picture jumping.
+  const FEED_ARC = 120;    // px of horizontal gap that starts the rise
+  const FEED_ARC_H = 170;  // …and the coin must be this close above the mark too,
+                           // or a whale, 15s wide at that gap, would rise far too early
+  const FEED_HURRY = 1.3;  // hardest a performer may push, × its own speed
+  const FEED_EASE = 1.0;   // per second, how briskly the climb closes
+  const FEED_HOME = 5;     // …and how briskly it settles back onto the swim line
+  const FEED_VY = 70;      // px/s ceiling on it — over SINK, so a coin that got
+                           // past the mark can still be run down
+  const FEED_HOLD = 20;    // px of dither allowed once it is under the coin
+  const FEED_DIVE = 110;   // px below the mark it will chase a coin it missed
+
+  // The mouth sits on whichever side the creature faces, so it swings a body
+  // length across the moment it turns. Steering on it therefore steers on
+  // something that jumps, and the creature turns again, and again. Everything
+  // below aims the body *centre* instead — which never jumps — and carries the
+  // mouth's offset as a term. `mill` and the hold both have to clear that
+  // offset, or a turn would immediately argue itself back.
+  const swingOf = (c) => c.w * (0.5 - c.spec.mouth.x);
+
+  function stepFeed(c, dt) {
+    const f = c.feed;
+    f.t += dt;
+    const coin = f.coin();
+    const swing = swingOf(c);
+    const mid = c.x + c.w / 2;
+    const nose = mid + c.dir * swing;
+
+    // Aim at the coin once it is in reach, at the mark until then. `mill` is how
+    // far past that it may drift before turning back: a creature that gets there
+    // early spends the wait swimming a lazy figure over the spot rather than
+    // parking on it, which is what a fish actually does.
+    const arc = !!coin && Math.abs(coin.x - nose) < FEED_ARC && coin.y > f.meetY - FEED_ARC_H;
+    const gap = (arc ? coin.x - c.dir * swing : f.ix) - mid;
+    const slack = Math.max(arc ? FEED_HOLD : f.mill, Math.abs(swing) + 12);
+    if (c.dir > 0 && gap < -slack) c.dir = -1;
+    else if (c.dir < 0 && gap > slack) c.dir = 1;
+
+    // Its own speed, hurried only if the coin would otherwise land first — and
+    // never by more than FEED_HURRY, which is well under a dash.
+    let v = c.speed * c.speedMul;
+    const left = f.deadline - f.t;
+    if (left > 0.2) v = clamp(Math.abs(gap) / left, v, c.speed * FEED_HURRY * c.speedMul);
+    c.x = holdX(c, c.x + v * c.dir * dt);
+
+    // The arc aims at the depth the coin was *planned* to arrive at, not at
+    // wherever it happens to be — so the creature lifts its nose the last few
+    // dozen px and lets the coin settle into it, instead of charging up to meet
+    // one still near the surface. A coin that got past the mark is worth
+    // following down, but only FEED_DIVE of it: nothing here drags a whale to
+    // the floor of the tank after a coin it was never going to catch.
+    //
+    // Out of the arc the goal is simply the ordinary swim line, chased the same
+    // rate-limited way rather than assigned — so drifting back out of range
+    // eases the nose down instead of dropping it.
+    const goalY = arc
+      ? clamp(coin.y, f.meetY, f.meetY + FEED_DIVE) - c.h * c.spec.mouth.y
+      : swimY(c);
+    const move = (goalY - c.y) * Math.min(1, (arc ? FEED_EASE : FEED_HOME) * dt);
+    c.y = clamp(c.y + clamp(move, -FEED_VY * dt, FEED_VY * dt), 6, Math.max(6, tank.H - c.h - 6));
+  }
+
   // ---- main loop ---------------------------------------------------------
 
   function step(c, dt) {
-    if (c.mode === 'seek' && c.seekFn) {
-      const d = c.seekFn(c);
-      let vx = d.dx * 2.5, vy = d.dy * 2.5;
-      const max = c.spec.speed * 8, m = Math.hypot(vx, vy);
-      if (m > max) { vx *= max / m; vy *= max / m; }
-      c.x += vx * dt;
-      c.y += vy * dt;
-      if (Math.abs(vx) > 6) c.dir = vx > 0 ? 1 : -1;
-      c.y = clamp(c.y, 6, Math.max(6, tank.H - c.h - 6));
-      c.x = clamp(c.x, -c.w * 0.3, tank.W - c.w * 0.7);
+    if (c.mode === 'feed' && c.feed) {
+      stepFeed(c, dt);
     } else if (c.mode === 'exit') {
-      c.x += c.spec.speed * 2 * c.dir * dt;
-      c.y = swimY(c);
+      c.x += c.speed * c.dir * dt;
+      // A guest leaves from wherever it ate, on the same heading — the band it
+      // was nominally assigned only reels its depth back in as it goes.
+      c.returnT += dt;
+      c.y = swimY(c) + c.yOff * (1 - easeOut(Math.min(1, c.returnT / c.returnS)));
       if (c.x > tank.W + 80 || c.x + c.w < -80) { tank.remove(c); return; }
     } else {
       // swim / return
@@ -416,7 +521,7 @@ export function createTank(root, roster, { reduced = false } = {}) {
       c.x += c.speed * c.dir * c.speedMul * (1 + c.speedBias) * dt;
       if (c.mode === 'return') {
         c.returnT += dt;
-        const p = Math.min(1, c.returnT / 2);
+        const p = Math.min(1, c.returnT / c.returnS);
         c.y = swimY(c) + c.yOff * (1 - easeOut(p));
         if (p >= 1) c.mode = 'swim';
       } else {
@@ -458,12 +563,13 @@ export function createTank(root, roster, { reduced = false } = {}) {
     for (const c of tank.list) {
       resize(c);
       layout(c);
-      c.x = clamp(c.x, -c.w * 0.3, Math.max(0, tank.W - c.w * 0.7));
-      if (c.mode !== 'seek') c.y = clamp(c.y, 6, Math.max(6, tank.H - c.h - 6));
+      c.x = holdX(c, c.x);
+      if (c.mode !== 'feed') c.y = clamp(c.y, 6, Math.max(6, tank.H - c.h - 6));
       draw(c);
     }
-    // widths changed, so the big silhouettes may have collided again
-    if (resettle && !tank.list.some((c) => c.mode === 'seek')) settle(40);
+    // widths changed, so the big silhouettes may have collided again — but a
+    // relaxation pass reseats everyone, which would tear a performance apart
+    if (resettle && !tank.list.some((c) => c.mode === 'feed' || c.mode === 'return')) settle(40);
   }
   let rTimer = 0;
   window.addEventListener('resize', () => {
