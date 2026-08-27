@@ -10,6 +10,7 @@ const SEEK_TIMEOUT = 14;       // s — bail out if the fish never reaches the c
 const POP_RISE = 54;           // px the amount pop travels up — matches @keyframes popUp
 const POP_TOP = 80;            // header band the pop must never enter
 const POP_PAD = 8;             // breathing room against the viewport edges
+const COIN_BAND = 0.28;        // buy coins drop inside [W*0.28, W*0.72], never at the edges
 
 const guestSpecies = (usd) => (usd >= 100_000 ? 'shark' : usd >= 20_000 ? 'dolphin' : 'fish');
 
@@ -86,7 +87,10 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
 
   // buy: coin sinks from above, the wallet chases it down and gulps it
   function playBuy(evt, c, done) {
-    const startX = Math.min(Math.max(tank.centerOf(c).x + rand(-200, 200), 40), tank.W - 40);
+    // The coin is offered near the wallet, but always inside the middle band of
+    // the tank — a fish loitering at the edge would otherwise drop the whole
+    // performance half off screen. tank.W is re-read here so it follows resizes.
+    const startX = clamp(tank.centerOf(c).x + rand(-200, 200), tank.W * COIN_BAND, tank.W * (1 - COIN_BAND));
     const coin = coinEl(startX, -60);
     let cx = startX, cy = -60, t = 0, captured = false;
 
