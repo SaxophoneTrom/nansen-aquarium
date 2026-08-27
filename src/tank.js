@@ -393,7 +393,7 @@ export function createTank(root, roster, { reduced = false } = {}) {
   const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
   const esc = (s) => String(s).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
 
-  root.addEventListener('pointerover', (e) => {
+  const onPointerOver = (e) => {
     const el = e.target.closest?.('.creature');
     if (!el || !el.__creature || el.__creature === hovered) return;
     if (hovered) hovered.speedMul = 1;
@@ -407,7 +407,8 @@ export function createTank(root, roster, { reduced = false } = {}) {
       + `<div class="chip-2">${line2}</div>`
       + (loves.length ? `<div class="chip-3">Loves: ${loves.map(esc).join(', ')}</div>` : '');
     chip.hidden = false;
-  });
+  };
+  root.addEventListener('pointerover', onPointerOver);
 
   // also called from outside when a modal takes over — a chip left hanging
   // under the overlay would otherwise wait for the next pointer move
@@ -418,12 +419,13 @@ export function createTank(root, roster, { reduced = false } = {}) {
   }
   tank.clearHover = clearHover;
 
-  root.addEventListener('pointerout', (e) => {
+  const onPointerOut = (e) => {
     const el = e.target.closest?.('.creature');
     if (!el || el.__creature !== hovered) return;
     if (el.contains(e.relatedTarget)) return;
     clearHover();
-  });
+  };
+  root.addEventListener('pointerout', onPointerOut);
 
   function placeChip() {
     if (!hovered) return;
@@ -540,8 +542,10 @@ export function createTank(root, roster, { reduced = false } = {}) {
 
   let last = performance.now();
   let raf = 0;
+  let dead = false;
   let sepFrame = 0, sepDt = 0;
   function loop(now) {
+    if (dead) return;
     raf = requestAnimationFrame(loop);
     const dt = Math.min(0.05, (now - last) / 1000);
     last = now;
@@ -572,10 +576,11 @@ export function createTank(root, roster, { reduced = false } = {}) {
     if (resettle && !tank.list.some((c) => c.mode === 'feed' || c.mode === 'return')) settle(40);
   }
   let rTimer = 0;
-  window.addEventListener('resize', () => {
+  const onResize = () => {
     clearTimeout(rTimer);
     rTimer = setTimeout(() => measure({ resettle: true }), 120);
-  });
+  };
+  window.addEventListener('resize', onResize);
 
   // ---- ambient: marine snow, jellyfish, bubbles ---------------------------
 
@@ -603,6 +608,7 @@ export function createTank(root, roster, { reduced = false } = {}) {
 
   let bubbleTimer = 0;
   function bubbles() {
+    if (dead) return;
     const n = 1 + Math.floor(Math.random() * 3);
     for (let i = 0; i < n; i++) {
       const b = document.createElement('div');
@@ -632,7 +638,8 @@ export function createTank(root, roster, { reduced = false } = {}) {
     bubbles();
   }
 
-  document.addEventListener('visibilitychange', () => {
+  const onVisibility = () => {
+    if (dead) return;
     if (document.hidden) {
       cancelAnimationFrame(raf);
       clearTimeout(bubbleTimer);
@@ -641,7 +648,32 @@ export function createTank(root, roster, { reduced = false } = {}) {
       raf = requestAnimationFrame(loop);
       if (!reduced) bubbleTimer = setTimeout(bubbles, 1500);
     }
-  });
+  };
+  document.addEventListener('visibilitychange', onVisibility);
+
+  /**
+   * Empties the tank and unhooks everything it owns, so another chain's roster
+   * can be poured into the same #tank element. Anything mid-performance is torn
+   * down with it — the replay that drives it is stopped first by the caller.
+   */
+  tank.destroy = () => {
+    if (dead) return;
+    dead = true;
+    cancelAnimationFrame(raf);
+    clearTimeout(bubbleTimer);
+    clearTimeout(rTimer);
+    frameCbs.clear();
+    window.removeEventListener('resize', onResize);
+    document.removeEventListener('visibilitychange', onVisibility);
+    root.removeEventListener('pointerover', onPointerOver);
+    root.removeEventListener('pointerout', onPointerOut);
+    clearHover();
+    for (const c of tank.list) c.el.remove();
+    tank.list.length = 0;
+    ambient.remove();
+    // coins, sparkles, trails and amount pops are parented straight to #tank
+    for (const el of [...root.children]) el.remove();
+  };
 
   return tank;
 }

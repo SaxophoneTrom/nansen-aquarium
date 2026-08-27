@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 // Nansen Aquarium — data fetcher
 // Usage:
-//   npm run fetch                              # reads NANSEN_API_KEY from .env
+//   npm run fetch robinhood                    # reads NANSEN_API_KEY from .env
+//   npm run fetch solana
 //   NANSEN_API_KEY=… node scripts/fetch.mjs [chain] [--feed-only]
-// Writes public/data/<chain>/tank.json and feed.json.
+// Writes public/data/<chain>/tank.json and feed.json. The pipeline is generic —
+// any chain the Nansen API knows works; the app ships robinhood and solana.
 //
 // Pipeline (all endpoints are ✅ Allowed for redistribution under Nansen's
 // Data Redistribution Guidelines — see README):
@@ -23,7 +25,7 @@ const BASE = 'https://api.nansen.ai';
 const API_KEY = process.env.NANSEN_API_KEY;
 
 const args = process.argv.slice(2);
-const CHAIN = args.find((a) => !a.startsWith('--')) ?? 'ethereum';
+const CHAIN = args.find((a) => !a.startsWith('--')) ?? 'robinhood';
 const FEED_ONLY = args.includes('--feed-only');
 const TANK_SIZE = 25;
 const TOKEN_COUNT = 5;      // tokens the aquarium watches for a day
@@ -38,14 +40,33 @@ const MONEY = new Set([
   'USDC', 'USDT', 'DAI', 'USDS', 'USDG', 'USDE', 'FDUSD', 'PYUSD', 'GHO', 'FRAX',
   'ETH', 'WETH', 'STETH', 'WSTETH', 'WEETH', 'RETH', 'CBETH',
   'WBTC', 'CBBTC', 'TBTC', 'BTC',
-  'SOL', 'WSOL', 'JITOSOL', 'MSOL', 'BNB', 'WBNB', 'POL', 'WPOL',
+  // Solana's own money: the native token, its wrappers, and the liquid-staking
+  // receipts that trade like it. Without these the Solana tank is five SOLs.
+  'SOL', 'WSOL', 'JITOSOL', 'MSOL', 'BSOL', 'JUPSOL', 'INF', 'HSOL', 'BNSOL',
+  'BNB', 'WBNB', 'POL', 'WPOL',
 ]);
 
 // `include_stablecoins: false` only drops what Nansen has tagged, so newer
 // dollar tokens still slip through on raw volume. Their tickers give them away.
 const STABLE_ISH = /USD|EURC?$|DOLLAR/;
 
-const ZERO_ADDR = '0x0000000000000000000000000000000000000000';
+// Addresses that are a hole in the ledger rather than a trader: the EVM zero
+// address, and Solana's system / incinerator programs.
+const NULL_ADDRS = new Set([
+  '0x0000000000000000000000000000000000000000',
+  '11111111111111111111111111111111',
+  '1nc1nerator11111111111111111111111111111111',
+]);
+
+// EVM addresses are case-insensitive and arrive in mixed checksum casing, so
+// they are folded to lower case to key on. Solana addresses are base58 and
+// case-*sensitive* — folding one corrupts it, so anything that is not plainly
+// hex is passed through untouched.
+const normAddr = (a) => {
+  const s = String(a ?? '').trim();
+  return /^0x[0-9a-fA-F]+$/.test(s) ? s.toLowerCase() : s;
+};
+const isRealAddr = (a) => Boolean(a) && !NULL_ADDRS.has(a.toLowerCase());
 
 let creditsUsed = 0;
 
@@ -116,9 +137,8 @@ async function tradersFor(token, date) {
     pagination: { page: 1, per_page: 100 },
   });
   return rows(res)
-    .filter((r) => r?.address && r.address !== ZERO_ADDR)
-    .map((r) => ({ address: String(r.address).toLowerCase(), volume: num(r.trade_volume_usd) }))
-    .filter((r) => r.volume > 0);
+    .map((r) => ({ address: normAddr(r?.address), volume: num(r.trade_volume_usd) }))
+    .filter((r) => isRealAddr(r.address) && r.volume > 0);
 }
 
 // ---- 3. the trades the feed replays --------------------------------------
@@ -134,11 +154,12 @@ async function tradesFor(token, date) {
   for (const t of rows(res)) {
     const usd = num(t.estimated_value_usd);
     if (usd < MIN_TRADE_USD) continue;
-    if (!t.trader_address || !t.block_timestamp) continue;
+    const actor = normAddr(t.trader_address);
+    if (!isRealAddr(actor) || !t.block_timestamp) continue;
     const side = String(t.action ?? '').toUpperCase() === 'SELL' ? 'sell' : 'buy';
     out.push({
       ts: t.block_timestamp,
-      actor: String(t.trader_address).toLowerCase(),
+      actor,
       side,
       amount_usd: Math.round(usd),
       token: (t.token_name ?? token.symbol ?? '?').trim(),
@@ -147,6 +168,30 @@ async function tradesFor(token, date) {
     });
   }
   return out;
+}
+
+// ---- 2b. the same roster, read off the trades instead ---------------------
+
+/**
+ * Fallback for chains where `tgm/who-bought-sold` answers with nothing: the
+ * feed we already paid for names a trader and a size on every row, so the tank
+ * can be cast straight out of it. Same shape as the who-bought-sold roster —
+ * address, summed USD, and the per-token split behind it — and it costs no
+ * extra credits because the trades are already in hand.
+ * @param {Array} events feed rows, oldest first
+ */
+function actorsFromTrades(events) {
+  const byActor = new Map();
+  for (const e of events) {
+    if (!isRealAddr(e.actor)) continue;
+    const usd = num(e.amount_usd);
+    if (usd <= 0) continue;
+    const a = byActor.get(e.actor) ?? { address: e.actor, volume: 0, tokens: new Map() };
+    a.volume += usd;
+    a.tokens.set(e.token, (a.tokens.get(e.token) ?? 0) + usd);
+    byActor.set(e.actor, a);
+  }
+  return byActor;
 }
 
 // Species = rank within today's tank (traded volume, desc).
@@ -240,8 +285,25 @@ async function main() {
     await sleep(150);
   }
 
+  // If who-bought-sold came back thin — it is empty on some chains — top the
+  // roster up from the trades themselves, which are already paid for.
+  let rosterSource = 'who-bought-sold';
+  if (byActor.size < TANK_SIZE) {
+    const spare = [...actorsFromTrades(events).values()]
+      .filter((a) => !byActor.has(a.address))
+      .sort((a, b) => b.volume - a.volume);
+    if (spare.length) {
+      rosterSource = byActor.size ? 'who-bought-sold + dex-trades fallback' : 'dex-trades fallback';
+      console.warn(
+        `who-bought-sold yielded ${byActor.size} traders (want ${TANK_SIZE}) — `
+        + `topping up from ${spare.length} dex-trades actors`,
+      );
+      for (const a of spare.slice(0, TANK_SIZE - byActor.size)) byActor.set(a.address, a);
+    }
+  }
+
   const roster = [...byActor.values()].sort((a, b) => b.volume - a.volume).slice(0, TANK_SIZE);
-  console.log(`roster: ${roster.length} creatures, enriching with pnl-summary…`);
+  console.log(`roster: ${roster.length} creatures via ${rosterSource}, enriching with pnl-summary…`);
 
   // ---- 3. enrich each creature with pnl-summary (1cr each) ----
   const to = new Date().toISOString();
@@ -292,6 +354,11 @@ async function main() {
   );
   const counts = creatures.reduce((m, c) => ((m[c.species] = (m[c.species] ?? 0) + 1), m), {});
   console.log(`tank.json: ${creatures.length} creatures`, counts);
+  // Brightness reads off win_rate, and a null falls back to a middling 0.5 —
+  // so how many of them Nansen could actually answer is worth saying out loud.
+  const withWin = creatures.filter((c) => typeof c.win_rate === 'number').length;
+  console.log(`win_rate: ${withWin}/${creatures.length} populated`
+    + ` (${creatures.length - withWin} fall back to glow 0.5)`);
   console.log(`credits used this run: ${creditsUsed}`);
 }
 

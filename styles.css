@@ -282,7 +282,20 @@ body {
   box-shadow: 0 0 16px rgba(79, 216, 255, .25);
   cursor: default;
 }
-.chain.soon { opacity: .55; }
+.chain:disabled { cursor: progress; }
+
+/* ── chain swap ───────────────────────────────────────────────────────────
+   Switching chains empties the tank and refills it. Rather than let creatures
+   blink out mid-stroke, the two things that carry the chain's data — the tank
+   and the feed panel — fade down together, are rebuilt while nothing is on
+   screen, and come back up: 400ms out, 400ms in. */
+#tank, #feedpanel {
+  transition: opacity .4s ease;
+}
+#stage.swapping #tank,
+#stage.swapping #feedpanel {
+  opacity: 0;
+}
 
 #toast {
   position: absolute;
@@ -375,6 +388,14 @@ body {
 .amt.buy  { color: var(--mint); }
 .amt.sell { color: var(--pink); }
 .feed-sub { margin-top: 2px; font-size: 11.5px; color: var(--t3); }
+/* the timestamp doubles as the link to the trade on its own block explorer */
+.feed-tx {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(159, 195, 232, .35);
+  transition: color .18s, border-color .18s;
+}
+.feed-tx:hover { color: var(--cyan); border-bottom-color: rgba(79, 216, 255, .7); }
 
 /* Every creature's bioluminescence is its realized PnL, so the panel says so —
    under its breath, at the same weight as the REPLAY badge. */

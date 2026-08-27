@@ -2,17 +2,29 @@
 
 A deep-sea aquarium where the top onchain traders swim as glowing creatures.
 
-![The tank, with the top-volume wallet wearing the crown](docs/screenshots/tank.png)
+![The Robinhood Chain tank, with the top-volume wallet wearing the crown](docs/screenshots/tank.png)
 
 ## Concept
 
 Wallet analytics usually arrive as a table: address, volume, PnL, win rate. The
 Aquarium reads the same numbers and paints them instead. Every day it picks the
-five busiest tokens on Ethereum, finds the wallets moving the most size in them,
+five busiest tokens on a chain, finds the wallets moving the most size in them,
 and turns each one into a bioluminescent creature — its species set by how much
 it moves, its brightness by how often it is right, its colour by whether it is
 up or down. The feed panel replays those wallets' real trades from the last 24
 hours as the creature swims. Click one and it tells you its story.
+
+## The two tanks
+
+| Tab | Chain | What swims there |
+| --- | --- | --- |
+| **Robinhood** (default) | Robinhood Chain | Tokenized equities — NVDA, SPCX, TSLA, ORCL — alongside the chain's native memes |
+| **Solana** | Solana | Launchpad tokens and the memecoin flow around them |
+
+Two chains, two entirely different crowds, same rules. Switching tabs drains the
+tank and refills it from that chain's own snapshot — new tokens, new residents,
+new trades. Both are read through the same generic pipeline, so a third chain is
+one entry in [`src/chains.js`](src/chains.js) and one `npm run fetch <chain>`.
 
 ## Features
 
@@ -23,7 +35,8 @@ hours as the creature swims. Click one and it tells you its story.
   its realized PnL, win rate, trade count and favourite tokens.
 - **Trade replay.** The feed panel replays the last 24 hours of real DEX trades
   in order. Each event sends a coin arcing to the wallet that made it; wallets
-  not currently in the tank swim past as anonymous guests.
+  not currently in the tank swim past as anonymous guests. Every row's timestamp
+  links to that transaction on its own chain's block explorer.
 - **Hand-painted sprites.** Fourteen WebP creatures across four species and three
   colourways, with the glow baked into the art and exposure driven by the data.
 - **No build step, no dependencies.** Plain ES modules, one stylesheet, a Node
@@ -64,9 +77,14 @@ To pull fresh data you need a [Nansen API](https://app.nansen.ai/smart-money?ref
 
 ```bash
 echo 'NANSEN_API_KEY=your_key_here' > .env   # gitignored
-npm run fetch                                # full refresh: tank + feed
-npm run fetch:feed                           # feed only, cheaper
+npm run fetch robinhood                      # full refresh: tank + feed
+npm run fetch solana
+npm run fetch:feed robinhood                 # feed only, cheaper
 ```
+
+The chain argument is any chain id the Nansen API knows; it names both the
+request and the `public/data/<chain>/` folder it writes. It defaults to
+`robinhood`.
 
 `NANSEN_API_KEY` is read from the environment, so `NANSEN_API_KEY=… npm run
 fetch` works too — useful in CI, where the key comes from a repository secret.
@@ -84,15 +102,24 @@ Requires Node 20.18+ (22+ recommended). There is nothing to install.
 | Roster | `tgm/who-bought-sold` | 5, one per token | 5 |
 | Enrichment | `profiler/address/pnl-summary` | 25, one per creature | 25 |
 
-A full run costs **36 credits**. A feed-only run replays the same five tokens
-already recorded in `tank.json`, so it skips the screener and costs **5**.
+A full run costs **36 credits** per chain. A feed-only run replays the same five
+tokens already recorded in `tank.json`, so it skips the screener and costs **5**.
+The shipped schedule is four feed runs and one full run a day on each of the two
+chains — **112 credits a day**.
 
 Trades under $100 are dropped as dust. The feed merges each fetch with the
 previous `feed.json` and trims to a rolling 24-hour window capped at 600 events,
 so a single call that returns a short slice of the day still leaves a full panel
 on screen.
 
-Output lands in `public/data/<chain>/`:
+Two details make the pipeline chain-agnostic rather than EVM-only. Addresses are
+folded to lower case only when they are actually hex, because a Solana address is
+base58 and case-sensitive. And if `tgm/who-bought-sold` comes back thin on a
+chain, the roster is topped up from the `tgm/dex-trades` rows already fetched —
+summing `estimated_value_usd` per `trader_address` — which costs nothing extra.
+
+Output lands in `public/data/<chain>/` — `robinhood/` and `solana/` ship with the
+repository:
 
 - `tank.json` — the five tokens, plus 25 creatures with species, size, win rate, realized PnL, top tokens
 - `feed.json` — the rolling 24h event list the replay reads
@@ -116,6 +143,7 @@ index.html              markup, ambient background layers, UI shell
 styles.css              every visual token, animation and layout rule
 src/
   main.js               boot: load JSON, wire tank + feed + replay + modal
+  chains.js             the chain registry — tab label, explorer, address shape
   tank.js               creature bodies, steering, depth bands, hover chip
   sprites.js            species table, sprite variants, crown, inline SVG chrome
   feed.js               feed panel rows and USD formatting
@@ -127,7 +155,8 @@ scripts/
   prepare_sprites.py    art masters → baked WebP sprites
 public/
   sprites/              14 WebP creatures
-  data/<chain>/         tank.json, feed.json
+  data/robinhood/       tank.json, feed.json
+  data/solana/          tank.json, feed.json
 ```
 
 The art masters are kept outside the repository; the baked WebP sprites in

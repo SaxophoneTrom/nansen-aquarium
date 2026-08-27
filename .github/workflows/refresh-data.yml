@@ -10,13 +10,18 @@ name: Refresh data
 # attribution the app already carries:
 # https://docs.nansen.ai/guides/redistribution-guide
 #
-# Budget: 4 feed runs + 1 full run per day = 56 credits/day.
+# Budget, per chain in the matrix:
+#   feed-only  5 credits x 4 runs/day  =  20
+#   full      36 credits x 1 run/day   =  36
+#                                       ----
+#                                         56 credits/day/chain
+# Two chains (robinhood, solana) = **112 credits/day**.
 
 on:
   schedule:
-    # feed only — replays the tokens already in tank.json (5 credits x 4/day)
+    # feed only — replays the tokens already in tank.json (5 credits x 4/day/chain)
     - cron: '17 */6 * * *'
-    # full refresh — re-casts the tokens and the roster (36 credits x 1/day)
+    # full refresh — re-casts the tokens and the roster (36 credits x 1/day/chain)
     - cron: '0 9 * * *'
   workflow_dispatch:
     inputs:
@@ -38,8 +43,14 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    outputs:
-      changed: ${{ steps.commit.outputs.changed }}
+    strategy:
+      # One chain at a time: every job commits and pushes to the same branch,
+      # so running them in parallel would just make them rebase over each other.
+      max-parallel: 1
+      # A chain whose API call fails should not stop the other from refreshing.
+      fail-fast: false
+      matrix:
+        chain: [robinhood, solana]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -49,13 +60,14 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Fetch data
+      - name: Fetch ${{ matrix.chain }}
         env:
           NANSEN_API_KEY: ${{ secrets.NANSEN_API_KEY }}
           # The daily cron and an explicit "full" dispatch do the whole tank;
           # everything else refreshes the feed only.
           SCHEDULE: ${{ github.event.schedule }}
           MODE: ${{ inputs.mode }}
+          CHAIN: ${{ matrix.chain }}
         run: |
           set -euo pipefail
           if [ -z "${NANSEN_API_KEY:-}" ]; then
@@ -63,34 +75,40 @@ jobs:
             exit 1
           fi
           if [ "$SCHEDULE" = "0 9 * * *" ] || [ "$MODE" = "full" ]; then
-            echo "full refresh"
-            node scripts/fetch.mjs ethereum
+            echo "full refresh: $CHAIN"
+            node scripts/fetch.mjs "$CHAIN"
           else
-            echo "feed-only refresh"
-            node scripts/fetch.mjs ethereum --feed-only
+            echo "feed-only refresh: $CHAIN"
+            node scripts/fetch.mjs "$CHAIN" --feed-only
           fi
 
       - name: Commit and push
-        id: commit
         run: |
           set -euo pipefail
           if [ -z "$(git status --porcelain -- public/data)" ]; then
-            echo "no data changes"
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "no data changes for ${{ matrix.chain }}"
             exit 0
           fi
           git config user.name  'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- public/data
-          git commit -m 'chore(data): refresh Nansen snapshot'
+          git commit -m 'chore(data): refresh ${{ matrix.chain }} snapshot'
           git push || { git pull --rebase --autostash && git push; }
-          echo "changed=true" >> "$GITHUB_OUTPUT"
 
   # A push made with GITHUB_TOKEN does not fire the `push` trigger, so the
   # deploy is invoked directly instead of waiting for an event that never comes.
+  #
+  # It runs once the whole matrix is done rather than per chain, and it is not
+  # gated on anything having changed: a matrix cannot hand a single "changed"
+  # flag to a downstream job, and a Pages deploy of an unchanged static site is
+  # idempotent and takes seconds. Better a redundant deploy than a missed one.
+  #
+  # `!cancelled()` rather than the default success gate: with fail-fast off, one
+  # chain can fail while the other has already committed good data, and that
+  # data should still reach the site.
   deploy:
     needs: refresh
-    if: needs.refresh.outputs.changed == 'true'
+    if: ${{ !cancelled() }}
     permissions:
       contents: read
       pages: write

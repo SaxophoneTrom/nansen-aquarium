@@ -277,13 +277,21 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
     schedule();
   }
 
-  document.addEventListener('visibilitychange', () => {
+  const onVisibility = () => {
+    if (stopped) return;
     if (document.hidden) clearTimeout(timer);
     else if (!busy) schedule(1200);
-  });
+  };
+  document.addEventListener('visibilitychange', onVisibility);
 
   return {
     start(fromIndex = 0) { idx = fromIndex; schedule(2000); },
-    stop() { stopped = true; clearTimeout(timer); },
+    // Stopping is final: a chain switch throws this replay away and builds a
+    // new one against the new tank, so the listener goes with it.
+    stop() {
+      stopped = true;
+      clearTimeout(timer);
+      document.removeEventListener('visibilitychange', onVisibility);
+    },
   };
 }

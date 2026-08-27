@@ -8,8 +8,13 @@ import { fmtUsd } from './feed.js';
 const fin = (v) => typeof v === 'number' && Number.isFinite(v);
 const esc = (s) => String(s).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
 const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
-// 0xae0f6a97…88f72b92 — head 10, tail 8
-const shortAddr = (a) => (a.length > 20 ? a.slice(0, 10) + '…' + a.slice(-8) : a);
+// 0xae0f6a97…88f72b92 on an EVM chain, 8Hj4Kq2P…Vk3BmDw9 on Solana. The "0x" is
+// scaffolding rather than address, so the hex head takes two extra characters
+// to leave the same eight meaningful ones a base58 head shows.
+const shortAddr = (a) => {
+  const head = /^0x/i.test(a) ? 10 : 8;
+  return a.length > head + 9 ? a.slice(0, head) + '…' + a.slice(-8) : a;
+};
 // fmtUsd only knows positive money, so the sign is carried outside it
 const money = (v) => (v < 0 ? '−' : '') + fmtUsd(Math.abs(v));
 
@@ -49,9 +54,10 @@ const FADE_MS = 150;
 
 /**
  * Builds the modal shell once and re-renders its body per creature.
- * @param {{ parent?: HTMLElement, chain?: string }} opts
+ * @param {{ parent?: HTMLElement, chain?: string }} opts chain is the Nansen
+ *   chain id — it is what the "View on Nansen" link opens the profiler on.
  */
-export function createLegend({ parent = document.getElementById('stage'), chain = 'ethereum' } = {}) {
+export function createLegend({ parent = document.getElementById('stage'), chain = 'robinhood' } = {}) {
   const modal = document.createElement('div');
   modal.id = 'legend-modal';
   modal.hidden = true;
@@ -123,7 +129,15 @@ export function createLegend({ parent = document.getElementById('stage'), chain 
 
   modal.querySelector('.legend-close').addEventListener('click', close);
   modal.addEventListener('click', (e) => { if (e.target === modal) close(); });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !modal.hidden) close(); });
+  const onKey = (e) => { if (e.key === 'Escape' && !modal.hidden) close(); };
+  document.addEventListener('keydown', onKey);
 
-  return { open, close, get isOpen() { return !modal.hidden; } };
+  // a chain switch retires this card along with the creatures it described
+  function destroy() {
+    clearTimeout(hideTimer);
+    document.removeEventListener('keydown', onKey);
+    modal.remove();
+  }
+
+  return { open, close, destroy, get isOpen() { return !modal.hidden; } };
 }

@@ -24,8 +24,12 @@ const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&l
 /**
  * Live feed panel: newest row slides in on top, the sixth collapses away.
  * @param {HTMLElement} rowsEl  #feed-rows
+ * @param {{ chain?: string, txUrl?: ((hash: string) => string)|null }} opts
+ *   chain — the name written under every row; txUrl — the explorer this
+ *   chain's hashes resolve on, or null for a chain without a confirmed one, in
+ *   which case the timestamp is plain text rather than a link that guesses.
  */
-export function createFeed(rowsEl, { chain = 'Ethereum' } = {}) {
+export function createFeed(rowsEl, { chain = 'Ethereum', txUrl = null } = {}) {
   function push(evt, { animate = true } = {}) {
     const species = evt.species || 'fish';
     const icon = miniIcon(species);
@@ -34,13 +38,22 @@ export function createFeed(rowsEl, { chain = 'Ethereum' } = {}) {
     const verb = buy ? 'fed' : 'spat out';
     const prep = buy ? 'to' : 'of';
 
+    // The trade is a real one, so it can be gone and looked at — but only where
+    // the explorer for this chain is known to answer.
+    const when = relTime(evt.ts);
+    const href = txUrl && evt.tx ? txUrl(String(evt.tx)) : null;
+    const stamp = href
+      ? `<a class="feed-tx" href="${esc(href)}" target="_blank" rel="noopener"
+           title="View this transaction on the block explorer">${when}</a>`
+      : when;
+
     const row = document.createElement('div');
     row.className = 'feed-row' + (animate ? ' in' : '');
     row.innerHTML = `
       <div class="feed-ico" style="background:${icon.color}1f">${icon.svg}</div>
       <div class="feed-txt">
         <div class="feed-line"><b>${who}</b> ${verb} <span class="amt ${buy ? 'buy' : 'sell'}">${fmtUsd(evt.amount_usd)}</span> ${prep} ${esc(evt.token)}</div>
-        <div class="feed-sub">${chain} · ${relTime(evt.ts)}</div>
+        <div class="feed-sub">${esc(chain)} · ${stamp}</div>
       </div>`;
 
     rowsEl.prepend(row);
@@ -55,5 +68,9 @@ export function createFeed(rowsEl, { chain = 'Ethereum' } = {}) {
     }
   }
 
-  return { push };
+  // a chain switch empties the panel outright — the old chain's trades have
+  // nothing to say about the new one
+  const clear = () => { rowsEl.replaceChildren(); };
+
+  return { push, clear };
 }

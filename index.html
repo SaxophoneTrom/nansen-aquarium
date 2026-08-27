@@ -38,18 +38,15 @@
         <span class="brand-icon"></span>
         <span class="brand-name">Nansen Aquarium</span>
       </div>
-      <nav id="chains">
-        <button class="chain active" data-chain="ethereum">Ethereum</button>
-        <button class="chain soon" data-chain="solana" title="This tank opens soon">Solana</button>
-        <button class="chain soon" data-chain="base" title="This tank opens soon">Base</button>
-      </nav>
+      <!-- one button per entry in src/chains.js, filled in by main.js -->
+      <nav id="chains" aria-label="Chain"></nav>
     </header>
 
     <aside id="feedpanel">
       <div class="feed-head">
         <span class="livedot"></span>
         <span class="feed-title">LIVE FEED</span>
-        <span class="replay-badge" title="Replaying the last 24h of real DEX trades on Ethereum">REPLAY</span>
+        <span class="replay-badge">REPLAY</span>
       </div>
       <div id="feed-rows"></div>
       <div class="feed-legend">
@@ -61,7 +58,7 @@
     <div id="cta">
       <div class="cta-caption">Every wallet is a sea creature. Which one are you?</div>
       <form id="cta-form" autocomplete="off">
-        <input id="cta-input" type="text" placeholder="0x&#8230; or vitalik.eth" spellcheck="false">
+        <input id="cta-input" type="text" placeholder="0x&#8230;" spellcheck="false">
         <button id="cta-btn" type="submit">Hatch my fish</button>
       </form>
     </div>
@@ -81,7 +78,8 @@
       </div>
     </div>
 
-    <footer id="credit">Powered by <a href="https://app.nansen.ai/smart-money?ref=saxo55" target="_blank" rel="noopener"><b>Nansen API</b></a> &#183; replaying the last 24h of real DEX trades on Ethereum</footer>
+    <!-- the chain name is rewritten per tank by main.js -->
+    <footer id="credit">Powered by <a href="https://app.nansen.ai/smart-money?ref=saxo55" target="_blank" rel="noopener"><b>Nansen API</b></a> &#183; replaying the last 24h of real DEX trades</footer>
   </div>
 
   <script type="module" src="./src/main.js"></script>
