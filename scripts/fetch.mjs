@@ -309,6 +309,7 @@ async function main() {
   const to = new Date().toISOString();
   const from = new Date(Date.now() - 90 * 24 * 3600 * 1000).toISOString();
   const creatures = [];
+  let blankPnl = 0;
   for (const a of roster) {
     let pnl = null;
     try {
@@ -320,7 +321,19 @@ async function main() {
     } catch (err) {
       console.warn(`pnl-summary failed for ${a.address.slice(0, 10)}…: ${err.message.slice(0, 120)}`);
     }
-    const winRate = typeof pnl?.win_rate === 'number' ? pnl.win_rate : null;
+    // A wallet the profiler holds no history for answers with a full row of
+    // zeroes rather than nulls — the same shape a genuinely flat trader would
+    // wear. Here the zeroes are an absence, not a fact, and taken literally
+    // they darken the creature to the floor and name it "The Gambler" off a 0%
+    // win rate it never earned. Both counters at zero is the tell: no trades
+    // across no tokens is not a trading record, it is a blank page. The whole
+    // row drops back to null so the null paths downstream take over — glow
+    // settles at a middling 0.5, the stat rows stay off the legend card, and
+    // the epithet comes from the absence itself.
+    const blank = Boolean(pnl) && num(pnl.traded_times) === 0 && num(pnl.traded_token_count) === 0;
+    if (blank) blankPnl += 1;
+    const stat = (v) => (!blank && typeof v === 'number' && Number.isFinite(v) ? v : null);
+    const winRate = stat(pnl?.win_rate);
     const fromPnl = (pnl?.top5_tokens ?? []).map((t) => t.token_symbol).filter(Boolean).slice(0, 5);
     creatures.push({
       address: a.address,
@@ -328,9 +341,9 @@ async function main() {
       trades_24h_usd: Math.round(a.volume),
       win_rate: winRate,
       glow: winRate ?? 0.5,
-      realized_pnl_usd: pnl?.realized_pnl_usd ?? null,
-      traded_times: pnl?.traded_times ?? null,
-      traded_token_count: pnl?.traded_token_count ?? null,
+      realized_pnl_usd: stat(pnl?.realized_pnl_usd),
+      traded_times: stat(pnl?.traded_times),
+      traded_token_count: stat(pnl?.traded_token_count),
       top_tokens: fromPnl.length
         ? fromPnl
         : [...a.tokens.entries()].sort((x, y) => y[1] - x[1]).slice(0, 5).map(([s]) => s),
@@ -358,7 +371,8 @@ async function main() {
   // so how many of them Nansen could actually answer is worth saying out loud.
   const withWin = creatures.filter((c) => typeof c.win_rate === 'number').length;
   console.log(`win_rate: ${withWin}/${creatures.length} populated`
-    + ` (${creatures.length - withWin} fall back to glow 0.5)`);
+    + ` (${creatures.length - withWin} fall back to glow 0.5`
+    + `${blankPnl ? `, ${blankPnl} of them with no profiler history at all` : ''})`);
   console.log(`credits used this run: ${creditsUsed}`);
 }
 

@@ -23,6 +23,11 @@ const money = (v) => (v < 0 ? '−' : '') + fmtUsd(Math.abs(v));
  * Nulls never match: a missing stat must not read as a zero.
  */
 const LEGENDS = [
+  // First, because it is the one rule that reads an absence. A wallet the
+  // profiler has no history for arrives with every stat null, and none of the
+  // rules below can speak for a row that is empty — so the emptiness names it.
+  { name: 'The Enigma',      flavor: 'Appeared from nowhere. Moves millions.',
+    when: (d) => !fin(d.traded_times) },
   { name: 'The Unsinkable',  flavor: 'Rarely wrong. Never loud.',
     when: (d) => fin(d.win_rate) && d.win_rate >= 0.8 },
   { name: 'The Gambler',     flavor: 'Wins big. Loses bigger.',
