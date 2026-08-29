@@ -40,6 +40,9 @@ and one `npm run fetch <chain>`.
   in order. Each event sends a coin arcing to the wallet that made it; wallets
   not currently in the tank swim past as anonymous guests. Every row's timestamp
   links to that transaction on its own chain's block explorer.
+- **Hatch your own.** Type a wallet address and it hatches into a creature built
+  from that wallet's own numbers — species, epithet, stat card — which you can
+  release into the tank and find still swimming on your next visit.
 - **Hand-painted sprites.** Fourteen WebP creatures across four species and three
   colourways, with the glow baked into the art and exposure driven by the data.
 - **No build step, no dependencies.** Plain ES modules, one stylesheet, a Node
@@ -64,6 +67,39 @@ Each visual property is a direct reading of one field:
 Creatures are identified by address only — the aquarium stores and shows no
 Nansen entity labels, so a wallet's species is earned purely by the size it
 moved in the tank today.
+
+## Hatch your own
+
+The tank is other people's wallets. The box beneath it is yours: type an address,
+an egg drifts down out of the dark, and the aquarium spends a few seconds
+"reading your on-chain soul" — that wallet's last 90 days of `pnl-summary`, the
+same enrichment the residents get. It hatches into a species, an epithet, and a
+card of your own stats.
+
+![A hatched whale: "You are a WHALE — The Deep Pocket", with its 90-day stat card](docs/screenshots/hatch-reveal.png)
+
+Release it and it joins the day's traders in the water, wearing a cracked shell
+so you can pick it out again; it is still there the next time you open that tank.
+Share turns the epithet into a post.
+
+The rules are the tank's own, read from a different angle: the size the wallet
+implies — realized PnL over the percent it represents, with trade count as a
+fallback — sets the species, the sign of that PnL sets the glow, and the same
+rules as the biography card pick the epithet. A wallet the profiler has no
+history for hatches as The Enigma rather than as a row of zeroes.
+
+An address is the only thing the browser sends. Everything with a key in it
+lives in [`worker/`](worker/): a Cloudflare Worker with one route, relaying one
+endpoint — `profiler/address/pnl-summary` — and rebuilding the answer from an
+explicit field list before it goes out. In front of that call sit a Turnstile
+check, six requests a minute per IP, a per-IP daily cap, a global daily budget
+that closes the nursery rather than overspending, and a 24-hour cache so hatching
+the same wallet twice costs nothing. [`worker/README.md`](worker/README.md) has
+the pipeline in cost order, the error table, and the deploy steps.
+
+Which endpoint the page talks to is one constant in
+[`src/config.js`](src/config.js). Set it to an empty string and the button falls
+back to a "nursery opens soon" card, so a Worker outage never reaches the tank.
 
 ## Quick start
 
@@ -111,6 +147,12 @@ tokens already recorded in `tank.json`, so it skips the screener and costs **5**
 The shipped schedule is four feed runs and one full run a day on each of the
 three chains — **168 credits a day**.
 
+Hatching is the one thing a visitor can spend: one `pnl-summary` call, one
+credit, cached in KV for 24 hours, so the same wallet hatched twice in a day is
+charged once. The key is shared with the schedule above, so the Worker caps the
+nursery at **1,000 calls a UTC day** overall and **20 a day per visitor** — both
+values live in `worker/wrangler.jsonc`.
+
 Trades under $100 are dropped as dust. The feed merges each fetch with the
 previous `feed.json` and trims to a rolling 24-hour window capped at 600 events,
 so a single call that returns a short slice of the day still leaves a full panel
@@ -140,6 +182,11 @@ Nothing here touches the `smart-money/*` or `address/labels` endpoints, no
 request sets `only_smart_money` or `include_smart_money_labels`, and no Nansen
 label is stored in `public/data/` or rendered in the UI.
 
+The hatchery Worker narrows that further: `profiler/address/pnl-summary` is the
+only endpoint it can reach — one hardcoded URL — and its response whitelist is
+the enforcement point, so no label could reach a visitor even if the upstream
+grew one.
+
 ## Architecture
 
 ```
@@ -148,18 +195,23 @@ styles.css              every visual token, animation and layout rule
 src/
   main.js               boot: load JSON, wire tank + feed + replay + modal
   chains.js             the chain registry — tab label, explorer, address shape
+  config.js             where the hatch box posts, and the Turnstile site key
   backdrop.js           per-chain water tint and motif, swapped on a tab change
   tank.js               creature bodies, steering, depth bands, hover chip
   sprites.js            species table, sprite variants, crown, inline SVG chrome
   feed.js               feed panel rows and USD formatting
   events.js             trade replay — coin arcs, guest walk-ons
   legend.js             "Legend of the Deep" biography modal and epithet rules
+  hatch.js              the egg: address in, creature out, released into the tank
 scripts/
   fetch.mjs             Nansen API → public/data/<chain>/*.json
   serve.mjs             static dev server, Node stdlib only
   prepare_sprites.py    art masters → baked WebP sprites
+worker/                 the hatchery — one Cloudflare Worker, its own README
+  src/                  routing, validation, Turnstile, limits, the Nansen call
 public/
   sprites/              14 WebP creatures
+  og/card.png           the link-preview card, shot from the tank in ?og=1 mode
   data/robinhood/       tank.json, feed.json
   data/base/            tank.json, feed.json
   data/solana/          tank.json, feed.json
