@@ -49,7 +49,7 @@ function setGlow(el, glow) {
  * Owns every living thing in #tank plus the ambient layer, and runs the single
  * rAF loop that everything else piggybacks on via onFrame().
  */
-export function createTank(root, roster, { reduced = false } = {}) {
+export function createTank(root, roster, { reduced = false, poster = false } = {}) {
   const ambient = document.createElement('div');
   ambient.id = 'ambient';
   root.appendChild(ambient);
@@ -80,9 +80,20 @@ export function createTank(root, roster, { reduced = false } = {}) {
     const n = (seq[species] = (seq[species] ?? -1) + 1);
     const span = 1 / count;
     const at = (k) => clamp((k + 0.5) * span + rand(-0.35, 0.35) * span, 0.02, 0.98);
+    // A poster is cropped to a card, where the slack the even slices leave at
+    // either end reads as a lopsided frame. So its lanes run end to end — the
+    // outermost of each species starts against the edge instead of half a slice
+    // inside it — and only the lanes do: the bands are shared with the tank.
+    const edgeAt = (k) => clamp(count > 1 ? k / (count - 1) + rand(-0.2, 0.2) * span : 0.5, 0, 1);
     // shift the horizontal slot half a deck so bands and lanes don't correlate
-    return { band: at(n), lane: at((n + Math.ceil(count / 2)) % count) };
+    const k = (n + Math.ceil(count / 2)) % count;
+    return { band: at(n), lane: poster ? edgeAt(k) : at(k) };
   };
+
+  // How much water the opening tableau leaves at either end. EDGE is a swimming
+  // margin — it is where a creature turns — and the poster still turns there;
+  // it just starts closer in, so the shoal reaches both edges of the crop.
+  const PLACE_EDGE = poster ? 18 : EDGE;
 
   // shrink everyone on narrow viewports so a whale still fits on a phone
   const sizeScale = () => clamp(tank.W / 1200, 0.45, 1);
@@ -147,8 +158,8 @@ export function createTank(root, roster, { reduced = false } = {}) {
     };
     c.face = -c.dir;
     layout(c);
-    const runway = Math.max(0, tank.W - w - EDGE * 2);
-    c.x = guest ? (c.dir > 0 ? -w - 40 : tank.W + 40) : EDGE + runway * place.lane;
+    const runway = Math.max(0, tank.W - w - PLACE_EDGE * 2);
+    c.x = guest ? (c.dir > 0 ? -w - 40 : tank.W + 40) : PLACE_EDGE + runway * place.lane;
     c.y = c.baseY;
     draw(c);
     tank.list.push(c);
@@ -337,7 +348,8 @@ export function createTank(root, roster, { reduced = false } = {}) {
         worst = Math.max(worst, Math.abs(c.sx), Math.abs(c.sy));
         const [yLo, yHi] = yBounds(c);
         // half the penetration each, damped — overshoot would ring forever
-        c.x = clamp(c.x + clamp(c.sx, -1, 1) * c.w * 0.35, EDGE * 0.4, Math.max(EDGE * 0.4, tank.W - c.w - EDGE * 0.4));
+        const xEdge = PLACE_EDGE * 0.4;
+        c.x = clamp(c.x + clamp(c.sx, -1, 1) * c.w * 0.35, xEdge, Math.max(xEdge, tank.W - c.w - xEdge));
         c.y = clamp(c.y + clamp(c.sy, -1, 1) * c.h * 0.35, yLo, yHi);
       }
       if (worst < 0.01) break;

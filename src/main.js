@@ -15,7 +15,22 @@ const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // ?og=1 — poster mode, only ever loaded by the screenshot run that produces
 // the link-preview card: interactive chrome hidden, wordmark on stage.
-if (new URLSearchParams(location.search).has('og')) document.body.classList.add('og-mode');
+const poster = new URLSearchParams(location.search).has('og');
+if (poster) document.body.classList.add('og-mode');
+
+// A card is a portrait, not a census. A full tank shrunk to preview size reads
+// as a smear of fins, so the poster keeps only the loudest few of each species.
+// tank.json arrives sorted by 24h volume, so taking from the front keeps the
+// crowned whale — the tank's own leader — at the head of the cast.
+const POSTER_CAST = { whale: 2, shark: 3, dolphin: 3, fish: 6 };
+function posterCast(creatures) {
+  const room = { ...POSTER_CAST };
+  return creatures.filter((c) => {
+    if (!room[c.species]) return false;
+    room[c.species] -= 1;
+    return true;
+  });
+}
 
 document.querySelector('.brand-icon').innerHTML = BRAND_SVG;
 if (reduced) document.body.classList.add('reduced');
@@ -83,7 +98,8 @@ function teardown() {
 }
 
 function build(chain, tankData, feedData) {
-  const tank = createTank(tankEl, tankData.creatures, { reduced });
+  const cast = poster ? posterCast(tankData.creatures) : tankData.creatures;
+  const tank = createTank(tankEl, cast, { reduced, poster });
   const feed = createFeed(document.getElementById('feed-rows'), {
     chain: chain.name,
     txUrl: chain.tx,
@@ -103,7 +119,7 @@ function build(chain, tankData, feedData) {
   tankEl.addEventListener('click', onClick);
 
   const events = feedData.events; // already oldest-first
-  const byAddr = new Map(tankData.creatures.map((c) => [c.address, c]));
+  const byAddr = new Map(cast.map((c) => [c.address, c]));
   const guestSpecies = (u) => (u >= 100_000 ? 'shark' : u >= 20_000 ? 'dolphin' : 'fish');
 
   for (const evt of events.slice(0, PREFILL).reverse()) {
