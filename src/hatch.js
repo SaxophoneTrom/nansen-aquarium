@@ -33,8 +33,11 @@ const PHASE1_REDUCED_MS = 0;
 const PHASE2_REDUCED_MS = 1000;
 
 // The page the Share button points at. Not location.href: a visitor sharing
-// from a local checkout should still send people to the aquarium.
-const SITE_URL = 'https://saxophonetrom.github.io/nansen-aquarium/';
+// from a local checkout should still send people to the aquarium. The ?share=1
+// is a cache-bust — link-preview scrapers key their card on the exact URL, so a
+// bare link can still serve a card we have since replaced. Harmless to the app:
+// `og` is the only query it ever reads (main.js), and this is not it.
+const SITE_URL = 'https://saxophonetrom.github.io/nansen-aquarium/?share=1';
 
 // The Worker asks pnl-summary for one chain over this window — never `all`
 // (worker/src/nansen.js, WINDOW_DAYS). So every number on the reveal card is
