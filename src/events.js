@@ -3,7 +3,7 @@ import { fmtUsd } from './feed.js';
 
 const rand = (a, b) => a + Math.random() * (b - a);
 const clamp = (v, a, b) => (v < a ? a : v > b ? b : v);
-const GAP = [4500, 9000];      // ms between replayed events
+const GAP = [3000, 6000];      // ms between replayed events
 const SINK = 60;               // coin sink speed px/s
 const COIN_Y0 = -60;           // where a buy coin enters, above the tank
 const COIN_WOBBLE = 9;         // px of sway on the way down

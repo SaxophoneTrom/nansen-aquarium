@@ -37,6 +37,14 @@ body {
   height: 100vh;
   overflow: hidden;
   background: linear-gradient(180deg, #0E2242 0%, #0A1A33 34%, #071227 64%, #04070F 100%);
+
+  /* Written per chain by src/backdrop.js. These are the fallbacks, and also
+     what an unknown chain keeps: base blue water, a cyan motif that no chain
+     has actually asked for. */
+  --water-shallow: transparent;
+  --water-deep: transparent;
+  --motif-ink: var(--cyan);
+  --motif-alpha: .06;
 }
 
 /* ── ambient ─────────────────────────────────────────────────────────── */
@@ -54,6 +62,85 @@ body {
 .godray.r2 { left: 46%; width: 90px;  height: 70vh; background: linear-gradient(180deg, rgba(111,247,209,.11), rgba(111,247,209,0)); transform: rotate(9deg);  animation-delay: -7s; }
 .godray.r3 { left: 68%; width: 70px;  height: 64vh; background: linear-gradient(180deg, rgba(79,216,255,.09), rgba(79,216,255,0)); transform: rotate(19deg); animation-delay: -14s; }
 @keyframes ray { 0%, 100% { opacity: .6; } 50% { opacity: 1; } }
+
+/* ── per-chain backdrop ───────────────────────────────────────────────────
+   Above the god rays, below the seabed, a long way below anything alive. The
+   whole layer rides the chain-swap fade with the tank, which is also what
+   hides the moment the motif is swapped out. */
+
+#backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  overflow: hidden;
+  pointer-events: none;
+  transition: opacity .4s ease;
+}
+
+/* Flat colour behind a fixed vertical mask rather than a gradient of its own:
+   background-image never transitions, background-color always does, so this is
+   the shape of wash that can actually cross-fade between chains. */
+.water-wash,
+.water-floor {
+  position: absolute;
+  inset: 0;
+  transition: background-color .9s ease;
+}
+.water-wash {
+  background-color: var(--water-shallow);
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, .45) 46%, transparent 78%);
+  mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, .45) 46%, transparent 78%);
+}
+.water-floor {
+  background-color: var(--water-deep);
+  -webkit-mask-image: linear-gradient(180deg, transparent 34%, rgba(0, 0, 0, .5) 70%, #000 100%);
+  mask-image: linear-gradient(180deg, transparent 34%, rgba(0, 0, 0, .5) 70%, #000 100%);
+}
+
+.motif {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Two shadows, not one: the tight pass keeps the strokes from washing out at
+   this opacity, the wide one is the halo that makes the motif read as something
+   luminous a long way off instead of a decal on the glass. */
+.motif-art {
+  opacity: var(--motif-alpha);
+  color: var(--motif-ink);
+  filter: drop-shadow(0 0 9px currentColor) drop-shadow(0 0 38px currentColor);
+}
+
+/* Both drifts are slower than anything else on screen — a full cycle outlasts
+   several feedings, so the motif never reads as motion, only as never quite
+   being where you left it. */
+.motif-feather {
+  height: 68%;
+  width: auto;
+  aspect-ratio: 310 / 790;
+  transform-origin: 50% 40%;
+  animation: featherDrift 28s ease-in-out infinite;
+}
+@keyframes featherDrift {
+  0%, 100% { transform: rotate(-13deg) translate3d(-10px, -14px, 0); }
+  50%      { transform: rotate(-5deg)  translate3d(16px, 18px, 0); }
+}
+
+.motif-beams {
+  width: 76%;
+  height: 64%;
+  animation: beamDrift 34s ease-in-out infinite;
+}
+/* the bodies bloom, the leading edges stay sharp — that contrast is the whole
+   difference between a shaft of light and a painted bar */
+.motif-beams .beam-body { filter: blur(7px); }
+.motif-beams .beam-edge { opacity: .9; }
+@keyframes beamDrift {
+  0%, 100% { transform: translate3d(-18px, 10px, 0) scale(1.02); opacity: var(--motif-alpha); }
+  50%      { transform: translate3d(20px, -12px, 0) scale(1.06); opacity: calc(var(--motif-alpha) * 1.15); }
+}
 
 #seabed {
   position: absolute;
@@ -239,19 +326,24 @@ body {
 
 /* ── top bar ─────────────────────────────────────────────────────────── */
 
+/* Three columns, the outer two equal, so the tabs sit on the true centre line
+   of the bar no matter how wide the brand gets. Which tank you are in is the
+   one thing the header exists to say, so it says it in the middle. The third
+   column is deliberately empty — it is the counterweight. */
 #topbar {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 7;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
+  gap: 16px;
   padding: 26px 40px;
 }
 
-.brand { display: flex; align-items: center; gap: 14px; }
+.brand { display: flex; align-items: center; gap: 14px; min-width: 0; }
 .brand-icon { display: block; line-height: 0; filter: drop-shadow(0 0 8px rgba(79, 216, 255, .6)); }
 .brand-name {
   font-family: 'Baloo 2', 'Nunito', sans-serif;
@@ -260,15 +352,15 @@ body {
   text-shadow: 0 0 18px rgba(79, 216, 255, .5);
 }
 
-#chains { display: flex; gap: 8px; }
+#chains { display: flex; gap: 8px; justify-self: center; }
 .chain {
-  padding: 9px 20px;
+  padding: 10px 22px;
   border-radius: 999px;
   border: 1px solid rgba(79, 216, 255, .2);
   background: transparent;
   color: var(--t3);
   font-family: inherit;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   transition: color .2s, border-color .2s, background .2s;
@@ -288,12 +380,14 @@ body {
    Switching chains empties the tank and refills it. Rather than let creatures
    blink out mid-stroke, the two things that carry the chain's data — the tank
    and the feed panel — fade down together, are rebuilt while nothing is on
-   screen, and come back up: 400ms out, 400ms in. */
+   screen, and come back up: 400ms out, 400ms in. The backdrop goes with them:
+   its motif is swapped outright, and this is the darkness it happens in. */
 #tank, #feedpanel {
   transition: opacity .4s ease;
 }
 #stage.swapping #tank,
-#stage.swapping #feedpanel {
+#stage.swapping #feedpanel,
+#stage.swapping #backdrop {
   opacity: 0;
 }
 
@@ -971,12 +1065,15 @@ body {
 
 @media (max-width: 800px) {
   #feedpanel { display: none; }
-  #topbar { padding: 18px 20px; gap: 12px; }
-  .brand { flex-shrink: 1; min-width: 0; gap: 10px; }
+  #topbar { padding: 18px 20px; gap: 10px; }
+  .brand { gap: 10px; }
   .brand-name { font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .brand-icon svg { width: 30px; height: 20px; }
-  #chains { flex-shrink: 0; gap: 6px; }
-  .chain { padding: 7px 13px; font-size: 12px; }
+  #chains { gap: 6px; }
+  .chain { padding: 7px 14px; font-size: 12.5px; }
+  /* the motif is a landscape shape on a portrait screen; let it fill instead */
+  .motif-beams { width: 96%; height: 44%; }
+  .motif-feather { height: 56%; }
   #cta { width: 90%; bottom: 28px; }
   #cta-form { flex-direction: column; }
   #cta-btn { padding: 14px 22px; }
@@ -993,15 +1090,19 @@ body {
   .legend-row { padding: 10px 2px; }
 }
 
-@media (max-width: 560px) {
+/* Raised from 560px when the tabs moved to the centre: the wordmark now has to
+   fit in half of what is left over, not all of it. */
+@media (max-width: 640px) {
   .brand-name { display: none; }
 }
 
 /* ── reduced motion ──────────────────────────────────────────────────── */
 
 @media (prefers-reduced-motion: reduce) {
-  .godray, .snow, .jelly, .bubble, .livedot, .egg-core, .sprite,
+  .godray, .snow, .jelly, .bubble, .livedot, .egg-core, .sprite, .motif-art,
   .egg-art, .egg-art::before, .egg-teasers li { animation: none !important; }
+  /* the drift is the only thing that moved; the motif itself still belongs */
+  .motif-feather { transform: rotate(-9deg); }
   .sprite { filter: brightness(var(--b1, 1.08)); }
   .feed-row { transition-duration: .01ms; }
   #egg-modal, .egg-card, .egg-crack, .egg-art::before { transition-duration: .01ms; }

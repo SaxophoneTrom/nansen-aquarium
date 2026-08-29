@@ -3,6 +3,7 @@ import { createTank } from './tank.js';
 import { createFeed } from './feed.js';
 import { createReplay } from './events.js';
 import { createLegend } from './legend.js';
+import { createBackdrop } from './backdrop.js';
 import { createHatchery } from './hatch.js';
 import { CHAINS, DEFAULT_CHAIN, chainById } from './chains.js';
 import { HATCH_API_BASE } from './config.js';
@@ -21,6 +22,7 @@ const chainsEl = document.getElementById('chains');
 const badgeEl = document.querySelector('.replay-badge');
 const creditEl = document.getElementById('credit');
 const input = document.getElementById('cta-input');
+const backdrop = createBackdrop(stage);
 
 const json = (p) => fetch(p, { cache: 'no-store' }).then((r) => {
   if (!r.ok) throw new Error(`${p} → ${r.status}`);
@@ -152,6 +154,11 @@ async function loadChain(id, { first = false } = {}) {
     ]);
     if (gen !== generation) return;
     teardown();
+    // repainted here rather than in relabel(): the stage is at its darkest
+    // between the two fades, which is where the motif wants to change hands.
+    // The error path below never reaches this, so a failed switch keeps the
+    // water belonging to the tank still on screen.
+    backdrop.set(chain.id);
     build(chain, tankData, feedData);
     // one frame with the new tank laid out, then let the stage back up
     requestAnimationFrame(() => stage.classList.remove('swapping'));
