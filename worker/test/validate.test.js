@@ -11,11 +11,14 @@ const SOL = 'JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4';
 const ok = (body) => validateHatchInput({ token: TOKEN, ...body });
 
 describe('validateHatchInput — chain', () => {
-  it('exposes exactly the two shipped chains', () => {
-    assert.deepEqual([...CHAINS], ['robinhood', 'solana']);
+  it('exposes exactly the three shipped chains, in tab order', () => {
+    assert.deepEqual([...CHAINS], ['robinhood', 'base', 'solana']);
   });
 
-  for (const chain of ['ethereum', 'Robinhood', 'robinhood ', '', 'solana,robinhood', null, 42, ['solana']]) {
+  for (const chain of [
+    'ethereum', 'Robinhood', 'robinhood ', '', 'solana,robinhood', null, 42, ['solana'],
+    'Base', 'base ', ' base', 'basesepolia', 'base-mainnet',
+  ]) {
     it(`rejects chain ${JSON.stringify(chain)}`, () => {
       assert.equal(ok({ chain, address: EVM }).ok, false);
     });
@@ -51,6 +54,48 @@ describe('validateHatchInput — robinhood addresses', () => {
 
   it('rejects a solana address on the robinhood chain', () => {
     assert.equal(ok({ chain: 'robinhood', address: SOL }).ok, false);
+  });
+});
+
+describe('validateHatchInput — base addresses', () => {
+  it('accepts a 40-hex address', () => {
+    assert.equal(ok({ chain: 'base', address: EVM }).ok, true);
+  });
+
+  it('lowercases checksummed hex', () => {
+    const res = ok({ chain: 'base', address: EVM_CHECKSUMMED });
+    assert.equal(res.ok, true);
+    assert.equal(res.address, EVM);
+  });
+
+  it('trims surrounding whitespace', () => {
+    const res = ok({ chain: 'base', address: `  ${EVM}\n` });
+    assert.equal(res.ok, true);
+    assert.equal(res.address, EVM);
+  });
+
+  it('rejects 39 and 41 hex digits', () => {
+    assert.equal(ok({ chain: 'base', address: `0x${'a'.repeat(39)}` }).ok, false);
+    assert.equal(ok({ chain: 'base', address: `0x${'a'.repeat(41)}` }).ok, false);
+  });
+
+  it('rejects a missing 0x prefix and non-hex digits', () => {
+    assert.equal(ok({ chain: 'base', address: 'a'.repeat(40) }).ok, false);
+    assert.equal(ok({ chain: 'base', address: `0x${'g'.repeat(40)}` }).ok, false);
+  });
+
+  it('rejects a solana address on the base chain', () => {
+    assert.equal(ok({ chain: 'base', address: SOL }).ok, false);
+  });
+
+  it('rejects the zero address the same way robinhood does', () => {
+    assert.equal(ok({ chain: 'base', address: `0x${'0'.repeat(40)}` }).ok, false);
+  });
+
+  it('accepts the reserved blank-wallet test address', () => {
+    const res = ok({ chain: 'base', address: '0x00000000000000000000000000000000000000ee' });
+    assert.equal(res.ok, true);
+    assert.equal(res.address, '0x00000000000000000000000000000000000000ee');
   });
 });
 
@@ -109,8 +154,7 @@ describe('validateHatchInput — deny list', () => {
 describe('validateHatchInput — names and tokens', () => {
   for (const name of ['vitalik.eth', 'toly.sol', 'VITALIK.ETH', 'a.b.eth']) {
     it(`rejects the name ${name}`, () => {
-      assert.equal(ok({ chain: 'robinhood', address: name }).ok, false);
-      assert.equal(ok({ chain: 'solana', address: name }).ok, false);
+      for (const chain of CHAINS) assert.equal(ok({ chain, address: name }).ok, false);
     });
   }
 

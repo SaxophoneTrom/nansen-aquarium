@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
 import { BLANK_TEST_ADDRESSES, mockPnlSummary, pickMockRow, toHatchPayload } from '../src/nansen.js';
-import { validateHatchInput } from '../src/validate.js';
+import { CHAINS, validateHatchInput } from '../src/validate.js';
 
 const FETCHED_AT = '2026-08-28T12:00:00.000Z';
 
@@ -177,6 +177,10 @@ describe('mock backend', () => {
     }
   });
 
+  it('reserves a blank-wallet address for every shipped chain', () => {
+    assert.deepEqual(Object.keys(BLANK_TEST_ADDRESSES).sort(), [...CHAINS].sort());
+  });
+
   it('hands the reserved test addresses to the blank guard', async () => {
     for (const [chain, address] of Object.entries(BLANK_TEST_ADDRESSES)) {
       assert.equal(validateHatchInput({ chain, address, token: 't' }).ok, true, `${address} must validate`);
@@ -185,6 +189,18 @@ describe('mock backend', () => {
       assert.equal(out.has_history, false, `${chain} test address should have no history`);
       assert.equal(out.traded_times, null);
       assert.deepEqual(out.top_tokens, []);
+    }
+  });
+
+  it('keeps every other address on a chain out of the blank guard', () => {
+    // robinhood and base reserve the same spelling, so the lookup being keyed
+    // by chain is what stops one tank's ordinary wallets from reading blank.
+    for (const chain of CHAINS) {
+      const address = chain === 'solana'
+        ? 'JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4'
+        : '0x1f9090aae28b8a3dceadf281b0f12828e676c326';
+      const out = toHatchPayload({ chain, address, raw: pickMockRow(chain, address), fetchedAt: FETCHED_AT });
+      assert.equal(out.has_history, true, `${chain} should read this wallet as a real trader`);
     }
   });
 });

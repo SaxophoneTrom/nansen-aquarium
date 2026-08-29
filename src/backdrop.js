@@ -56,6 +56,34 @@ const FEATHER = `<svg class="motif-art motif-feather" viewBox="55 0 310 790" fil
 </g>
 </svg>`;
 
+// One block, and the water still ringing from it. Base's mark is a square with
+// softened corners — so the motif is a square lantern hanging in the column with
+// three echoes spreading out from it, each fainter and thinner than the last,
+// the outermost dissolving into a dash. Nothing here is traced: the corners are
+// drawn from a straight edge that gives way late and turns tight, which is what
+// a soft-cornered square is, and the echoes are the aquarium's own idea about
+// what a block does to the water around it.
+const BLOCK = `<svg class="motif-art motif-block" viewBox="0 0 900 900" fill="none" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+<defs>
+<radialGradient id="aqua-block" cx="0.5" cy="0.42" r="0.62">
+<stop offset="0" stop-color="#7FB0FF" stop-opacity="0.9"></stop>
+<stop offset="0.55" stop-color="#2F72FF" stop-opacity="0.55"></stop>
+<stop offset="1" stop-color="#0052FF" stop-opacity="0"></stop>
+</radialGradient>
+</defs>
+<!-- The pane itself: blurred in CSS so it reads as light coming through the
+     block rather than a filled tile sitting on the glass. -->
+<g class="block-core" fill="url(#aqua-block)">
+<path d="M333 300L567 300C591.4 300 600 308.6 600 333L600 567C600 591.4 591.4 600 567 600L333 600C308.6 600 300 591.4 300 567L300 333C300 308.6 308.6 300 333 300Z"></path>
+</g>
+<g class="block-edge" stroke="currentColor" stroke-linejoin="round" fill="none">
+<path stroke-width="5" d="M333 300L567 300C591.4 300 600 308.6 600 333L600 567C600 591.4 591.4 600 567 600L333 600C308.6 600 300 591.4 300 567L300 333C300 308.6 308.6 300 333 300Z"></path>
+<path stroke-width="3.2" stroke-opacity=".62" d="M255 200L645 200C685.7 200 700 214.3 700 255L700 645C700 685.7 685.7 700 645 700L255 700C214.3 700 200 685.7 200 645L200 255C200 214.3 214.3 200 255 200Z"></path>
+<path stroke-width="2.4" stroke-opacity=".34" d="M178.6 102L721.4 102C778.1 102 798 121.9 798 178.6L798 721.4C798 778.1 778.1 798 721.4 798L178.6 798C121.9 798 102 778.1 102 721.4L102 178.6C102 121.9 121.9 102 178.6 102Z"></path>
+<path stroke-width="2" stroke-opacity=".2" stroke-dasharray="30 34" d="M114.6 20L785.4 20C855.4 20 880 44.6 880 114.6L880 785.4C880 855.4 855.4 880 785.4 880L114.6 880C44.6 880 20 855.4 20 785.4L20 114.6C20 44.6 44.6 20 114.6 20Z"></path>
+</g>
+</svg>`;
+
 // Three shafts of light, slanting across the column. The bodies are blurred in
 // CSS and the leading edges left sharp, which is what makes them read as light
 // through water instead of three painted bars. One gradient runs along all
@@ -97,6 +125,17 @@ const BACKDROPS = {
   // the hatch button, cooler and it is just the old green back again. The floor
   // stays greener than the surface because a yellow that dark reads as silt.
   robinhood: { shallow: 'rgba(202, 244, 62, .115)', deep: 'rgba(88, 132, 24, .21)', ink: '#C6F04C', alpha: '.13', art: FEATHER },
+  // Base blue, and the whole trouble with it: the app's own water is already
+  // navy, so a wash in the same hue only makes the tank darker. What separates
+  // them is saturation, not colour — the surface takes #0052FF pushed a step
+  // brighter and cooler and laid on heavier than the other two chains get,
+  // which lifts the top of the column into something electric rather than
+  // deeper. The floor is the same blue desaturated and sunk, and it is the
+  // half that does the real work: the default tank fades to near-black down
+  // there, so an ultramarine seabed says "blue water" the instant you switch.
+  // Far enough from Solana's violet to never be mistaken for it — the ink and
+  // the glow hold that line even where the two washes sit at similar depth.
+  base: { shallow: 'rgba(34, 122, 255, .185)', deep: 'rgba(6, 56, 188, .27)', ink: '#5E9BFF', alpha: '.13', art: BLOCK },
   // Violet at the surface, the same violet gone almost black on the floor. The
   // beams carry the violet→teal gradient themselves and lose a lot of it to the
   // blur, so their ink is only ever the glow — and the glow is what pulls the

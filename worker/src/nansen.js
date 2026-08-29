@@ -119,11 +119,15 @@ export function toHatchPayload({ chain, address, raw, fetchedAt, cached = false 
 
 // ---- mock ----------------------------------------------------------------
 
-// Two addresses that always hatch The Enigma, so the no-history path can be
-// exercised without hunting for a real empty wallet. Both are valid for their
-// chain and neither is on the deny list, so they walk the whole pipeline.
+// One address per chain that always hatches The Enigma, so the no-history path
+// can be exercised without hunting for a real empty wallet. Each is valid for
+// its chain and none is on the deny list, so they walk the whole pipeline. The
+// two EVM tanks share a spelling but not an entry — the lookup below is keyed
+// by chain, so the reserved address only stands in on the chain it is listed
+// for, and a real wallet that happens to match on another chain is untouched.
 export const BLANK_TEST_ADDRESSES = Object.freeze({
   robinhood: '0x00000000000000000000000000000000000000ee',
+  base: '0x00000000000000000000000000000000000000ee',
   solana: 'EggEnigma1111111111111111111111111111111111',
 });
 

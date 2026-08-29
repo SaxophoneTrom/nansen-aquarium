@@ -4,6 +4,7 @@
 
 import { SPECIES, miniIcon } from './sprites.js';
 import { fmtUsd } from './feed.js';
+import { DEFAULT_CHAIN } from './chains.js';
 
 const fin = (v) => typeof v === 'number' && Number.isFinite(v);
 const esc = (s) => String(s).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
@@ -62,7 +63,7 @@ const FADE_MS = 150;
  * @param {{ parent?: HTMLElement, chain?: string }} opts chain is the Nansen
  *   chain id — it is what the "View on Nansen" link opens the profiler on.
  */
-export function createLegend({ parent = document.getElementById('stage'), chain = 'robinhood' } = {}) {
+export function createLegend({ parent = document.getElementById('stage'), chain = DEFAULT_CHAIN } = {}) {
   const modal = document.createElement('div');
   modal.id = 'legend-modal';
   modal.hidden = true;

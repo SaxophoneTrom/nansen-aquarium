@@ -2,10 +2,12 @@
 // Nansen Aquarium — data fetcher
 // Usage:
 //   npm run fetch robinhood                    # reads NANSEN_API_KEY from .env
+//   npm run fetch base
 //   npm run fetch solana
 //   NANSEN_API_KEY=… node scripts/fetch.mjs [chain] [--feed-only]
 // Writes public/data/<chain>/tank.json and feed.json. The pipeline is generic —
-// any chain the Nansen API knows works; the app ships robinhood and solana.
+// any chain the Nansen API knows works; the app ships robinhood, base and
+// solana.
 //
 // Pipeline (all endpoints are ✅ Allowed for redistribution under Nansen's
 // Data Redistribution Guidelines — see README):

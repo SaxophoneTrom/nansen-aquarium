@@ -5,7 +5,7 @@ into the hatch box; this Worker reads that wallet's 90-day PnL summary from
 Nansen exactly once, and hands back the handful of numbers the front end turns
 into a fish.
 
-It is deliberately not a proxy. One route, two chains, one hardcoded upstream
+It is deliberately not a proxy. One route, three chains, one hardcoded upstream
 URL, and a whitelist that rebuilds the response field by field — nothing a
 request carries can steer it anywhere else.
 
@@ -29,7 +29,7 @@ few hours. Two things follow from that:
 
 ```
 POST /v1/hatch      Content-Type: application/json
-{ "chain": "robinhood" | "solana", "address": "<raw address>", "token": "<turnstile token>" }
+{ "chain": "robinhood" | "base" | "solana", "address": "<raw address>", "token": "<turnstile token>" }
 
 GET  /v1/health     → { "ok": true }   monitoring; no captcha, no limits, never touches Nansen
 OPTIONS /v1/hatch   CORS preflight
@@ -135,14 +135,18 @@ send `"test-token"`.
 
 ### Reserved mock addresses
 
-Two addresses always come back as blank wallets, so the no-history path can be
-exercised without hunting for a real empty one. Both are valid for their chain
-and pass the deny list, so they walk the entire pipeline:
+One address per chain always comes back as a blank wallet, so the no-history
+path can be exercised without hunting for a real empty one. Each is valid for
+its chain and passes the deny list, so they walk the entire pipeline:
 
 | Chain | Address |
 |---|---|
 | robinhood | `0x00000000000000000000000000000000000000ee` |
+| base | `0x00000000000000000000000000000000000000ee` |
 | solana | `EggEnigma1111111111111111111111111111111111` |
+
+The two EVM tanks reserve the same spelling, but the lookup is keyed by chain,
+so the address is only special on the chain it is listed for.
 
 Every other address is hashed to one of six profiles — big winner, loser,
 scalper, tiny wallet, mixed, and one with history but a `null` win rate — so the
@@ -163,6 +167,10 @@ curl -s -X POST $BASE/v1/hatch -H "$JSON" -H "$ORIGIN" \
 # same address again → "cached": true, and no counter moves
 curl -s -X POST $BASE/v1/hatch -H "$JSON" -H "$ORIGIN" \
   -d '{"chain":"robinhood","address":"0x1f9090aaE28b8a3dCeaDf281B0F12828e676c326","token":"test-token"}'
+
+# the same wallet on another tank — a separate cache key, a separate fish
+curl -s -X POST $BASE/v1/hatch -H "$JSON" -H "$ORIGIN" \
+  -d '{"chain":"base","address":"0x1f9090aaE28b8a3dCeaDf281B0F12828e676c326","token":"test-token"}'
 
 # The Enigma
 curl -s -X POST $BASE/v1/hatch -H "$JSON" -H "$ORIGIN" \

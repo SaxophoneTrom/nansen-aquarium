@@ -128,6 +128,25 @@ body {
   50%      { transform: rotate(-5deg)  translate3d(16px, 18px, 0); }
 }
 
+/* Square art on a landscape stage, so it is sized off the short edge and left
+   to keep its own proportion. The tilt lives in the keyframes rather than the
+   resting transform: a square sitting perfectly level reads as a UI panel, and
+   a few degrees off is the whole difference between that and something hanging
+   in a current. */
+.motif-block {
+  height: 62%;
+  width: auto;
+  aspect-ratio: 1 / 1;
+  animation: blockDrift 31s ease-in-out infinite;
+}
+/* the pane blooms, the outlines stay sharp — the same trick the beams use, and
+   the reason this reads as light through a block instead of a filled tile */
+.motif-block .block-core { filter: blur(18px); }
+@keyframes blockDrift {
+  0%, 100% { transform: rotate(-4deg) translate3d(-13px, 11px, 0) scale(1.01); opacity: var(--motif-alpha); }
+  50%      { transform: rotate(2deg)  translate3d(14px, -12px, 0) scale(1.05); opacity: calc(var(--motif-alpha) * 1.18); }
+}
+
 .motif-beams {
   width: 76%;
   height: 64%;
@@ -1074,6 +1093,9 @@ body {
   /* the motif is a landscape shape on a portrait screen; let it fill instead */
   .motif-beams { width: 96%; height: 44%; }
   .motif-feather { height: 56%; }
+  /* the square one is the other way round: sized off the short edge again, and
+     on a portrait screen that is the width */
+  .motif-block { height: auto; width: 84%; }
   #cta { width: 90%; bottom: 28px; }
   #cta-form { flex-direction: column; }
   #cta-btn { padding: 14px 22px; }
@@ -1103,6 +1125,7 @@ body {
   .egg-art, .egg-art::before, .egg-teasers li { animation: none !important; }
   /* the drift is the only thing that moved; the motif itself still belongs */
   .motif-feather { transform: rotate(-9deg); }
+  .motif-block { transform: rotate(-3deg); }
   .sprite { filter: brightness(var(--b1, 1.08)); }
   .feed-row { transition-duration: .01ms; }
   #egg-modal, .egg-card, .egg-crack, .egg-art::before { transition-duration: .01ms; }

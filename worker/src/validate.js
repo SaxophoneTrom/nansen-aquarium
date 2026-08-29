@@ -10,10 +10,17 @@
 // Everything below is pure — no bindings, no fetch — so it is unit-tested
 // directly with `node --test`.
 
-export const CHAINS = Object.freeze(['robinhood', 'solana']);
+// Same list as src/chains.js, in the same order. A chain the front end offers
+// and this array does not is a tab whose eggs never hatch.
+export const CHAINS = Object.freeze(['robinhood', 'base', 'solana']);
 
 const ADDRESS_PATTERNS = Object.freeze({
   robinhood: /^0x[0-9a-fA-F]{40}$/,
+  // Base is an EVM L2, so its addresses are the same 20 bytes of hex. Kept as
+  // its own entry rather than shared with robinhood: the two chains are only
+  // incidentally the same shape, and a per-chain pattern is what lets a future
+  // non-EVM tank drop in without unpicking this.
+  base: /^0x[0-9a-fA-F]{40}$/,
   // base58: no 0, O, I or l. Lengths run 32–44 characters.
   solana: /^[1-9A-HJ-NP-Za-km-z]{32,44}$/,
 });

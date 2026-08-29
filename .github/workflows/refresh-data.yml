@@ -15,7 +15,7 @@ name: Refresh data
 #   full      36 credits x 1 run/day   =  36
 #                                       ----
 #                                         56 credits/day/chain
-# Two chains (robinhood, solana) = **112 credits/day**.
+# Three chains (robinhood, base, solana) = **168 credits/day**.
 
 on:
   schedule:
@@ -47,10 +47,10 @@ jobs:
       # One chain at a time: every job commits and pushes to the same branch,
       # so running them in parallel would just make them rebase over each other.
       max-parallel: 1
-      # A chain whose API call fails should not stop the other from refreshing.
+      # A chain whose API call fails should not stop the others from refreshing.
       fail-fast: false
       matrix:
-        chain: [robinhood, solana]
+        chain: [robinhood, base, solana]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -104,8 +104,8 @@ jobs:
   # idempotent and takes seconds. Better a redundant deploy than a missed one.
   #
   # `!cancelled()` rather than the default success gate: with fail-fast off, one
-  # chain can fail while the other has already committed good data, and that
-  # data should still reach the site.
+  # chain can fail while another has already committed good data, and that data
+  # should still reach the site.
   deploy:
     needs: refresh
     if: ${{ !cancelled() }}

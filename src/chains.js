@@ -23,6 +23,20 @@ export const CHAINS = [
     placeholder: 'Your 0x… address',
   },
   {
+    id: 'base',
+    tab: 'Base',
+    name: 'Base',
+    // Coinbase's OP-Stack L2, chain id 8453. Basescan is the Etherscan
+    // instance Base's own docs point at, and it resolves the hashes
+    // tgm/dex-trades returns for the chain unchanged.
+    tx: (hash) => `https://basescan.org/tx/${hash}`,
+    explorer: 'Basescan',
+    // Same EVM shape as Robinhood above: 20 bytes of hex, with ENS names
+    // let through `accepts` so the hatchery can answer them in words.
+    accepts: (v) => /^0x[a-fA-F0-9]{40}$/.test(v) || /\.eth$/i.test(v),
+    placeholder: 'Your 0x… address',
+  },
+  {
     id: 'solana',
     tab: 'Solana',
     name: 'Solana',

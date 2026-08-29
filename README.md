@@ -14,17 +14,20 @@ it moves, its brightness by how often it is right, its colour by whether it is
 up or down. The feed panel replays those wallets' real trades from the last 24
 hours as the creature swims. Click one and it tells you its story.
 
-## The two tanks
+## The three tanks
 
 | Tab | Chain | What swims there |
 | --- | --- | --- |
 | **Robinhood** (default) | Robinhood Chain | Tokenized equities — NVDA, SPCX, TSLA, ORCL — alongside the chain's native memes |
+| **Base** | Base | Coinbase's L2: DeFi blue chips like AERO, the Virtuals AI-agent tokens, and the day's memecoin churn |
 | **Solana** | Solana | Launchpad tokens and the memecoin flow around them |
 
-Two chains, two entirely different crowds, same rules. Switching tabs drains the
-tank and refills it from that chain's own snapshot — new tokens, new residents,
-new trades. Both are read through the same generic pipeline, so a third chain is
-one entry in [`src/chains.js`](src/chains.js) and one `npm run fetch <chain>`.
+Three chains, three entirely different crowds, same rules. Switching tabs drains
+the tank and refills it from that chain's own snapshot — new tokens, new
+residents, new trades, and water tinted to that chain's own palette. All three
+are read through the same generic pipeline, so a fourth chain is one entry in
+[`src/chains.js`](src/chains.js), one in [`src/backdrop.js`](src/backdrop.js),
+and one `npm run fetch <chain>`.
 
 ## Features
 
@@ -78,6 +81,7 @@ To pull fresh data you need a [Nansen API](https://app.nansen.ai/smart-money?ref
 ```bash
 echo 'NANSEN_API_KEY=your_key_here' > .env   # gitignored
 npm run fetch robinhood                      # full refresh: tank + feed
+npm run fetch base
 npm run fetch solana
 npm run fetch:feed robinhood                 # feed only, cheaper
 ```
@@ -104,8 +108,8 @@ Requires Node 20.18+ (22+ recommended). There is nothing to install.
 
 A full run costs **36 credits** per chain. A feed-only run replays the same five
 tokens already recorded in `tank.json`, so it skips the screener and costs **5**.
-The shipped schedule is four feed runs and one full run a day on each of the two
-chains — **112 credits a day**.
+The shipped schedule is four feed runs and one full run a day on each of the
+three chains — **168 credits a day**.
 
 Trades under $100 are dropped as dust. The feed merges each fetch with the
 previous `feed.json` and trims to a rolling 24-hour window capped at 600 events,
@@ -118,8 +122,8 @@ base58 and case-sensitive. And if `tgm/who-bought-sold` comes back thin on a
 chain, the roster is topped up from the `tgm/dex-trades` rows already fetched —
 summing `estimated_value_usd` per `trader_address` — which costs nothing extra.
 
-Output lands in `public/data/<chain>/` — `robinhood/` and `solana/` ship with the
-repository:
+Output lands in `public/data/<chain>/` — `robinhood/`, `base/` and `solana/`
+ship with the repository:
 
 - `tank.json` — the five tokens, plus 25 creatures with species, size, win rate, realized PnL, top tokens
 - `feed.json` — the rolling 24h event list the replay reads
@@ -144,6 +148,7 @@ styles.css              every visual token, animation and layout rule
 src/
   main.js               boot: load JSON, wire tank + feed + replay + modal
   chains.js             the chain registry — tab label, explorer, address shape
+  backdrop.js           per-chain water tint and motif, swapped on a tab change
   tank.js               creature bodies, steering, depth bands, hover chip
   sprites.js            species table, sprite variants, crown, inline SVG chrome
   feed.js               feed panel rows and USD formatting
@@ -156,6 +161,7 @@ scripts/
 public/
   sprites/              14 WebP creatures
   data/robinhood/       tank.json, feed.json
+  data/base/            tank.json, feed.json
   data/solana/          tank.json, feed.json
 ```
 
