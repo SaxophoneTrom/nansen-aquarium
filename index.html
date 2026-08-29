@@ -14,7 +14,7 @@
   <meta property="og:title" content="Nansen Aquarium">
   <meta property="og:description" content="Every wallet is a sea creature. The day's top traders swim as bioluminescent deep-sea life — and you can hatch your own fish from a wallet address. Powered by Nansen API.">
   <meta property="og:url" content="https://saxophonetrom.github.io/nansen-aquarium/">
-  <meta property="og:image" content="https://saxophonetrom.github.io/nansen-aquarium/public/og/card.png?v=1">
+  <meta property="og:image" content="https://saxophonetrom.github.io/nansen-aquarium/public/og/card.png?v=2">
   <meta property="og:image:width" content="2400">
   <meta property="og:image:height" content="1260">
   <meta property="og:image:alt" content="A deep-sea aquarium of glowing whales, sharks, dolphins and fish, each one a real trading wallet.">
@@ -89,6 +89,14 @@
     </div>
 
     <div id="hoverchip" hidden></div>
+
+    <!-- Poster mode (?og=1): the link-preview card is shot from the live tank
+         with the interactive UI cleared away and the wordmark front and
+         center. Invisible outside og-mode; see styles.css. -->
+    <div id="og-hero" aria-hidden="true">
+      <div class="og-name">Nansen Aquarium</div>
+      <div class="og-tag">Every wallet is a sea creature.</div>
+    </div>
 
     <!-- The hatchery, driven by src/hatch.js: The Egg -> Reading -> Reveal,
          with the pre-launch card as the fallback when config.js has no Worker

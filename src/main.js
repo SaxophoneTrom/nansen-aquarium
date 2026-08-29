@@ -13,6 +13,10 @@ const FADE_MS = 400; // half a swap: the old tank fades out, the new one fades i
 
 const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+// ?og=1 — poster mode, only ever loaded by the screenshot run that produces
+// the link-preview card: interactive chrome hidden, wordmark on stage.
+if (new URLSearchParams(location.search).has('og')) document.body.classList.add('og-mode');
+
 document.querySelector('.brand-icon').innerHTML = BRAND_SVG;
 if (reduced) document.body.classList.add('reduced');
 

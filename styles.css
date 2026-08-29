@@ -1131,3 +1131,46 @@ body {
   #egg-modal, .egg-card, .egg-crack, .egg-art::before { transition-duration: .01ms; }
   #legend-modal, .legend-card { transition-duration: .01ms; }
 }
+
+/* ── poster mode (?og=1) ─────────────────────────────────────────────────
+   Only ever seen by the screenshot run that produces public/og/card.png:
+   the interactive chrome goes away, the wordmark takes the stage, and the
+   attribution footer stays — the fish are still Nansen's data. */
+#og-hero { display: none; }
+body.og-mode #topbar,
+body.og-mode #feedpanel,
+body.og-mode #cta,
+body.og-mode #hoverchip { display: none !important; }
+body.og-mode #og-hero {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 8;
+  text-align: center;
+  pointer-events: none;
+}
+.og-name {
+  font-family: 'Baloo 2', 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 1.05;
+  letter-spacing: .5px;
+  white-space: nowrap;
+  background: linear-gradient(180deg, #FFFFFF 12%, #9FE8FF 58%, #4FD8FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 18px rgba(79, 216, 255, .5)) drop-shadow(0 8px 34px rgba(4, 7, 15, .9));
+}
+.og-tag {
+  margin-top: 10px;
+  font-family: 'Baloo 2', 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+  color: #BFE2FF;
+  opacity: .92;
+  text-shadow: 0 0 14px rgba(79, 216, 255, .45), 0 2px 16px rgba(4, 7, 15, .85);
+}
+body.og-mode #credit { font-size: 15px; }
