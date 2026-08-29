@@ -562,7 +562,7 @@ body {
 
 #cta {
   position: absolute;
-  bottom: 44px;
+  bottom: 92px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 7;
@@ -1096,7 +1096,7 @@ body {
   /* the square one is the other way round: sized off the short edge again, and
      on a portrait screen that is the width */
   .motif-block { height: auto; width: 84%; }
-  #cta { width: 90%; bottom: 28px; }
+  #cta { width: 90%; bottom: 48px; }
   #cta-form { flex-direction: column; }
   #cta-btn { padding: 14px 22px; }
   #credit { display: none; }
