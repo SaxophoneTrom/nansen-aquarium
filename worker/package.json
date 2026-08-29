@@ -1,0 +1,19 @@
+{
+  "name": "aquarium-hatchery",
+  "version": "0.1.0",
+  "description": "Cloudflare Worker that hatches a visitor's wallet into a fish — the only server-side piece of Nansen Aquarium",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.18"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "devDependencies": {
+    "wrangler": "^4.127.0"
+  }
+}

@@ -104,18 +104,30 @@ const img = (name, species) => `<img class="sprite" src="${DIR}${name}.webp" alt
 const CROWN = '<svg class="crown" viewBox="76 4 40 30" fill="none" aria-hidden="true">'
   + '<path d="M78 8 L86 24 L96 10 L106 24 L114 8 L112 32 L80 32 Z" fill="#FFD166"></path></svg>';
 
+// The visitor's own hatched fish wears the shell it came out of — small, gold,
+// pinned where the crown would go on a whale. Enough to find it again in a
+// shoal of two dozen; not enough to compete with the crown itself.
+const SHELL = '<svg class="hatch-mark" viewBox="0 0 20 20" fill="none" aria-hidden="true">'
+  + '<path d="M10 2.5 C13.6 2.5 16.5 7 16.5 11 C16.5 14.6 13.6 17.5 10 17.5'
+  + ' C6.4 17.5 3.5 14.6 3.5 11 C3.5 7 6.4 2.5 10 2.5 Z" fill="#0F2440" stroke="#FFD166" stroke-width="1.5"></path>'
+  + '<path d="M3.8 10.6 L6.6 12.4 L9 9.8 L11.6 12.4 L14.2 9.8 L16.3 11.4" stroke="#FFD166"'
+  + ' stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>';
+
 /**
  * The inner markup of a creature's `.body`.
  * @param {'whale'|'shark'|'dolphin'|'fish'} species
- * @param {{ variant?: object, crown?: boolean }} opts variant as returned by
- *   variantPicker(); absent or null falls back to the species' own art
+ * @param {{ variant?: object, crown?: boolean, mine?: boolean }} opts variant
+ *   as returned by variantPicker(); absent or null falls back to the species'
+ *   own art. `mine` adds the eggshell that marks a hatched fish as the
+ *   visitor's — legend.js copies .body wholesale, so the portrait keeps it too.
  */
 export function creatureHTML(species, opts = {}) {
-  const { variant, crown } = opts;
-  if (species === 'whale') return img(crown ? 'whale_gold' : 'whale_blue', 'whale') + (crown ? CROWN : '');
-  if (variant) return img(variant.sprite, species);
-  if (species === 'fish') return img(FISH_NEUTRAL[0].sprite, 'fish');
-  return img(SPECIES[species] ? species : 'fish_cyan', species);
+  const { variant, crown, mine } = opts;
+  const shell = mine ? SHELL : '';
+  if (species === 'whale') return img(crown ? 'whale_gold' : 'whale_blue', 'whale') + (crown ? CROWN : '') + shell;
+  if (variant) return img(variant.sprite, species) + shell;
+  if (species === 'fish') return img(FISH_NEUTRAL[0].sprite, 'fish') + shell;
+  return img(SPECIES[species] ? species : 'fish_cyan', species) + shell;
 }
 
 // ---- small decorative sprites -------------------------------------------

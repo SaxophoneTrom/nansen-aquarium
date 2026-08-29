@@ -16,9 +16,11 @@ export const CHAINS = [
     // Robinhood's own docs, verified against hashes from tgm/dex-trades.
     tx: (hash) => `https://robinhoodchain.blockscout.com/tx/${hash}`,
     explorer: 'Blockscout',
-    // EVM: 20 bytes of hex, plus ENS names for the people who own one
+    // EVM: 20 bytes of hex. ENS names still pass `accepts` so the hatchery can
+    // answer them with a friendly "names aren't supported yet" toast instead of
+    // a shake — but the placeholder no longer invites them.
     accepts: (v) => /^0x[a-fA-F0-9]{40}$/.test(v) || /\.eth$/i.test(v),
-    placeholder: '0x… or vitalik.eth',
+    placeholder: 'Your 0x… address',
   },
   {
     id: 'solana',
@@ -26,9 +28,10 @@ export const CHAINS = [
     name: 'Solana',
     tx: (sig) => `https://solscan.io/tx/${sig}`,
     explorer: 'Solscan',
-    // base58, 32–44 characters, and case matters
+    // base58, 32–44 characters, and case matters. `.sol` names pass `accepts`
+    // for the same toast-not-shake reason as ENS above.
     accepts: (v) => /^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(v) || /\.sol$/i.test(v),
-    placeholder: 'Solana address or name.sol',
+    placeholder: 'Your Solana address',
   },
 ];
 

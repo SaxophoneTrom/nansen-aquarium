@@ -1,0 +1,57 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "aquarium-hatchery",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-01",
+  "observability": { "enabled": true },
+
+  // The aquarium's static dev server (scripts/serve.mjs) already owns 8787, and
+  // that is also wrangler's default — so the port has to be pinned or the two
+  // fight over the socket.
+  "dev": { "port": 8788 },
+
+  // Non-secret configuration. Raising or lowering the daily budget is a one-line
+  // edit here plus `wrangler deploy`, or an env-var edit in the dashboard.
+  "vars": {
+    "ALLOWED_ORIGINS": "https://saxophonetrom.github.io,http://localhost:8787,http://127.0.0.1:8787",
+    "DAILY_BUDGET": "1000",
+    "IP_DAILY_LIMIT": "20",
+    "CACHE_TTL_S": "86400",
+    "MOCK_NANSEN": "0"
+  },
+
+  // Response cache only — one write per cache miss, which is what keeps this
+  // inside the KV free tier (1,000 writes/day). The id is the production
+  // namespace (created with `npx wrangler kv namespace create CACHE`);
+  // `wrangler dev` simulates KV locally regardless of what the id says.
+  "kv_namespaces": [
+    { "binding": "CACHE", "id": "1f1949d55eb44785ada445a622bde1a0" }
+  ],
+
+  // Per-IP daily count and the global daily budget live in one Durable Object,
+  // so both are exact — KV's eventual consistency cannot be trusted to hold a
+  // spend limit. SQLite-backed is mandatory: the free plan only allows
+  // `new_sqlite_classes`, never the legacy key-value DO storage.
+  "durable_objects": {
+    "bindings": [
+      { "name": "COUNTERS", "class_name": "CountersDO" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["CountersDO"] }
+  ],
+
+  // Per-minute throttle. `unsafe.bindings` is the only way to declare a Rate
+  // Limiting binding today, so wrangler prints a warning about it on every run —
+  // that warning is expected, not a misconfiguration.
+  "unsafe": {
+    "bindings": [
+      {
+        "name": "IP_LIMITER",
+        "type": "ratelimit",
+        "namespace_id": "1001",
+        "simple": { "limit": 6, "period": 60 }
+      }
+    ]
+  }
+}

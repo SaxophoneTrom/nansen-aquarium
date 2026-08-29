@@ -65,16 +65,51 @@
 
     <div id="hoverchip" hidden></div>
 
+    <!-- The hatchery, driven by src/hatch.js: The Egg -> Reading -> Reveal,
+         with the pre-launch card as the fallback when config.js has no Worker
+         to talk to. Every block below is toggled, never rebuilt. -->
     <div id="egg-modal" hidden>
-      <div class="egg-card">
-        <svg width="110" height="138" viewBox="0 0 120 150" fill="none">
-          <path d="M60 8 C88 8 108 46 108 88 C108 122 87 142 60 142 C33 142 12 122 12 88 C12 46 32 8 60 8 Z" fill="#0F2440" stroke="#4FD8FF" stroke-opacity="0.6" stroke-width="2"></path>
-          <circle class="egg-core" cx="60" cy="88" r="16" fill="#4FD8FF" opacity="0.7"></circle>
-          <circle class="egg-core" cx="60" cy="88" r="7" fill="#B8ECFF"></circle>
-        </svg>
-        <div class="egg-title">Your egg is incubating&#8230;</div>
-        <div class="egg-sub">The nursery opens <b>Sept 14</b>. Come back to watch it hatch.</div>
-        <button id="egg-close">Back to the tank</button>
+      <div class="egg-card" role="dialog" aria-modal="true" aria-label="Hatchery" tabindex="-1" data-phase="soon">
+        <button class="egg-x" type="button" aria-label="Close">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 2 L12 12 M12 2 L2 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+        </button>
+
+        <div class="egg-steps" hidden><i></i><i></i><i></i></div>
+
+        <div class="egg-art">
+          <svg width="110" height="138" viewBox="0 0 120 150" fill="none" aria-hidden="true">
+            <path d="M60 8 C88 8 108 46 108 88 C108 122 87 142 60 142 C33 142 12 122 12 88 C12 46 32 8 60 8 Z" fill="#0F2440" stroke="#4FD8FF" stroke-opacity="0.6" stroke-width="2"></path>
+            <path class="egg-crack" d="M38 64 L52 74 L44 88 L58 96" stroke="#B8ECFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+            <path class="egg-crack" d="M84 56 L74 70 L86 80" stroke="#B8ECFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+            <circle class="egg-core" cx="60" cy="88" r="16" fill="#4FD8FF" opacity="0.7"></circle>
+            <circle class="egg-core" cx="60" cy="88" r="7" fill="#B8ECFF"></circle>
+          </svg>
+        </div>
+
+        <div class="egg-soon">
+          <div class="egg-title">Your egg is incubating&#8230;</div>
+          <div class="egg-sub">The nursery opens <b>Sept 14</b>. Come back to watch it hatch.</div>
+        </div>
+
+        <div class="egg-flow" hidden>
+          <div class="egg-addr"></div>
+          <div class="egg-title"></div>
+          <div class="egg-sub" aria-live="polite"></div>
+          <ul class="egg-teasers" hidden></ul>
+        </div>
+
+        <div class="egg-reveal" hidden></div>
+
+        <div class="egg-buttons">
+          <button id="egg-release" type="button" hidden>Release into the tank</button>
+          <button id="egg-share" type="button" hidden>Share</button>
+          <button id="egg-retry" type="button" hidden>Try again</button>
+          <button id="egg-close" type="button">Back to the tank</button>
+        </div>
+
+        <!-- Turnstile mounts here. Invisible unless Cloudflare wants a word,
+             which is why it needs somewhere inside the card to appear. -->
+        <div id="egg-captcha"></div>
       </div>
     </div>
 

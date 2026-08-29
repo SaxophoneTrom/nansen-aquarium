@@ -3,7 +3,9 @@ import { createTank } from './tank.js';
 import { createFeed } from './feed.js';
 import { createReplay } from './events.js';
 import { createLegend } from './legend.js';
+import { createHatchery } from './hatch.js';
 import { CHAINS, DEFAULT_CHAIN, chainById } from './chains.js';
+import { HATCH_API_BASE } from './config.js';
 
 const PREFILL = 3;   // seed the panel so it is never empty on load
 const FADE_MS = 400; // half a swap: the old tank fades out, the new one fades in
@@ -66,6 +68,7 @@ let switching = false;
 function teardown() {
   if (!scene) return;
   scene.replay.stop();
+  scene.hatchery.destroy();
   scene.tank.destroy();
   scene.legend.destroy();
   scene.feed.clear();
@@ -80,6 +83,8 @@ function build(chain, tankData, feedData) {
     txUrl: chain.tx,
   });
   const legend = createLegend({ chain: chain.id });
+  // owns the egg modal, and puts this chain's remembered fish back in the water
+  const hatchery = createHatchery({ tank, chain: chain.id, reduced, say });
 
   // click a resident → its biography card. Guests are anonymous walk-ons, so
   // they have no story to tell and stay unclickable.
@@ -103,7 +108,7 @@ function build(chain, tankData, feedData) {
   const replay = createReplay({ tank, feed, events, chain: chain.name });
   replay.start(PREFILL);
 
-  scene = { tank, feed, legend, replay, onClick };
+  scene = { tank, feed, legend, hatchery, replay, onClick };
 }
 
 /** Writes the chain's name everywhere the page says it out loud. */
@@ -174,7 +179,17 @@ chainsEl.addEventListener('click', (e) => {
 // ---- CTA ------------------------------------------------------------------
 
 const form = document.getElementById('cta-form');
-const modal = document.getElementById('egg-modal');
+
+// ENS and SNS both pass chains.js's `accepts` — the placeholder invites them —
+// but resolving a name needs a resolver the Worker deliberately does not have.
+// So they are turned away here rather than sent to a hatch that would 400.
+const NAME = /\.(eth|sol)$/i;
+
+function remember(v) {
+  try {
+    localStorage.setItem('aquarium.pending_egg', JSON.stringify({ id: v, chain: current, at: Date.now() }));
+  } catch { /* private mode — the modal still works */ }
+}
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -188,19 +203,22 @@ form.addEventListener('submit', (e) => {
     input.focus();
     return;
   }
-  try {
-    localStorage.setItem('aquarium.pending_egg', JSON.stringify({ id: v, chain: current, at: Date.now() }));
-  } catch { /* private mode — the modal still works */ }
-  modal.hidden = false;
-  requestAnimationFrame(() => modal.classList.add('show'));
-});
+  if (!scene) return;   // the tank is still filling; nothing to hatch into yet
 
-function closeEgg() {
-  modal.classList.remove('show');
-  setTimeout(() => { modal.hidden = true; }, 260);
-}
-document.getElementById('egg-close').addEventListener('click', closeEgg);
-modal.addEventListener('click', (e) => { if (e.target === modal) closeEgg(); });
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !modal.hidden) closeEgg(); });
+  // No Worker configured: the site behaves exactly as it did before the
+  // hatchery existed, which is also the graceful degradation if it goes down.
+  if (!HATCH_API_BASE) {
+    remember(v);
+    scene.hatchery.soon();
+    return;
+  }
+  if (NAME.test(v)) {
+    say("Names aren't supported yet — paste the raw address");
+    input.focus();
+    return;
+  }
+  remember(v);
+  scene.hatchery.submit(v);
+});
 
 loadChain(DEFAULT_CHAIN, { first: true });

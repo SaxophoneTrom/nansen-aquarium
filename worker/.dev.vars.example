@@ -1,0 +1,24 @@
+# Copy to `.dev.vars` for `wrangler dev`. `.dev.vars` is gitignored; this
+# template is not, so it must never hold a real key.
+#
+# Values here override `vars` in wrangler.jsonc for local runs only.
+
+# Cloudflare's official Turnstile TEST secret keys. These are published in
+# Cloudflare's docs, work against the real siteverify endpoint, and are safe to
+# commit — they only ever validate tokens minted by the matching test sitekeys.
+#   1x0000000000000000000000000000000AA  always passes
+#   2x0000000000000000000000000000000AA  always fails
+#   3x0000000000000000000000000000000AA  yields "token already spent"
+# With the always-pass secret, siteverify accepts any non-empty token string,
+# so curl tests can send "test-token".
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+
+# 1 = never touch api.nansen.ai; answer from the deterministic mock in
+# src/nansen.js. Keep this at 1 for all local work: the real key is shared with
+# the GitHub Actions data refresh, and burning its 4xx allowance breaks the cron.
+MOCK_NANSEN=1
+
+# Only needed if you deliberately point local dev at the live API (MOCK_NANSEN=0).
+# In production this is a Worker secret, never a var:
+#   npx wrangler secret put NANSEN_API_KEY
+# NANSEN_API_KEY=

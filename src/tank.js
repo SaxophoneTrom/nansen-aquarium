@@ -21,6 +21,18 @@ const GLOW_SPAN = 0.25;    // added at glow 1
 const GLOW_BREATH = 0.08;  // +/- of the level, over the 4s glowPulse cycle
 
 /**
+ * The two ends of the brightness breath for one glow level. Exported because
+ * hatch.js lights its reveal portrait to the same numbers before the creature
+ * it belongs to exists.
+ * @param {number} glow 0..1, the wallet's win rate
+ * @returns {[string, string]} the --b0 / --b1 pair
+ */
+export function glowRange(glow) {
+  const level = GLOW_BASE + GLOW_SPAN * clamp(glow, 0, 1);
+  return [(level * (1 - GLOW_BREATH)).toFixed(3), (level * (1 + GLOW_BREATH)).toFixed(3)];
+}
+
+/**
  * Writes a creature's bioluminescence onto its element as the two ends of the
  * brightness breath. legend.js copies both custom properties straight off the
  * element, so a portrait is lit exactly like the creature it was opened from.
@@ -28,9 +40,9 @@ const GLOW_BREATH = 0.08;  // +/- of the level, over the 4s glowPulse cycle
  * @param {number} glow 0..1, the wallet's win rate
  */
 function setGlow(el, glow) {
-  const level = GLOW_BASE + GLOW_SPAN * clamp(glow, 0, 1);
-  el.style.setProperty('--b0', (level * (1 - GLOW_BREATH)).toFixed(3));
-  el.style.setProperty('--b1', (level * (1 + GLOW_BREATH)).toFixed(3));
+  const [b0, b1] = glowRange(glow);
+  el.style.setProperty('--b0', b0);
+  el.style.setProperty('--b1', b1);
 }
 
 /**
@@ -84,17 +96,19 @@ export function createTank(root, roster, { reduced = false } = {}) {
     c.el.style.height = c.h + 'px';
   }
 
-  function build(data, { guest = false } = {}) {
+  function build(data, { guest = false, mine = false } = {}) {
     const spec = SPECIES[data.species] || SPECIES.fish;
-    // which colourway it wears — mint when the wallet is up, pink when down
-    const variant = pickVariant(data.species, data);
+    // Which colourway it wears — mint when the wallet is up, pink when down. A
+    // hatched fish arrives with its own already chosen, because the reveal card
+    // showed the visitor that exact animal before they released it.
+    const variant = data.variant !== undefined ? data.variant : pickVariant(data.species, data);
     const wUnit = spec.baseW * (0.6 + 0.7 * (data.size ?? 0.5));
     const w = Math.max(24, Math.round(wUnit * sizeScale()));
     const h = Math.round(w * spec.vh / spec.vw);
     const glowColor = variant ? variant.glow : spec.glow;
 
     const el = document.createElement('div');
-    el.className = 'creature' + (guest ? ' guest' : '');
+    el.className = 'creature' + (guest ? ' guest' : '') + (mine ? ' mine' : '');
     el.style.width = w + 'px';
     el.style.height = h + 'px';
     el.style.setProperty('--gc', glowColor);
@@ -107,13 +121,19 @@ export function createTank(root, roster, { reduced = false } = {}) {
     body.className = 'body';
     body.innerHTML = creatureHTML(data.species, {
       variant,
-      crown: !guest && topWhale && data.address === topWhale.address,
+      // the crown is the tank's own 24h lead and nobody else's — a hatched
+      // whale is uncrowned however much it moves
+      crown: !guest && !mine && topWhale && data.address === topWhale.address,
+      mine,
     });
     body.querySelector('img').style.animationDelay = (-rand(0, 4)).toFixed(2) + 's';
     el.appendChild(body);
     root.appendChild(el);
 
-    const place = guest ? { band: Math.random(), lane: Math.random() } : slot(data.species);
+    // The even-spread slots are handed out once, before the opening tableau is
+    // settled; a guest or a hatched fish arrives long after that, so it takes a
+    // spot at random and lets separation steering open the room for it.
+    const place = guest || mine ? { band: Math.random(), lane: Math.random() } : slot(data.species);
     const bandPos = place.band;
     const c = {
       data, guest, species: data.species, el, body, w, h, wUnit,
@@ -345,6 +365,17 @@ export function createTank(root, roster, { reduced = false } = {}) {
   // sprite faces left, so the mouth sits on whichever side `face` points to
   tank.mouthOf = (c) => ({ x: c.x + c.w * mirrorX(c, c.spec.mouth.x), y: c.y + c.h * c.spec.mouth.y });
   tank.byAddress = (a) => tank.list.find((c) => !c.guest && c.data.address === a);
+
+  /**
+   * Drops one more creature into a tank that is already swimming — the
+   * visitor's own fish, hatched from src/hatch.js. It goes through the same
+   * build() every resident does, so it steers, breathes and opens a legend card
+   * exactly like the rest; all that marks it out is a cracked eggshell and the
+   * fact that it can never wear the crown.
+   * @param {object} data a creature row in tank.json's shape
+   * @returns {object} the creature, for whoever needs to retire it later
+   */
+  tank.addResident = (data) => build(data, { mine: true });
 
   tank.spawnGuest = (species, amountUsd) => {
     const c = build({ address: '', species, size: 0.5, glow: 0.6, trades_24h_usd: amountUsd || 0, win_rate: null }, { guest: true });
