@@ -9,6 +9,21 @@ export function intVar(env, name, fallback) {
   return Number.isFinite(n) && n > 0 ? n : fallback;
 }
 
+/**
+ * The address a rate bucket is keyed on. A single IPv4 is one host, but a single
+ * IPv6 client is handed a whole /64 (or wider) by its ISP and can bind a fresh
+ * address per request for free — so counting the full /128 would let one
+ * attacker look like 2^64 first-time visitors and walk straight past both the
+ * per-minute and per-day caps. IPv6 is therefore folded to its /64 prefix (the
+ * first four hextets) before it is counted; IPv4 is used whole.
+ * @param {string} ip the edge-set CF-Connecting-IP
+ * @returns {string}
+ */
+export function ipBucket(ip) {
+  if (typeof ip !== 'string' || !ip.includes(':')) return ip;
+  return ip.split(':').slice(0, 4).join(':') + '::/64';
+}
+
 /** Seconds until the next UTC midnight — the moment the daily counters reset. */
 export function secondsUntilUtcMidnight(now = Date.now()) {
   const d = new Date(now);
@@ -23,7 +38,7 @@ export function secondsUntilUtcMidnight(now = Date.now()) {
 export async function chargeDaily(env, ip) {
   const stub = env.COUNTERS.get(env.COUNTERS.idFromName('global'));
   return stub.charge({
-    ip,
+    ip: ipBucket(ip),
     ipLimit: intVar(env, 'IP_DAILY_LIMIT', 20),
     budgetLimit: intVar(env, 'DAILY_BUDGET', 1000),
   });
@@ -43,6 +58,6 @@ export async function underMinuteLimit(env, ip) {
     console.warn('IP_LIMITER binding missing — per-minute throttle disabled');
     return true;
   }
-  const { success } = await env.IP_LIMITER.limit({ key: ip });
+  const { success } = await env.IP_LIMITER.limit({ key: ipBucket(ip) });
   return success;
 }

@@ -89,8 +89,11 @@ async function post(path, body) {
   const used = Number(res.headers.get('x-nansen-credits-used') ?? 0);
   if (used) creditsUsed += used;
   if (!res.ok) {
-    const text = (await res.text()).slice(0, 300);
-    throw new Error(`${path} -> HTTP ${res.status}: ${text}`);
+    // The body can carry upstream request ids and account detail, and this
+    // error reaches the public Actions log — so it is only surfaced when a human
+    // opts in with NANSEN_DEBUG locally, never in CI.
+    const detail = process.env.NANSEN_DEBUG ? `: ${(await res.text()).slice(0, 300)}` : '';
+    throw new Error(`${path} -> HTTP ${res.status}${detail}`);
   }
   return res.json();
 }
@@ -207,6 +210,16 @@ function assignSpecies(creatures) {
 async function main() {
   if (!API_KEY) {
     console.error('NANSEN_API_KEY is not set. Put it in .env at the project root, or export it before running.');
+    process.exit(1);
+  }
+
+  // Guard the argv before it becomes a path and a credit spend: an unknown value
+  // would `mkdir` a junk directory (join() resolves any `..` out of the repo) and
+  // burn ~36 credits fetching a chain the site never shows. Keep in step with
+  // src/chains.js and worker/src/validate.js.
+  const KNOWN_CHAINS = ['robinhood', 'base', 'solana'];
+  if (!KNOWN_CHAINS.includes(CHAIN)) {
+    console.error(`Unknown chain "${CHAIN}". Expected one of: ${KNOWN_CHAINS.join(', ')}.`);
     process.exit(1);
   }
 

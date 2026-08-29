@@ -247,12 +247,15 @@ const CHECK_SVG = '<svg width="15" height="15" viewBox="0 0 16 16" fill="none" a
   + ' stroke-linejoin="round" fill="none"></path></svg>';
 
 // A colourway is stored alongside the fish so it wears the same light after a
-// reload — but localStorage is the visitor's to edit, and the sprite name goes
-// into an <img src>, so only a plain lowercase filename is ever honoured.
+// reload — but localStorage is the visitor's to edit. The sprite name goes into
+// an <img src> and the glow becomes a --gc custom property that legend.js later
+// interpolates into a style attribute, so both are pinned to a strict shape:
+// a plain lowercase filename, and a hex colour and nothing else.
 const SPRITE_NAME = /^[a-z][a-z_]{0,20}$/;
+const HEX_COLOR = /^#[0-9a-fA-F]{3,8}$/;
 function savedVariant(v) {
   if (v === null) return null;
-  return v && typeof v === 'object' && SPRITE_NAME.test(String(v.sprite)) && typeof v.glow === 'string'
+  return v && typeof v === 'object' && SPRITE_NAME.test(String(v.sprite)) && HEX_COLOR.test(String(v.glow))
     ? { sprite: v.sprite, glow: v.glow }
     : undefined;
 }

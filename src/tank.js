@@ -434,7 +434,9 @@ export function createTank(root, roster, { reduced = false } = {}) {
     const line2 = [d.win_rate != null ? `Win rate ${Math.round(d.win_rate * 100)}%` : null,
       `${fmtUsd(d.trades_24h_usd || 0)} today`].filter(Boolean).join(' · ');
     const loves = (d.top_tokens || []).slice(0, 3).filter(Boolean);
-    chip.innerHTML = `<div class="chip-1">${short(d.address)} · ${cap(hovered.species)}</div>`
+    // address is escaped like every other data-derived string here — a fish
+    // restored from localStorage carries whatever address the blob was edited to
+    chip.innerHTML = `<div class="chip-1">${esc(short(d.address))} · ${cap(hovered.species)}</div>`
       + `<div class="chip-2">${line2}</div>`
       + (loves.length ? `<div class="chip-3">Loves: ${loves.map(esc).join(', ')}</div>` : '');
     chip.hidden = false;
