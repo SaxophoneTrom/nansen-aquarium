@@ -1141,10 +1141,15 @@ body.og-mode #topbar,
 body.og-mode #feedpanel,
 body.og-mode #cta,
 body.og-mode #hoverchip { display: none !important; }
+/* The wordmark needs water nobody is swimming in. Every creature's range is
+   measured off #tank's own height (see tank.js), so raising its floor to 58%
+   herds the whole roster into the upper water without touching the steering
+   itself — and leaves the lower third to the type and the attribution. */
+body.og-mode #tank { bottom: 42%; }
 body.og-mode #og-hero {
   display: block;
   position: absolute;
-  top: 30%;
+  top: 74%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 8;
