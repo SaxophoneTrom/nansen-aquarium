@@ -32,6 +32,50 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
   const reduced = tank.reduced;
   let idx = 0, timer = 0, busy = false, stopped = false;
 
+  // ---- deferred work ------------------------------------------------------
+  //
+  // A performance is a chain of delayed beats — a coin appears 470ms in, a pop
+  // fires when it lands, the panel row goes out at the end — and a chain switch
+  // can arrive in the middle of one. That is worse than it sounds: `layer` is
+  // the #tank element itself, and main.js pours the next chain into the very
+  // same node. So a beat that fires after the switch does not draw into a dead
+  // tank, it drops a coin into the live one and writes the outgoing chain's
+  // name into the new chain's feed.
+  //
+  // Hence: every deferred beat is booked here, and stop() cancels the lot.
+  // Each callback checks once more on its way in, because a timer that has
+  // already been handed to the event loop cannot be recalled — clearTimeout
+  // wins the race in practice, `stopped` wins it in principle.
+
+  const pending = new Set();
+  const frameOffs = new Set();
+
+  /** setTimeout, but it cannot outlive the replay. */
+  function after(ms, fn) {
+    if (stopped) return;
+    const id = setTimeout(() => {
+      pending.delete(id);
+      if (stopped) return;
+      fn();
+    }, ms);
+    pending.add(id);
+  }
+
+  /**
+   * tank.onFrame, but it cannot outlive the replay either. tank.destroy() drops
+   * its frame callbacks as well, so this is belt and braces — but the replay is
+   * stopped *before* the tank is destroyed, and it should not need the tank to
+   * finish a job it started.
+   * @returns {() => void} unsubscribe, safe to call more than once
+   */
+  function onFrame(fn) {
+    if (stopped) return () => {};
+    const off = tank.onFrame((dt) => { if (!stopped) fn(dt); });
+    const cancel = () => { frameOffs.delete(cancel); off(); };
+    frameOffs.add(cancel);
+    return cancel;
+  }
+
   // ---- tiny DOM factories (everything is torn down when it finishes) ------
 
   function coinEl(x, y) {
@@ -90,7 +134,11 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
 
   // ---- performances -------------------------------------------------------
 
+  // The panel is shared between chains — the rows are rewritten, the element is
+  // not — so this is the one place a stopped replay would be visibly wrong
+  // rather than merely wasteful. Guarded directly, on top of the gates above.
   function feedRow(evt, species) {
+    if (stopped) return;
     feed.push({ ...evt, species, chain });
   }
 
@@ -166,12 +214,12 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
       if (coin) {
         coin.classList.add(caught ? 'eaten' : 'lost');
         const el = coin;
-        setTimeout(() => el.remove(), caught ? 240 : 460);
+        after(caught ? 240 : 460, () => el.remove());
       }
       if (caught) {
         const m = tank.mouthOf(c);
         c.el.classList.add('gulp');
-        setTimeout(() => c.el.classList.remove('gulp'), 320);
+        after(320, () => c.el.classList.remove('gulp'));
         sparkle(m.x, m.y);
         pop(tank.centerOf(c).x, c.y - 10, `+${fmtUsd(evt.amount_usd)} ${evt.token}`, 'buy');
       }
@@ -179,10 +227,10 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
       // missed interception just ends quietly instead of announcing itself.
       feedRow(evt, c.species);
       tank.release(c);
-      setTimeout(done, caught ? 1200 : 500);
+      after(caught ? 1200 : 500, done);
     };
 
-    const off = tank.onFrame((dt) => {
+    const off = onFrame((dt) => {
       if (over) return;
       t += dt;
       if (!coin) {
@@ -206,15 +254,15 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
   // sell: the wallet shivers, spits a coin out and it drifts up on a pink trail
   function playSell(evt, c, done) {
     c.el.classList.add('shiver');
-    setTimeout(() => c.el.classList.remove('shiver'), 470);
+    after(470, () => c.el.classList.remove('shiver'));
 
-    setTimeout(() => {
+    after(470, () => {
       const m = tank.mouthOf(c);
       const coin = coinEl(m.x, m.y);
       let cx = m.x, cy = m.y, t = 0, since = 0;
       const drift = rand(-40, 40);
 
-      const off = tank.onFrame((dt) => {
+      const off = onFrame((dt) => {
         t += dt; since += dt;
         cy -= 95 * dt;
         cx += drift * dt;
@@ -230,14 +278,14 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
       pop(ctr.x, c.y - 10, `−${fmtUsd(evt.amount_usd)} ${evt.token}`, 'sell');
       feedRow(evt, c.species);
       tank.release(c);
-      setTimeout(done, 1200);
-    }, 470);
+      after(1200, done);
+    });
   }
 
   function playReduced(evt, c, done) {
     feedRow(evt, c ? c.species : guestSpecies(evt.amount_usd));
     if (c && c.guest) tank.remove(c);
-    setTimeout(done, 300);
+    after(300, done);
   }
 
   // ---- scheduler ----------------------------------------------------------
@@ -268,7 +316,7 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
     // course to the coin. A sell guest still gets a beat to appear first.
     if (reduced) playReduced(evt, c, done);
     else if (evt.side === 'buy') playBuy(evt, c, done);
-    else if (guest) setTimeout(() => playSell(evt, c, done), 900);
+    else if (guest) after(900, () => playSell(evt, c, done));
     else playSell(evt, c, done);
   }
 
@@ -286,11 +334,18 @@ export function createReplay({ tank, feed, events, chain = 'Ethereum' }) {
 
   return {
     start(fromIndex = 0) { idx = fromIndex; schedule(2000); },
-    // Stopping is final: a chain switch throws this replay away and builds a
-    // new one against the new tank, so the listener goes with it.
+    // Stopping is final, and it has to be final for work already in flight, not
+    // just for work not yet scheduled: the next beat of a half-finished
+    // performance would otherwise land in the tank and the feed panel that now
+    // belong to another chain. Once this returns, nothing this replay started
+    // can run again.
     stop() {
       stopped = true;
       clearTimeout(timer);
+      for (const id of pending) clearTimeout(id);
+      pending.clear();
+      for (const off of [...frameOffs]) off();
+      frameOffs.clear();
       document.removeEventListener('visibilitychange', onVisibility);
     },
   };
