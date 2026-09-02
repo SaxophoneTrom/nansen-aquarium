@@ -1,1501 +1,7 @@
 {
  "chain": "base",
- "generated_at": "2026-09-02T16:36:42.952Z",
+ "generated_at": "2026-09-02T21:05:33.229Z",
  "events": [
-  {
-   "ts": "2026-09-02T12:59:53Z",
-   "actor": "0xf2ecb9985c57ec5366bc73d46e31d3644363eaf1",
-   "side": "sell",
-   "amount_usd": 3339,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x7768b35944343d19c21452595bf81239c4ddf14207b707622bbde7c7967b00db"
-  },
-  {
-   "ts": "2026-09-02T12:59:59Z",
-   "actor": "0xcf244e56af7c81a46b1c46cdeb9d66069efe811d",
-   "side": "buy",
-   "amount_usd": 1001,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x0ade2715d970af692002daf466829ad2c477b6e5e11037564bf7e1fcbd91e97a"
-  },
-  {
-   "ts": "2026-09-02T12:59:59Z",
-   "actor": "0x9b9f19ad08293d037c3f608899dadc38844bb29c",
-   "side": "buy",
-   "amount_usd": 119,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x581cf4eed8eaaada0831f7c6fe3bff57b01f82b1154116020600593676a11f23"
-  },
-  {
-   "ts": "2026-09-02T13:00:03Z",
-   "actor": "0xba55bdbf959df826da6c35487eb15fad2164662d",
-   "side": "buy",
-   "amount_usd": 6054,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xdf1fd9037a0fe338532745a9434dc99d164954d8a5d2d7f5ce0b3c82e05a02e8"
-  },
-  {
-   "ts": "2026-09-02T13:00:05Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 157,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x06d96901efab946f6b6a376c46bb4755858650fce59324f57190ced83f08d2fd"
-  },
-  {
-   "ts": "2026-09-02T13:00:07Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 153,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x250779fa2a53e329768a15204dfcfba4711796937c1c6d07de75ca66a02e6b0a"
-  },
-  {
-   "ts": "2026-09-02T13:00:11Z",
-   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
-   "side": "buy",
-   "amount_usd": 231,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xb9ce382c545ddddaa557722541c580d194c07601a7c0417de58015adb39d7782"
-  },
-  {
-   "ts": "2026-09-02T13:00:13Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 572,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x5a41fbabb34c2d9ab6def63bad2d6ecd389b7e88c4c58973ffd2b2963c0f3e00"
-  },
-  {
-   "ts": "2026-09-02T13:00:13Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 115,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xc4f82a88cf0eeb5d264bba35e7f1012f8151e7fe3945df28e4e7d3697efc3efd"
-  },
-  {
-   "ts": "2026-09-02T13:00:13Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 548,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xf00cfc707dab98b22912c598cd1888d594e6f51e29038ac9c16c59bb93e58a7c"
-  },
-  {
-   "ts": "2026-09-02T13:00:13Z",
-   "actor": "0xf2ecb9985c57ec5366bc73d46e31d3644363eaf1",
-   "side": "sell",
-   "amount_usd": 3351,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x9715d68e5e0ec24cb4275f71a5cbd021e0419a114f82fe7a828161ae3d4eae99"
-  },
-  {
-   "ts": "2026-09-02T13:00:15Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 100,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x59853d64194673d4bd5de7840705484baa7ea0f4e8709a0c86de1d09c19d0961"
-  },
-  {
-   "ts": "2026-09-02T13:00:15Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 235,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x9107d298312faeb80d435108f749cb864a8d20be66ed3adef771d44f2196bc0c"
-  },
-  {
-   "ts": "2026-09-02T13:00:15Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 112,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xa8a4e19a30dcae805b2d031f617e4aff1c9968fe28884e020d35146fd8e6ad39"
-  },
-  {
-   "ts": "2026-09-02T13:00:15Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 193,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xc18ed47de71b96a02c66ff9817aab7327c09e4b92d7bf71d8bde120afccfacdf"
-  },
-  {
-   "ts": "2026-09-02T13:00:15Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 101,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xd1bf184273a9243a90f55b2d842e8a0f59996b9e95cbf45ac09d2878329fa325"
-  },
-  {
-   "ts": "2026-09-02T13:00:15Z",
-   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
-   "side": "buy",
-   "amount_usd": 278,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xd7bd9fe613d31134f1761bdc81c85475c832777603a915e10203d3a5cd2cf55d"
-  },
-  {
-   "ts": "2026-09-02T13:00:15Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 284,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xf8ef9e6af267db251551069d3c7d01a60bad172456c84e9c9137c8a463b8edf6"
-  },
-  {
-   "ts": "2026-09-02T13:00:15Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 167,
-   "token": "AERO",
-   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-   "tx": "0x0d088e211931eb63fcfb6316c1d1e07fa2ddfeb88b7bdb960adecf151a954206"
-  },
-  {
-   "ts": "2026-09-02T13:00:17Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 123,
-   "token": "AERO",
-   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-   "tx": "0xca668e6f8952dcc239979599696f150523cf9058d50b3abe4084bfe3a50fde82"
-  },
-  {
-   "ts": "2026-09-02T13:00:19Z",
-   "actor": "0x3dbe1312c40495f1d98d2290023deb1e561c0fe3",
-   "side": "buy",
-   "amount_usd": 2001,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x493e20ea1c0ebe2f5105bed38dde0dff4f9f7be6a46f43f514a85ec5f02049bf"
-  },
-  {
-   "ts": "2026-09-02T13:00:19Z",
-   "actor": "0xc1b03e63e86bd16364018159aa08506cfa3673ef",
-   "side": "sell",
-   "amount_usd": 466,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x7bfeff2c33bd298b96e0c0e5e6b203bed15982a8060f9483b7e7daefdd429362"
-  },
-  {
-   "ts": "2026-09-02T13:00:21Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 238,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x2c7ac5ee7a9b748e4d709eeee6e49e658f061ac2c68f823c7beb7756c332a425"
-  },
-  {
-   "ts": "2026-09-02T13:00:21Z",
-   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
-   "side": "buy",
-   "amount_usd": 607,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x37f5e42db823b36fcec9381bef0b1644a2f795280a0150a1c0d96a9a723246a7"
-  },
-  {
-   "ts": "2026-09-02T13:00:21Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 487,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x412f29cd139c37cada8f68388d4e878e3b3fdfb6b8c14f0ce85272b70c074181"
-  },
-  {
-   "ts": "2026-09-02T13:00:21Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 125,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x73d84e86aa31812d1656fe67ef26b6d8ed8b252bba79c613cd8373dd9584e929"
-  },
-  {
-   "ts": "2026-09-02T13:00:21Z",
-   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
-   "side": "buy",
-   "amount_usd": 301,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x8ed0cad3f17524eeb5e6845925736ccf6d47dbb52fd8c9efeed72a119dcd4d0e"
-  },
-  {
-   "ts": "2026-09-02T13:00:21Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 341,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x907bd0e2cd5c5f656cf151f9b6a4e3fc56dab9b4bfe2141e06ea6e0b7f9cef06"
-  },
-  {
-   "ts": "2026-09-02T13:00:21Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 111,
-   "token": "AERO",
-   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-   "tx": "0x644b6a4c762bf78f647c095033700140f97b46072e2c1e2b33f6c7c1c20da3fe"
-  },
-  {
-   "ts": "2026-09-02T13:00:21Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 202,
-   "token": "AERO",
-   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-   "tx": "0xf663ef3fee201eb542ea8984836bedee5540b7a07c22e32f2ef5444ee6221c7a"
-  },
-  {
-   "ts": "2026-09-02T13:00:23Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 206,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x4fbc5f28a62e1d469fd8a2531ba3793c8d240f219627c94e275b10059ecd715c"
-  },
-  {
-   "ts": "2026-09-02T13:00:23Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 134,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x55c8a4249b770956988bdcc4ad01c30339d18dc11f63993f0ce2f3c5810a1f79"
-  },
-  {
-   "ts": "2026-09-02T13:00:23Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 242,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x9dd8f502cb7e2cb348748aa5b6643af4cf46795f70df2c89e2ab82a47dad7309"
-  },
-  {
-   "ts": "2026-09-02T13:00:25Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 132,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x990d8a435864fc80d48478f208da2507c824c745006d880c8152ea09260b4cb3"
-  },
-  {
-   "ts": "2026-09-02T13:00:25Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 311,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xb8fd8d9cc54375385669b656e49f84e5916025fd2c951b72a6ff6bd67a0e7428"
-  },
-  {
-   "ts": "2026-09-02T13:00:25Z",
-   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
-   "side": "buy",
-   "amount_usd": 249,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xd3b695e79f203c8eea1479bb472abe5a401f41d1748e100f18580bf4346d8cfd"
-  },
-  {
-   "ts": "2026-09-02T13:00:25Z",
-   "actor": "0xf39cf6c10bec59206cae9f87aa13511086c9a715",
-   "side": "sell",
-   "amount_usd": 106,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xfc8fcf2c05b43c789ea6f84fc32591d8abbc690ec093022c63f3e9fb26344925"
-  },
-  {
-   "ts": "2026-09-02T13:00:31Z",
-   "actor": "0xe82c205a527a064e5067c536f04f526c73faa788",
-   "side": "buy",
-   "amount_usd": 4497,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x5ab3266b4c5abee3ac2104286c72b8271cd24a208e5f5ae9c8b8231cf1aeb5ed"
-  },
-  {
-   "ts": "2026-09-02T13:00:33Z",
-   "actor": "0x01989c93890aed05a63d179b03424997075b6acf",
-   "side": "buy",
-   "amount_usd": 104,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x2b9ff311bb85cbaaae8403cb6f1aaa22b25e6ea8266c72c6cb41a43137fc7eeb"
-  },
-  {
-   "ts": "2026-09-02T13:00:33Z",
-   "actor": "0x01989c93890aed05a63d179b03424997075b6acf",
-   "side": "buy",
-   "amount_usd": 899,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x47298bc2708f6b24801d0861f96c5654ee550d25daa37b0e3fe709df0f1cc03b"
-  },
-  {
-   "ts": "2026-09-02T13:00:33Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 870,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x9d6b23502b1a408ad73cdfd085b1e04b46f5890e88a9968b420e7bcffd809d6c"
-  },
-  {
-   "ts": "2026-09-02T13:00:33Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 514,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xcf40206e06a9ba7eabd57be64fff7589281fc91c20d55c3393da854aec8b786b"
-  },
-  {
-   "ts": "2026-09-02T13:00:33Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 602,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xe6e8bb573247fc159ed0384abe52183c77fb0bd88019c19693ee104faf0c0911"
-  },
-  {
-   "ts": "2026-09-02T13:00:35Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "sell",
-   "amount_usd": 162,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x27944a891bdd8ed9bc4a0c12478d9df3afa07af2467d2b35a00d60d270134e9d"
-  },
-  {
-   "ts": "2026-09-02T13:00:35Z",
-   "actor": "0xf2ecb9985c57ec5366bc73d46e31d3644363eaf1",
-   "side": "sell",
-   "amount_usd": 4467,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x073685512b5dfc74b0e53bcd3299a0d4600a3be4fbcbc515a57e1990fd15ff9e"
-  },
-  {
-   "ts": "2026-09-02T13:00:41Z",
-   "actor": "0xf39cf6c10bec59206cae9f87aa13511086c9a715",
-   "side": "sell",
-   "amount_usd": 371,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x6765bced828ce7b4f4bb09b07fc95afcf1c7785dc6b1131db8b880376145a9a4"
-  },
-  {
-   "ts": "2026-09-02T13:00:41Z",
-   "actor": "0x9f5957f398ef596044e297bae1e0bb82caf9d051",
-   "side": "sell",
-   "amount_usd": 240,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xed7c0b0873d42b792b08bc58b661607d1361b4b4502ef3207c7f215a8f9bd6e0"
-  },
-  {
-   "ts": "2026-09-02T13:00:43Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "sell",
-   "amount_usd": 156,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x84cd4a584e1f1c491d16be2bd24c5cb584e52a26f93202da902fca177c519db0"
-  },
-  {
-   "ts": "2026-09-02T13:00:47Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "sell",
-   "amount_usd": 189,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x9a640dd5506253bb0af24b31c6cdcd275a5f2b37718fd9f58e072d8bb60ea1b2"
-  },
-  {
-   "ts": "2026-09-02T13:00:51Z",
-   "actor": "0xf45c052d807ccd88f6957b1b28bb7fb14f9ec259",
-   "side": "sell",
-   "amount_usd": 10857,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x5f52ef357e454eb7db6c76f3514e04ff66055044a43a9a195d04d4d94e65a3f7"
-  },
-  {
-   "ts": "2026-09-02T13:00:57Z",
-   "actor": "0x2d288dbc47bc7c7b77356c79f21623f7896938d7",
-   "side": "sell",
-   "amount_usd": 776,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x77157818babea0880103ee4d94a865a88241b930a2b348b032b401b0f6ba8e55"
-  },
-  {
-   "ts": "2026-09-02T13:01:21Z",
-   "actor": "0xff9bfd415a0f1a775cc6b7a9ba7f802c22b19fde",
-   "side": "sell",
-   "amount_usd": 1451,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x5ce87c6e5299f9c9dbb42b028825bbeb9f40570fc62fee01075e931395e6e997"
-  },
-  {
-   "ts": "2026-09-02T13:01:21Z",
-   "actor": "0x4d619c8d5735d0e4446db5366b3d2cc993a266c0",
-   "side": "sell",
-   "amount_usd": 318,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xf90d394e53c12139de5d051cd5bc842899a21c2cbafb4813988de6011a0cfa00"
-  },
-  {
-   "ts": "2026-09-02T13:01:23Z",
-   "actor": "0x4d619c8d5735d0e4446db5366b3d2cc993a266c0",
-   "side": "sell",
-   "amount_usd": 286,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xc4e11bc8a80b4ac9a400e779915f60de007ea5a10c5a69a2f49c4609958fdb89"
-  },
-  {
-   "ts": "2026-09-02T13:01:27Z",
-   "actor": "0x4d619c8d5735d0e4446db5366b3d2cc993a266c0",
-   "side": "sell",
-   "amount_usd": 258,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xf232fdb15cab3a15b2f5fee061ce17e57837bafad8ad8e8d86752e13c2fce966"
-  },
-  {
-   "ts": "2026-09-02T13:01:37Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 193,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x438cdbce949badc63965c4e95babc4f7d68c52c2dd46779c7fe928375fa2726c"
-  },
-  {
-   "ts": "2026-09-02T13:01:37Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 387,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x4954db532a542c5970f20dfe08746c11e649b03fce8420ff2d0b31f651215f58"
-  },
-  {
-   "ts": "2026-09-02T13:01:39Z",
-   "actor": "0x65ad1a42d698eed07855a1f2e5505f10a0e0d83c",
-   "side": "sell",
-   "amount_usd": 3841,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x3698f0a35d1c451e5c43e38dfdfe011f83695d95db0856e0d1e5a1c2f3b0bf03"
-  },
-  {
-   "ts": "2026-09-02T13:01:41Z",
-   "actor": "0x673cd1552861ca6737e3f0fa934df4c5f9bef5bd",
-   "side": "buy",
-   "amount_usd": 480,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x34ca8c5b23f643aea3226a75c0419596ee0b90d58ab91793aeb8ae4db414819e"
-  },
-  {
-   "ts": "2026-09-02T13:01:43Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 128,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x42ab79e927ac74b1da6bb63b096148275f645fccb5ae00559d6b768e41d09465"
-  },
-  {
-   "ts": "2026-09-02T13:01:53Z",
-   "actor": "0x7d0a393c746831598eb418a004ba38d987d2a831",
-   "side": "buy",
-   "amount_usd": 2502,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x03711d32872ae4f6c6f3909138f7d9db3a78d51808ff705f23a91cea68b93b43"
-  },
-  {
-   "ts": "2026-09-02T13:01:53Z",
-   "actor": "0xe2114b9bc4ee596668d4228cf78277e90537bd4f",
-   "side": "sell",
-   "amount_usd": 11377,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x5e7c0017e02b20a06a8e8e2fa0f63fa2915c53b7c8de77f3c093e97ba1d051a1"
-  },
-  {
-   "ts": "2026-09-02T13:01:53Z",
-   "actor": "0x6aea17b3257ac7758bb51d9feba51722a28ca818",
-   "side": "sell",
-   "amount_usd": 4434,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xa7488b2310a87e1814c5fc4a002a93ece0f03598d84b2fb2314acc271006833f"
-  },
-  {
-   "ts": "2026-09-02T13:01:59Z",
-   "actor": "0xa61c3eeb92452964d5f690fe1ded2da252c358e4",
-   "side": "sell",
-   "amount_usd": 6520,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x6f5e536ba3f7f0e39a5583de5a2ca88b554033e97dd61b2bc4365464dfe283b4"
-  },
-  {
-   "ts": "2026-09-02T13:01:59Z",
-   "actor": "0xee6f13967ba032e0a1fdc29559d0502c56d67924",
-   "side": "sell",
-   "amount_usd": 485,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xa3aabe5ac7fc0a9c774933662d92e8734e340619e87d799cd409b95ee213afe1"
-  },
-  {
-   "ts": "2026-09-02T13:01:59Z",
-   "actor": "0x2f665ec452584c730c97e6e00f52920eaeeb985c",
-   "side": "sell",
-   "amount_usd": 475,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xb9afa70afa4b2a42979c18d33a7a8b71a7fc238d4fd6ccc84fc395f9264f537c"
-  },
-  {
-   "ts": "2026-09-02T13:02:01Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 113,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x3e2abb0c2b195c521d45f57dcbead3032d97ea51a29c238ba800b7425f59e4bd"
-  },
-  {
-   "ts": "2026-09-02T13:02:01Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 275,
-   "token": "AERO",
-   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-   "tx": "0x3dd08d15c23a049124e9e00b9185270b842b6ffb904b2e63602fdd5153f36584"
-  },
-  {
-   "ts": "2026-09-02T13:02:03Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 219,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x3f3c9af6685cdc40c3887c3833c168c5d84f228da47777692856be001c4dfb67"
-  },
-  {
-   "ts": "2026-09-02T13:02:03Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 238,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xda9283c3d8b89c0197046eca6f30ae90595ded1f1f4957d369cfac0d95acea98"
-  },
-  {
-   "ts": "2026-09-02T13:02:03Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 119,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xe08951df4034eb8cd18c35dc52f8be56059461dc99975e6dea62af656f16dbdc"
-  },
-  {
-   "ts": "2026-09-02T13:02:05Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 140,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x18dce407d794317006c9d20208d318a9e3eac5fb71d27bd05d0b9a3b45deeb6e"
-  },
-  {
-   "ts": "2026-09-02T13:02:05Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 107,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xb323f1867b9d0745b6fa750d75674d600c4df6cba14987ac8dd02790dd29e97e"
-  },
-  {
-   "ts": "2026-09-02T13:02:05Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 107,
-   "token": "AERO",
-   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-   "tx": "0xec271ee2bedc0103d9587d7fc88141eb51a020e23501b20fa46cd517515a03df"
-  },
-  {
-   "ts": "2026-09-02T13:02:07Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 356,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xc9ce02d79ac0372fd0aa5f3659bcb06b2f4f41b127708a3c55210ca3b759da9a"
-  },
-  {
-   "ts": "2026-09-02T13:02:07Z",
-   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
-   "side": "buy",
-   "amount_usd": 293,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xe372d39434aced263be9d9ef51bd23ee6ee0f2edbb10de6ce1836f4fa4efb31c"
-  },
-  {
-   "ts": "2026-09-02T13:02:07Z",
-   "actor": "0x8d05e14ae19546f9f22d3c5b3470ef3337baa57c",
-   "side": "sell",
-   "amount_usd": 112,
-   "token": "AERO",
-   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-   "tx": "0x6b4fda5a17d1f1c91c198d2e9c9898253ce982f88c015644ffba5000a35cc2bd"
-  },
-  {
-   "ts": "2026-09-02T13:02:07Z",
-   "actor": "0x866a67115f768752cd470ca6c96b2cb7048f0ca2",
-   "side": "buy",
-   "amount_usd": 3841,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xf5ff5c209ed84a784ac7caf918aa8bb4187c2d76df702ce7f8950e52f604b974"
-  },
-  {
-   "ts": "2026-09-02T13:02:09Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 181,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x1d78b0a5143dd1fbe5b034cd74bb5157946774713439c1da6eb213014e0add1f"
-  },
-  {
-   "ts": "2026-09-02T13:02:09Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 172,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0x71a53883378598c23dc0c3da7301b6f11af27965c5343b9a55ac69bae6e11b07"
-  },
-  {
-   "ts": "2026-09-02T13:02:09Z",
-   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
-   "side": "buy",
-   "amount_usd": 286,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xb936135dc55cbd77afea60f0712b31a14469eaf39a29d4d46f5e858302f2f8f3"
-  },
-  {
-   "ts": "2026-09-02T13:02:09Z",
-   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
-   "side": "buy",
-   "amount_usd": 128,
-   "token": "VIRTUAL",
-   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
-   "tx": "0xc46972dba4d0e751a8e47d7feee6b97a19ccc6e9391a88283635f48443bcf0e3"
-  },
-  {
-   "ts": "2026-09-02T13:02:09Z",
-   "actor": "0xe64e05c5eb887ff5c63a39857bcc9f47ba7b1c76",
-   "side": "sell",
-   "amount_usd": 476,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x25d54b0a2e9d058741bee4d8b33bf1cd603ad036df4b30aaab4c882806bfd63e"
-  },
-  {
-   "ts": "2026-09-02T13:02:09Z",
-   "actor": "0x11dd408954faf2b78611de3e2b5f1d19901d54f0",
-   "side": "sell",
-   "amount_usd": 2341,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xee7de42f28eae8c0a8946604cc19ec9cf45e3334df631f62f46375126514a9f2"
-  },
-  {
-   "ts": "2026-09-02T15:10:21Z",
-   "actor": "0x4cc09c07712f28e204f6eab8049cc1f6b18946dc",
-   "side": "buy",
-   "amount_usd": 201,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x2fe3fe2b9bfd1ce07bdf702570bebbd97f7cf8b16e09f1039d78618964057dd0"
-  },
-  {
-   "ts": "2026-09-02T15:10:37Z",
-   "actor": "0x8ec74cdb1cee7581df26c7645b29290c450bca7a",
-   "side": "sell",
-   "amount_usd": 3150,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x40dc6fc725cddc40cbf814afbe642ad41493ad578cb6efa90454f67315243bec"
-  },
-  {
-   "ts": "2026-09-02T15:11:01Z",
-   "actor": "0x0bf232b1d8fd59dcf36c5481c0bb0553df18cdfc",
-   "side": "buy",
-   "amount_usd": 151,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x2e081ca8c11a8f518be075682284a2366bcbc7ed2eeaa41ee747487bb4d81713"
-  },
-  {
-   "ts": "2026-09-02T15:11:19Z",
-   "actor": "0x0bf232b1d8fd59dcf36c5481c0bb0553df18cdfc",
-   "side": "buy",
-   "amount_usd": 200,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x7729611f87fb6f7264ee6e098bfb3776a1de8db916680b6c4ba06c86b37e807f"
-  },
-  {
-   "ts": "2026-09-02T15:14:09Z",
-   "actor": "0xac89e080b7aff490a6756fa320ebd55417415de8",
-   "side": "buy",
-   "amount_usd": 502,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x24566e1e422b4a1205d39a2644580d9bdb3d8eaaa5809cda812a517d6cb0b7ca"
-  },
-  {
-   "ts": "2026-09-02T15:14:27Z",
-   "actor": "0x74bb789f60c62f3be44382f10fab8b7bff1dec22",
-   "side": "buy",
-   "amount_usd": 480,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x151fa9f07fafa0f04e9af5dd5d599ae57cd9495030f017c289c423a1fc5d6ec1"
-  },
-  {
-   "ts": "2026-09-02T15:14:27Z",
-   "actor": "0x7cdafb4d398fae980e7f3f230e3d9f8e4c163134",
-   "side": "buy",
-   "amount_usd": 1199,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x2102f0103f4c26f0f920e405d685c0a908fca9c7d27abe62302ad8673f819f4e"
-  },
-  {
-   "ts": "2026-09-02T15:14:27Z",
-   "actor": "0xdca4348261e719f46daf90b8deeb7ad16049f3e3",
-   "side": "buy",
-   "amount_usd": 1199,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x793b0eb9c8476007bb2e9eef87aa72d1088c462407d36f2ce1906be6ffb6ba03"
-  },
-  {
-   "ts": "2026-09-02T15:14:27Z",
-   "actor": "0x74bb789f60c62f3be44382f10fab8b7bff1dec22",
-   "side": "buy",
-   "amount_usd": 480,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xf28a906b062bc6b4c600b4958dffdf802e1c005b4eb55be5dbbd6630a61e26ef"
-  },
-  {
-   "ts": "2026-09-02T15:14:27Z",
-   "actor": "0x4a412c5cb3616e3c1ad676fa3be473083b3693a2",
-   "side": "buy",
-   "amount_usd": 1439,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xfedbc673329bdb0170f2b8a410aa5c392c783baad0724c44de651d81ecd873c5"
-  },
-  {
-   "ts": "2026-09-02T15:14:39Z",
-   "actor": "0x7e296dc27b24c1f989a8b5d3e05286191758696a",
-   "side": "buy",
-   "amount_usd": 2398,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xd04c0f333deb5b02c730721689ca34efbff70de18c51aba557bd7ea04314ee1c"
-  },
-  {
-   "ts": "2026-09-02T15:14:43Z",
-   "actor": "0x74bb789f60c62f3be44382f10fab8b7bff1dec22",
-   "side": "sell",
-   "amount_usd": 925,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xde4d81d657c49341b519371b970c958be2b882f0db46b9bcb91afb3666195516"
-  },
-  {
-   "ts": "2026-09-02T15:14:45Z",
-   "actor": "0x7cdafb4d398fae980e7f3f230e3d9f8e4c163134",
-   "side": "sell",
-   "amount_usd": 1156,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x256c20edeaeefbe84b3f250f9655dd330fe2ceb7a3be25c01424bb945cb56943"
-  },
-  {
-   "ts": "2026-09-02T15:14:49Z",
-   "actor": "0x7e296dc27b24c1f989a8b5d3e05286191758696a",
-   "side": "buy",
-   "amount_usd": 480,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xab1439b89d3f7d626c7ed7985f66b5ef1db2db6403ba8c31691412fd72c5e987"
-  },
-  {
-   "ts": "2026-09-02T15:14:51Z",
-   "actor": "0x2fe5b3e5e1e72a6aafac440ee6a3a0db63fd8391",
-   "side": "buy",
-   "amount_usd": 3014,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x66f531320d53acb28ce5f0d59efa0a4129222ffb51c59bfed0672d17817af3e3"
-  },
-  {
-   "ts": "2026-09-02T15:14:59Z",
-   "actor": "0x4a412c5cb3616e3c1ad676fa3be473083b3693a2",
-   "side": "sell",
-   "amount_usd": 1386,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xb4c8b708ba574eb1188762d84cb2123ce16d8918a06a61038e1331393a13546d"
-  },
-  {
-   "ts": "2026-09-02T15:15:15Z",
-   "actor": "0xf9bbb08373ef7367987985bdd8dfb8b4a6569029",
-   "side": "sell",
-   "amount_usd": 7904,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x1cb6f160b303f436db7992db55f1e96514d3dfa85f8b1c2b02d6dc59193ca796"
-  },
-  {
-   "ts": "2026-09-02T15:16:19Z",
-   "actor": "0x684ca620a83a3dc69eac6c0f81646965ec381828",
-   "side": "buy",
-   "amount_usd": 1005,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xb8d5743984299ff37260baefb38288b9e22d2a0c20a49d50341e05cebb6342b6"
-  },
-  {
-   "ts": "2026-09-02T15:16:27Z",
-   "actor": "0x4b8009b9aff952bad6d2bb9e07baec432e8d5a9c",
-   "side": "buy",
-   "amount_usd": 2398,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x9f82ab8ccf534066b7bc14c81efbf66be636545854fd95f5be17108cd385fea8"
-  },
-  {
-   "ts": "2026-09-02T15:16:45Z",
-   "actor": "0x4b8009b9aff952bad6d2bb9e07baec432e8d5a9c",
-   "side": "buy",
-   "amount_usd": 2398,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x83f56b069c27f55ccd84dc4cc4303455be5d3ae94714b7a13d61354232ddc30b"
-  },
-  {
-   "ts": "2026-09-02T15:16:45Z",
-   "actor": "0x4b8009b9aff952bad6d2bb9e07baec432e8d5a9c",
-   "side": "buy",
-   "amount_usd": 2398,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xbc8b53ed81052093c654659af701e37a7af5adb83dd281949c76f81960fd7a42"
-  },
-  {
-   "ts": "2026-09-02T15:16:47Z",
-   "actor": "0x4b8009b9aff952bad6d2bb9e07baec432e8d5a9c",
-   "side": "buy",
-   "amount_usd": 2398,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x21b1c037682532bd8d7141d601a8f412fa6707e6026d399f62444bede17f5fbe"
-  },
-  {
-   "ts": "2026-09-02T15:16:51Z",
-   "actor": "0x6715f9062e3dfa9529cbb643a94dad6ae6193dd2",
-   "side": "sell",
-   "amount_usd": 343,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x2f0a1a048229b1e157c1e8c5f21898995ccd00760b380682a969ed3cdd026851"
-  },
-  {
-   "ts": "2026-09-02T15:16:51Z",
-   "actor": "0x4b8009b9aff952bad6d2bb9e07baec432e8d5a9c",
-   "side": "buy",
-   "amount_usd": 2398,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xd23e0282591c5113a5a2dc37a155e3ddd2d926fd469796cc711cacc94f597d84"
-  },
-  {
-   "ts": "2026-09-02T15:17:11Z",
-   "actor": "0x4b8009b9aff952bad6d2bb9e07baec432e8d5a9c",
-   "side": "buy",
-   "amount_usd": 2398,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xa2c9a00990c952309791022850cd786929a7c612cbfc6c4bba570f35974b6d82"
-  },
-  {
-   "ts": "2026-09-02T15:17:17Z",
-   "actor": "0x4fd806cbd7d39c1e0df429e152a0d857124ece62",
-   "side": "buy",
-   "amount_usd": 1005,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xefea9134702953417eee483e52a2ef2db3906b95c95d38b122ff441f5678f809"
-  },
-  {
-   "ts": "2026-09-02T15:17:25Z",
-   "actor": "0xccb09e51823ae0c3655fbc4d5afc123980f8d913",
-   "side": "buy",
-   "amount_usd": 4796,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x2338f3d6ef0da2ab1974cf5db8f365f095680ac8c0190d5c18d75c7a0fe69f61"
-  },
-  {
-   "ts": "2026-09-02T15:17:31Z",
-   "actor": "0xccb09e51823ae0c3655fbc4d5afc123980f8d913",
-   "side": "buy",
-   "amount_usd": 1199,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x2c24b5569305178392469e16aecb0224bfecc8c4c201161dfb11da96b1fdcd1f"
-  },
-  {
-   "ts": "2026-09-02T15:17:33Z",
-   "actor": "0xd028b1f8a2e842a1e403d29e7a5f6dab368e3733",
-   "side": "sell",
-   "amount_usd": 134,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xa0575cd6ea3462e5f4b8602da914afb4a243aad44d2b6f0467ebdad058aad27d"
-  },
-  {
-   "ts": "2026-09-02T15:18:39Z",
-   "actor": "0xe4228679d49a32a82110308ec5b780d7e9e0daf9",
-   "side": "buy",
-   "amount_usd": 369,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xf6d7651e833b982e8f6c4282d3b6c5146ed16ffa0032f883bc02db62072e420c"
-  },
-  {
-   "ts": "2026-09-02T15:18:41Z",
-   "actor": "0x8f6620c74b2bf1f21a07187c88127689c3935c8a",
-   "side": "buy",
-   "amount_usd": 240,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x4748d528f9f576d8267f4d5e8d9d7df7baa79cbb37254b1080f3c37ea4dcb193"
-  },
-  {
-   "ts": "2026-09-02T15:19:05Z",
-   "actor": "0x595410470ab87b9dcf8012abbb8c2cb2cfeda7c6",
-   "side": "buy",
-   "amount_usd": 1201,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xfc5a8936fb3846d55a7089721df8e46287b086db50189391d2ef591d78707027"
-  },
-  {
-   "ts": "2026-09-02T15:19:13Z",
-   "actor": "0x8b8189e29b2614c8985758171ee0e9fad69a5d5b",
-   "side": "buy",
-   "amount_usd": 1199,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x0eb99043d91f447c5f8c9b80ce4f35892b664987123b9add12bbb8e5abb5b24c"
-  },
-  {
-   "ts": "2026-09-02T15:19:57Z",
-   "actor": "0x4146c7dfda7ca2cbfbacd59e19feb5303c8e3c49",
-   "side": "buy",
-   "amount_usd": 598,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x1ec4fba9f2a3bbe19519a39fc536342bbf0a9550f9422f8f1540f35b525572da"
-  },
-  {
-   "ts": "2026-09-02T15:19:57Z",
-   "actor": "0x71a51ac3be72ec516ca4fb5065bd163fa774f2a8",
-   "side": "buy",
-   "amount_usd": 598,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xd10c1c8239bbfa4389dde521491567b88883f8495642a840bd5b3fbb7072280f"
-  },
-  {
-   "ts": "2026-09-02T15:20:09Z",
-   "actor": "0x71a51ac3be72ec516ca4fb5065bd163fa774f2a8",
-   "side": "buy",
-   "amount_usd": 598,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x0e9431c55baa34208e2ff669879903217529607bb966a52136d9b3519ea4c3e3"
-  },
-  {
-   "ts": "2026-09-02T15:20:09Z",
-   "actor": "0x4146c7dfda7ca2cbfbacd59e19feb5303c8e3c49",
-   "side": "buy",
-   "amount_usd": 598,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xf881c4306bb7d90f1d9cfaf07c3867ea7cd0ee17c183f0a8b4009dfee9ad7c40"
-  },
-  {
-   "ts": "2026-09-02T15:20:23Z",
-   "actor": "0xb9c15f9b580318135036e7970cf841ca50f88607",
-   "side": "buy",
-   "amount_usd": 25113,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0xe5bf123f9ddf13775ee753e0009b54fc586cf780ce89abd8eee4332faaca62fa"
-  },
-  {
-   "ts": "2026-09-02T15:21:49Z",
-   "actor": "0xff9bfd415a0f1a775cc6b7a9ba7f802c22b19fde",
-   "side": "buy",
-   "amount_usd": 240,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x622c56f57699dbeeba21cc82bcc391bd5b5b65584ab458041ef0a477ec309711"
-  },
-  {
-   "ts": "2026-09-02T15:21:57Z",
-   "actor": "0x4fd806cbd7d39c1e0df429e152a0d857124ece62",
-   "side": "sell",
-   "amount_usd": 998,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x9e1b58736ba36ffbca4dcbb988628d5fe0394707f55c3ece755732033e727d07"
-  },
-  {
-   "ts": "2026-09-02T15:22:03Z",
-   "actor": "0xa5ab762aee588cb38d00ff162bba990451de71f3",
-   "side": "buy",
-   "amount_usd": 5023,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x201482106d05edcf1f786c83d28565d82ebef403d2046860f922d76f6a8206f3"
-  },
-  {
-   "ts": "2026-09-02T15:22:13Z",
-   "actor": "0x83e7322328d902940c490634396860d875e448c2",
-   "side": "buy",
-   "amount_usd": 480,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x7cb2de6441490e36122ef0ded748b10ed64c42d59bafd4a3276979323d1b3513"
-  },
-  {
-   "ts": "2026-09-02T15:22:25Z",
-   "actor": "0x83e7322328d902940c490634396860d875e448c2",
-   "side": "buy",
-   "amount_usd": 480,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x28cecf573a36c1bc9bcdab0500c7902ffc6c55cc24a97fa0c53a0424c46dbbc2"
-  },
-  {
-   "ts": "2026-09-02T15:22:27Z",
-   "actor": "0xa5ab762aee588cb38d00ff162bba990451de71f3",
-   "side": "buy",
-   "amount_usd": 5020,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x0ecd199056e12f572400a6ae304d2152836a5df2fc22d4e27bf29d9b2fc9090a"
-  },
-  {
-   "ts": "2026-09-02T15:23:07Z",
-   "actor": "0xdca4348261e719f46daf90b8deeb7ad16049f3e3",
-   "side": "sell",
-   "amount_usd": 1186,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x840c868d007b786798873faa839966c12b86d1c94e912913fb84d2f464441dbe"
-  },
-  {
-   "ts": "2026-09-02T15:23:25Z",
-   "actor": "0x4d09984653984fb5a6415a10766795dbb5d04caa",
-   "side": "buy",
-   "amount_usd": 2612,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x3c7c11eaa56cce4f6d20ab7b34dafe40cd2140342835614b33494deae0057a16"
-  },
-  {
-   "ts": "2026-09-02T15:23:27Z",
-   "actor": "0x45f062189421981da7d1c70db0f98f6027faa9aa",
-   "side": "buy",
-   "amount_usd": 120,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x3e91ace4d1977b10b82acc449525326099eac97b485b02138ffe4076da37b8b3"
-  },
-  {
-   "ts": "2026-09-02T15:25:01Z",
-   "actor": "0xe4228679d49a32a82110308ec5b780d7e9e0daf9",
-   "side": "buy",
-   "amount_usd": 470,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x46181922cd4dcf7179b3238f94b981c8d9513ee3838d00d3a373d49112704853"
-  },
-  {
-   "ts": "2026-09-02T15:25:03Z",
-   "actor": "0x41b31ae4c822fd600e903e37ffcc2a8e9aceedf4",
-   "side": "buy",
-   "amount_usd": 377,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x668854a3c7d2e33219a1c523af2b8e20fc77c307b137418cd289f34254a025ba"
-  },
-  {
-   "ts": "2026-09-02T15:27:07Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 9530,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x282cbb7fdcdb21af9a7ded28f6bede5418f9b736afa7c2e0f0f0cc7534e4c20a"
-  },
-  {
-   "ts": "2026-09-02T15:27:11Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "sell",
-   "amount_usd": 4375,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xa3477fb023c6a1d0901330e34fa6eae70acdd515e826573078a4e9a06e3c2465"
-  },
-  {
-   "ts": "2026-09-02T15:27:13Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "sell",
-   "amount_usd": 32040,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xf0ae4b93fc2d00e2012693b3118845ea789c4cf4e2a07b9aa5077d3e9d43bb49"
-  },
-  {
-   "ts": "2026-09-02T15:27:15Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 26012,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x4ce2bfe69ee45278fed87f1a9c49404ca05787208d3526c4df9e818d578a388e"
-  },
-  {
-   "ts": "2026-09-02T15:27:17Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 9316,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x140c27522042da425c505bce515c5c1213dba1febb7772fae37bdd19d26d44fc"
-  },
-  {
-   "ts": "2026-09-02T15:27:19Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "sell",
-   "amount_usd": 18907,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x9c336815953da576c440ee77c1555bab00b404c8ba7afa33e1eafa0480482b6b"
-  },
-  {
-   "ts": "2026-09-02T15:27:21Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 33287,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x4de30e2f0fd9de514001077242d1dcf9237594801fbfbcab4b1508a00407470e"
-  },
-  {
-   "ts": "2026-09-02T15:27:23Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "sell",
-   "amount_usd": 93137,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x1fa6b15468c4a1a2ba0660cc2cb28956cc3f751b2cd60f5c5a74c95bb5bf6111"
-  },
-  {
-   "ts": "2026-09-02T15:27:25Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "buy",
-   "amount_usd": 28551,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xf05b22b787965593ec6b511a1870c6cda4a845b6c5c03c2dfd58cff30148ea2f"
-  },
-  {
-   "ts": "2026-09-02T15:27:27Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "sell",
-   "amount_usd": 65532,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xf1e74d5bde6a51eac5eb1c08e20ab95ee2b2ef73067a75c9fd9c6d4170306b67"
-  },
-  {
-   "ts": "2026-09-02T15:27:29Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "sell",
-   "amount_usd": 1575,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xd6070420ad49a0ffc8f115ad6df5cb5b3c0df17affc4685d575f819a2ec5a77e"
-  },
-  {
-   "ts": "2026-09-02T15:27:31Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "buy",
-   "amount_usd": 11175,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x8623f9ffeb3fdd4e73f2f0df428f388e8ae30a6961eb30575ec5afb450610e5e"
-  },
-  {
-   "ts": "2026-09-02T15:27:33Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "sell",
-   "amount_usd": 36117,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xd7c871c8fbe0cf270adc3f8d4c52c02d69127552bac259afc7945879eee73785"
-  },
-  {
-   "ts": "2026-09-02T15:27:35Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "buy",
-   "amount_usd": 6392,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xfdf689920fa8771cb13590819beec83dc86f60cc77fe707a384080473161379c"
-  },
-  {
-   "ts": "2026-09-02T15:27:37Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "buy",
-   "amount_usd": 46278,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x3c5cfae018e8369b04dbc40d54affc9c9c9bd865e1b2c5d9fbfa943d1a7f5615"
-  },
-  {
-   "ts": "2026-09-02T15:27:39Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "sell",
-   "amount_usd": 16816,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xd0892fa229d308609985b39236c1b194e2e491c9a793379ecae0142db52b7ec7"
-  },
-  {
-   "ts": "2026-09-02T15:27:41Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "buy",
-   "amount_usd": 24198,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xfb43ae654ce0567bf7b9db264da8d4734fca0825a408031e184b3e646645e68a"
-  },
-  {
-   "ts": "2026-09-02T15:27:41Z",
-   "actor": "0x309479484a6ae33666bda2f6a4ad2156326048d9",
-   "side": "buy",
-   "amount_usd": 502,
-   "token": "UMIA",
-   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
-   "tx": "0x3e224b224e1a6733d1bac729df720405e3a3dacda0f817cf050a067fcabeb60c"
-  },
-  {
-   "ts": "2026-09-02T15:27:43Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "sell",
-   "amount_usd": 49388,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x0d0607c47df37f04e7fe311224a73583726dd52a25fc70f11f34399bb537c027"
-  },
-  {
-   "ts": "2026-09-02T15:27:45Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "buy",
-   "amount_usd": 61682,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xb36824f768e9b5bd4d2611ae2263eac5a5a4cfc93fb5110c299f1e04b6ef146e"
-  },
-  {
-   "ts": "2026-09-02T15:27:47Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "sell",
-   "amount_usd": 1804,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x71049f0e1fbd37b30ae05ed72f2fe0953f10de65aaf933d8fe58c22498104306"
-  },
-  {
-   "ts": "2026-09-02T15:27:49Z",
-   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
-   "side": "sell",
-   "amount_usd": 94719,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x64dcfb058e5e12ccedc677bbb0e3004dec24cda5ec4e0f2a94476edff341176a"
-  },
-  {
-   "ts": "2026-09-02T15:27:51Z",
-   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
-   "side": "sell",
-   "amount_usd": 25574,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x1bc634f59a8c3e3653ef0effef4d77a597e47b7537ad4f017b8ca88e9027caa2"
-  },
-  {
-   "ts": "2026-09-02T15:27:53Z",
-   "actor": "0x746527ef1cb0238b9fe7e87f556592995349f11a",
-   "side": "sell",
-   "amount_usd": 6944,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xbeb1b958b08016de9fd35d94d115be6a3ec54c808d02a6ce088969ef1c6cc199"
-  },
-  {
-   "ts": "2026-09-02T15:27:55Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 88099,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xd3621669bd58ebeb06b9683da8651d93690576e6cce9e6d171dbcf3ee00836c7"
-  },
-  {
-   "ts": "2026-09-02T15:27:57Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 29595,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xbbed371fa75bc8be542ad85a659b0833022098b406e2f5404ad79a84a346e784"
-  },
-  {
-   "ts": "2026-09-02T15:27:59Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "sell",
-   "amount_usd": 84997,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x9ee01dd3cc8f141ab699c4b0fb0b2afa9f5aa1b740273cc5159fcfd09d122a65"
-  },
-  {
-   "ts": "2026-09-02T15:28:01Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 70304,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x66ffe96128a8713843731064f8cd5f052cfb483b14c3b212d54a3a9c867d6413"
-  },
-  {
-   "ts": "2026-09-02T15:28:03Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "sell",
-   "amount_usd": 46601,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xb563f1e6fe770efff6e075a85b674406d7ff033d0c5aa564a07ddb2c164c4aea"
-  },
-  {
-   "ts": "2026-09-02T15:28:07Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 16353,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xd23ee95272b9cf1dacd0556b23ceae5180ff77178862403306a2a0bb5a505863"
-  },
-  {
-   "ts": "2026-09-02T15:28:09Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 27219,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x7c35a2d4a787efb584f9263374fb121bbc21fc96d79f90ca720cbb848b9099ad"
-  },
-  {
-   "ts": "2026-09-02T15:28:11Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "buy",
-   "amount_usd": 7951,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0xd3a1320150e7da9499990f878e0c256a4e3d0d3a1e2188e36eba7045ee4a2506"
-  },
-  {
-   "ts": "2026-09-02T15:28:13Z",
-   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
-   "side": "sell",
-   "amount_usd": 99145,
-   "token": "BSW",
-   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
-   "tx": "0x72fd8cdef6cf543d0a163a647085786aa0fc926f09db1398beb307a7419b739b"
-  },
   {
    "ts": "2026-09-02T15:28:15Z",
    "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
@@ -5401,6 +3907,1500 @@
    "token": "AERO",
    "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
    "tx": "0x72cc04c331ca0aeeee53689ca66a8f0cc345ab38a1db4d8ac0a8ea279f7f4eb7"
+  },
+  {
+   "ts": "2026-09-02T19:26:01Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 43681,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xb3bb9b3ea0147b57b002ff3dcac31da86699c473f38d7e1ed456e5c73c3d243c"
+  },
+  {
+   "ts": "2026-09-02T19:26:03Z",
+   "actor": "0x746527ef1cb0238b9fe7e87f556592995349f11a",
+   "side": "buy",
+   "amount_usd": 69788,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x6a9d213f3014a3782505b2de1b4b44c359e6b116e4809ceef209411a30337795"
+  },
+  {
+   "ts": "2026-09-02T19:26:05Z",
+   "actor": "0x746527ef1cb0238b9fe7e87f556592995349f11a",
+   "side": "buy",
+   "amount_usd": 20763,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xca82b9f20d539439a3a2a6ee71794f9a34498822152878523d37f0d69343bf88"
+  },
+  {
+   "ts": "2026-09-02T19:26:07Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 86052,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x0a3b7a847e39b2f710f72c0af78803c9fba86f15b872d40d8425a7c56d183a15"
+  },
+  {
+   "ts": "2026-09-02T19:26:11Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "buy",
+   "amount_usd": 85861,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x55f7df5e4eff9e08c82b3155749906642771577431a96206341b9ca198a0710d"
+  },
+  {
+   "ts": "2026-09-02T19:26:13Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 16855,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x48ac0fa73e1b2edd4d8dd8911af0c7e36d58d4604f3c811ae009026f49cbb223"
+  },
+  {
+   "ts": "2026-09-02T19:26:15Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 32951,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xf480a2f9d9ac8c1a4ed963be1e3774d9c4c36f60f0d45c8de976d107b39e04a6"
+  },
+  {
+   "ts": "2026-09-02T19:26:17Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "buy",
+   "amount_usd": 54935,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x79ad0c8ae002e111adfc01939e17f1e54ebb8768e98180c8a6adda851c323038"
+  },
+  {
+   "ts": "2026-09-02T19:26:19Z",
+   "actor": "0x746527ef1cb0238b9fe7e87f556592995349f11a",
+   "side": "sell",
+   "amount_usd": 131812,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x7e2b2d5ab04cd1d127ba925d6612157d27ccaacfb069fdee527935820fe1190b"
+  },
+  {
+   "ts": "2026-09-02T19:26:21Z",
+   "actor": "0x9c4f34c452575abf3c085aac2fea2da4ca7a895f",
+   "side": "sell",
+   "amount_usd": 50811,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x0f6a825ed077645a92131ce2be8569402e2098584a7f648545c504c221593716"
+  },
+  {
+   "ts": "2026-09-02T19:26:23Z",
+   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
+   "side": "sell",
+   "amount_usd": 49653,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x5942cf7570325455a5df8ed3651ab274ca6e5fe18b7c98374f9509706d5606ea"
+  },
+  {
+   "ts": "2026-09-02T19:26:23Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 51685,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x7ee7aba6f8bf0949ef0b7cdecc7e3f9974f82f06b05893afa597422d7e39eec0"
+  },
+  {
+   "ts": "2026-09-02T19:26:23Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 34425,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x99eb9ad1029f139a2828e558bdaddebe53f2434a728b170eda81ff1777911e72"
+  },
+  {
+   "ts": "2026-09-02T19:26:25Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 69748,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xa0e025bef055a39aa2d66ed7ca377cb6d4c6bb33a697e9dec08ad6806b2cdd0f"
+  },
+  {
+   "ts": "2026-09-02T19:26:27Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 40151,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xd65a65185cebbe72671b82fc296bccfa1fec156bb85500df3c47c31e35e9c5f1"
+  },
+  {
+   "ts": "2026-09-02T19:26:29Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 21950,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x02b3885cb9ef5cf4f9c1d2bfaab63e34650837a8d22cb7bc065abb1a74aa68b3"
+  },
+  {
+   "ts": "2026-09-02T19:26:31Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 8467,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x671d9a26316247b95867bb02dba20f935e949f087eac6457c33f95bc8d84bcf4"
+  },
+  {
+   "ts": "2026-09-02T19:26:35Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "buy",
+   "amount_usd": 27796,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xb7b13ac027e9dc80cd02a5b44feb2d12d379b7459ac11116e467a2a81ef0aba6"
+  },
+  {
+   "ts": "2026-09-02T19:26:37Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 20972,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xc55ac5d849ca63bebc77cb6210ba0ad5b315e489012f38bd689e82021e190734"
+  },
+  {
+   "ts": "2026-09-02T19:26:39Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 20634,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xeba646360df071e73f0743df544704e054e27639b464275748a071a697792594"
+  },
+  {
+   "ts": "2026-09-02T19:26:41Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "buy",
+   "amount_usd": 45018,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x0c343b9a2d3dc2c443e64dd64ea65325477df596dddbe066226119c15123ba4a"
+  },
+  {
+   "ts": "2026-09-02T19:26:43Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "buy",
+   "amount_usd": 33014,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x044fa1efa3b69b53e8af94c5cd70a05d8daa5bfe8ced8b82988ef1ed7c2d719f"
+  },
+  {
+   "ts": "2026-09-02T19:26:45Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 2472,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xe795e261c29272c79cf18150288079ca8d995e2b07f2d253b8eceb49fb42bdcc"
+  },
+  {
+   "ts": "2026-09-02T19:26:47Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 21731,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x4ffc6591cf8557a48051ea7b39ea67cc14514defe718c45c74753bbf086991af"
+  },
+  {
+   "ts": "2026-09-02T19:26:49Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "buy",
+   "amount_usd": 45261,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x6e91e8aca77218bb9f0232655e5b5f458935956fe9cb3b23eb57909941dcdc78"
+  },
+  {
+   "ts": "2026-09-02T19:26:51Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 43822,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xd90e35c46526ad28a185e89df645fcb3e282e20d01d3d39a49a98cc228354cbd"
+  },
+  {
+   "ts": "2026-09-02T19:26:53Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "buy",
+   "amount_usd": 19185,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x1cef0db04abcecd92ce5c6cdfc68afa7cee67e89e948689699b2a1959e5d1216"
+  },
+  {
+   "ts": "2026-09-02T19:26:55Z",
+   "actor": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "side": "sell",
+   "amount_usd": 103619,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x03adda68d587dd9aa9021ec8f5f4b00b5ae5ee573f44527e15d4a3f971aefc08"
+  },
+  {
+   "ts": "2026-09-02T19:26:57Z",
+   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
+   "side": "buy",
+   "amount_usd": 16454,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x89cb41bf8ddc59d2f782cac0da1c1bb743d87f1553f94e4ba5c3e2e324c64097"
+  },
+  {
+   "ts": "2026-09-02T19:26:59Z",
+   "actor": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
+   "side": "sell",
+   "amount_usd": 55282,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xdb7280f498edf95ef2be05002b781a5d4c89d64dffa496ca49693214279901c9"
+  },
+  {
+   "ts": "2026-09-02T19:27:01Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "buy",
+   "amount_usd": 9856,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xe62fe823268b2d113de9da3dff4cec447006aee6e40116687b31d899c1e68617"
+  },
+  {
+   "ts": "2026-09-02T19:27:03Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "buy",
+   "amount_usd": 53413,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x37a3011ced7e3902e1e998cf2326f6b7f91797ad9401da22e3f72a481618a8c4"
+  },
+  {
+   "ts": "2026-09-02T19:27:05Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 35120,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x7200551e53a2de78cfc0b23dec26790fab87d5f90eb46a0bc5edf481bcaa6819"
+  },
+  {
+   "ts": "2026-09-02T19:27:07Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "buy",
+   "amount_usd": 27560,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x33a2060e546b0f522b4bf0878583b62dfc7f3251bda17d1eb127d4d47dfa5b72"
+  },
+  {
+   "ts": "2026-09-02T19:27:09Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 4642,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x7c8937c42b93df20edbe8cd7048cd9bb36b1665f1860acdd49f853ac38d6abb9"
+  },
+  {
+   "ts": "2026-09-02T19:27:11Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 34331,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xcc0b7632c933c657be2283dbde4bbaa1b44d70b4476b7f1af53e3968a246ab52"
+  },
+  {
+   "ts": "2026-09-02T19:27:15Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "buy",
+   "amount_usd": 19151,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xc654dc7787d7cfbaa1d0fcd95e36e65d7cc5402e340f71f70fc477c239bdab7c"
+  },
+  {
+   "ts": "2026-09-02T19:27:17Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 9531,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x2f1b0a8c8d8fcdbd78e4351c983b2711ccd6e61dbd91f2cd9bcab2750a3f37a0"
+  },
+  {
+   "ts": "2026-09-02T19:27:19Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 20229,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xb7a2d8c5e599c8a092fc7212f71d8e5b7120c15323df0f3d8fab212f8f98593a"
+  },
+  {
+   "ts": "2026-09-02T19:27:21Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "buy",
+   "amount_usd": 41792,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xd03a2675946513f4985b8a3eb0c59b92ed5c70bff66707d359554e939e426b61"
+  },
+  {
+   "ts": "2026-09-02T19:27:23Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 22784,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0xd9fb2ab0a841e2258ef07df6344521d09c2e41a5e337f6cf792bffeb474e4c1f"
+  },
+  {
+   "ts": "2026-09-02T19:27:27Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "buy",
+   "amount_usd": 14968,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x11cbf00275a1195b239a9bbd35ba48f1db92da3fb160db601ed3136c2ca19d4b"
+  },
+  {
+   "ts": "2026-09-02T19:27:29Z",
+   "actor": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "side": "sell",
+   "amount_usd": 22686,
+   "token": "⚠️ BSW",
+   "token_address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "tx": "0x61f76415b61d34ee46e609c67c7b12a4134105def700dc6cd6c011581b43e381"
+  },
+  {
+   "ts": "2026-09-02T20:36:09Z",
+   "actor": "0x8d910779211f12e7f109792cafe0a98185982db3",
+   "side": "sell",
+   "amount_usd": 245,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0xff36fc4bcc8f7b51f976e522b16cfd050cbf7365cc73e3999e012a8bb7b0afe8"
+  },
+  {
+   "ts": "2026-09-02T20:39:29Z",
+   "actor": "0x61cdf3250beeb164a84de3ef024fadeb8b8fd76a",
+   "side": "buy",
+   "amount_usd": 1853,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0x958f965f4f1870b1018fb54cc81eb94ce38140211fa719555642dc6802c62aa4"
+  },
+  {
+   "ts": "2026-09-02T20:40:51Z",
+   "actor": "0xde47ce54647c004408991855fa62871c5bea15db",
+   "side": "buy",
+   "amount_usd": 100,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0x5c74bf020889ac112d330b3f091e69b422a69a7cd823e16cdb0da5a6a1992b3c"
+  },
+  {
+   "ts": "2026-09-02T20:41:23Z",
+   "actor": "0x996dcf6180d5bdb9437f04a49c9658ad3d61ad77",
+   "side": "sell",
+   "amount_usd": 622,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0x19aed8e5bfc82c6bb836402ec56ed79a499b91e5962b5cb118f130742d7d0385"
+  },
+  {
+   "ts": "2026-09-02T20:42:43Z",
+   "actor": "0xde47ce54647c004408991855fa62871c5bea15db",
+   "side": "buy",
+   "amount_usd": 201,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0xbd02aeb32b50c615d2005d765bcfdf64bf77163cc3107ed8d4ec320f28ae4fb2"
+  },
+  {
+   "ts": "2026-09-02T20:44:17Z",
+   "actor": "0x1c4f0fc4f4929372510f3b23953793e6a39a99ab",
+   "side": "buy",
+   "amount_usd": 102,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0x4fe8e14cb123285aee49e23de1de31d1d48a5d19bf966a1a3b6d3aa571bf1719"
+  },
+  {
+   "ts": "2026-09-02T20:44:31Z",
+   "actor": "0x8b8189e29b2614c8985758171ee0e9fad69a5d5b",
+   "side": "sell",
+   "amount_usd": 6955,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0xcb4249533e525559e860941d53a60de6147bd0a119f83507d03f483938a8c966"
+  },
+  {
+   "ts": "2026-09-02T20:45:29Z",
+   "actor": "0x0d9698b2a2161b485d27a93d52e05af18619b481",
+   "side": "buy",
+   "amount_usd": 388,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0x364db5ce3d25a27d8cc3117ae086691d7473f5317e88ed045e934eb880bfccfb"
+  },
+  {
+   "ts": "2026-09-02T20:52:31Z",
+   "actor": "0x18affb4cc2dd922137056d35c60ad5d0b0b1325f",
+   "side": "buy",
+   "amount_usd": 183,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x3ca7233be4ec4e6139334a44857f80c212246743504f17f7b29f2327e47d4587"
+  },
+  {
+   "ts": "2026-09-02T20:52:31Z",
+   "actor": "0xf93e3b13103a22b49d272a8b638da0acfe79edd7",
+   "side": "sell",
+   "amount_usd": 182,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x3ca7233be4ec4e6139334a44857f80c212246743504f17f7b29f2327e47d4587"
+  },
+  {
+   "ts": "2026-09-02T20:52:45Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 102,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x9b6ca8d8087c8144c8d9493961a1f1a186a8977003d9b76df1073ca9f63bf098"
+  },
+  {
+   "ts": "2026-09-02T20:53:01Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 159,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xa5e44a175578f4faab5713757de6b917ed533f0c3089e7acdc3bd22d3406c650"
+  },
+  {
+   "ts": "2026-09-02T20:53:03Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 779,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xc540b6fcaa1f59b9f306fa239e9616d0c16f72cc4e0f4aba897f2686aad0713b"
+  },
+  {
+   "ts": "2026-09-02T20:53:15Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 116,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x38e40d26a457d525c720865e218e1691b3510062f62f237bddd0b9151906baeb"
+  },
+  {
+   "ts": "2026-09-02T20:53:15Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 108,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x4fcb36642c5d3f1f53a70080df097ad4e16e9f42b8452e170218d13a48fb9044"
+  },
+  {
+   "ts": "2026-09-02T20:53:15Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 195,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xf903b9a438b882460c3402e7b9787eca64887d92764234ed95bcee9ac0002490"
+  },
+  {
+   "ts": "2026-09-02T20:53:17Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 330,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x90cae9ae17f8173e35e796669e8215b1d04b34b8d6b2baa3f3744154a0b61dd2"
+  },
+  {
+   "ts": "2026-09-02T20:53:19Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 407,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x35bc6b60e03d2125fff8c7433dc274e760ffd38b94a697654f6c767ad4d35246"
+  },
+  {
+   "ts": "2026-09-02T20:53:45Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 250,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x6605e054c8665c5a08a564a15def6a1b39be348cbfbd1320546ce0e532a6bb64"
+  },
+  {
+   "ts": "2026-09-02T20:53:45Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 219,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x7badbe645cc580b774ca78e1457654e6a85e8062113e12e9acce4f34e4486c54"
+  },
+  {
+   "ts": "2026-09-02T20:53:45Z",
+   "actor": "0x01989c93890aed05a63d179b03424997075b6acf",
+   "side": "buy",
+   "amount_usd": 255,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x84f49163edaab999b15117cbbbebf48a287dd15300ad70a488c00230bf9505c0"
+  },
+  {
+   "ts": "2026-09-02T20:53:45Z",
+   "actor": "0x01989c93890aed05a63d179b03424997075b6acf",
+   "side": "buy",
+   "amount_usd": 602,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xae243d438ef375a719fd0356fcaea2b9d662f0b2a35192cb57be12f2766a4ea1"
+  },
+  {
+   "ts": "2026-09-02T20:53:45Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 145,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xe22623a7b0c940c93ddca4e189cb13d1fc0daced4f6713d7a3e07690698f796a"
+  },
+  {
+   "ts": "2026-09-02T20:53:45Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 195,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xf7e7dd94c626f32d89f3ff7e91869c1d18cc9bb9241fa734a24cf7bec98d04e3"
+  },
+  {
+   "ts": "2026-09-02T20:53:47Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 249,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x9deea5e9e0b618a503fc749299513643dbd91d247e88c477bbcc08c89ae89eee"
+  },
+  {
+   "ts": "2026-09-02T20:54:03Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 128,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xac09e8278286b591204527d31c437044623a88e00f98e74dd7a4e5aefbbf1c5f"
+  },
+  {
+   "ts": "2026-09-02T20:54:03Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 173,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xc6a3a7eebc3d876da8d81d69d0784c89abdf8ac14689d071128e013a862a2568"
+  },
+  {
+   "ts": "2026-09-02T20:54:05Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 111,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x37a5a11c58ac1ddffd7877d38b6d20d263b70f7488d25d69f45ba70bff1363f1"
+  },
+  {
+   "ts": "2026-09-02T20:54:23Z",
+   "actor": "0xc81fd894c0ace037d133af4886550ac8133568e8",
+   "side": "buy",
+   "amount_usd": 261,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x300e8e5473403fc10ec0ff4c9198c1a1898ee77b9cbd7a91f02ec8904dea4e72"
+  },
+  {
+   "ts": "2026-09-02T20:54:29Z",
+   "actor": "0x147a639f61ef1f3822525e3c7b0ca5be57089e7f",
+   "side": "buy",
+   "amount_usd": 195,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x0f2bdc98edd0dad96d9c3d142c49876c0f83c27715d02c7f003bb3bfa012c12a"
+  },
+  {
+   "ts": "2026-09-02T20:54:29Z",
+   "actor": "0x147a639f61ef1f3822525e3c7b0ca5be57089e7f",
+   "side": "buy",
+   "amount_usd": 195,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xa541537ba4998ce946c909aec9728ad38b7ead514fe79e71995f19f796c69a0f"
+  },
+  {
+   "ts": "2026-09-02T20:54:35Z",
+   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
+   "side": "buy",
+   "amount_usd": 396,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xa2fc8c657e3a24e59a81f25d21a3cfdcfaba1fa5800b2d1901e09ee7f80b93c8"
+  },
+  {
+   "ts": "2026-09-02T20:54:35Z",
+   "actor": "0xbee3211ab312a8d065c4fef0247448e17a8da000",
+   "side": "sell",
+   "amount_usd": 396,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xa2fc8c657e3a24e59a81f25d21a3cfdcfaba1fa5800b2d1901e09ee7f80b93c8"
+  },
+  {
+   "ts": "2026-09-02T20:54:53Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 149,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x4ecb779a5812f16d9ba9000cb0e2f15c07161868d2cfd78d32c5f789e083c19e"
+  },
+  {
+   "ts": "2026-09-02T20:54:53Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 185,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x821fb9069b527fd4a874995086d25d49069f9a588df3197c1c894facc94c2432"
+  },
+  {
+   "ts": "2026-09-02T20:54:53Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 331,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x9cea04bbed67fbe291f323ba66d6646d4ea0b3fd80f3caa6a423a776d2a7efba"
+  },
+  {
+   "ts": "2026-09-02T20:54:53Z",
+   "actor": "0x60063bbee139114cbf011f7a1e14c1fd884262f3",
+   "side": "sell",
+   "amount_usd": 161,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xb6b134ce64f95e94c6830d69b3813cba4ceb538c61706658fa64de37897f72fd"
+  },
+  {
+   "ts": "2026-09-02T20:54:53Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 141,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xc95404e56103d6d9dec4194eeda0bda4ae02893ac7589aa0bd34af8ce48254f9"
+  },
+  {
+   "ts": "2026-09-02T20:54:53Z",
+   "actor": "0x0f0067cd819cb8f20bda62046daff7a2b5c88280",
+   "side": "sell",
+   "amount_usd": 110,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xd2438b8e0dc3a3f0761c97e105ca0291e8c9b19d20744e00eccf34bc9f7cb027"
+  },
+  {
+   "ts": "2026-09-02T20:54:55Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 720,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xa73b23abebb671860b62b0414eeed2eadd523789568e2cde1f8bf6fd10af10d7"
+  },
+  {
+   "ts": "2026-09-02T20:55:23Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 178,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x0184363b6995306e25e70bfa20a4d3a4d3736bcb2a03ced993922f2dce590950"
+  },
+  {
+   "ts": "2026-09-02T20:55:23Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 240,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x4f894c5922ad5d718b4deed934401987a60e75581115565861ecf15bac911d40"
+  },
+  {
+   "ts": "2026-09-02T20:55:23Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 240,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xa9d077629515923356072657793fa84b57a5c8c56ce326208e376a08e87d5f6f"
+  },
+  {
+   "ts": "2026-09-02T20:55:23Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 363,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xb2b8077a69bc814f26909fe141556caae2068a561b4751a13823acedafba5a5e"
+  },
+  {
+   "ts": "2026-09-02T20:55:31Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 101,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x45d12f7e16d2834baba7ed6554c63b1b91624cf7b15dec2e84a7cfd8d1ae7b68"
+  },
+  {
+   "ts": "2026-09-02T20:55:35Z",
+   "actor": "0x0565730e7d44a9ccd7c9aa4c5708cd4a2c0da2ca",
+   "side": "sell",
+   "amount_usd": 927,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x891b841d8c93f22d60a46571ee0dce252f01a0644bfe30d48785917079771ae3"
+  },
+  {
+   "ts": "2026-09-02T20:55:37Z",
+   "actor": "0xbee3211ab312a8d065c4fef0247448e17a8da000",
+   "side": "sell",
+   "amount_usd": 388,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xdca9f2ae0e9b2a3433731fa0150774ffeee98d5bb1df4e116f3a261b1f8c1c00"
+  },
+  {
+   "ts": "2026-09-02T20:55:37Z",
+   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
+   "side": "buy",
+   "amount_usd": 388,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xdca9f2ae0e9b2a3433731fa0150774ffeee98d5bb1df4e116f3a261b1f8c1c00"
+  },
+  {
+   "ts": "2026-09-02T20:55:51Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 123,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xd119455580de5384cf0204cf3897ca02566f121b8777bd45f019ddc2f5560bdb"
+  },
+  {
+   "ts": "2026-09-02T20:55:55Z",
+   "actor": "0x16b00db74167b7469dda63b674ca9a3b1b70c439",
+   "side": "sell",
+   "amount_usd": 461,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xf1ebaa898c8deb07b5aa49bbacca1314f561090544a95503e4d3aa2b5b39d404"
+  },
+  {
+   "ts": "2026-09-02T20:56:01Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 236,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xb35f4dbe95e6e85c403498028a732813e6c727b2cf6a2b60b214f32bd98fea52"
+  },
+  {
+   "ts": "2026-09-02T20:56:03Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 526,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xcfdc7aff3142ddeb69a7cf5dbb68b83ada159d70af281a8f4335acec326ed6a7"
+  },
+  {
+   "ts": "2026-09-02T20:56:09Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 123,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x301305d4510ceb63165f621a034c6a05797007f30ef915b535613e65520e8f99"
+  },
+  {
+   "ts": "2026-09-02T20:56:09Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 196,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xa2822c03f1251e14644910d155a1e24797adf0bbffdcb654e0fc009176f4628b"
+  },
+  {
+   "ts": "2026-09-02T20:56:09Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 120,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xc3f75b2a29884861b5168c915f4043e32b37c78f43d022511578dd2d54e27119"
+  },
+  {
+   "ts": "2026-09-02T20:56:11Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 231,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x2e8fdbb446251b295b27595e76f4f14f9a27279016fbcd885a787df11829e949"
+  },
+  {
+   "ts": "2026-09-02T20:56:11Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 277,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x47c03401e2c2fe68477cbe6a73826370a3a73cc625ff4c5a8cadceaf41953a4b"
+  },
+  {
+   "ts": "2026-09-02T20:56:11Z",
+   "actor": "0x2192bc3b4028acc1113f2cd9ac2cba70c36520db",
+   "side": "buy",
+   "amount_usd": 124,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x8af234489a27ecd1ce485cd4949e22aa90caa5bd7875e162cc6b54a6b61fb6f8"
+  },
+  {
+   "ts": "2026-09-02T20:56:11Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 963,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x9628317e1faeef46aa3473cef0f3c3b21bf79dcd89b152b7c79eb70c98688924"
+  },
+  {
+   "ts": "2026-09-02T20:56:11Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 265,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xef05617f78e5ca0b4da90030ef01f2d80bb46c4590354b9b8760f55c8bfac146"
+  },
+  {
+   "ts": "2026-09-02T20:56:19Z",
+   "actor": "0x786dc717dad88847af6ec6ce8d0a3e093c042387",
+   "side": "sell",
+   "amount_usd": 877,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x2e5ae9d350cb37923921a264764ef91d6f0f5391895503a9852620a5d395fecd"
+  },
+  {
+   "ts": "2026-09-02T20:56:23Z",
+   "actor": "0x2192bc3b4028acc1113f2cd9ac2cba70c36520db",
+   "side": "buy",
+   "amount_usd": 366,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x3b39305b2de9c3c279cfb62b5b0a941d2c0ac3fc9a13645edf97fa9ceb1a33fb"
+  },
+  {
+   "ts": "2026-09-02T20:56:37Z",
+   "actor": "0x16b00db74167b7469dda63b674ca9a3b1b70c439",
+   "side": "sell",
+   "amount_usd": 923,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xb78ca7829e6c3f25b46a729dc081986949093e4e57518d0db39e97e82cc2675d"
+  },
+  {
+   "ts": "2026-09-02T20:56:39Z",
+   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
+   "side": "buy",
+   "amount_usd": 368,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x12b1b8d187f514fc41718da4ed1f724b29e7818ff23695d2c1f4c42d96d7223a"
+  },
+  {
+   "ts": "2026-09-02T20:56:39Z",
+   "actor": "0xbee3211ab312a8d065c4fef0247448e17a8da000",
+   "side": "sell",
+   "amount_usd": 368,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x12b1b8d187f514fc41718da4ed1f724b29e7818ff23695d2c1f4c42d96d7223a"
+  },
+  {
+   "ts": "2026-09-02T20:56:47Z",
+   "actor": "0xf7dae7d8564eefa9ab256a39948d11ceddb46bde",
+   "side": "sell",
+   "amount_usd": 2919,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xe6c167d2f717051006befca2f56c260d2fc21f8539c0b97c42245ac6afcf0bfc"
+  },
+  {
+   "ts": "2026-09-02T20:56:47Z",
+   "actor": "0x18affb4cc2dd922137056d35c60ad5d0b0b1325f",
+   "side": "buy",
+   "amount_usd": 281,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xe6c167d2f717051006befca2f56c260d2fc21f8539c0b97c42245ac6afcf0bfc"
+  },
+  {
+   "ts": "2026-09-02T20:57:07Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 199,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x0ff5644120b92c405da65e3d235fc0bb840e6729a36e543b1fa3262f63776f70"
+  },
+  {
+   "ts": "2026-09-02T20:57:15Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 132,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x0914c04399821c91952151d5dfa6e8696d12acb090d8be87b54623d5632aea85"
+  },
+  {
+   "ts": "2026-09-02T20:57:23Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 182,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xd626c3293f259c85c892004336f76e5eb477d182094e05f7e1f86196b628ff3c"
+  },
+  {
+   "ts": "2026-09-02T20:57:39Z",
+   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
+   "side": "buy",
+   "amount_usd": 368,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x7e041379d0acc0166a326eccf6b57d821c3d4b1cc0ce22426674a259f27a364b"
+  },
+  {
+   "ts": "2026-09-02T20:57:39Z",
+   "actor": "0xbee3211ab312a8d065c4fef0247448e17a8da000",
+   "side": "sell",
+   "amount_usd": 368,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x7e041379d0acc0166a326eccf6b57d821c3d4b1cc0ce22426674a259f27a364b"
+  },
+  {
+   "ts": "2026-09-02T20:57:45Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 190,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x767eac83b6cd62dcebaaac81bf6742ecc9d10d929efe29fced0849fb843823de"
+  },
+  {
+   "ts": "2026-09-02T20:58:23Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 109,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x462154d3b8e8a2bb1e23f1774d5f0a166426ed90937597cf8d3519668b59f121"
+  },
+  {
+   "ts": "2026-09-02T20:58:23Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 199,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x9da2d07dfb5b9f05eb654842c8996f3552fc29abd4183664f19b82a06c599f4a"
+  },
+  {
+   "ts": "2026-09-02T20:58:23Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 439,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xce242ece6e17e5e1930a9c4fa298926ce48ae5c5c01a931b8f9ec0f4c3510878"
+  },
+  {
+   "ts": "2026-09-02T20:58:23Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 184,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xe104f67cf327c9efaf360bbc6688538edb7a2e3a4f73a380b56977f6f8abe616"
+  },
+  {
+   "ts": "2026-09-02T20:58:39Z",
+   "actor": "0x74a18e2665135bcf58acf050a4f9190ab36ed755",
+   "side": "sell",
+   "amount_usd": 176,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x61d318ebba54c89eb24729677ef4e12e96bdafa43187604a02d11dce21e87cc7"
+  },
+  {
+   "ts": "2026-09-02T20:58:41Z",
+   "actor": "0xbeeb9eee061925cc6d2122f05a4e6536f0feb000",
+   "side": "buy",
+   "amount_usd": 368,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xdd005295a351aea67d9ba9ea1344fa8ddcaa0605b704b7ae1d5527d4cb5fcd9e"
+  },
+  {
+   "ts": "2026-09-02T20:58:41Z",
+   "actor": "0xbee3211ab312a8d065c4fef0247448e17a8da000",
+   "side": "sell",
+   "amount_usd": 368,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xdd005295a351aea67d9ba9ea1344fa8ddcaa0605b704b7ae1d5527d4cb5fcd9e"
+  },
+  {
+   "ts": "2026-09-02T20:58:51Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 279,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x7eee859515f9bdc93ac2e03cf3160eed2f6dd0c128bd722b522459360caede93"
+  },
+  {
+   "ts": "2026-09-02T20:58:51Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 139,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xedbc5cab9e1a645fca21eecc2881d36d85b0a8474f5ef61d3b10190e81a3f837"
+  },
+  {
+   "ts": "2026-09-02T20:59:09Z",
+   "actor": "0x1c73500caac846cc66c2a8c301ad5f821d03c5eb",
+   "side": "sell",
+   "amount_usd": 862,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0x5eac60a0662205afbabb086d1241f7ae03d34159ce1f94adaf9967c055fe7796"
+  },
+  {
+   "ts": "2026-09-02T20:59:11Z",
+   "actor": "0x14c5fbcb7511780102ba955b1cc4f49ae1d39bf4",
+   "side": "sell",
+   "amount_usd": 203,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x5b6166dc0b7044bae668938361da298f9179f375429fe24949f8513f8c215c1d"
+  },
+  {
+   "ts": "2026-09-02T20:59:11Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 160,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x79a113765e1f1c57c41fa35b4ec87b32e5be21693eb423e184bd8a842d0d90eb"
+  },
+  {
+   "ts": "2026-09-02T20:59:27Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 218,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x2954520513a201318c765a25426aa66ff78ac3b05520472804a815d50e29a100"
+  },
+  {
+   "ts": "2026-09-02T20:59:27Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 233,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x46db2360ceec1a9e7e264db805cdc05d7594993092e8fc0114e82bd3b9f6927d"
+  },
+  {
+   "ts": "2026-09-02T20:59:27Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 190,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x645db2300f1cc956f27a0b3b3ddd76caf64d881bb3e522f60af084db7cc3e3ed"
+  },
+  {
+   "ts": "2026-09-02T20:59:27Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 121,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x70a9d935031752c2db2d00ec385ddeada123cdab59c0b7ede0be478b1e798568"
+  },
+  {
+   "ts": "2026-09-02T20:59:27Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 532,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xa8352407f9f53cc7f9af0707c06da83f90baa209f0ea8488d08108f80e29a499"
+  },
+  {
+   "ts": "2026-09-02T20:59:27Z",
+   "actor": "0x0d9698b2a2161b485d27a93d52e05af18619b481",
+   "side": "sell",
+   "amount_usd": 2970,
+   "token": "UMIA",
+   "token_address": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d",
+   "tx": "0x8b2d4cefcb25167c562213bb89f9fac70aaf73a3778656d7ac3111cc55756b2a"
+  },
+  {
+   "ts": "2026-09-02T20:59:29Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 107,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xaaa8afa89c4199b4feb9a681b671386dae86484a72d8cd52843cd654e64a69e5"
+  },
+  {
+   "ts": "2026-09-02T20:59:29Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 324,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xf39efdc531660accc129c78655260d27da5ed4e8287a01b98d4d73f60208f33e"
+  },
+  {
+   "ts": "2026-09-02T20:59:31Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 122,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x6a9739f9ba621207fc74d38fbd8b87cf2b81d9eed78761b5b60e91b71b64f676"
+  },
+  {
+   "ts": "2026-09-02T20:59:31Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 163,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xd6b6ebf2efec707179740d84f89e78e719954339189ffd21eab44076edae80ad"
+  },
+  {
+   "ts": "2026-09-02T20:59:35Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 153,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x49a6466049ad6b0859a6594551abf745f384ae91e9231d6eecf406424bf86580"
+  },
+  {
+   "ts": "2026-09-02T20:59:57Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 101,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xa010dce9011333e9fd986532440cdefad6485071a5f7ace3de5e55791c391758"
+  },
+  {
+   "ts": "2026-09-02T20:59:57Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 265,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xaf5a89dacb8089c64b743822504a2c05e14391e2518479f0297cc1c3a8adee54"
+  },
+  {
+   "ts": "2026-09-02T20:59:57Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 207,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xbf3b24b3e4d67d8019638e33220ed47426d601f1901305c8124e99034da7202e"
+  },
+  {
+   "ts": "2026-09-02T21:01:07Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 118,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x7c361eff9bb7436024c03b289192f95050c2a6c15528ee7660853df16f802a99"
+  },
+  {
+   "ts": "2026-09-02T21:01:13Z",
+   "actor": "0x147a639f61ef1f3822525e3c7b0ca5be57089e7f",
+   "side": "sell",
+   "amount_usd": 191,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xf63241fbaedafc4bb98ff0f9c9937e525bcb113071fa689b8d7c2b8de1f01dff"
+  },
+  {
+   "ts": "2026-09-02T21:01:15Z",
+   "actor": "0x147a639f61ef1f3822525e3c7b0ca5be57089e7f",
+   "side": "sell",
+   "amount_usd": 191,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x625cfdef146a2fba94fd8226ed1a559171383529c289a9cd6ecf0373b86efb3c"
+  },
+  {
+   "ts": "2026-09-02T21:01:17Z",
+   "actor": "0x2192bc3b4028acc1113f2cd9ac2cba70c36520db",
+   "side": "sell",
+   "amount_usd": 218,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x579dc37171102f1c58251cbae1a3769d9509757c118b11da018cc8e8c1693902"
+  },
+  {
+   "ts": "2026-09-02T21:01:55Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 492,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0x4bb304e809e277b67c891cd4707fc02e34083cb1ba6b303b4348cf40e6dc285d"
+  },
+  {
+   "ts": "2026-09-02T21:01:57Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 767,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xf4646aa91c0ff6945350ef613bcccf82b5642658c92a07aa1e85989f71731718"
+  },
+  {
+   "ts": "2026-09-02T21:01:59Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 429,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xa64b05ccd18ebfbdb64ac7c59fd7ba8d470b70e6cf1dfa355d22bd4f159674b2"
+  },
+  {
+   "ts": "2026-09-02T21:02:09Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 273,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x081d5f5985c708d3382cf53f5d362937ed344df81ddd7059bdb8ee56d619628f"
+  },
+  {
+   "ts": "2026-09-02T21:02:13Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 252,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x2f1a803a9aea0fb62fcb9310d0891751d08d8ceab5251bc2d7e5ea0b4d8fe1f4"
+  },
+  {
+   "ts": "2026-09-02T21:02:13Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 282,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xee078c115b1b2904bdb260a2271c8520e91b465969c992c224627b7ea5eac654"
+  },
+  {
+   "ts": "2026-09-02T21:02:31Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 149,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x5c8b68c204710cc8d577eb0ce83ae2f24cf7479c432169ba377ffe4d9fa2b246"
+  },
+  {
+   "ts": "2026-09-02T21:02:53Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 361,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x4fd84c67c7b3ae79dc61e860b15ff35e69f0add6788793b8e500759fe8efee97"
+  },
+  {
+   "ts": "2026-09-02T21:02:53Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 115,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x5010039cb606693bab7c39c02be5894dafb653f98f32d4e28803aa3afda3823a"
+  },
+  {
+   "ts": "2026-09-02T21:02:53Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 115,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xc6ad403e901321bcae7862b516fa7411e953e114012e1a353d4a26d2ea1d9e92"
+  },
+  {
+   "ts": "2026-09-02T21:02:53Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 115,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xe46ec9a6450b127af41bbb03d3b29f1a74133ae49cc6a2c7992740d72d135629"
+  },
+  {
+   "ts": "2026-09-02T21:02:55Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 246,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x32b0be355374078230c5057fc5bd67ae30f0e7756d61d10cfaa0c95c9776389a"
+  },
+  {
+   "ts": "2026-09-02T21:02:55Z",
+   "actor": "0x2192bc3b4028acc1113f2cd9ac2cba70c36520db",
+   "side": "sell",
+   "amount_usd": 373,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x73f1fb585bac616e30d989320783a9605131e99a36e239d044616feee0a3ddc9"
+  },
+  {
+   "ts": "2026-09-02T21:03:15Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 228,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x25934fd61e7505fc0207ff15113958f466991fcc43b83ed564b431a6c7181abf"
+  },
+  {
+   "ts": "2026-09-02T21:03:15Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 115,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x6aef9f0126fd42332d9ea3b3afd61e05abdb3057c9ff1a32f818fde41a0dd46e"
+  },
+  {
+   "ts": "2026-09-02T21:03:15Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 150,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0x79f8842fc0370309f5180aac239369aae359d4f859883b9147476b3883016b6b"
+  },
+  {
+   "ts": "2026-09-02T21:03:15Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 178,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xacfae5b85d5e6d0fc079b20cc090da68a80d052b9031218f91f5d44519e87546"
+  },
+  {
+   "ts": "2026-09-02T21:03:15Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 115,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xd3bf95f0909418dac2990e7c2e8f593542829a80ebd50b9a1f6a9c04efc711aa"
+  },
+  {
+   "ts": "2026-09-02T21:05:19Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 164,
+   "token": "VIRTUAL",
+   "token_address": "0x0b3e328455c4059eeb9e3f84b5543f74e24e7e1b",
+   "tx": "0xf254577fb6f2c2618789f9b002d4fbfe56f31664637cc10fb7d09d851b4ad57a"
+  },
+  {
+   "ts": "2026-09-02T21:05:19Z",
+   "actor": "0x18affb4cc2dd922137056d35c60ad5d0b0b1325f",
+   "side": "sell",
+   "amount_usd": 105,
+   "token": "AERO",
+   "token_address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "tx": "0xde1a8ed855ea30d1756cc0b1e8131d0391ab2a69047ac0dcda308061555dfac5"
   }
  ]
 }
