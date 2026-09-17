@@ -1,54 +1,38 @@
 {
  "chain": "robinhood",
- "generated_at": "2026-09-16T13:48:05.857Z",
+ "generated_at": "2026-09-17T13:50:26.357Z",
  "tokens": [
   {
    "symbol": "PONS",
    "address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
-   "volume_24h_usd": 73422198
+   "volume_24h_usd": 66346171
   },
   {
    "symbol": "NVDA",
    "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
-   "volume_24h_usd": 27914442
+   "volume_24h_usd": 32142521
   },
   {
    "symbol": "SPCX",
    "address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
-   "volume_24h_usd": 26440261
+   "volume_24h_usd": 31763532
   },
   {
    "symbol": "SPY",
    "address": "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
-   "volume_24h_usd": 19219305
+   "volume_24h_usd": 23704925
   },
   {
-   "symbol": "ATC",
-   "address": "0xbfaa6082d6c82e0752a2aa7558746fc5a5daaaaa",
-   "volume_24h_usd": 18936738
+   "symbol": "CASHCAT",
+   "address": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+   "volume_24h_usd": 19941034
   }
  ],
  "creatures": [
   {
-   "address": "0x2f4579ca81717d3d61bf8b6f06571877bbe54a07",
-   "species": "whale",
-   "trades_24h_usd": 1642238,
-   "win_rate": null,
-   "glow": 0.5,
-   "realized_pnl_usd": null,
-   "traded_times": null,
-   "traded_token_count": null,
-   "top_tokens": [
-    "NVDA",
-    "SPY",
-    "SPCX"
-   ],
-   "size": 1
-  },
-  {
    "address": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
    "species": "whale",
-   "trades_24h_usd": 1259005,
+   "trades_24h_usd": 4581227,
    "win_rate": 0.6666666666666666,
    "glow": 0.6666666666666666,
    "realized_pnl_usd": 19679.54249190905,
@@ -58,49 +42,15 @@
     "WETH",
     "ETH"
    ],
-   "size": 0.94
-  },
-  {
-   "address": "0x26c2448c0038874f68cc0d388d96f8d218af3bdf",
-   "species": "shark",
-   "trades_24h_usd": 425576,
-   "win_rate": 0.25,
-   "glow": 0.25,
-   "realized_pnl_usd": -1405.5325827336328,
-   "traded_times": 8838,
-   "traded_token_count": 16,
-   "top_tokens": [
-    "ETH",
-    "NPC",
-    "VIRTUAL",
-    "CASHCAT",
-    "PAIR"
-   ],
-   "size": 0.72
-  },
-  {
-   "address": "0x62032c02e30e47163daf3f4851e40682da00a1cb",
-   "species": "shark",
-   "trades_24h_usd": 311963,
-   "win_rate": 0,
-   "glow": 0,
-   "realized_pnl_usd": -55161.763422708136,
-   "traded_times": 28,
-   "traded_token_count": 3,
-   "top_tokens": [
-    "ETH",
-    "ATC",
-    "⚠️ USDB"
-   ],
-   "size": 0.65
+   "size": 1
   },
   {
    "address": "0x9f736f87e6293ac1bd9142e257dbfac8b7acf1ae",
-   "species": "shark",
-   "trades_24h_usd": 290803,
+   "species": "whale",
+   "trades_24h_usd": 2367435,
    "win_rate": 0.9230769230769231,
    "glow": 0.9230769230769231,
-   "realized_pnl_usd": 1359082.146990941,
+   "realized_pnl_usd": 1359082.1469909407,
    "traded_times": 83301,
    "traded_token_count": 26,
    "top_tokens": [
@@ -110,117 +60,117 @@
     "AMD",
     "SPY"
    ],
-   "size": 0.63
+   "size": 0.87
   },
   {
-   "address": "0xeafee5d8ccff4aec6c4e086f57598dd47d127261",
-   "species": "dolphin",
-   "trades_24h_usd": 269906,
-   "win_rate": 0,
-   "glow": 0,
-   "realized_pnl_usd": -59270.33579719922,
-   "traded_times": 30,
-   "traded_token_count": 3,
+   "address": "0xb71cf7d28827779303fe471aa8c6e8640704b45d",
+   "species": "shark",
+   "trades_24h_usd": 1727091,
+   "win_rate": 0.3076923076923077,
+   "glow": 0.3076923076923077,
+   "realized_pnl_usd": -248067.02341620173,
+   "traded_times": 19857,
+   "traded_token_count": 13,
+   "top_tokens": [
+    "SPCX",
+    "MSTR",
+    "PONS",
+    "CASHCAT"
+   ],
+   "size": 0.81
+  },
+  {
+   "address": "0x2f4579ca81717d3d61bf8b6f06571877bbe54a07",
+   "species": "shark",
+   "trades_24h_usd": 807658,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "NVDA",
+    "PONS"
+   ],
+   "size": 0.66
+  },
+  {
+   "address": "0x26c2448c0038874f68cc0d388d96f8d218af3bdf",
+   "species": "shark",
+   "trades_24h_usd": 544996,
+   "win_rate": 0.29411764705882354,
+   "glow": 0.29411764705882354,
+   "realized_pnl_usd": -1204.7925198321961,
+   "traded_times": 8996,
+   "traded_token_count": 17,
    "top_tokens": [
     "ETH",
-    "ATC",
-    "⚠️ USDB"
+    "NPC",
+    "VIRTUAL",
+    "CASHCAT",
+    "PAIR"
    ],
-   "size": 0.62
+   "size": 0.58
+  },
+  {
+   "address": "0x3cb9df2d4f6febd9d46731ec8ba8e3ca6ff0845d",
+   "species": "dolphin",
+   "trades_24h_usd": 407056,
+   "win_rate": 0.4,
+   "glow": 0.4,
+   "realized_pnl_usd": 68405.08480594806,
+   "traded_times": 8070,
+   "traded_token_count": 10,
+   "top_tokens": [
+    "PONS",
+    "PERPSHOOD",
+    "CROSSRATE",
+    "ZEAL",
+    "LEGS"
+   ],
+   "size": 0.53
   },
   {
    "address": "0x95cc89de66e32880e0c3171926078330780c7dc9",
    "species": "dolphin",
-   "trades_24h_usd": 265679,
-   "win_rate": 0.3333333333333333,
-   "glow": 0.3333333333333333,
-   "realized_pnl_usd": -6140.22847963298,
-   "traded_times": 6880,
-   "traded_token_count": 3,
+   "trades_24h_usd": 402882,
+   "win_rate": 0.25,
+   "glow": 0.25,
+   "realized_pnl_usd": -5371.837618998872,
+   "traded_times": 7626,
+   "traded_token_count": 4,
    "top_tokens": [
     "ETH",
     "PONS"
    ],
-   "size": 0.62
-  },
-  {
-   "address": "0xcef7501b9b060a599a81735bead6641c0e6baf46",
-   "species": "dolphin",
-   "trades_24h_usd": 257004,
-   "win_rate": 1,
-   "glow": 1,
-   "realized_pnl_usd": 170100.94200544726,
-   "traded_times": 79192,
-   "traded_token_count": 3,
-   "top_tokens": [
-    "WETH",
-    "ETH",
-    "VIRTUAL"
-   ],
-   "size": 0.61
-  },
-  {
-   "address": "0x71def18185d8ebcf26c053e1014d14d248b5fa42",
-   "species": "dolphin",
-   "trades_24h_usd": 240488,
-   "win_rate": 0.3,
-   "glow": 0.3,
-   "realized_pnl_usd": 340986.5606406771,
-   "traded_times": 281,
-   "traded_token_count": 20,
-   "top_tokens": [
-    "PONS",
-    "AI",
-    "NET",
-    "ZZZ",
-    "🌱 STANDARD"
-   ],
-   "size": 0.59
+   "size": 0.52
   },
   {
    "address": "0x4d1fed1d3597bff8dc74024cfbaf86adced00874",
    "species": "dolphin",
-   "trades_24h_usd": 208067,
-   "win_rate": 0.17391304347826086,
-   "glow": 0.17391304347826086,
-   "realized_pnl_usd": -17675.64951149795,
-   "traded_times": 2151,
+   "trades_24h_usd": 323363,
+   "win_rate": 0.21739130434782608,
+   "glow": 0.21739130434782608,
+   "realized_pnl_usd": -18027.909512330214,
+   "traded_times": 2433,
    "traded_token_count": 23,
    "top_tokens": [
     "AMD",
-    "META",
     "GOOGL",
     "NVDA",
+    "META",
     "AAPL"
    ],
-   "size": 0.56
-  },
-  {
-   "address": "0xd2fa10fc5a4f906995dda6e09f243256a2330760",
-   "species": "dolphin",
-   "trades_24h_usd": 196275,
-   "win_rate": 0.6666666666666666,
-   "glow": 0.6666666666666666,
-   "realized_pnl_usd": 149564.11607884135,
-   "traded_times": 144,
-   "traded_token_count": 12,
-   "top_tokens": [
-    "PONS",
-    "UP",
-    "RAM",
-    "WETH",
-    "DELTA"
-   ],
-   "size": 0.55
+   "size": 0.48
   },
   {
    "address": "0x566bd93f69754a6bc3cee93104509f5a4adb60dc",
-   "species": "fish",
-   "trades_24h_usd": 171953,
+   "species": "dolphin",
+   "trades_24h_usd": 311118,
    "win_rate": 0.5384615384615384,
    "glow": 0.5384615384615384,
-   "realized_pnl_usd": 45501.487441426136,
-   "traded_times": 38065,
+   "realized_pnl_usd": 47260.71230289235,
+   "traded_times": 38555,
    "traded_token_count": 13,
    "top_tokens": [
     "PONS",
@@ -229,226 +179,274 @@
     "MEME",
     "FLOCK"
    ],
-   "size": 0.52
+   "size": 0.47
   },
   {
-   "address": "0x1149401cdc6f83c0df835c55493ea5fed72231c9",
-   "species": "fish",
-   "trades_24h_usd": 126882,
+   "address": "0x3b52de48a9457cd662485dc5e7971e02e9c2bee1",
+   "species": "dolphin",
+   "trades_24h_usd": 285772,
    "win_rate": 0.3333333333333333,
    "glow": 0.3333333333333333,
-   "realized_pnl_usd": 99522.05934105936,
-   "traded_times": 36,
-   "traded_token_count": 9,
+   "realized_pnl_usd": 5504.805615857423,
+   "traded_times": 3836,
+   "traded_token_count": 3,
    "top_tokens": [
-    "PONS",
-    "MOO",
-    "CASHCAT",
-    "AI"
+    "SPCX",
+    "WETH",
+    "ETH"
    ],
    "size": 0.46
   },
   {
-   "address": "0x631a46eb4d7747099152f589567afdf55ff12170",
-   "species": "fish",
-   "trades_24h_usd": 101782,
-   "win_rate": 0.3333333333333333,
-   "glow": 0.3333333333333333,
-   "realized_pnl_usd": -2818.3176154773682,
-   "traded_times": 15,
-   "traded_token_count": 3,
+   "address": "0x921a50030fef9db6697bbc4d4e83c4d1250163a0",
+   "species": "dolphin",
+   "trades_24h_usd": 247030,
+   "win_rate": 0.4642857142857143,
+   "glow": 0.4642857142857143,
+   "realized_pnl_usd": 270669.135872922,
+   "traded_times": 3438,
+   "traded_token_count": 56,
    "top_tokens": [
-    "ETH",
-    "PONS"
-   ],
-   "size": 0.41
-  },
-  {
-   "address": "0x56a2b7581abb55b500732871b77f4198d5f9ae58",
-   "species": "fish",
-   "trades_24h_usd": 101034,
-   "win_rate": 0.23255813953488372,
-   "glow": 0.23255813953488372,
-   "realized_pnl_usd": -28315.782323194384,
-   "traded_times": 955,
-   "traded_token_count": 43,
-   "top_tokens": [
-    "ETH",
-    "ROBIN",
-    "INDEX",
+    "STONKBROKER",
+    "CASHCAT",
+    "PIPEDOG",
     "PONS",
-    "LEGS"
+    "PEZ"
    ],
-   "size": 0.41
+   "size": 0.43
   },
   {
-   "address": "0xd6e8407e8b890e68036e5cc9e14b02902c9583f0",
+   "address": "0x00c800c2d989704dca305bbe982934b667218db6",
    "species": "fish",
-   "trades_24h_usd": 99506,
-   "win_rate": 0,
-   "glow": 0,
-   "realized_pnl_usd": -448.8754005895612,
-   "traded_times": 12,
-   "traded_token_count": 2,
+   "trades_24h_usd": 242259,
+   "win_rate": 0.46153846153846156,
+   "glow": 0.46153846153846156,
+   "realized_pnl_usd": 21509.263826669532,
+   "traded_times": 2971,
+   "traded_token_count": 65,
    "top_tokens": [
+    "STONKBROKER",
+    "WORTH",
+    "ETH",
+    "⚠️ RIF",
+    "CLOCKIN"
+   ],
+   "size": 0.43
+  },
+  {
+   "address": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "species": "fish",
+   "trades_24h_usd": 241243,
+   "win_rate": 0.75,
+   "glow": 0.75,
+   "realized_pnl_usd": 13217.502922897664,
+   "traded_times": 44408,
+   "traded_token_count": 4,
+   "top_tokens": [
+    "WETH",
+    "CASHCAT",
     "PONS"
    ],
-   "size": 0.41
+   "size": 0.42
   },
   {
-   "address": "0x63d7d2e3dd5f00cb9276ad6dc9710807dcc724e6",
+   "address": "0xc6b15c04d75fc257df6bd7f18bcb035b0949d06d",
    "species": "fish",
-   "trades_24h_usd": 99363,
-   "win_rate": 0.25,
-   "glow": 0.25,
-   "realized_pnl_usd": -44748.638214356695,
-   "traded_times": 719,
+   "trades_24h_usd": 199984,
+   "win_rate": 0.375,
+   "glow": 0.375,
+   "realized_pnl_usd": -4587.32913834144,
+   "traded_times": 233,
    "traded_token_count": 8,
    "top_tokens": [
-    "ICOIN",
-    "PONS",
-    "CASHCAT",
-    "BOW",
-    "AI"
-   ],
-   "size": 0.41
-  },
-  {
-   "address": "0x5382aa0cf1ddbe72c413abf414e599129b8f7e7c",
-   "species": "fish",
-   "trades_24h_usd": 97492,
-   "win_rate": 0,
-   "glow": 0,
-   "realized_pnl_usd": -211.05990509544426,
-   "traded_times": 4,
-   "traded_token_count": 2,
-   "top_tokens": [
-    "ETH"
-   ],
-   "size": 0.4
-  },
-  {
-   "address": "0x4a090fdea61b0544bd06a8550e31403e3e40c9ac",
-   "species": "fish",
-   "trades_24h_usd": 93274,
-   "win_rate": 1,
-   "glow": 1,
-   "realized_pnl_usd": 17823.96327120903,
-   "traded_times": 339,
-   "traded_token_count": 5,
-   "top_tokens": [
-    "PONS",
     "ETH",
-    "HIMS",
-    "WETH"
+    "SPY",
+    "WETH",
+    "SPCX",
+    "NVDA"
    ],
    "size": 0.39
   },
   {
-   "address": "0x0525732803ba9aefa4f6986db7b858672be2d793",
+   "address": "0xd7d0e2a8c7079036d44b238a9ca46f0d396415ed",
    "species": "fish",
-   "trades_24h_usd": 85300,
-   "win_rate": 0.4166666666666667,
-   "glow": 0.4166666666666667,
-   "realized_pnl_usd": 35207.80527291907,
-   "traded_times": 1168,
-   "traded_token_count": 24,
+   "trades_24h_usd": 194132,
+   "win_rate": 0.25,
+   "glow": 0.25,
+   "realized_pnl_usd": -3575.463898833165,
+   "traded_times": 3411,
+   "traded_token_count": 4,
    "top_tokens": [
-    "NUDES",
-    "FRONG",
-    "PONS",
-    "ETH",
-    "CASHCAT"
+    "PONS"
    ],
    "size": 0.38
   },
   {
-   "address": "0x457811a65ce6be05e1235eb4e94d6005483fc7f8",
+   "address": "0x08c8315549f059ab63e95d0c70770582e2fa80cb",
    "species": "fish",
-   "trades_24h_usd": 76692,
-   "win_rate": 0.6551724137931034,
-   "glow": 0.6551724137931034,
-   "realized_pnl_usd": 3327.004102520781,
-   "traded_times": 74432,
-   "traded_token_count": 29,
+   "trades_24h_usd": 189649,
+   "win_rate": 0,
+   "glow": 0,
+   "realized_pnl_usd": -105009.62536091318,
+   "traded_times": 751,
+   "traded_token_count": 3,
    "top_tokens": [
-    "NVDA",
+    "FATCOIN"
+   ],
+   "size": 0.38
+  },
+  {
+   "address": "0x8c1f146ee6527c2f3e55adff2295ee6c9c2eea23",
+   "species": "fish",
+   "trades_24h_usd": 187225,
+   "win_rate": 0.23404255319148937,
+   "glow": 0.23404255319148937,
+   "realized_pnl_usd": 291621.97852301854,
+   "traded_times": 903,
+   "traded_token_count": 47,
+   "top_tokens": [
+    "PONS",
+    "PACK",
+    "PORT",
+    "ASTEROID",
+    "MARTIANS"
+   ],
+   "size": 0.37
+  },
+  {
+   "address": "0x8b6d974142fe732169b4c7910cb1737679a35ade",
+   "species": "fish",
+   "trades_24h_usd": 181021,
+   "win_rate": 0,
+   "glow": 0,
+   "realized_pnl_usd": -677.2362704613943,
+   "traded_times": 186,
+   "traded_token_count": 3,
+   "top_tokens": [
+    "PONS",
+    "NVDA"
+   ],
+   "size": 0.37
+  },
+  {
+   "address": "0x704c8c855765b4c053cc2dc02b3f318caf2ab732",
+   "species": "fish",
+   "trades_24h_usd": 173835,
+   "win_rate": 0.3404255319148936,
+   "glow": 0.3404255319148936,
+   "realized_pnl_usd": -135690.90426984587,
+   "traded_times": 1326,
+   "traded_token_count": 47,
+   "top_tokens": [
+    "PAIR",
+    "SPACEHOOD",
+    "PONS",
+    "CASHCAT",
+    "MEME"
+   ],
+   "size": 0.36
+  },
+  {
+   "address": "0x1d9e5876a63443c2d8fbd331b9e7c0f565cdda53",
+   "species": "fish",
+   "trades_24h_usd": 165115,
+   "win_rate": 0.2711864406779661,
+   "glow": 0.2711864406779661,
+   "realized_pnl_usd": -12552.973785129,
+   "traded_times": 3010,
+   "traded_token_count": 177,
+   "top_tokens": [
+    "RBLX",
+    "SKHY",
+    "PFE",
     "CRCL",
-    "TSLA",
-    "MU",
-    "TSM"
+    "GLXY"
    ],
    "size": 0.35
   },
   {
-   "address": "0xc39b02dc117dc5de9dec328a12a7f3b03fc354e8",
+   "address": "0xbb8178c3ee2128448173a6f967effca39ff22f62",
    "species": "fish",
-   "trades_24h_usd": 70683,
-   "win_rate": 0.5454545454545454,
-   "glow": 0.5454545454545454,
-   "realized_pnl_usd": 19004.398760145992,
-   "traded_times": 1774,
-   "traded_token_count": 33,
+   "trades_24h_usd": 155792,
+   "win_rate": 0.2857142857142857,
+   "glow": 0.2857142857142857,
+   "realized_pnl_usd": 12519.318633630322,
+   "traded_times": 724,
+   "traded_token_count": 63,
    "top_tokens": [
-    "PIPEDOG",
-    "WORTH",
-    "ETH",
-    "CASHCAT",
-    "INDEX"
+    "PONS",
+    "FABLE",
+    "PAIR",
+    "BODKIN",
+    "JUGGERNAUT"
    ],
    "size": 0.34
   },
   {
-   "address": "0xe90c0a6c84125e82b1f8f5f3167953e73338f964",
+   "address": "0xbcffa5e08dd4d5e4b4f866788bcc1124ffe4055b",
    "species": "fish",
-   "trades_24h_usd": 62518,
-   "win_rate": 0.6595744680851063,
-   "glow": 0.6595744680851063,
-   "realized_pnl_usd": 312469.5192779758,
-   "traded_times": 11381,
-   "traded_token_count": 141,
+   "trades_24h_usd": 153193,
+   "win_rate": 0.3333333333333333,
+   "glow": 0.3333333333333333,
+   "realized_pnl_usd": 32036.79951230748,
+   "traded_times": 51,
+   "traded_token_count": 3,
    "top_tokens": [
     "PONS",
-    "JUGGERNAUT",
-    "HOOKR",
-    "DELTA",
-    "FRONG"
+    "ETH"
    ],
-   "size": 0.31
+   "size": 0.34
   },
   {
-   "address": "0x7cd483f2d477559c115208e861d2435ab833b12f",
+   "address": "0xd2d4867b8886c0cfc3de5ccd5203ec66c6183764",
    "species": "fish",
-   "trades_24h_usd": 61389,
-   "win_rate": 0.47058823529411764,
-   "glow": 0.47058823529411764,
-   "realized_pnl_usd": 57367.308064718374,
-   "traded_times": 7629,
-   "traded_token_count": 17,
+   "trades_24h_usd": 139335,
+   "win_rate": 0.3333333333333333,
+   "glow": 0.3333333333333333,
+   "realized_pnl_usd": -34718.77887378812,
+   "traded_times": 464,
+   "traded_token_count": 6,
    "top_tokens": [
-    "WETH",
-    "GME",
-    "SPY",
-    "NVDA",
-    "VIRTUAL"
+    "ETH",
+    "AI",
+    "PONS",
+    "ZZZ"
    ],
-   "size": 0.31
+   "size": 0.32
   },
   {
-   "address": "0xf811d8fdc7aeee8bae73d9f4e00ee6253188190e",
+   "address": "0xa73072adc6c34859426fcc29bc6ca2cac07c93c3",
    "species": "fish",
-   "trades_24h_usd": 59467,
-   "win_rate": 0.4117647058823529,
-   "glow": 0.4117647058823529,
-   "realized_pnl_usd": -9258.098279286187,
-   "traded_times": 1040,
+   "trades_24h_usd": 130953,
+   "win_rate": 0.631578947368421,
+   "glow": 0.631578947368421,
+   "realized_pnl_usd": 19147.08286693472,
+   "traded_times": 1248,
+   "traded_token_count": 19,
+   "top_tokens": [
+    "PONS",
+    "WETH",
+    "LIT",
+    "GME",
+    "MSTR"
+   ],
+   "size": 0.3
+  },
+  {
+   "address": "0xc39b02dc117dc5de9dec328a12a7f3b03fc354e8",
+   "species": "fish",
+   "trades_24h_usd": 127794,
+   "win_rate": 0.6764705882352942,
+   "glow": 0.6764705882352942,
+   "realized_pnl_usd": 14005.957433785803,
+   "traded_times": 1783,
    "traded_token_count": 34,
    "top_tokens": [
-    "MOO",
-    "FAMI",
-    "INDEX",
-    "RABBIT",
-    "⚠️ JINQIAN"
+    "PIPEDOG",
+    "WORTH",
+    "CASHCAT",
+    "PONS",
+    "INDEX"
    ],
    "size": 0.3
   }
