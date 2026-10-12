@@ -1,2311 +1,7 @@
 {
  "chain": "solana",
- "generated_at": "2026-10-12T06:02:29.008Z",
+ "generated_at": "2026-10-12T15:31:08.818Z",
  "events": [
-  {
-   "ts": "2026-10-11T12:50:27Z",
-   "actor": "CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED",
-   "side": "buy",
-   "amount_usd": 1970,
-   "token": "ORCA",
-   "token_address": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
-   "tx": "2bHwp1uUuLdSamXTLVEoPfrPZLgS9Q6hLhXS7bTkYAV3mzM7zZaukbRzyPB73Ntzt2Mw3z12DVpNC8KCZYYrLG8q"
-  },
-  {
-   "ts": "2026-10-11T12:50:27Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "buy",
-   "amount_usd": 300,
-   "token": "ORCA",
-   "token_address": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
-   "tx": "49ZwgcQj4XADeWZAxLQ6ozDxmdTxWjJxPnAbkgSby7CASxjLaw8KiaXWGViBDCVHUwMYHTMRiGr6grd36LaFpfGk"
-  },
-  {
-   "ts": "2026-10-11T12:50:40Z",
-   "actor": "3jX3zPSt5ofJiKPLmvcf2aarLGeFMf7rNwMLqTUvBQsU",
-   "side": "sell",
-   "amount_usd": 398,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "ivePF7LFDBnNcPX1Zg54DMZjk73kjTU68HanjGP8toxx6nHRfrwaLbiCHqmspgAD6hSwuA1twr4n7T6uHuGue6V"
-  },
-  {
-   "ts": "2026-10-11T12:50:43Z",
-   "actor": "GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA",
-   "side": "sell",
-   "amount_usd": 166,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "3LkczaRuj36txFqghnzVH1pXPQtyWw8sLM7MJAvNLTkT2DbBUtnpTY9mfrhNMAg9v6VAHVnYptTCnMH3Nagm22XA"
-  },
-  {
-   "ts": "2026-10-11T12:50:46Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 1864,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "2FBqCww5Lyh2dVgUBNzGrwfPUbhHNaXjPmMLNasppsKpARL16bpbvsJdZv9c21Qdj5UaQ3Mqikh78dz9Vc1ALpPg"
-  },
-  {
-   "ts": "2026-10-11T12:50:46Z",
-   "actor": "3vEeV2JxHnPxCjmX3HgVihGdZ3f4SoYeof6zoEo3kTT5",
-   "side": "sell",
-   "amount_usd": 2020,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "2FBqCww5Lyh2dVgUBNzGrwfPUbhHNaXjPmMLNasppsKpARL16bpbvsJdZv9c21Qdj5UaQ3Mqikh78dz9Vc1ALpPg"
-  },
-  {
-   "ts": "2026-10-11T12:51:05Z",
-   "actor": "hKgG7iEDRFNsJSwLYqz8ETHuZwzh6qMMLow8VXa8pLm",
-   "side": "buy",
-   "amount_usd": 362,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "3cd3wXUSq7hSXsToZsKjpYPK634oP1szdKPiSD4dUftpNBRH85fUbmomi5DkmHWcZPXvcoZkoYvHxyk27mTxDwg6"
-  },
-  {
-   "ts": "2026-10-11T12:51:06Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 328,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "3e2TDiD7w1dFdKgJTSpjuyBP4tNGuFswC4MJQ39RMrSmV5q8XDJrMTC8Vd22cDuEbJN8iV6uYtUhxb9wTAiE4R3L"
-  },
-  {
-   "ts": "2026-10-11T12:51:06Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 328,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "5ZwdtmqMNio3GwJnMqwK3E6YGrqEE7n72v5CT8WdUPJfysxa5cjjRXPYujMNGgsyMRN4yxsssp8jGUCK72wEK9FV"
-  },
-  {
-   "ts": "2026-10-11T12:51:30Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 109,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "3Az9GaecfnK7oDWYKfbmkP4iHmYoYeaZTgrfrHnGP9P44XCXNJaJwo3r4VftmaFFJDMCZHCzPpUT4uvzLxbst41C"
-  },
-  {
-   "ts": "2026-10-11T12:51:30Z",
-   "actor": "BYicPaM9wAm1DYJUg1YZyTZQhJQX337NXLiqAoPG9ir9",
-   "side": "sell",
-   "amount_usd": 383,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "4GzgNSHf8NQ5oGzGBgx5wS2RSGt1kHo3eeanjo1A348jFHLt4tWAVKYY3acxKKWNWXHCm6UhSSCFhbWZyn1ARbHJ"
-  },
-  {
-   "ts": "2026-10-11T12:51:32Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 464,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "35GkHk3LVBBXaGsvbKgPSQiyoVFNT2TZzWKUKUhBWKUjzCYNjEp9NMZh81qaW7xdqKfJYeFV4ty3aQhGAc7f2qD5"
-  },
-  {
-   "ts": "2026-10-11T12:51:32Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 588,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "5mFUVnwS7swwDhHxkBpU3sJMTNFFUue3UsDuLjupAq3uF712Ln6L2SCMYab3TVaZrmTwp8axEyDditAWVmzBUxyZ"
-  },
-  {
-   "ts": "2026-10-11T12:51:33Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 219,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "5rZxgQy5xgNtLmwSnSi8B1MjypkoMo9AFfSk3DgYw56YP42TakBj8D1KA9WVbpqHpX5g47bMZYpdCrYWhBywJpuY"
-  },
-  {
-   "ts": "2026-10-11T12:51:33Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 134,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "5TZDwMNSpv4pBRR2k6rJoCY2zEuaJfaERnzvvvuGtBKetKgCL17AQHx2bUJzM6dR3Kh3jFDhgYvxC6YTy6EM4g7V"
-  },
-  {
-   "ts": "2026-10-11T12:51:34Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 107,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "2uBfntAvMPaq8mhyTGkU7TtfNgHVnfPWfJ1LPVwUbi8gEw3nMAB8seDd2YRKkgmMZHzFqc4t4tjRekMTnxhvU9zq"
-  },
-  {
-   "ts": "2026-10-11T12:51:35Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 321,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "2M8jWYdg3JKQho9nAsDFMgogC6VFRzMzQ2PFtMv4m31wZTbPkwzDnAW7DGHiCGYJCanYAcHNUZHAD4sfwX3s3ZFm"
-  },
-  {
-   "ts": "2026-10-11T12:51:35Z",
-   "actor": "Cmn5oEk5q5BHhgJ8pgbDAKYky1hcApz8gncijNLQvwc9",
-   "side": "buy",
-   "amount_usd": 300,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "5m5JcU9buoW8jvYTiKzZx9eBfnmeZ5iDyDZ7prCzhSYu3TFmANY6TEvNG3snH2bu3YGpe6EpqqzzGGvkC9wua7j5"
-  },
-  {
-   "ts": "2026-10-11T12:51:36Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 219,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "2AjQ2kbESjWHmW3a1VqLfLHGPcm4HZ2Tr8hzS1ybV885QSXkpVTeobU7ugmRxG3a36qJnAF5VW4MDGscxFCoVkyi"
-  },
-  {
-   "ts": "2026-10-11T12:51:36Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 145,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "2dSQiH8PS2JHxz18m5WykAbZ6Y2tXFCXtXjYqPDY2s7qu9FpQDSwsHpfx1co27KDoP2fEc4xbwi4en9hkKBEPAhw"
-  },
-  {
-   "ts": "2026-10-11T12:51:36Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 107,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "3pfJTto6RLN8FW7D3p4kNVuHuWd9JnpNUKa42gDHcnF1cxyrF1VaMKbvJAr6k2FNA81zATXJG8YMZdH6MF9r6DmB"
-  },
-  {
-   "ts": "2026-10-11T12:51:37Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 466,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "37pRexKD8knEszVFcrBnqVnWA6q3cMxmMjPzKVK8fJgPBeZ9fp2UVQZVAfpo6uk49JYQDEau7J6NKEk6nX7DmRKv"
-  },
-  {
-   "ts": "2026-10-11T12:51:38Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 121,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "3Eod7F8DDAJaUG4cXpTji4q8pQcDYrQagEUNYey1RembswdnCFxWe7hXWcHZA6KgzjAw819RdG1ZgqV5to4xXPNv"
-  },
-  {
-   "ts": "2026-10-11T12:51:41Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 499,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "3G7HKt4Ja6FT5obEvMycczQDBqFfqPAk8Feb739nLoHgdSaH8o1SX3mZGUTw2SBA1XtqmgwAAWHZ7UxiqXN3mXPz"
-  },
-  {
-   "ts": "2026-10-11T12:51:44Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 328,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "4hkpTfNHeoZwZTnf5juPPiTa7DDCpDHGPW2EnP2xTNwaMYc4xUCWh4FBDvwnrG2fCdBTd2aPqmxpjBKkFrbE3Lth"
-  },
-  {
-   "ts": "2026-10-11T12:51:45Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 328,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "3ZeXH4x2fReGPTypDFHQxS1sPwioZcQXNWLBFZrj4TWsGEGPSihZRpSRkdh6wf9SJeiBMskvaD5473hwM6i8C76A"
-  },
-  {
-   "ts": "2026-10-11T12:51:46Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 219,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "4npowgHyV1XYV8Wd45phweihCSwwJeGrwV2B4osATrzSEPGjmi9BLosQLANTycuHt4AkvWNoD998NGFmQVCCPkRD"
-  },
-  {
-   "ts": "2026-10-11T12:51:46Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 219,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "wDhpHCyyo1kbYhBDjW45YmDSVx4Jxqe89J9b7hLMhQ3FoSRJMkURaKJJrDfMv48rojukkQAjLA3k6vVtqw6ErVp"
-  },
-  {
-   "ts": "2026-10-11T12:51:48Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 213,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "2AurEtw1iACyF2DJ3JshQuifRb45GtMJutBgaeVctL1NjGcRuCmpHRg9JE3A7rmFxHTUNiiX9GsHXB9S7zt4wUoA"
-  },
-  {
-   "ts": "2026-10-11T12:51:48Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 529,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "4mMG5WQaJcMh3qHHJdfbFioHPxZBAeaXKAWB32AGGRfAeTCS4dj63cg8K6kXWT62ABM6SJNfCZ7kkacGMUWkGjdN"
-  },
-  {
-   "ts": "2026-10-11T12:51:49Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 107,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "2g6oBW36w8uy5Vw6s5mTdNtyjemNP7EGbkadv9zWHdaFG7xxRfso9g16hG7wgbucc94nhaef58gKqk1GWmJP4pig"
-  },
-  {
-   "ts": "2026-10-11T12:52:00Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 214,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "3jw7r2uHSs7k2xCQ8iV5CnA1F2F6iJAEEBWLVzvh62mrRMdnXtJGcqqvpBmNnaSAXMJ1pfvNB2xZP2HXhG7aAT7J"
-  },
-  {
-   "ts": "2026-10-11T12:52:00Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 371,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "5ZzSv9G2xQavCjg8bMJsqtnsStsdYhnaaZWbSfuRVCEZVtebfVz5VjG77cCEP8xkQjmoNHDnwKH5q4yTFyJBwL8V"
-  },
-  {
-   "ts": "2026-10-11T12:52:01Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 106,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "2VD9rKRgZgPRPLr5onx1jKvX32JNEd93BoEMHuakq6YS5EEi5GBmdLDi1ibP1FBKjGXhUeS9jouihQS2LRHwqdRe"
-  },
-  {
-   "ts": "2026-10-11T12:52:01Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 216,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "4qXpAMrLXDvmF9dB7WiXd5LLN8VL19TzieGE9uAZnGrCkmTL5Bg8ZzhUaFRVV7WyY2VabJXgxcqnxufZHocHCNEB"
-  },
-  {
-   "ts": "2026-10-11T12:52:02Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 306,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "2UuVWTktx8VnvJV9wSrKn2N6QUqt6fe5dxC3Hm9MQEMgwXPWE9PvWMxTmVMHW4Ff9G9gmkq2GAahQGP56Jvru578"
-  },
-  {
-   "ts": "2026-10-11T12:52:02Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 1146,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "3ZW5PTvM8QbU8pvNAgaPtNkma9FqoJQCca7EMME9PrcrnTqqTFDyHfSJwhLCcEhkGUmhXRmSc7qaGFEnrGJJ1UnW"
-  },
-  {
-   "ts": "2026-10-11T12:52:02Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 152,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "4EpPXUx2LjRBgkYZ8BSuckJPiuXL8QagxZW1H7rB9ytPXuXzhNbkYHnbn7WKPESmEjWBJfSxgfKskrPyv9y6kBEb"
-  },
-  {
-   "ts": "2026-10-11T12:52:02Z",
-   "actor": "9yE49sMheNg9Jia9eokPiEgG7suBgD1crLJoN4tn2Y8u",
-   "side": "sell",
-   "amount_usd": 345,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "EvK6mJSSrdKDGiv4wWWRCY7J6rSZdBrWMzcs8vfT3S8FCLhJNtTryz1aiTE9h7rT2Rj1AvP4jxMPFusxcgt6T8v"
-  },
-  {
-   "ts": "2026-10-11T12:52:33Z",
-   "actor": "8UUFACxvtxttbWihKgCPiL18UEguqLfWTzX16DY1pdat",
-   "side": "buy",
-   "amount_usd": 394,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "287qJqud9jc2b2D4ZrSEfhK1DiMS2FvU5GAMnaVB8nUyNrai3TrHELcHZf1Ryw5qU5F5JZmRX7nj2PaccUBKhLx1"
-  },
-  {
-   "ts": "2026-10-11T12:52:34Z",
-   "actor": "Cmn5oEk5q5BHhgJ8pgbDAKYky1hcApz8gncijNLQvwc9",
-   "side": "sell",
-   "amount_usd": 304,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "V5fByRGKRwuoUEyNKEHMvKykYpWMfC1YFo6PxNzz1SnnhN1yYJ1SuC7pAEqy5ibnipJCZU1eT78LU3A8HnmJtDV"
-  },
-  {
-   "ts": "2026-10-11T12:52:36Z",
-   "actor": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
-   "side": "buy",
-   "amount_usd": 262,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "4mDccWaPTBWnc9upzqPcKfNSBLhCL5yHuTYq53yidzuBWCdmBFFGQ7LoUvV1JGzK1wrer36u21dVhy47tr2FbcxK"
-  },
-  {
-   "ts": "2026-10-11T12:52:51Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 122,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "21hgQ8uHhrskvc25YMmaZPwZujDBMi8LtEvZorcV8E74S16VJfzFFavNcDJqdAm7sufBfSPD8QGGb6jfUsHWkPsT"
-  },
-  {
-   "ts": "2026-10-11T12:52:54Z",
-   "actor": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
-   "side": "buy",
-   "amount_usd": 101,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "4JDSzv8ag4mnw9gkqf6ZFC1uLz1TaMdEGLib397natH8FEV8LfYADr3GtJLEPhzxsv8hniTrey8WYmKA7n8Q4rH4"
-  },
-  {
-   "ts": "2026-10-11T12:52:56Z",
-   "actor": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
-   "side": "buy",
-   "amount_usd": 237,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3qpSNqUf3cXtYvnAD3fua6zdfimKnstMcgzhsQpeT2xPU4rq9UuyENTarysfLhwRFSmiFNQb6tQZcxy8x8ZimLMW"
-  },
-  {
-   "ts": "2026-10-11T12:53:00Z",
-   "actor": "BPPYBKnw37tEgnoqMLZbd3wAmhns45yo2Pco7QnJcgBw",
-   "side": "buy",
-   "amount_usd": 216,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "4mStondTBAyXMfhEMNRq8ApdMs3WxG7u6PHwqzYMW29w1vquuNdLJFJhnY5X1cgbTx2s1JioDZYShvkosvufxVni"
-  },
-  {
-   "ts": "2026-10-11T12:53:07Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 131,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "3fnag18R5YhaLKVTcWtk4Djom5nFMGqDPaBtWr3ktLrdSR18S34hwPivXdEvPCkYDs4GeF8yX8TNZ4Ao4D1MVivc"
-  },
-  {
-   "ts": "2026-10-11T12:53:07Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 219,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "49PZSjbjV2PARksRa1fW4Jj22V7FiYRLqb7BJmoPpYHrBFmRfP8ZH6auGxf8TcjFKSvYRSjBvH6rnj7zk8jCkis6"
-  },
-  {
-   "ts": "2026-10-11T12:53:07Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 496,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "dPo3Ti4KpWHNRtsm2Vy1tscRUDAA6VXXHrZPgKcs5ak3yphyDLQpKAzozdoEucT1xaahokj7RbFaZMmS3rBWia1"
-  },
-  {
-   "ts": "2026-10-11T12:53:08Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 328,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "3mdms1VXD438RBi4bR1cx9YgGfdH7BqEYTMFhkeQJYmscowqJ5CTteogoVJ4vLuB1dLHs4fSSqan48yjgXJiGUHM"
-  },
-  {
-   "ts": "2026-10-11T12:53:09Z",
-   "actor": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
-   "side": "buy",
-   "amount_usd": 219,
-   "token": "JUP",
-   "token_address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-   "tx": "3EQLE9Hn8AsXos1qRhx5xpKuSYBtFTQnJ3zgvG7AYAEYZSt18kyzeLN5qP3enjxuXayQs1H6WAtVT2icxyiXqoA7"
-  },
-  {
-   "ts": "2026-10-11T12:53:18Z",
-   "actor": "BPPYBKnw37tEgnoqMLZbd3wAmhns45yo2Pco7QnJcgBw",
-   "side": "sell",
-   "amount_usd": 152,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3SodVRWSgfdMdn2qkD72DkbGSXTmiUpSo32bG28NzFRKdhrwxqD9GsUKitVWtUXoAnzDFqDwj2JyDRUAvbymRRU9"
-  },
-  {
-   "ts": "2026-10-11T12:53:18Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 149,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3SodVRWSgfdMdn2qkD72DkbGSXTmiUpSo32bG28NzFRKdhrwxqD9GsUKitVWtUXoAnzDFqDwj2JyDRUAvbymRRU9"
-  },
-  {
-   "ts": "2026-10-11T12:53:27Z",
-   "actor": "8UUFACxvtxttbWihKgCPiL18UEguqLfWTzX16DY1pdat",
-   "side": "sell",
-   "amount_usd": 385,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "562b8aAbqgxWfym9LYJJepMuMAfZwZ2bmUEsmRgWn1iHoCdJRh1btQPEzCDr8K2MPEzJxu5Fy1ingPEC8y7atKAq"
-  },
-  {
-   "ts": "2026-10-11T12:53:32Z",
-   "actor": "77GPExGuMLgwa2i1VdT6kCb3v4ZYv1M9F8V3cEzehaX1",
-   "side": "buy",
-   "amount_usd": 407,
-   "token": "WNEAR",
-   "token_address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
-   "tx": "2kFNgDScEJkLP2A6sW8rgScdQAHtLbzaUPx4xzRCbd6F4z43YsZo8qRBaFXGVLvxRQMQFyZcGJZAGifN7hW8imyq"
-  },
-  {
-   "ts": "2026-10-11T12:53:45Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 222,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "4nz4Mwv3UWEkppGAnRPfZ1KdCLrX6uJZurhWzPd55JjkpaHNAJSG3wxKp5QhCmzq6wHEmozt64J6gyixmQUoUMit"
-  },
-  {
-   "ts": "2026-10-11T12:53:47Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "buy",
-   "amount_usd": 209,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "49P5Q6xdfdYGy3399jAcjzZciUi8FtEUxVfDLfDp1F8jzYUUE2Ec2fnJicXE1deQL9mhw4XSrFjQFQ2fzvAegaWD"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "2QDGj5BWMSNyEfmyDFx7eEvWWm4KujUPJ38Xdkntvxtd",
-   "side": "sell",
-   "amount_usd": 1349,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "25TVAMX8Ncw6RWE2veo1TaCcMNaokJ7cDs5HZgWYokRz2aJ883mNv7xsB94LQiWRD8whiYWxuNyfnFRe9hXA2abw"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "FkaLnX17cXZGyeu3kZGdHCNdFMJJzBrPPYVvd18B3MZp",
-   "side": "buy",
-   "amount_usd": 1349,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "25TVAMX8Ncw6RWE2veo1TaCcMNaokJ7cDs5HZgWYokRz2aJ883mNv7xsB94LQiWRD8whiYWxuNyfnFRe9hXA2abw"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "FkaLnX17cXZGyeu3kZGdHCNdFMJJzBrPPYVvd18B3MZp",
-   "side": "buy",
-   "amount_usd": 575,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "2gUntchhBkp9wRfHhNtd9qFWcd7o7NVau7HEwt8rEF9GkyV41kmCJ5fPLntGpzXET9nTaRnV37WFVY1adpUgvtit"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
-   "side": "buy",
-   "amount_usd": 540,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "2m9HBTG8JmZeMCUmfJiKYKvSCSS27CTaDAh749FpJiuLkUu7yvqxkV4waTh8hzJgXZd8ZHFnrgRXGvkjgjwWas6X"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "62ypLB77qeCwsccN15GbvXdCDgUdwc76JzvLdfnef9VB",
-   "side": "sell",
-   "amount_usd": 231,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "4Qs7Nuo9ZRZt854drkXP36QRe6eSCFqouW984JRc9Lf1n8dWFReVkwjGzi4KpenUWTSdq5C2V8JA8G5wkXFZAz9C"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
-   "side": "buy",
-   "amount_usd": 231,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "4Qs7Nuo9ZRZt854drkXP36QRe6eSCFqouW984JRc9Lf1n8dWFReVkwjGzi4KpenUWTSdq5C2V8JA8G5wkXFZAz9C"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
-   "side": "buy",
-   "amount_usd": 393,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "638CG65HAqkSn23q5B8AoT4zDuQh1hizgHWoiZhzZZqaomXMimV8WvsYTL4WeExpSFFBChSLgoiHLakXaa6hzEbs"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "FkaLnX17cXZGyeu3kZGdHCNdFMJJzBrPPYVvd18B3MZp",
-   "side": "buy",
-   "amount_usd": 805,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "MjsQs53ZkCeWbrwEuVqBYhSNoxQDkbtM3b2Dn4ytugJz4qHRtJfk4NeywhFStLnhn4FyCWmVqzm7eDwXjSSkquT"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 108,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "2uS4UsGTuxRjoA9vDKM93AkMD6DrBs7ZARfyJujA3DN2qKDkanzh1ED8fRiBsnJ85zmVMFnQTueb9oxwo9MTYsqf"
-  },
-  {
-   "ts": "2026-10-11T12:53:48Z",
-   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
-   "side": "buy",
-   "amount_usd": 107,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "2uS4UsGTuxRjoA9vDKM93AkMD6DrBs7ZARfyJujA3DN2qKDkanzh1ED8fRiBsnJ85zmVMFnQTueb9oxwo9MTYsqf"
-  },
-  {
-   "ts": "2026-10-11T12:53:50Z",
-   "actor": "GSSEzbiznFLjaaQUH2ENep7WWEyFXPcVFhUUkn8Ym2Nt",
-   "side": "buy",
-   "amount_usd": 249,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3e1mJ9RfAJLkFqxQaFiVxfwYCVKZvQRekDQNTPGmuSYwvqTzWwJxDegKWUhwg58t1gB1VW22WD42ZbdjeWKtHn19"
-  },
-  {
-   "ts": "2026-10-11T12:53:51Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "buy",
-   "amount_usd": 101,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "3mJNyKNvaYi72oXU2KWkYa2Cxce8fsNCLYWyCmLMEocwa5TZQ6QJDNepNimsSYU4uUV3K3FA1sQqJyp6Xz7LBWvy"
-  },
-  {
-   "ts": "2026-10-11T12:53:52Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 104,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "5cd324WXaUNkdZryAXLUTS9HMVPw88PHoJ7sN8vVj9SyzmY8yVwRDZkgYfQWbTM66tfq24PbT7aqAivfXsAWyTb4"
-  },
-  {
-   "ts": "2026-10-11T12:53:52Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 121,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "5u9sqFmudnRdvskPNo4N9RkDn4CwKc7bP2VFaSsYtfHUpB4JsEP4xUYHRfZyxL8QGrQvfKXtj2k3MrzKhBQkCvde"
-  },
-  {
-   "ts": "2026-10-11T12:53:56Z",
-   "actor": "2eNosTrcuxBkq2XP8fikTRhQpYSFFDtJCbcLUrFpiKLA",
-   "side": "buy",
-   "amount_usd": 145,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "3MGgWVVDwPQGUwcJpmHD9bWegGSDD8WGNhnruR6cKEQey6W7dkcsa3TxvBmPXg32MHYfvj8pEhqMtsYzSh9QDyiM"
-  },
-  {
-   "ts": "2026-10-11T12:53:56Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 293,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "3sn1yPuzB8FqABKPQLerAsW73yyYCQbbcof7Rt9UnnmxbxttT3Dc8m2cVfQkAEFoCixcbJQZXSaRq1FxkB2Lp5di"
-  },
-  {
-   "ts": "2026-10-11T12:53:59Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "sell",
-   "amount_usd": 215,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "5syad3anYmL5rV519KCBZQzHj9UtNm2tKiKtviLkWWZngwUEo5H5UJsEyq6U1DvHpiTvmxPNGECmXYC1Vj4m2LAJ"
-  },
-  {
-   "ts": "2026-10-11T12:54:00Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 115,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "23KuwPAG1J5DMCiSAw75tvfnmbaZbj6frorZzTRAgcf3GcaeprSfqe8eUk8jT9jpoLqPbudqaqGvftKHnkbc4cNx"
-  },
-  {
-   "ts": "2026-10-11T12:54:00Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "buy",
-   "amount_usd": 756,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "3LdnKiCwvdc17W4rcwdgnJ5MY3tsK9K7GiTA6ALvgwXUfW3yPfYtTWfMDu1o3oVLprczrtxDfYYxMiFyWZkQmopv"
-  },
-  {
-   "ts": "2026-10-11T12:54:00Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "buy",
-   "amount_usd": 141,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "48MLG7NKphQAfujfVPP6YbrhYDSkegTXkwXdBCivNCsd2PswYJFmpkdzebKzSimCRjvQj6kbk83aSoeGs2g7sG5r"
-  },
-  {
-   "ts": "2026-10-11T12:54:00Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 103,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "5c2X545kDTbV7AWLYknvFu9aFqXvVqWhVTkVWJrNh7HTupeDWXFaFujajp41zTYuEK6R6M5pLKAGadtsmGJZf7gE"
-  },
-  {
-   "ts": "2026-10-11T12:54:02Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 225,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "2pSxuNGgLWA3zo3FAvhVePm7X82BmitpvE9DvyF4NmDxrhj7cxEi5AGPWud3DtqRVRLESqEKPVig48hjMvb317W"
-  },
-  {
-   "ts": "2026-10-11T12:54:02Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 112,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "4FrgSk6vhDPGEc7erQke1RZh6V4uQcFBowUdHVrkCosUGgh7AJZM76ry4yDunyzknvaW4nPqZzzTNCtpgE4AbtVB"
-  },
-  {
-   "ts": "2026-10-11T12:54:03Z",
-   "actor": "CRQd5wvbf6FKVmjHC7on8w4pzFPzudij2BKXRcMCu7aK",
-   "side": "buy",
-   "amount_usd": 198,
-   "token": "ORCA",
-   "token_address": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
-   "tx": "3zZVfwgenurEGVrLtopFbZXBudthwnyGMCem3dy3uCnBrruFH8qdvvEeyPMSe5CV6HtvLPWELzV9P9hNStCWspaq"
-  },
-  {
-   "ts": "2026-10-11T12:54:05Z",
-   "actor": "7Foacwv3WnkzAYcfyoMZdLbkuzaLaDa73EuTjV2N8asy",
-   "side": "sell",
-   "amount_usd": 104,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3QwjQqVtJPaWMauS1gv6Ef6PzStgxowEq6uU2yezW9XWky3pz8RntpPQXAcp9UikZURKDJL4VZSLcGeBSpv8CwNi"
-  },
-  {
-   "ts": "2026-10-11T12:54:05Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "sell",
-   "amount_usd": 206,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "JJnaq7HXVZqo28qbpwhn6Phf4jvfdHE5GBuD8KJqkZfwJEXysSvUTz5nQeGStdD9We1Tp7j9Bsi1EApVXun2uk1"
-  },
-  {
-   "ts": "2026-10-11T12:54:07Z",
-   "actor": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
-   "side": "buy",
-   "amount_usd": 113,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "32Ljqg1JUCXcXdYstdLWu21hStLE58PES9bgP3QKAeeEXs84k1Mpj3X5am3oTAMNZrK7dJiPTcQX95aZ2jaM4azd"
-  },
-  {
-   "ts": "2026-10-11T12:54:08Z",
-   "actor": "Fz2xxf8BvjQtwX9cP3HWrQ2Kg4QiErnRaWVdVa2ZqZsN",
-   "side": "buy",
-   "amount_usd": 123,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "5BkaAEUXJ8XtQihtn8Lw9nAcuU8ZdbH15qcXtFjA7DGEbPRqBwG94opVhoNF6kSDNRyWwWdjxzgGGsa7VX7kzGYB"
-  },
-  {
-   "ts": "2026-10-11T14:59:27Z",
-   "actor": "H7EurjJPzJ5fq7jrMaDzW6wTnVZwZfUw8w1U54xnVCJA",
-   "side": "sell",
-   "amount_usd": 161,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "2nToxBBLXdEDxwoK2f5DhiCf7HiF6uHViQVSZ2Eyut1SmgCB3RHy9Xr79iwunasEytUhuU8y6VEBTvJKRqmWSHj8"
-  },
-  {
-   "ts": "2026-10-11T15:00:26Z",
-   "actor": "GpzkfShBX5JZNpGMdf6fQoX4Se12szL8rpnD7VDpYTYK",
-   "side": "sell",
-   "amount_usd": 341,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "2oBUTSej5hUHCASmnFtk54bDgLkTZjz1foJaAmWgAcxqzBUdS6ycTaxqKLZ6NBbf71HYox52j8SRfUvJL1GcxMoY"
-  },
-  {
-   "ts": "2026-10-11T15:01:06Z",
-   "actor": "DNRLsoPaSQyrjZqMVtytGcew4eN4dZsHgpjvTYYdTBpz",
-   "side": "sell",
-   "amount_usd": 423,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "2RdH1kwPQNV2YJfQE3FEDU1bSzgZMWi7bMukza4whZKUfBMWpb4F1LBX9eDShXtq7rxW3GfGHpn4PLbqpH3gaGtB"
-  },
-  {
-   "ts": "2026-10-11T15:01:36Z",
-   "actor": "HeaPzXgCqcqwooBUEksNBBMJPM76qPZj2GPRn4Up4E21",
-   "side": "buy",
-   "amount_usd": 100,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "521YTSbWFpq4n6A8byAtQF4uEsU6VxRToyyyCzekF2ejZqJ4Wfj7HfypYZccvqmAkRgipQmmTfcK8xMeMjLdru7M"
-  },
-  {
-   "ts": "2026-10-11T15:01:43Z",
-   "actor": "CnEu587VbcZyVgkVf3btYebGoQes2qtMZmnQ78J6ydPN",
-   "side": "sell",
-   "amount_usd": 298,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "2FrM7pQU1cgH5HWubnZvnhkZrhqUTyGcwbxRu1JzZyz69NDq5mytA42XbKsbmCWY57pJKDjXHvmfnUVZJ8GGgijN"
-  },
-  {
-   "ts": "2026-10-11T15:01:52Z",
-   "actor": "Gg2XDgTh5rcQ9AEYiFzzy6Z7Y3haYKcfe9PLHwnUgduo",
-   "side": "sell",
-   "amount_usd": 110,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "2n1oN5e8jdBcTM4SEgk5yQeR8cYGGmYLja4pXx6AAmSL3hHv2G1z7dg1zGSx7spfdM6n3ruqqF8M6Wtr47HPSHoE"
-  },
-  {
-   "ts": "2026-10-11T15:02:01Z",
-   "actor": "kEFiAX3jo5NmemysQov342TZ9mGh6yp92GDRjhA8XDf",
-   "side": "sell",
-   "amount_usd": 371,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "5R2KvxC5CZWkZx4L2h7HPY9GmPuhnURbExP65FaRG1YQ7hAtMnPGHXkRUiTk4VRcb7ANko3XZmXR95RENDa6Y5UC"
-  },
-  {
-   "ts": "2026-10-11T15:02:09Z",
-   "actor": "HkyphPf8SH68pKmKUAS9jbe4wwG4re9ao8iExvpVd9U6",
-   "side": "sell",
-   "amount_usd": 166,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "Tnc3wABGNrWx8hfSYnf9kQaSYNinUyCqBVB8Gp1Vq8o429mAznMEdipbSfPSd4tAPm5WxawDkKzSGxCMRggxxJ9"
-  },
-  {
-   "ts": "2026-10-11T15:02:52Z",
-   "actor": "Gk5EYqKKCcVCYxJndXEw1uU7GCDj9smr75moka8ocGco",
-   "side": "sell",
-   "amount_usd": 331,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "5yUYV6Aec5WKD8Z79DHViZvVm3dCAhSP7LbLfZh994JYXUhn4RTzSGjQzN6XKVA7os2igNSgV536MEJ8xhWAuikx"
-  },
-  {
-   "ts": "2026-10-11T15:03:12Z",
-   "actor": "F5MYbjEATQFD6rxwdS2zXzEHBGuUhSGvJkUhLFAcr4hv",
-   "side": "sell",
-   "amount_usd": 3106,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "2o78SQK8KtV7gahYcDQtk2wNLuARVetwi9MBESG3smuwmFBBbHzt29H3euVQWXiEnxcwG6DAbgDke2u4MvvVW9At"
-  },
-  {
-   "ts": "2026-10-11T15:03:12Z",
-   "actor": "GV7eoS7AW2wHaB42sGVzTh4xGbufCTEU3wbnutgxNKYT",
-   "side": "buy",
-   "amount_usd": 539,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "3dLf5eRocLZBwAS6p82iXb4baoosfL6QsdVkx1TFdSEeWY6kFuVt1A4u2YwdjC9qGQyLdUkXUfAFePXCq3WS2gYi"
-  },
-  {
-   "ts": "2026-10-11T15:03:12Z",
-   "actor": "C2vVrgQQjFD6muoo8GmoDTTYB3x4MR9vx15bKbnJf8HF",
-   "side": "buy",
-   "amount_usd": 511,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "4E7kHTf1HGctVgh3qe1VtrywuepWhLsXqDFgP7rA9ikuoZpv2asvXHubxcJJY2LPcKUPrsfhttcGEughDLAnm5Qj"
-  },
-  {
-   "ts": "2026-10-11T15:03:20Z",
-   "actor": "5L9mVEQWLCPCuYsTGBoqXm9wdzpE4xb3ZCX4Jf4mc7HE",
-   "side": "buy",
-   "amount_usd": 561,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "4mVeuoxSgwBuZGS16upVHwNoVRtSHji9uQ8VcaKKEe1UDLcFSZvPPDHgccSFn5ozfTZC6UqaLRHR1i17Ao1d7sya"
-  },
-  {
-   "ts": "2026-10-11T15:03:23Z",
-   "actor": "9gJfv88Ctnin7PLi88neYMtPGQ5ysgxCpW943KrvayJc",
-   "side": "buy",
-   "amount_usd": 300,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "4q1RP4SmC3j4BhrxBsnBYxoWJiv9ATvmv1knghfHy7k5DSSNvpsYTgyvZ6jnBa1W94rU9ek23akzt3rL3s8RYAof"
-  },
-  {
-   "ts": "2026-10-11T15:03:48Z",
-   "actor": "Gg2XDgTh5rcQ9AEYiFzzy6Z7Y3haYKcfe9PLHwnUgduo",
-   "side": "buy",
-   "amount_usd": 108,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "kMuy7cwaT6RtFqxpAREZKn9HV5xc93gejknRceiFnPUocFrFWssaTShKk9GcfS1CXnaejMGcKCL9kBWEPq5DPDY"
-  },
-  {
-   "ts": "2026-10-11T15:04:05Z",
-   "actor": "EsFqK9sR1Ra8r8yqYnC21nQJUEAbSFnJC3ozyR5esdLD",
-   "side": "buy",
-   "amount_usd": 112,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "3iVPPtDxWpwkf9RDwrCQ28tP7sGvnrsxSTgDHgYP76kn3f4SXDZxjWidDkvnZZCEqdvASdoECwvUL9TGefQSJtrb"
-  },
-  {
-   "ts": "2026-10-11T15:04:31Z",
-   "actor": "J22DdQ1s4XfKr79Dfwx51fU3Yqvuxd7L88hghp4yL125",
-   "side": "sell",
-   "amount_usd": 354,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "5KNhmXQbDwDEay7w96nqXV2sqFsW6QkzY3RGkpFA331x8J6scV4DANME8nMQXeyVTqZLG2ji8RwBb7oHxoBxSJTc"
-  },
-  {
-   "ts": "2026-10-11T15:04:54Z",
-   "actor": "Gg2XDgTh5rcQ9AEYiFzzy6Z7Y3haYKcfe9PLHwnUgduo",
-   "side": "sell",
-   "amount_usd": 103,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "5PXB4V1pb2fYaYWenxksZtLBSkX5B3zeYDNBJGgWjLhT7TaxLDACu2iNxyjLwRjYieoLtf4w68HFcFK2VZ9M6Wki"
-  },
-  {
-   "ts": "2026-10-11T15:04:59Z",
-   "actor": "EoraTustfM66qdm6TCRCMYD5hHS1Ue2EGaxwsyMfcTQS",
-   "side": "sell",
-   "amount_usd": 237,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "4QB39Yk315WptzNjCREqV3VNFuYzpCk5vKB1NkS38vEbqWsxraFcLh8znYqRQS3DnFqf63WdS8yo2TaTFRWd5oCJ"
-  },
-  {
-   "ts": "2026-10-11T15:05:11Z",
-   "actor": "F8sdc5KWTd7y55FUw6GWNVBFoVtMRFgNAXgTpoG3kXmu",
-   "side": "buy",
-   "amount_usd": 251,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "4FkQoXzjG2ddgZmHMTd3Y7vHB6u16rVhvHbWy2nZQQmVH92AL9PceRDTdJtTnqLVKU4ELh6SmCUGPbpxZVGcZswq"
-  },
-  {
-   "ts": "2026-10-11T15:05:15Z",
-   "actor": "3pSCtTA8mefQD1HzAtKEPuXDHJSEHtSND1Ct1p3gfxTX",
-   "side": "sell",
-   "amount_usd": 2985,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "4Be23xXZRpt3Jpa7xs7BJ2ZaKH8zodWoPwG2Y4z1P66C2RJUUDjfsrYhovRYq4C9v8QTq5qR32jPLPc2kmhLFm9m"
-  },
-  {
-   "ts": "2026-10-11T15:05:18Z",
-   "actor": "9gJfv88Ctnin7PLi88neYMtPGQ5ysgxCpW943KrvayJc",
-   "side": "buy",
-   "amount_usd": 124,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "4jLwyRiovrgc1GYfQs2fvxwTiZFs8Gr2U18BT4rTmRxtimpAkLwzhn7yo1Zrw6NLnx6qzT4pmmYwDutcuLsxZtBm"
-  },
-  {
-   "ts": "2026-10-11T15:05:25Z",
-   "actor": "4pkdtdwCweBVbCttdvgTQRFjjtj47fFM8S8sY5KJ1fca",
-   "side": "buy",
-   "amount_usd": 1198,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "2Rd4SPK5bZXhuUsTz9BnvYgJgFzfKisxwYYiMYPvKy7iXS33ZXj4QtuQMquvvGJWuTvCvboQ6MxLmYTuXnEa8N7t"
-  },
-  {
-   "ts": "2026-10-11T15:05:51Z",
-   "actor": "DL7p1FHHXiJQkhvsPsw6SW52tXDyQFXSAKWF1FDwAPTF",
-   "side": "buy",
-   "amount_usd": 219,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "4aNvbCLpK6hFp987gVWQXLjamuPWWVHhQ1px7nANJ8DmvVBraChr3yCjcGS5UbH6MCH5uttWSYRr31rH97vB6iFL"
-  },
-  {
-   "ts": "2026-10-11T15:06:00Z",
-   "actor": "BLFU6dsAcL6tV7Ep4qpSFga2FY5PYhtV266XgSTmaBq8",
-   "side": "buy",
-   "amount_usd": 200,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "2ivErQ4ALLWYiprJpAh2SYzK4XXR7mBzCZCNF7TNBXPwed6JtWttB7FfcdRdtmyqx58QkvVmqaS3684x3zm9Sicr"
-  },
-  {
-   "ts": "2026-10-11T15:06:12Z",
-   "actor": "4uWStjTSf7T5pbSCQ3kS7yM3MKqwAGtsYdLD21coB9cV",
-   "side": "sell",
-   "amount_usd": 219,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "4Xyt7QyzVE6WaQzJvJjPoAdHE9JpZe8LRhTiioYfB6kb3KRrgXoB2ixRRextJirppqKcDTABjsJHr8AJ6XubhZJ"
-  },
-  {
-   "ts": "2026-10-11T15:06:26Z",
-   "actor": "4YX263hhcgf3Bin4CFvFRLLmHgUsopPef1f8hh6uLVR4",
-   "side": "buy",
-   "amount_usd": 109,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "3vmGjcfm4rqGzm5enduigJtY3aj5XjNsuuVHJy4mSQRwVdtePsonuEuhh9pamVVkLNETTKD2knwCuqCyBiiCTWwX"
-  },
-  {
-   "ts": "2026-10-11T15:07:26Z",
-   "actor": "Dx6nmgtNuxvWgBmY3XHdYhLRnbAHCAwuaHs2iCYtBa8A",
-   "side": "buy",
-   "amount_usd": 100,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "4PxW7Gnmbg3MgbZxkUS3byuasE22wHEWtNLh8Wsi3tUHrkdUi2Z3rWBS1eQiB9DVy3cV462zVPot8dkat57H9gvG"
-  },
-  {
-   "ts": "2026-10-11T15:07:36Z",
-   "actor": "BRuPRVFhuQcE7YPxbdR672XLpQ9cnXBBc8TU226ww1nT",
-   "side": "buy",
-   "amount_usd": 139,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "3PYEjJZFD9NYovbaz4kAM1uchf3VQZycYRSY5qtCpx4vZR9CkZAiHqZ9zWdRJZtjkmLWcCmiZD3dkcZfx2Q1Yy1n"
-  },
-  {
-   "ts": "2026-10-11T15:07:39Z",
-   "actor": "x3gXLV5ZxgTUiJ8dyVPHBREdU3yWhKVaGz7iiy6oyam",
-   "side": "buy",
-   "amount_usd": 330,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "2oqGEgRySAtd86BEV4PgVw9UWAKhHNmN5f2ZaTrfpFAFGFoosmdMUMMRgQucXvyzFRpA4u6pDzv5gZjXDGvgChV9"
-  },
-  {
-   "ts": "2026-10-11T15:07:42Z",
-   "actor": "AxfUztv2Yw4LGU5sMkvUUBQR84tX2wpRVPSDFTKkJ2gv",
-   "side": "buy",
-   "amount_usd": 305,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "52WZ39aZsdQtT8hg3NhRCu2QTy6cEBKfeEsKWfgyPzkrbr8bPAfTHbha5yoZ5TFjCobR1GTVTsLqmAD6zYP32azn"
-  },
-  {
-   "ts": "2026-10-11T15:08:19Z",
-   "actor": "3pSCtTA8mefQD1HzAtKEPuXDHJSEHtSND1Ct1p3gfxTX",
-   "side": "buy",
-   "amount_usd": 2985,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "5G5zBa69Yp76nrKJHeSePvsYm1sqarQPQGwe6ASwgv4FVNLEAu4EBwVcHPDb2xp4QkVV3RWZqeGHF7HfF6Kjqthp"
-  },
-  {
-   "ts": "2026-10-11T15:08:21Z",
-   "actor": "GKA4s5BpZQ6CMdYGF5q6FvaKuZG8ieqzbSWgnDpskj5g",
-   "side": "buy",
-   "amount_usd": 517,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "3AQA5gfiHWu7sbhLvUBx8AEudGXfr4rRaF4xj61H5WpjJNAAKfrpB4kz3NUsy44i33vz6kqZ1TmeFYh4KG3ABAp5"
-  },
-  {
-   "ts": "2026-10-11T15:08:22Z",
-   "actor": "BrgnVcjh8DDRPx5UrskS22vg6X3HdAwRFZkeYSVoMXfr",
-   "side": "buy",
-   "amount_usd": 152,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "AbWh68Re8LGPVuZG29NQPrwKm5sdufRUN52Giidrs2YUfU6r9ckG6oMJzrAAGyTDb3FyDmdmfzuNrtiCw6jNuCv"
-  },
-  {
-   "ts": "2026-10-11T15:08:26Z",
-   "actor": "F5uT4wuzoXnv69WS9B4QwwjbMp6iit9DLbrUZ3KkESjp",
-   "side": "buy",
-   "amount_usd": 1308,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "4K6vbRVNXug933tcAynAT9zQAKZKC72ZZNAPYjPgbM9MNsqw7MeP4uMQPskpEFiFR4F6gLY7N3JhmGsSb5Ki8FvY"
-  },
-  {
-   "ts": "2026-10-11T15:08:37Z",
-   "actor": "DL7p1FHHXiJQkhvsPsw6SW52tXDyQFXSAKWF1FDwAPTF",
-   "side": "sell",
-   "amount_usd": 221,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "5Ppar8Vi64wVQetKVGEgu6dZb2snt2miHaTjtb16G6GRXS6YPJtB3sfh7mfXpJzSa1qivrbKF1veJHQk7xaB2qK9"
-  },
-  {
-   "ts": "2026-10-11T15:08:46Z",
-   "actor": "HodquhZbaK145Fz79htkKH7nyg1x4MPx8F3YSRVbdtWz",
-   "side": "sell",
-   "amount_usd": 162,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "3BXfpUkDxjn91Z9aFFbj6d2h9RQ6K8GeFKYbxvaggfMaYprMvYYf97y68xMSeV6TnMZVDhpBzSq7axG2XoapNwcd"
-  },
-  {
-   "ts": "2026-10-11T15:08:58Z",
-   "actor": "x3gXLV5ZxgTUiJ8dyVPHBREdU3yWhKVaGz7iiy6oyam",
-   "side": "buy",
-   "amount_usd": 329,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "3cAmbDSA2dey5Lv3sR5wXFgWw1b5efPkaghvMA2o4hvXdGHbazhWNm6LsGt2CbALjZre2muz44xap8gfc4JEiyqi"
-  },
-  {
-   "ts": "2026-10-11T15:09:00Z",
-   "actor": "5sHQmZ4EfCVSoFXB62sdWaw4iAc2THvqfureur8u7Vd8",
-   "side": "sell",
-   "amount_usd": 1283,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "28Cjzc3BYvATzWpGvXrRVoS5ZkkWwMZHNtgs6ypwWML3DncwQyqBLmcjAf5Rpb4D9ggVLbyJ3hs5BTc8n2f5xhJu"
-  },
-  {
-   "ts": "2026-10-11T15:09:10Z",
-   "actor": "CrCAvyQ78362N7ar7frofog2zyTphdMrUUXZerACnKtT",
-   "side": "sell",
-   "amount_usd": 671,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "3jJEDp9wTaFcDbjchoGBDJkuVfMajUJPJwinstVo5rAgEsKaCe6FKkePn9tX9km9dvnqMj7dQdswqsEtb5PkdUvi"
-  },
-  {
-   "ts": "2026-10-11T15:09:13Z",
-   "actor": "3pSCtTA8mefQD1HzAtKEPuXDHJSEHtSND1Ct1p3gfxTX",
-   "side": "sell",
-   "amount_usd": 2977,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "G47WaN4haMhyRGyp12qeF7BvMe3vNsTFZPzhf3gkSV26rfS6gxx6HdJGT5Aw7WEvAYLuqjUiLNsToYj5GiEQysH"
-  },
-  {
-   "ts": "2026-10-11T15:09:54Z",
-   "actor": "C4YesYrpP8GCfdo2wu6fsbU7roWZ7sugGd7PDwfrb6gb",
-   "side": "buy",
-   "amount_usd": 133,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "5Zxr9sJJx3JrruwUGXoCSzwpJAZiFQZZJH7fyFbiqboPEo7fC3jm8VZKieeWihJzuTMcDhyeqNyr6SVEURS3PoDc"
-  },
-  {
-   "ts": "2026-10-11T15:09:56Z",
-   "actor": "3G4F4ozRdpfYmL8XXPWdrYAXNdXwGszfF7UhuFTmjLKh",
-   "side": "buy",
-   "amount_usd": 142,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "225MmPKv5qL2NumeXTGNwYnVDqsyuEfMDzJqUCvECccLknoCxydFMKRms7Lc1yooVKRpFQsynSUfMHzu8Ex4YPDP"
-  },
-  {
-   "ts": "2026-10-11T15:10:04Z",
-   "actor": "HNpi42nW11D6YZ9bQKZcguGEzyGXqf7LS5yKy7idwsMn",
-   "side": "sell",
-   "amount_usd": 297,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "3tc7BLVEN9LQCEiJ1VuaurWCKYXCVAYuTQi9PZWQqnPY6FChWeqj9DMQo9UYxLy5FgZn2FdBfH5b4PUW5WDpMPh9"
-  },
-  {
-   "ts": "2026-10-11T15:10:15Z",
-   "actor": "6sGQQjr6RFUf7Xw5CqZ9EX55FMpSckD7R2XMkmteFaod",
-   "side": "sell",
-   "amount_usd": 230,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "5HoyhQPvm7Wa7d9JRQWnMwmcaPtL4QrZfDXjum57EjPcWYEx5mjTnh3igLTZyMwXWR4KsQxvUgxRgayFcwqMPTMc"
-  },
-  {
-   "ts": "2026-10-11T15:10:17Z",
-   "actor": "EtcypjU3iERqtNZGmTa5jQ1qSyQvTN6KX6Fet7m2KyAj",
-   "side": "sell",
-   "amount_usd": 2249,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "5NcsRmsmaMjKuMW6Xpf8D7qcHkxD6mXeHUgkufo99HFcjmKztj62ojp2NeG1ppeFDd6DQXNVnXHRKrgzjwCG82a2"
-  },
-  {
-   "ts": "2026-10-11T15:10:25Z",
-   "actor": "AYos8JnTG5ei4DTfigBfGxKpKrmNB3LqnPiYcCf5th8k",
-   "side": "sell",
-   "amount_usd": 552,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "58KpyJ9CSBArfy9crtbq49uhUDuK9Uyk17M75RoyQRJuWo8jcePX5LjpeRLFTPWKQmMtYrmB5NLWfWG9ozBpFQd9"
-  },
-  {
-   "ts": "2026-10-11T15:10:28Z",
-   "actor": "JC6RNWAYcgQWmw2eWz7kEVCRHWm17chmWhhqirQ25WaB",
-   "side": "buy",
-   "amount_usd": 1001,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "FAkKtS2aTif5U2sxbXqKaFjC1nVMcbmKTPjasxJMAzBLPGmapbCbrY4YjkhqQxFgRkZKmUDyox4Xq7wR6yHGgqM"
-  },
-  {
-   "ts": "2026-10-11T15:10:29Z",
-   "actor": "JC6RNWAYcgQWmw2eWz7kEVCRHWm17chmWhhqirQ25WaB",
-   "side": "buy",
-   "amount_usd": 388,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "5tFD12pjEHwbaitSiLdDPzQDNBgV6gdytnsi6sW4NrJpA3U8aY4MiVSYJzqmUL1sH23zinW9ozTfUnkzwLQVryan"
-  },
-  {
-   "ts": "2026-10-11T15:10:32Z",
-   "actor": "DyJGfAEkatNhqdTZ6dVD7NfxtwimW1zm8nBY4KRF2FVP",
-   "side": "sell",
-   "amount_usd": 148,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "ENf8HwjLzZ3vzhqHy9Vb69BMQPfPuhrvj4cMQMjrc9fq2TCSqqHc4TJhnWiMNF9zxNJpYXx7R52V8aGZN6hHnFc"
-  },
-  {
-   "ts": "2026-10-11T15:10:40Z",
-   "actor": "AZTUoRyDaBLbBwT44jv2eZ2kVVrQ1HuJzMaFrXzjJCrW",
-   "side": "buy",
-   "amount_usd": 116,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "4YnEKWhqH8rr5JDMmhkx2wMEdEwy9u8Vb9viXESPnbqy5Gb21X9psseSBaP2Qik6A6whV7tkB6jzQLA1y91UCRhs"
-  },
-  {
-   "ts": "2026-10-11T15:10:46Z",
-   "actor": "Cw4zgo1GyfjUs9eCHH68QoRNosoQRC5zu44LUULJJU7C",
-   "side": "buy",
-   "amount_usd": 201,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "26sRgbMSBTPoegXt27MZ3YTuC1Eyxb63yq3Yz6ZyPLie8X5pW3DQoKTWtZmmAmQqbmya34k3HbEy38oBsFAHRXkm"
-  },
-  {
-   "ts": "2026-10-11T15:10:46Z",
-   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
-   "side": "sell",
-   "amount_usd": 200,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "26sRgbMSBTPoegXt27MZ3YTuC1Eyxb63yq3Yz6ZyPLie8X5pW3DQoKTWtZmmAmQqbmya34k3HbEy38oBsFAHRXkm"
-  },
-  {
-   "ts": "2026-10-11T15:10:48Z",
-   "actor": "7YKArfCHPSmqSiVQatgnKZ2y2wb47qdksgjg1VoiveuR",
-   "side": "buy",
-   "amount_usd": 301,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "61ihyNQWdhuohyH4wsS43gMkYV4UN3b7YWbE4sc1s7344M6L26UmNbP7PxfNC4p9JgZFszKweRYBCxZAVxWDEe1s"
-  },
-  {
-   "ts": "2026-10-11T15:11:02Z",
-   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
-   "side": "sell",
-   "amount_usd": 200,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "5aEggpDcTCc4ssEzYbZw4KYYvLdZPbTE3ArpF7kBnEjDwRE6QLf8aLAsgy71b7Tin9b1CPweHsk1nRXcg1S9Brbz"
-  },
-  {
-   "ts": "2026-10-11T15:11:05Z",
-   "actor": "4LpgsHdnSdZYEmQxHjCHrTfHaUWWkHZTvobHpxf2Yfpa",
-   "side": "sell",
-   "amount_usd": 680,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "3f5GbH9ZVPE7hRSSieUCvPcS8HekrJuUnMxELVYYadSdbYcuiwRHRBMgzxFqLTUoVRGACDPykr8VjSrxzF2cfxaG"
-  },
-  {
-   "ts": "2026-10-11T15:11:08Z",
-   "actor": "8rmZtyfURqcJshDVKtUjysAsyswDuicd7sN8LCZvi7u5",
-   "side": "buy",
-   "amount_usd": 501,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "677mSzZYSTy8YvHHYmtLHh23Crz6xwma3yyUd76TPzYdvjt2B5bHhpJVZYJzneRn6QXrABgEwyKYJL7h9tu7M3m3"
-  },
-  {
-   "ts": "2026-10-11T15:11:11Z",
-   "actor": "9exDrj2Lwx2YjXjEhv2HetYBT8PPsA3E1hK2krMeoU4w",
-   "side": "buy",
-   "amount_usd": 501,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "2rBTX2EUpUYMHzJr3yKXWKvcihMZ3KFCu6JX9Kft7k8iD9spwQF35gMSovUqkg6qrRtyYaETNZ5xseUcsVpWhDDp"
-  },
-  {
-   "ts": "2026-10-11T15:11:14Z",
-   "actor": "3pSCtTA8mefQD1HzAtKEPuXDHJSEHtSND1Ct1p3gfxTX",
-   "side": "buy",
-   "amount_usd": 2977,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "deWZ59yeHGrGZxTqn1dBZVSLpEyjBtxSKBrDbjgeMcnpCyiUMyk6dmjWEQzYgfjHPyBdEhHQGLmjVL22F1Yim3E"
-  },
-  {
-   "ts": "2026-10-11T15:11:15Z",
-   "actor": "2J7wxpXRdNZdqWkaXQR8ZPWwSFJ8FxTigwMDEPQWEasC",
-   "side": "sell",
-   "amount_usd": 877,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "UrUmebsvi1K3GX4bJBfDBKLPMXnp9rJybJNbPD2u5ACnFTEH1nrYRPLN3E7TkiTScbSe32eFt7WE5s6iYFP7aqw"
-  },
-  {
-   "ts": "2026-10-11T15:11:27Z",
-   "actor": "6rGnYSRUFkmxCGGJ3YCskCJiR492CXgbAChWbPwmGEZq",
-   "side": "sell",
-   "amount_usd": 124,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "4Wi2djF1Vec797N9ayAHoVbZ8GKpHLz5mE8st4Ei5VyKXNgTXb2VCYf57dkEmVUjpccBEY2DQJGBeRFkJXkZbDrL"
-  },
-  {
-   "ts": "2026-10-11T15:11:41Z",
-   "actor": "DUzBLHZ5RZdftPuWVijsvjupndogRM1adGJpsR7YTJro",
-   "side": "buy",
-   "amount_usd": 263,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "dHfCffDTQDQAmd4xrNdspMDBFwsdb8Jd5TdX8fJ9MnMBvDbqgJSBFdhUJkr9fhEGBHadWXnJNN761dFGQiVfX6R"
-  },
-  {
-   "ts": "2026-10-11T15:11:45Z",
-   "actor": "U5V3oYYXSLF9U8gx7hTiYyZ6WmZLaUtm61skz2AJa8a",
-   "side": "buy",
-   "amount_usd": 221,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "24m1n2Fo1YzbQrZ65nVPjft4f25gvH4dZnbQYhuivNmNVtth9LHF3ExYZftPaHYWm8xJVSmCQfvL4DZ3FfPu8XKV"
-  },
-  {
-   "ts": "2026-10-11T15:11:57Z",
-   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
-   "side": "sell",
-   "amount_usd": 250,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "4md1wPJMGqEqBBDq1prVucSz1L6vMapaVNyhQ2FTAGaCqXF3rA4ThWDXqoGgBYVvEBDGfHPgz6ARsMEjn2H5CqRV"
-  },
-  {
-   "ts": "2026-10-11T15:12:02Z",
-   "actor": "Gfa8fUrteHoPLZDrdfXkk1HZXvZAJvQkimqoHEXDa2PA",
-   "side": "buy",
-   "amount_usd": 184,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "3wpz6aYW6s6yrqJ8hoyWEbMMu1Fk6ThwbsM1XL7m1n5c9ygmRFu8vczrHJbf215cw1dVmhkFs1kJvvFCx6H6XgX5"
-  },
-  {
-   "ts": "2026-10-11T15:12:11Z",
-   "actor": "3VXR6o68Gp2KUBk3JDaVuHL6KcNcfoM2utcyA2keWRhb",
-   "side": "buy",
-   "amount_usd": 299,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "sT8Ur52BCD5LmGBwNddLFVX1y9TnYUtE7XNTkrfGyu1rAtH8u2U4NxXAzrqaHMaDzNdywvBARXh1HVVSYi78fBK"
-  },
-  {
-   "ts": "2026-10-11T15:12:11Z",
-   "actor": "2qKRoxfa5TjtWNVsXzsB8vDi8FVN3ZSmQncTvYdZnh3E",
-   "side": "buy",
-   "amount_usd": 546,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "5D5kjqwgm8X2nkkUua1819YNc5uidfAifVFxgSLHCoJNgu8AFjyozjGzasKMU6ph5BFUcrmon9rEx4WYpuuR7qkU"
-  },
-  {
-   "ts": "2026-10-11T15:12:15Z",
-   "actor": "3pSCtTA8mefQD1HzAtKEPuXDHJSEHtSND1Ct1p3gfxTX",
-   "side": "sell",
-   "amount_usd": 2955,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "haXQDsyK7TJe6duQ4LGh4w87yV926AKFsjr7b58kKXLph1hLmBFp2QG4Qm99FKQ2qLwgcuVLGUTU2f8c5WusaHS"
-  },
-  {
-   "ts": "2026-10-11T15:12:25Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "sell",
-   "amount_usd": 220,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "38EUZKRvL7qqVjqwW2zPUKrM1RKTHr8CwgPfferjoHm2dD7cWrHTwjRRtUS9iPYm87eDz6gt3DFevvrmwMq8NzwH"
-  },
-  {
-   "ts": "2026-10-11T15:12:25Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "sell",
-   "amount_usd": 540,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5gbLNxEydJf9gTWXDB4GaHm2Zxj8gZHoW3k5Sm5AaZDT6W6ACi7BGeYiTor24gGEKuovdbA1CfypVFDYR6LNTzVe"
-  },
-  {
-   "ts": "2026-10-11T15:12:25Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 353,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "ziU5NhaU7Ewqk2Frnp4y8MPPWpS97QaqRSrQb1F6FUzsfwePRA6PD2M8JMMo2f1cs7TLRKooCZVJtzvVvStyy71"
-  },
-  {
-   "ts": "2026-10-11T15:12:26Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 249,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "26a8ySRgk6y78fdgjyRBNXMDBzE2G36f47cTkpKULqu9UuWYAhXn1RBBVobnKnHmftApizGQtSSbWVLy7yWmVNpk"
-  },
-  {
-   "ts": "2026-10-11T15:12:31Z",
-   "actor": "JC6RNWAYcgQWmw2eWz7kEVCRHWm17chmWhhqirQ25WaB",
-   "side": "buy",
-   "amount_usd": 342,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "51EFFku2TmTrQ7XggFFLXjt8PHhB5WjUTY9RVFgRT2GC8MuStBNhhtTAEtRGBHJU9Dg9xrSieN2nnXUkjkAmoHeM"
-  },
-  {
-   "ts": "2026-10-11T15:12:33Z",
-   "actor": "6EvnrsGJEo4vE1UVL9UBeL1Bsprdi2tqbrL4yHYiWRBj",
-   "side": "buy",
-   "amount_usd": 922,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "5mtg4uqDKaRqMo7axTeRwcePyxZ4uuyB9qzpU3RnMfD4cXkGcCFS2CxAJwtw4gWMr8aVxkupngj3PnzFzHTEtxyK"
-  },
-  {
-   "ts": "2026-10-11T15:12:35Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "sell",
-   "amount_usd": 380,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2FvBGHZ9rjevNYSjDYh4qgtr9N4PtnrC2W6MwYxV3TJNf21WrDASTyFhXbN3zTogPW7b7saajHrt9gNCTsrqE1DZ"
-  },
-  {
-   "ts": "2026-10-11T15:12:35Z",
-   "actor": "HFmV83XnGkkdCw7vtbVesdatbSKUGVPCLKQ47vhFWx76",
-   "side": "buy",
-   "amount_usd": 468,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2FvBGHZ9rjevNYSjDYh4qgtr9N4PtnrC2W6MwYxV3TJNf21WrDASTyFhXbN3zTogPW7b7saajHrt9gNCTsrqE1DZ"
-  },
-  {
-   "ts": "2026-10-11T15:12:36Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 249,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "63pZwgHeZ16q4xkrQmYfk3PUEemjo7JY5QofufPmUffiY6ou3YLAbaqPWDsyb7Ak84W9RPWotsQ7VimFNQp6txe7"
-  },
-  {
-   "ts": "2026-10-11T15:12:40Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 126,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2jHqKbyQmQdmfTpCAr1n7u6t9HBE86GGrVuN49FFLF7EDy7HjmeyN12JbfzuyFCrif8MhCd6ew6sgFsegnYWYptP"
-  },
-  {
-   "ts": "2026-10-11T15:12:40Z",
-   "actor": "52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR",
-   "side": "sell",
-   "amount_usd": 232,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2jHqKbyQmQdmfTpCAr1n7u6t9HBE86GGrVuN49FFLF7EDy7HjmeyN12JbfzuyFCrif8MhCd6ew6sgFsegnYWYptP"
-  },
-  {
-   "ts": "2026-10-11T15:12:42Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "sell",
-   "amount_usd": 143,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4SVhpxCvWrBmf1zZP1hzpNgWRPXLWzrZe4htfNL2DGNQY1rDvP7ovDZVoL1ZQrEykmZJYTALNpXoqgfn8AxRhdw"
-  },
-  {
-   "ts": "2026-10-11T15:12:42Z",
-   "actor": "8P4XQW5SwzSPRTxqz6SvQaCH6mtE31Hh5a6kSryJE1Rh",
-   "side": "buy",
-   "amount_usd": 239,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4SVhpxCvWrBmf1zZP1hzpNgWRPXLWzrZe4htfNL2DGNQY1rDvP7ovDZVoL1ZQrEykmZJYTALNpXoqgfn8AxRhdw"
-  },
-  {
-   "ts": "2026-10-11T15:12:43Z",
-   "actor": "Q6R8EybFdGCFd7uV2REFCAfpwT64mipbRWNVMpKWf8J",
-   "side": "buy",
-   "amount_usd": 181,
-   "token": "SPCX",
-   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "tx": "5Z2n1om8gQczxf1vwjAHD8m9pyuKrkgW6hUTKZrhKsUycbaaufwUBrE17YG6HMh75wmwLCyVFCWGWGZvCjajwH1H"
-  },
-  {
-   "ts": "2026-10-11T15:12:44Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 249,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3D77w6pRnPfZYE1HT4YvemGBTnBw96VoSMadvnCFV32NPVaTkCVQD361KbpWzjUCUyuXyWRcfB8EdvX863pPaa7X"
-  },
-  {
-   "ts": "2026-10-11T15:12:44Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "sell",
-   "amount_usd": 833,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4CjDoaNjCWtuBmocNGFLEF3mtYWfdHSm6NAAtZh9AuBDq7S1iLEQ6beewLkEQ6voFZ7E1tsnHS6Kaam6ykEisaAS"
-  },
-  {
-   "ts": "2026-10-11T15:12:44Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 524,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "65M3fhqovxzF7Jiks69yYWas3me3YYe4hz8cB7LNkewUAKUEd2PRpxqNhEHJ2UCXXRXaDg91DQM72LK2m7gwxyFe"
-  },
-  {
-   "ts": "2026-10-11T15:12:44Z",
-   "actor": "E38EfTX8tEvWGx78g8PQwp78fbcJkEnLdDZK3UQXBYPS",
-   "side": "sell",
-   "amount_usd": 523,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "65M3fhqovxzF7Jiks69yYWas3me3YYe4hz8cB7LNkewUAKUEd2PRpxqNhEHJ2UCXXRXaDg91DQM72LK2m7gwxyFe"
-  },
-  {
-   "ts": "2026-10-11T15:12:45Z",
-   "actor": "AqqQuXtFzNHrJ8vWfemRipANptDvviB42C3gf3nR3z9J",
-   "side": "sell",
-   "amount_usd": 102,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5WJWnGCeZTNsoZM3FQ6iyoQTkazpe5ut3wfApqNZF2z4D75Lfhm76isyAHsp7NbkNWPjNzEEQEXf8GxA4L4hnLju"
-  },
-  {
-   "ts": "2026-10-11T15:12:45Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 102,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5WJWnGCeZTNsoZM3FQ6iyoQTkazpe5ut3wfApqNZF2z4D75Lfhm76isyAHsp7NbkNWPjNzEEQEXf8GxA4L4hnLju"
-  },
-  {
-   "ts": "2026-10-11T15:12:45Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 250,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5xMc9Q39x3fKTP5UoEFpfmn798TfXmGEZXwLdLhb3zGNQ9P3sWPSxMGXnj6HfL1uDHhreWR5Co6bCJavw3ZVo3Uw"
-  },
-  {
-   "ts": "2026-10-11T15:12:45Z",
-   "actor": "52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR",
-   "side": "sell",
-   "amount_usd": 250,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5xMc9Q39x3fKTP5UoEFpfmn798TfXmGEZXwLdLhb3zGNQ9P3sWPSxMGXnj6HfL1uDHhreWR5Co6bCJavw3ZVo3Uw"
-  },
-  {
-   "ts": "2026-10-11T15:12:45Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 262,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "NCuQByNHt5dRah4zdxUfLffR64EPt4TxgC6C4YfstwG9bHE2oy2AwBj4HWgz4JH3MEdNAEdaCSPzAa6oyYSxMRy"
-  },
-  {
-   "ts": "2026-10-11T15:12:45Z",
-   "actor": "AqqQuXtFzNHrJ8vWfemRipANptDvviB42C3gf3nR3z9J",
-   "side": "buy",
-   "amount_usd": 137,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "ZPT4hSNnQK7yaCKc12amLzw4MuhP6FZyFUPSBesmUSaNdYx4mCe1cmYWrb4GX7XwPfWLXnzWLMzCLbFKnJ8pVVW"
-  },
-  {
-   "ts": "2026-10-11T15:12:46Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "sell",
-   "amount_usd": 1943,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2MXNcWUw1AsSAhFdyiHFWyHYf1Kv6KBPRA7VYAp6pq7TmeBXCxWSTda9BMmZt4Kg4HNT9bV5qBCMT9aw843yAhgc"
-  },
-  {
-   "ts": "2026-10-11T15:12:46Z",
-   "actor": "AqqQuXtFzNHrJ8vWfemRipANptDvviB42C3gf3nR3z9J",
-   "side": "buy",
-   "amount_usd": 1943,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2MXNcWUw1AsSAhFdyiHFWyHYf1Kv6KBPRA7VYAp6pq7TmeBXCxWSTda9BMmZt4Kg4HNT9bV5qBCMT9aw843yAhgc"
-  },
-  {
-   "ts": "2026-10-11T15:12:46Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "sell",
-   "amount_usd": 216,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4UFimkw8FjoNyss2jazuM5hmjMmnqWniEbTVJ367FewKY8MHkD47ZKWejaR6Airvyy9gWcHkTzdT4FRVZ2ynJTH5"
-  },
-  {
-   "ts": "2026-10-11T15:12:46Z",
-   "actor": "AqqQuXtFzNHrJ8vWfemRipANptDvviB42C3gf3nR3z9J",
-   "side": "buy",
-   "amount_usd": 216,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4UFimkw8FjoNyss2jazuM5hmjMmnqWniEbTVJ367FewKY8MHkD47ZKWejaR6Airvyy9gWcHkTzdT4FRVZ2ynJTH5"
-  },
-  {
-   "ts": "2026-10-11T15:12:46Z",
-   "actor": "9exDrj2Lwx2YjXjEhv2HetYBT8PPsA3E1hK2krMeoU4w",
-   "side": "buy",
-   "amount_usd": 501,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "gkXio1KqQd75ibuwkM4oU2S2TSd3AVR83BWPQw6gxkhfX5sR7FqLWhzyPZMtRGoTkhjiZ61Csd1UCSTFt5XbNf8"
-  },
-  {
-   "ts": "2026-10-11T15:12:47Z",
-   "actor": "2QDGj5BWMSNyEfmyDFx7eEvWWm4KujUPJ38Xdkntvxtd",
-   "side": "buy",
-   "amount_usd": 478,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "2jycMEeAQxLNQUsJkmVPpF4aHerPXSepntNRPK7apxWvSwGsHjVDnhS6GyZkrs3URdcpbQEY9uGomA7fvpqBq1jY"
-  },
-  {
-   "ts": "2026-10-11T15:12:47Z",
-   "actor": "AqqQuXtFzNHrJ8vWfemRipANptDvviB42C3gf3nR3z9J",
-   "side": "buy",
-   "amount_usd": 194,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "31xKFwJCnbZBZqcu4RJZRsBiBp9ZZbWqA817LaA3hGqq1ZNBS9AiDBB3n9Bba1A662eoQSXe9tqL8bWke9eV4cFX"
-  },
-  {
-   "ts": "2026-10-11T15:12:47Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "sell",
-   "amount_usd": 194,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "31xKFwJCnbZBZqcu4RJZRsBiBp9ZZbWqA817LaA3hGqq1ZNBS9AiDBB3n9Bba1A662eoQSXe9tqL8bWke9eV4cFX"
-  },
-  {
-   "ts": "2026-10-11T15:12:47Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "sell",
-   "amount_usd": 212,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3KaWGHrLBVJd22xM3dZ7rE3iRr4CQSTP7n7aqS9EDbzpU8fPcHRQELRRuwpD9JbFkftvQR18uTUtxNTLbPyZMTbG"
-  },
-  {
-   "ts": "2026-10-11T15:12:47Z",
-   "actor": "AqqQuXtFzNHrJ8vWfemRipANptDvviB42C3gf3nR3z9J",
-   "side": "buy",
-   "amount_usd": 212,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3KaWGHrLBVJd22xM3dZ7rE3iRr4CQSTP7n7aqS9EDbzpU8fPcHRQELRRuwpD9JbFkftvQR18uTUtxNTLbPyZMTbG"
-  },
-  {
-   "ts": "2026-10-11T15:12:47Z",
-   "actor": "52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR",
-   "side": "sell",
-   "amount_usd": 251,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4XyJ47Bn9Vqptdiwxn8S2dg2DTHJvbWCypTqbS2LfH25fni1iAXu8RsrB8hZ7kVQwk2BgyqXiqHvLgEAubvqbxs7"
-  },
-  {
-   "ts": "2026-10-11T15:12:48Z",
-   "actor": "9SMp4yLKGtW9TnLimfVPkDARsyNSfJw43WMke4r7KoZj",
-   "side": "sell",
-   "amount_usd": 199,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "zza8bGNnoyWpNFgQTRSWJH92PCUzSx3w4gvduoqKfBHbpn2xrfvLv63bnLUyRC1oHDUzLcDGXqMz7viApoGnQph"
-  },
-  {
-   "ts": "2026-10-11T15:12:48Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 370,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2UFfMhbZqb6zFmCo8u4Y72TiJfDTDiNGPmAaEqEZL85VEZR2F5LQg8RHqWqdK6Su446sWRHQ3LPLMKpnYHVxY3Bs"
-  },
-  {
-   "ts": "2026-10-11T15:12:48Z",
-   "actor": "CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED",
-   "side": "sell",
-   "amount_usd": 370,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2UFfMhbZqb6zFmCo8u4Y72TiJfDTDiNGPmAaEqEZL85VEZR2F5LQg8RHqWqdK6Su446sWRHQ3LPLMKpnYHVxY3Bs"
-  },
-  {
-   "ts": "2026-10-11T15:12:48Z",
-   "actor": "CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED",
-   "side": "sell",
-   "amount_usd": 3789,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2kkjBoVs83F8mgNo8qrDz2nQVdfstpri83oqoMh9evBvfRcgQaDeGf7cqy58jKk4iCPYyZrpiEWrrCbr5HY6bPTG"
-  },
-  {
-   "ts": "2026-10-11T15:12:48Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 3789,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2kkjBoVs83F8mgNo8qrDz2nQVdfstpri83oqoMh9evBvfRcgQaDeGf7cqy58jKk4iCPYyZrpiEWrrCbr5HY6bPTG"
-  },
-  {
-   "ts": "2026-10-11T15:12:48Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "sell",
-   "amount_usd": 2374,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3bwdoX5YskjmAvkpa3EtQaJ2WM11fyWLcr78BQEndjRGFtNtZUmqSEBddssbr4ozP62BNUACyeuCM74fNP8GA4JD"
-  },
-  {
-   "ts": "2026-10-11T15:12:48Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 2374,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3bwdoX5YskjmAvkpa3EtQaJ2WM11fyWLcr78BQEndjRGFtNtZUmqSEBddssbr4ozP62BNUACyeuCM74fNP8GA4JD"
-  },
-  {
-   "ts": "2026-10-11T15:12:48Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 1072,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "7hPYiE1rSfeUe7CrgaKTBd5u6CRosKSHNnpAv5LsdA29x3QpTZy551iVrwusRU5dr9nLmyPs1JAJbusqMzT1Vya"
-  },
-  {
-   "ts": "2026-10-11T15:12:48Z",
-   "actor": "CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED",
-   "side": "sell",
-   "amount_usd": 1072,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "7hPYiE1rSfeUe7CrgaKTBd5u6CRosKSHNnpAv5LsdA29x3QpTZy551iVrwusRU5dr9nLmyPs1JAJbusqMzT1Vya"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "sell",
-   "amount_usd": 393,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2GYk2AuX8bRBZYXQ3Vu6YfwCGD67sDQAgcY5UMuvknUF6S7BAnXrzLpsxd4zqpidxbCsjX2UFCbuVQcyguYtSW5T"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 393,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2GYk2AuX8bRBZYXQ3Vu6YfwCGD67sDQAgcY5UMuvknUF6S7BAnXrzLpsxd4zqpidxbCsjX2UFCbuVQcyguYtSW5T"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 3866,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2PXHc553ZDM1xRBAqG6kiz6pG2cyGibnymPfrT2D37QwVwP3qM9gKgqQRJvStXCUdcR8ZhnbGniHZncgMjEbzRJY"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "sell",
-   "amount_usd": 3866,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2PXHc553ZDM1xRBAqG6kiz6pG2cyGibnymPfrT2D37QwVwP3qM9gKgqQRJvStXCUdcR8ZhnbGniHZncgMjEbzRJY"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "HqzAr7JeNqToEsksJm2utgxfh8HmSRK77VDKqkho1wvu",
-   "side": "sell",
-   "amount_usd": 104,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "2WWZVgMEnbUiFAjW5KENaURajeAMycMD255uDK41jzNJs2SHF3G8Ad12ZimAhEXaXpVQpZmCudL15zy9pZ3QnmWE"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR",
-   "side": "sell",
-   "amount_usd": 250,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3wNGyq2uZGUw4dHHoKDmbFtgoZv3519cNaZxPVSqz6xGk5ZSW2WJZLjzoD1sxki7d43PpqjmrnE5ukJ8wUDa5s1F"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 250,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3wNGyq2uZGUw4dHHoKDmbFtgoZv3519cNaZxPVSqz6xGk5ZSW2WJZLjzoD1sxki7d43PpqjmrnE5ukJ8wUDa5s1F"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "sell",
-   "amount_usd": 659,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4kUwDSGXPV3HmYjpYW9GcARU5r9vsytVBrMwjku9hgPeLvnQXweyW7w6jZspt9zd4ztN9oDaPrzSKoV7JcBoqk61"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 659,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4kUwDSGXPV3HmYjpYW9GcARU5r9vsytVBrMwjku9hgPeLvnQXweyW7w6jZspt9zd4ztN9oDaPrzSKoV7JcBoqk61"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 422,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5D3xpmMxEkrqByNK1U1vHkAc4veQGaoSK1ERfs3CAa2QebWDGa4zaiurWVXHdgz2RfepRHwjyiLtFFb6oHxRQC9y"
-  },
-  {
-   "ts": "2026-10-11T15:12:49Z",
-   "actor": "CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED",
-   "side": "sell",
-   "amount_usd": 422,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5D3xpmMxEkrqByNK1U1vHkAc4veQGaoSK1ERfs3CAa2QebWDGa4zaiurWVXHdgz2RfepRHwjyiLtFFb6oHxRQC9y"
-  },
-  {
-   "ts": "2026-10-11T15:12:50Z",
-   "actor": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
-   "side": "buy",
-   "amount_usd": 451,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3o8ajRftjimnUe5LKLRPrfNMUoxLJ8V67Lpb8xpeSUSx4xvgtVMucAGRCVnYvXvusHwCeb71aq6edYKrxcDHMC7z"
-  },
-  {
-   "ts": "2026-10-11T15:12:50Z",
-   "actor": "Ar2Y6o1QmrRAskjii1cRfijeKugHH13ycxW5cd7rro1x",
-   "side": "sell",
-   "amount_usd": 645,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "54EAXxyGCtitfwSMk2MHo82L19wRzmgp4vECmANfwBtwEpTVSFpx2UWN1Hk9imm79n8zQXKboARAHvq75E4xG99h"
-  },
-  {
-   "ts": "2026-10-11T15:12:50Z",
-   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
-   "side": "sell",
-   "amount_usd": 101,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3L4kQPKRu3ZpduqkyibP9z9Cq1eQRE1FZQbd2ebjd4KCkFfeKHTt9vSQhs4xcgEe9X1qPrfAtAjhMmUUYtiqg3Wz"
-  },
-  {
-   "ts": "2026-10-11T15:12:50Z",
-   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
-   "side": "buy",
-   "amount_usd": 101,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3L4kQPKRu3ZpduqkyibP9z9Cq1eQRE1FZQbd2ebjd4KCkFfeKHTt9vSQhs4xcgEe9X1qPrfAtAjhMmUUYtiqg3Wz"
-  },
-  {
-   "ts": "2026-10-11T15:12:51Z",
-   "actor": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
-   "side": "sell",
-   "amount_usd": 263,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "4RTteRxtEwydJ2UxEZrJMJTrNM1sTgVwrCFJF9NZFJvNuJTAADSh1oR8d14Rwhd8e3Bj58VockJoPVZKzCaEPqEu"
-  },
-  {
-   "ts": "2026-10-11T15:12:53Z",
-   "actor": "2QDGj5BWMSNyEfmyDFx7eEvWWm4KujUPJ38Xdkntvxtd",
-   "side": "sell",
-   "amount_usd": 340,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3BGJWW8JSh7A7MMRH5vb6tMUMr9oyfLqLccAPMXyHatERVwQ545CpMnwCuU6BrN3YmZajZ2udj8bR3Q1AhsPbh5N"
-  },
-  {
-   "ts": "2026-10-11T15:12:53Z",
-   "actor": "H4PAFsmDnkC9WYDcj8C6o85n8A5jQ5Eki8CBH35Eowp7",
-   "side": "buy",
-   "amount_usd": 119,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3tAaKzDmR6RBHUwnYWS5dKXfaBVTeSh5akJpurgyGv3Q5REmvy5YzW3NkSNw8ZRcks3j8gnQnti8TfaQoJQg445r"
-  },
-  {
-   "ts": "2026-10-11T15:12:53Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "sell",
-   "amount_usd": 120,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3tAaKzDmR6RBHUwnYWS5dKXfaBVTeSh5akJpurgyGv3Q5REmvy5YzW3NkSNw8ZRcks3j8gnQnti8TfaQoJQg445r"
-  },
-  {
-   "ts": "2026-10-11T15:12:53Z",
-   "actor": "2QDGj5BWMSNyEfmyDFx7eEvWWm4KujUPJ38Xdkntvxtd",
-   "side": "buy",
-   "amount_usd": 634,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "41f9opUHjqbTnMqPaP5Cy9EHGDmFBupZDwW1YyUTzuEnkDVCxTv3XgVRLXZo22mtjZSSCSp4jAAcogqrcuSU2DQf"
-  },
-  {
-   "ts": "2026-10-11T15:12:55Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "sell",
-   "amount_usd": 162,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "5yPHptbsunCJ3sx6omEXxabJc8sZrUxThCV7PSuh91tDEWCmcJ5DeNVWU6sSn9mWGbBWEiYoGTsZ5VRQBeeHHi2m"
-  },
-  {
-   "ts": "2026-10-11T15:12:55Z",
-   "actor": "52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR",
-   "side": "sell",
-   "amount_usd": 243,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "31GCQrLY7uK3Ys1UF4Gt1nsaGe9q6NS8Y873mPpu1zianBJ8KUTsyo2iGn4mAt8EfBFR5KQu5PZ52uLvkCedRXwn"
-  },
-  {
-   "ts": "2026-10-11T15:12:55Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 243,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "31GCQrLY7uK3Ys1UF4Gt1nsaGe9q6NS8Y873mPpu1zianBJ8KUTsyo2iGn4mAt8EfBFR5KQu5PZ52uLvkCedRXwn"
-  },
-  {
-   "ts": "2026-10-11T15:12:56Z",
-   "actor": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
-   "side": "sell",
-   "amount_usd": 200,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "3gUXCTup8QnFqWWnL9uzRaKfhHzfhfG4V8FpLCaUUXU3nod3pr6bxRQQ1yxAEy5SKiZVvUMVcx9kvST6KBgwJs1H"
-  },
-  {
-   "ts": "2026-10-11T15:12:56Z",
-   "actor": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
-   "side": "sell",
-   "amount_usd": 492,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "ndCNy3xeNcrJcx2Pd78EPDyS4LTyqwjLhqcm6Q6x2zLPzSZ5c4pkFncvDsCcrbgCTnNZBVJZ2Aa3c62P34ehH97"
-  },
-  {
-   "ts": "2026-10-11T15:12:56Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 146,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5nMaiP6psLw81zKS4yRetrYZUMeYY8DjtZRAgGZcKB9acKGWV6Ppbx1b8qvffSQ7yeGLEwRtZVcpD4r7VvPH8HWR"
-  },
-  {
-   "ts": "2026-10-11T15:12:56Z",
-   "actor": "5CEbueQnq1Ym2uSSx2xXds3jQAqT1BDnkA59RZobSPAG",
-   "side": "sell",
-   "amount_usd": 145,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5nMaiP6psLw81zKS4yRetrYZUMeYY8DjtZRAgGZcKB9acKGWV6Ppbx1b8qvffSQ7yeGLEwRtZVcpD4r7VvPH8HWR"
-  },
-  {
-   "ts": "2026-10-11T15:12:58Z",
-   "actor": "GyHgNdisUEj2nkxS2yJwgMarFPV9bKjyX8H6cxKuJHJ6",
-   "side": "buy",
-   "amount_usd": 104,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "52JT2m3GywgpyzSYJ6Fkf5DsrerGrZACghLHEe8dtSHNFRQrEUsEWrrvTcvf6jzfWiv39a3AX6eNrPMj6SKqo3jK"
-  },
-  {
-   "ts": "2026-10-11T15:12:59Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 343,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "2oxA8Ebyi2WDEUjGuyhaweoyhWomB42tbBTqucjdxVax8ZEG3E3vceWeW7Yaa3zsxKAEquTy6fSNDFynyS6AupBN"
-  },
-  {
-   "ts": "2026-10-11T15:13:00Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 183,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "2DwHWnGtsDCXEviRbbTq4t88ewUnXqXTpCsuyrxhVerTmLiqhNfZ2qPTgZ4TLsc9y447ZU88J55FAHnGL8qCLyrk"
-  },
-  {
-   "ts": "2026-10-11T15:13:00Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 328,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "Xn1KpsRSoVyvvBp3Fcdc6jKiFTmtm4PC2xZRJfZinWg7bF2XJPkM6zHYtJpkhVs68WYuhGh1mi4ddmoCFFMVaJd"
-  },
-  {
-   "ts": "2026-10-11T15:13:01Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 314,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "2C6zdTaxWEu5xT77sWVVML8trouKnXAyY4bt5vinWjGJvGnfHQA91Rt5PkfPKv9nVQPKhxTH5QnM3Xyo4RffJBnY"
-  },
-  {
-   "ts": "2026-10-11T15:13:01Z",
-   "actor": "4mS7VXVBjs8FKhPn9p3oeWF7DCt6wbJUEAshw6r1V6gM",
-   "side": "sell",
-   "amount_usd": 176,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "2LfYDMfhbkvHHb8SoyjuJ7hmJ7GYjzLtZnxPm2xQRsLP8vZ7tYPHXTCVjpXhSbpmG3u9g9WYLzJtFwPDfYucA7iC"
-  },
-  {
-   "ts": "2026-10-11T15:13:02Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 310,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "57zqmWSucikyJpQEYpum7KeUkqQuLThL9aaioksrP6PQ6homUsLeaT2Q7z4WcH2tYmWD7CqDf7eFYfL2JfZfzjNU"
-  },
-  {
-   "ts": "2026-10-11T15:13:02Z",
-   "actor": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
-   "side": "sell",
-   "amount_usd": 118,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "YGihM7xNwSYXtHe97aPAVyTZLBV3cJ22DrBXuLyku3ckD6rKAx6iyh8s2jkdGfqj8WSmtpQv5RoqYaZxmAqBKuE"
-  },
-  {
-   "ts": "2026-10-11T15:13:02Z",
-   "actor": "EnyM6i33RUpNVw7LBe46QyH9Gn41xDd4Pkh1kfNpsPRG",
-   "side": "buy",
-   "amount_usd": 100,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "Y5aSeta6L2bVjDUEYA5GFLZCykHZqwKL1axuwbKdB9DD1CSZym2mxFv38RxH24pH8kJDnFMUzgJSmbGFi7rQqtQ"
-  },
-  {
-   "ts": "2026-10-11T15:13:04Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 296,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "5TuW59a9hqHY52zybnXC7ZbgC9nE68jiGBfgZEYj3TAdRpisa3rboPXvHsUc69EATMU13sNx3TANVgDas5j43cFr"
-  },
-  {
-   "ts": "2026-10-11T15:13:04Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "sell",
-   "amount_usd": 237,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4BCM7SqbvSR4FSSABVeAE92ToPpXS1a2QM23HeaeEAFcp6aszMcP1BCoPNAPEfBwJKuphGwQausgonnuTMcbVmR7"
-  },
-  {
-   "ts": "2026-10-11T15:13:04Z",
-   "actor": "52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR",
-   "side": "buy",
-   "amount_usd": 236,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "4BCM7SqbvSR4FSSABVeAE92ToPpXS1a2QM23HeaeEAFcp6aszMcP1BCoPNAPEfBwJKuphGwQausgonnuTMcbVmR7"
-  },
-  {
-   "ts": "2026-10-11T15:13:05Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "sell",
-   "amount_usd": 324,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "uup9Pp64J2u27eHVGDK8kjoaMTUc5zpPJRC8zG4i3rufHvCPL6qQeGE795mEhWEteQoKN7jZcFLZCNZCrLiXZox"
-  },
-  {
-   "ts": "2026-10-11T15:13:07Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 285,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "5dbV1RqAKg3zHH46pViZLqTgCT3eFuQAdywoCmLULeb9zLVBLWbjHUfki5VYTHkUj4xSN3sQ6ugGMNS6pZgRskk7"
-  },
-  {
-   "ts": "2026-10-11T15:13:07Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "buy",
-   "amount_usd": 110,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "5EWd5RczFhPtnYtzCQZFeY4ejhSWAWPPGM3rcMo1fvtmdCDSQYqZGSXP4Jf2QjMWwdcb2wyBthD4h82xS3fBrAD2"
-  },
-  {
-   "ts": "2026-10-11T15:13:07Z",
-   "actor": "52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR",
-   "side": "buy",
-   "amount_usd": 236,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "axodhiAfcjTemRxeac6o4gD22MjBYoFNSeKEkQKXFVYavZfU1Mvx153ajNkRXfu6ZqPq4imeaf3QhGSHvx4C8a5"
-  },
-  {
-   "ts": "2026-10-11T15:13:07Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "sell",
-   "amount_usd": 237,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "axodhiAfcjTemRxeac6o4gD22MjBYoFNSeKEkQKXFVYavZfU1Mvx153ajNkRXfu6ZqPq4imeaf3QhGSHvx4C8a5"
-  },
-  {
-   "ts": "2026-10-11T15:13:08Z",
-   "actor": "9kFgYaPdZ9kzMY3xtZLQnymLDC4znFQg5QWp7ws3R3b7",
-   "side": "sell",
-   "amount_usd": 143,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "3hoC5tLmJx3xT9XQQ2cJW9u3z31u2BR3DjbBNhowhcuto9TYkTM8njSuPxgF5k1CAcVGACz9g2pxTqTCj8rGj7Uz"
-  },
-  {
-   "ts": "2026-10-11T15:13:09Z",
-   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
-   "side": "sell",
-   "amount_usd": 237,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3XieEtiQBo4Aasr9FjNjLEUV2UEMXZaKwu5NwPqxiddChyoSF5Fxakm23FqEs7yX2L6CpmB7k35zE66JosuwS1N2"
-  },
-  {
-   "ts": "2026-10-11T15:13:09Z",
-   "actor": "52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR",
-   "side": "buy",
-   "amount_usd": 237,
-   "token": "STRK",
-   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
-   "tx": "3XieEtiQBo4Aasr9FjNjLEUV2UEMXZaKwu5NwPqxiddChyoSF5Fxakm23FqEs7yX2L6CpmB7k35zE66JosuwS1N2"
-  },
-  {
-   "ts": "2026-10-11T15:13:09Z",
-   "actor": "EiBSkyWFREmcwXPKr9fPhUg6Ro6xCCLWiXbLHyjLAVhS",
-   "side": "sell",
-   "amount_usd": 192,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "tQTjo8UYCn3fM5m8FDNFaTjG4BDFADrS6gz5ahQRjTCmqZ9Yq5aadBq15D3F5DkhP9JcRpgTXBwv5HkXYhzNNsb"
-  },
-  {
-   "ts": "2026-10-11T15:13:10Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "sell",
-   "amount_usd": 303,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "2JoAWJAbMz1AYdoTbzgsGjJVh2a83YZeee8MM7yiUcy4Fxus6BZekDkFYG23BYUgUnJtuRpfEN6SKW3NHqHkVkNg"
-  },
-  {
-   "ts": "2026-10-11T15:13:12Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 274,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "5Ww5ifSWWKRYFuuZ7bgaqkqw7PjaQKbFunTG9TY8zy9sNLkBLiydSQoc44Ga4yu2Dpfky8o1mzTf13H9yYJprvtC"
-  },
-  {
-   "ts": "2026-10-11T15:13:12Z",
-   "actor": "4mqsbrS9uhbHvBLDWXq45gA6fTh9nQ5jsHGHfgTkeHZ9",
-   "side": "sell",
-   "amount_usd": 248,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "24gGzcaEkMzaJdCLhKrzGkcf3bdofSUwA7LkRhiieVY3ukckpXQhmkpP6ChJiMLzjpfTUt8b4MEiJFQGfKqcwHxv"
-  },
-  {
-   "ts": "2026-10-11T15:13:14Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "sell",
-   "amount_usd": 270,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "4y2FSQ1dfJqFGBU6iFdcitWVSseB5sEkGe4rSo1KKo7qwKR7wpqLAxQV9udkvVhxu6seAtGuPYq8gEcZVaY1tUp5"
-  },
-  {
-   "ts": "2026-10-11T15:13:14Z",
-   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
-   "side": "sell",
-   "amount_usd": 199,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "5rmRnV2929YNF7PPqteMEsAyeGkYYig6x5QtKVFUXLV3JkGosszBmZawiTxX5WR3HYtosV2aTTRTHTcVpRphHpsz"
-  },
-  {
-   "ts": "2026-10-11T15:13:15Z",
-   "actor": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
-   "side": "buy",
-   "amount_usd": 524,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "4him7w4sD1ptPxZ6sA6cy2GuH43Moim2PQSDUNoLNjdviVL8kCWFonh3Y22Sq84cwc23kHNapWTFNyVBmVPiBfg1"
-  },
-  {
-   "ts": "2026-10-11T15:13:17Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 268,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "2iDAchk7fCTpuZpQQMvyGHFvknmB3PX7zzMN7RQf2ADn9v8w3pcLKNYGeUt14Eo4rbdWVy4jkux4cHmiKwZd4WHV"
-  },
-  {
-   "ts": "2026-10-11T15:13:18Z",
-   "actor": "8ke96TP97UTswhB4KGwmxtwm7qCbacv62ksVVTDrUnRb",
-   "side": "buy",
-   "amount_usd": 202,
-   "token": "CYBERLEEK",
-   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-   "tx": "4AbnbuCrYrtAoXYRyGMtHH2E8ZVofTbNM7T9yCSbndRSDXoNPf2VoSCZYqZ8w8eQJQAGv675RH2G4CfYWV9rjTvz"
-  },
-  {
-   "ts": "2026-10-11T15:13:20Z",
-   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
-   "side": "buy",
-   "amount_usd": 255,
-   "token": "PUMP",
-   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "tx": "2k99f4AgFWhjL7rScoAUVRvY3ctsWnh6MaDWkbJoeQ7hojC6bD9C73Rv7yquQ8MFJqRnjtTA4St7s26tABCHhKLE"
-  },
-  {
-   "ts": "2026-10-11T21:32:46Z",
-   "actor": "E2tGyM8vbZM2ej4adVGw5J36Xx4VQ6QCaFu1xKA6wE7j",
-   "side": "sell",
-   "amount_usd": 160,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "28kxqDr1mqianNbNcYP2UER5B2Sco4EG3cHn2Ep399CTNJNLWs6FMxW4wZaWYg5AP7WkuHoYSb4qmj4A6pvWux5K"
-  },
-  {
-   "ts": "2026-10-11T21:33:02Z",
-   "actor": "8P5AqgExGH7MGrLQt8oTYax4Ryir8ZbdThJf3pZLyCqu",
-   "side": "sell",
-   "amount_usd": 236,
-   "token": "🌱 ALTAI",
-   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-   "tx": "5WSeRDxgSDP748jmgfCx1kATwXpzdMu8nXCLVuy6VgpeqYj6rDVtLqz8mv86G6ngv7rUHEvqBUunoqikiD2iw8z8"
-  },
   {
    "ts": "2026-10-11T21:33:26Z",
    "actor": "GtZoe7RXsbVEWA1sKEwYGKZVorGbb21zs5SAyRdbAXRd",
@@ -5401,6 +3097,2310 @@
    "token": "STRK",
    "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
    "tx": "37Nu7LYUqeLUgHizDUfVYCgJFwFuu6Cxq5df4EdFx8wiHA8CGrwJZAu9TB892Tfe7NWMYcHGdQqLdgM3jcdzcBsA"
+  },
+  {
+   "ts": "2026-10-12T15:04:12Z",
+   "actor": "HNYdqVrgfYivcusrKgtJRsxDeTMLVoT5PJoYE7oAhPXz",
+   "side": "buy",
+   "amount_usd": 162,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "3tjZ1nuY9wBbb9nphF4Ru9YaWU5tvmj3EXQf98NeMhUpi7QNTpuBVsmA4TsB6BNenrd9jCzjCieq8UiAZt4MtRkE"
+  },
+  {
+   "ts": "2026-10-12T15:04:29Z",
+   "actor": "CccSh2xwBvmiwiUwZRjQvktwTQHz8yypSPCKM3tHy1eU",
+   "side": "sell",
+   "amount_usd": 332,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "5jqUiUmk2Bp4aDccUw3hY8PYeaw5hbvXuW8phm3QxvC8NKXd5SSWbSFCaEUb6gizQ3cpB7d6i4aqn9Q1wgmGjRq2"
+  },
+  {
+   "ts": "2026-10-12T15:06:01Z",
+   "actor": "6VNNfoy5UKz6EBEw5VAgm1DfqL7eSuGVksot5WxMXrdB",
+   "side": "sell",
+   "amount_usd": 112,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "2MnenjVHHyAXzVgk8NQgr4VfJivVJH5GVN58Dyyo7k5txdnNYf1oXTrZc6AkPo8JpVfWM1oDyztokYkn7JtMibeV"
+  },
+  {
+   "ts": "2026-10-12T15:07:03Z",
+   "actor": "BuetAgcmuHsExTM9Yu6CrZFN1CmS5fkie2X6CBwZKccg",
+   "side": "sell",
+   "amount_usd": 180,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "5sp35ZFQ4UiK5QrBFDvP2VyBg8fNtrnsCEn7yh5rsyUzMLbdKGLZqC5Aeeq5iiGVyt8NQuZuv5ENo7TEDgxtAoNU"
+  },
+  {
+   "ts": "2026-10-12T15:07:17Z",
+   "actor": "6AUnvdScQZN9kZ1VSSTVAbSvkZW8YwKKc8QrRJyRYvB1",
+   "side": "sell",
+   "amount_usd": 114,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "UW38mbNS6AuyTU4Gv2V47TricKfUnQAzUnpHiBGSceRpkRJqumodgSmKpbdtoz1enTGnFdhnzGWbWXieqzG3F8N"
+  },
+  {
+   "ts": "2026-10-12T15:07:34Z",
+   "actor": "AEaPMZ8ix9SAyfvctR1JdKGUpiMRyyzpDtVBEbHiw7QL",
+   "side": "buy",
+   "amount_usd": 1172,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "2cJkwAVFyXhMR8hpyfo2pVaNppPnya96mCnkonvVFcU8mHss28XeWXNVTQ1hzisDDPbt72L8UiBvzBpgiCuoLjaA"
+  },
+  {
+   "ts": "2026-10-12T15:08:02Z",
+   "actor": "FVnRiHQdmgZTkvEToHSLXm23ocbHERyphvdQmofDQWmE",
+   "side": "sell",
+   "amount_usd": 109,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "2dhS6KMcGc5kCmTiGj2qmvvSmF2JqepNyBD8gXfwX2v8FUZRRCNieyJ1QpC2YsYaRkEA9SWLannu5PgTfVUwBHJU"
+  },
+  {
+   "ts": "2026-10-12T15:08:04Z",
+   "actor": "4GmY4JQfonX9nwiJmPsApfkkvbVTiMSzfmvWGJhv4nQn",
+   "side": "buy",
+   "amount_usd": 163,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "yPAyMUugKcsVcjGUWH5is73VyQZBdjfnhUgzzHzjwEA2Q4nvS28RUXZVstQnwJKaP2zHY31HuQwdpZ7CgXcU3Fp"
+  },
+  {
+   "ts": "2026-10-12T15:08:23Z",
+   "actor": "EtcypjU3iERqtNZGmTa5jQ1qSyQvTN6KX6Fet7m2KyAj",
+   "side": "buy",
+   "amount_usd": 2181,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "xUnU9izyiMtguFw6X8macabkyHcQcpv9bEGYuv7azNETC8kRMH4vyNtW7sjNxb4omzZi4mdSxBUoaA5ws8P3hDU"
+  },
+  {
+   "ts": "2026-10-12T15:08:56Z",
+   "actor": "EM295nQXqK6vduPt6GQTZxTfszbwQi9aCNHdrfq6GV56",
+   "side": "buy",
+   "amount_usd": 109,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5wa3jWbjRrvNcLYcZxcagrFVx6aoyaNgaMgWCQ9A3UQuMPUAYFKxXHgVmJ64saYBYVmsWaLUdjUUAxw8x1GqBBmz"
+  },
+  {
+   "ts": "2026-10-12T15:08:59Z",
+   "actor": "Fp839evp7yoHH5o57BwgNKCkkBja2pPT4wJvfUviVW7P",
+   "side": "sell",
+   "amount_usd": 113,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "2Vhskxz8RZnJrwf1m3iBmQziq7HQ4xL9oMbWYrRK6ks4WM6DKYkL6yAB6dtkgTWE8XWJj4BQz2KAGdouYJkJbMFC"
+  },
+  {
+   "ts": "2026-10-12T15:08:59Z",
+   "actor": "5gyz7VrG3uaSZsZmaZgpKnMMMM51SrejDFcKzKMmRkD2",
+   "side": "sell",
+   "amount_usd": 110,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "3E31ci7VsuuTAHQBfFBGLG3YRgVQQV4py3Zc2H4yxXoMvuKdAV9RM5Bmyf2FWFqhnGGbBRA7yaHddjWj94NrbHsq"
+  },
+  {
+   "ts": "2026-10-12T15:08:59Z",
+   "actor": "GRg9Ldza7XN5UBsFpmhAgK6hSvbv6d5FS9xcoYreWk2W",
+   "side": "sell",
+   "amount_usd": 113,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "45wsHoTwxn4EozKkCXamWjBGjCmRtdgRDkwA23uoH2GaS7p2im1TR6Ew3oFi1JwVyFfm8oXWwsZUDTnsRPZcNuSS"
+  },
+  {
+   "ts": "2026-10-12T15:08:59Z",
+   "actor": "7xS7TvCVKSxaKA2dn7faNDm7G6hV51TN6xGsJd9unmHh",
+   "side": "sell",
+   "amount_usd": 109,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5uhJVKaJkqeiKuwDPVV4XiVLU1bPxDCfAwvfWnLde91F3ccB8z8bKksCihDF2fwPDWh6FVp2pvVtkCGRTZNHvb92"
+  },
+  {
+   "ts": "2026-10-12T15:09:00Z",
+   "actor": "GRg9Ldza7XN5UBsFpmhAgK6hSvbv6d5FS9xcoYreWk2W",
+   "side": "sell",
+   "amount_usd": 101,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "2qfXEsY59AmAyxSi7UNx8sjYjuF6uGmsw6F4XCuWfTVjyZXwJj9M43jwrer9toCoiBeg1745aT9i3Ff2SdbPT7Jb"
+  },
+  {
+   "ts": "2026-10-12T15:09:00Z",
+   "actor": "Fp839evp7yoHH5o57BwgNKCkkBja2pPT4wJvfUviVW7P",
+   "side": "sell",
+   "amount_usd": 102,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "48dsqWnBYmYoNPsLEUMRwXcSeSSiCqGLdzCJDEoPcbxtReB3XBtuEzUU6J7eMcUBT55P2xduWaMT3LL3xotnmEab"
+  },
+  {
+   "ts": "2026-10-12T15:10:03Z",
+   "actor": "pgH32h4VHRWXF87o19KCCDswFgGrz1WEKUSUjqswr5a",
+   "side": "buy",
+   "amount_usd": 109,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "4UzMyybd6owonNrkV8LrvTeBpdChh3BtHBD4crydwSoaUHaP1j4DZ74ovkKetfW6Zj46t5oQed2bk8VAASWKUBwf"
+  },
+  {
+   "ts": "2026-10-12T15:10:17Z",
+   "actor": "9BKNrYpDNkp4g636RKakAUVWBTCpEbUPzyR63htYH4Ra",
+   "side": "buy",
+   "amount_usd": 684,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5KA8Arbnp5yp4ndyjMjnX3jw2CSy4Bv6nTrnXJGVxhxFwMR4j84rrDkHJAfgcZFHxWM1xrpmMFQyrWfrinSnmnou"
+  },
+  {
+   "ts": "2026-10-12T15:10:33Z",
+   "actor": "4LMWqvXevC8XqqkiHEorjCTukr9KVXFCbVve2jvATihh",
+   "side": "sell",
+   "amount_usd": 439,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5id2W7sUScvvWBnSDM5B3fUVKncCNy8rncc7JzVCGE5SCUbVoJ7ateK1dVzoREQRnY6kK84fn4NZy8jcQeNX6MfK"
+  },
+  {
+   "ts": "2026-10-12T15:10:41Z",
+   "actor": "AyosUDBqYQRRSgVABpi7wc9EjBzy3uzGPXMjXGR89yMF",
+   "side": "sell",
+   "amount_usd": 131,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "3jnRAxt5Mhfwg9v5VvmZLY6QQvjJTG66gdDrQxwN49HTi2jMDM869NuzV7USAyGmpBeFn128eQP1He2W4C9tH4xs"
+  },
+  {
+   "ts": "2026-10-12T15:10:48Z",
+   "actor": "8UFYRS4Qvg5BnnXC993aHiuhYAdMPfUAWew6gPwMWdqU",
+   "side": "sell",
+   "amount_usd": 253,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4qFxzL1RsDbczcH5JBgCM2fAq66dTQyLfoLVaGVpfopKXaTiGNnriDSC45kAGQ6E23XtjHbuTdShbqAP8t58R5sx"
+  },
+  {
+   "ts": "2026-10-12T15:11:19Z",
+   "actor": "Fj4ZmTiM4Vhv8yD4EXvpfSoT7MBwNaG2uuPcvudZvomy",
+   "side": "buy",
+   "amount_usd": 1940,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4dS3nCqjaenJT9WREZCioDFwwGh9reGTFyZmVX1BrkZg36FB9pMEF9ZjzW5BuFLeMLKZP4qc8kaGDcinhQqfEReb"
+  },
+  {
+   "ts": "2026-10-12T15:11:37Z",
+   "actor": "AT8jB8Cw9SUphTuXTH3Vb8zpvKbdUxqHEkaWM21ZTNwJ",
+   "side": "buy",
+   "amount_usd": 109,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "1wgg3CSmNGxN5HZa4j9L7Z5Yk2DHtT6BQAZNdemeDdbDeNfQu8uC4hSvbcwj321q1N1PFMeqjArcMgnPSHiXYAZ"
+  },
+  {
+   "ts": "2026-10-12T15:11:38Z",
+   "actor": "AJBER4a8CLyVEmJVKrQnHZ5wGQwjRWv7ZoDKNZY5poGy",
+   "side": "buy",
+   "amount_usd": 701,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5KZxRHYLqfQfEGphVPkGM9cGDnQKJC5CR77T9ExA6gut58UKoJTEqJPsfQmfhXJsp6LW4kLvke3Eg2GTGBb9yTDc"
+  },
+  {
+   "ts": "2026-10-12T15:11:43Z",
+   "actor": "4C97hndd99z13UVgT9By45jk9n6oDQYVzpiju21mGWpe",
+   "side": "buy",
+   "amount_usd": 200,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "kADEnuPZ9MSB6YNeK1wmeQ3zwGLNshJrfG6gmcAQ1cy2t9Q5nsQxfzsB5aiQmtZ5GGZxUt7F3CbnAXxfTUCZyPQ"
+  },
+  {
+   "ts": "2026-10-12T15:11:55Z",
+   "actor": "HGXr65KiTHQWNbmRR7Z9vNdJhCPRdHK4wwH27Wpt8q3b",
+   "side": "sell",
+   "amount_usd": 242,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "3uQaHjPFBMmUn6uyHktDby2CS1svZdxJ7pDHNy4Y2VXSSB5Sdz8MG6yU3tGEz9JG3foTCk5QWxBdDHKtbk1vEUEy"
+  },
+  {
+   "ts": "2026-10-12T15:11:55Z",
+   "actor": "7yDMgrdZaFGegFBEeA6iRjKQPW1N8z9rFhwZv1pFZ4h9",
+   "side": "buy",
+   "amount_usd": 500,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "ikYM6txREfsMbURFqqaJpgMeP4HyATjrbuuR11h3umYPa46t2KYaLuWuYeZ43Nd6nRMR9ECq6jfsoSHuNbhwcfA"
+  },
+  {
+   "ts": "2026-10-12T15:12:12Z",
+   "actor": "owXiyC72vW5KHN3ycEdm2P8L2tdmFQWMKbXx9oaKoH7",
+   "side": "buy",
+   "amount_usd": 163,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "2r9yDCmPXrj7hGuK5P6EVy8L13owun17pdarK4gsLSFvVUWUU9pfZcbJeUFfPdMVR5B3jvKMkD9XPXuTceNPAhWs"
+  },
+  {
+   "ts": "2026-10-12T15:12:13Z",
+   "actor": "DYRTa22idCqL54p6xmChzXeMi96h1XXStjpjAWpaGnCd",
+   "side": "buy",
+   "amount_usd": 238,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "5pG32w7PJaSUYD8ayGBTAm18xedgGWPiWWvLYd5dZ7Czaoy6W7XGH21QcUQmzLtMGe9vV8jFjFsCwWbaK2A6V9ZL"
+  },
+  {
+   "ts": "2026-10-12T15:12:14Z",
+   "actor": "HGXr65KiTHQWNbmRR7Z9vNdJhCPRdHK4wwH27Wpt8q3b",
+   "side": "sell",
+   "amount_usd": 244,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "5yoGtqhvGgsv78989hLbPyYhV47usP97sBpZkk8f9VsYsb98gzVwc6g15Z2XNj3CKUGPkxQ3QzCA5k5YuA3BcdZa"
+  },
+  {
+   "ts": "2026-10-12T15:12:29Z",
+   "actor": "3PJX81TJwj4hZLmoSrp5ubSxSwQZjWncN9bkobhMVt62",
+   "side": "buy",
+   "amount_usd": 150,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "3HFVw53LJJFs1EHcCdi77XrKb9wzHDaaAhpS8k9pj54FE2MXLPSq5UQxGeEXaXKdgXP2Ea6hhB6XLYQ39bC7AThe"
+  },
+  {
+   "ts": "2026-10-12T15:12:33Z",
+   "actor": "BoyLcEmBmAb82tnrGsbkFPsyrh51CtgV1tPZ9zCt1Z5U",
+   "side": "buy",
+   "amount_usd": 399,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "2Q21kTnZfsXwrKBHSCFPrNzi1avz8pZphmXQjNvLMCBfTPQKStECPBgjwEsxnq1wgbMgdW4qtaD2vp51wzXKwd2v"
+  },
+  {
+   "ts": "2026-10-12T15:12:49Z",
+   "actor": "AyosUDBqYQRRSgVABpi7wc9EjBzy3uzGPXMjXGR89yMF",
+   "side": "sell",
+   "amount_usd": 130,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4jVpwnThz1P6WkB2AL8FUdTp2c1ppBsVhqkNXN7mJuXk1SYgrPXQ1nNNuJtno5pgrFwESW8yPjFRqWxA1VTfJCUS"
+  },
+  {
+   "ts": "2026-10-12T15:12:49Z",
+   "actor": "Z2nCT7ae5eNtMf7tHZYmskHxeoZKh9ASDNUwWf8tQvh",
+   "side": "buy",
+   "amount_usd": 297,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5mv2CA7cBz7HmmnWBcfwPfp5XtdzEJsy5Xo8Y47z44avZwUcMVV3ESkAgy3pMENkJg5afmK5fxRUjiPKgA7mVYA6"
+  },
+  {
+   "ts": "2026-10-12T15:13:01Z",
+   "actor": "3Q7b63L9mJsh3H9vXs8MkvZkQyoDo7MeoKx8vVyWv7qb",
+   "side": "buy",
+   "amount_usd": 109,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4hG3k1vvynKDTny3gLC83c43SkVnZYbmU6XhcTb4XMqE37ESz1pG7tj1xcCLpeJQQJs1bSqXxnydZGGfuBieCYC1"
+  },
+  {
+   "ts": "2026-10-12T15:13:01Z",
+   "actor": "ArGFXNc9DPP6XjwpaUS5qX9oHX8ZyXXob9YcRGGyfDA3",
+   "side": "buy",
+   "amount_usd": 108,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4oa2bnzxxSKU3FUb6KvbnPBiUZASDbA8MSCv54hRz1jTNQLwpaNTGoz9SX3mMKV2uR5HKTBRMit9KW27zfXrRpDa"
+  },
+  {
+   "ts": "2026-10-12T15:13:02Z",
+   "actor": "ArGFXNc9DPP6XjwpaUS5qX9oHX8ZyXXob9YcRGGyfDA3",
+   "side": "buy",
+   "amount_usd": 108,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5VDndomXmKFgRASuAbL6iooni4eSBkyP6gDoNm3Hx4oKh5YmdJe8j5Z4jBdHZ8Pt7YhgGRBzmkbFRLdTwnvS9yNr"
+  },
+  {
+   "ts": "2026-10-12T15:13:03Z",
+   "actor": "ArGFXNc9DPP6XjwpaUS5qX9oHX8ZyXXob9YcRGGyfDA3",
+   "side": "buy",
+   "amount_usd": 108,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4eES2n15bfWxuPPezGXBgQQb7CHSzn7s3UaFTF3ym7ZAAombRnxo3UGqUZiRdfTPKn87ShMed9cNPHp1v2J2PydT"
+  },
+  {
+   "ts": "2026-10-12T15:13:47Z",
+   "actor": "5DJSBMEeh7WCwGt3kKx3ZVEE1tzLafp4WjnM2idUkWzt",
+   "side": "buy",
+   "amount_usd": 996,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "33DRhR3xZv2iJSYxw2XnA9pvCipTbkngYiQkapfAN3uvBgy1ZxPJLxWDQEQREmq9hd7LssxVLqBSeqrhJn6Ap4bd"
+  },
+  {
+   "ts": "2026-10-12T15:14:33Z",
+   "actor": "BdvZgBJAKXFTFafxqnqNueZcUS1B3fTWn3LoxB9QJFmP",
+   "side": "buy",
+   "amount_usd": 545,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "46tZPiNJHqUoJYn4Ft3R1Nbq3hDwCHWNSw3Bn91bTEFfjohtga1adLTJAwjtvFCfVYAd7pF2sUijiAbcG4bjbny"
+  },
+  {
+   "ts": "2026-10-12T15:14:34Z",
+   "actor": "DPV7YaUK5tmMgCyzwDL1uxyykpmoYnDvSdoYEkWqaMy7",
+   "side": "buy",
+   "amount_usd": 223,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "2ezCfkTHL6AvzudpGXgqrZG4goFkQdbFqyNZtPEvp8DYjn6Q5tuJ71UET5hdo5SH6m2qVx2qsXUMvqAzoCdq8CYc"
+  },
+  {
+   "ts": "2026-10-12T15:14:50Z",
+   "actor": "B27s6nBpD4cDKEW5aF4s4Xj16jNgvhpPs3LXKgK3ce97",
+   "side": "buy",
+   "amount_usd": 148,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4LdJ1Myenqfp1ky6mkxFrZ8gVMX9ovFmMBXKFbCJ7zGe1ob3bvktrLWaevWPxyUTWyeSgGrkyh5XmtJHwbUHYSFa"
+  },
+  {
+   "ts": "2026-10-12T15:15:17Z",
+   "actor": "owXiyC72vW5KHN3ycEdm2P8L2tdmFQWMKbXx9oaKoH7",
+   "side": "buy",
+   "amount_usd": 304,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "4BfEKZuNYijApyzH39GkXsdRkkMQaqQQUgpuX4v4G7QNH33bt5awysRgqUSUgXWDHsPMWDw9tSaPb6Ra3dNdMhc1"
+  },
+  {
+   "ts": "2026-10-12T15:15:36Z",
+   "actor": "8p7oT5fucc8xrbT5VEt8CpXutGebN43KpjgNLR2A9uc1",
+   "side": "sell",
+   "amount_usd": 220,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5gAhS9zDoXzFf5FpkagXdwmrYhWjhJGrdkJDJS7xxM7PK5J414WMRmmRWFjZkjvbXdihPVxtW3EGZSpjCKmDomVJ"
+  },
+  {
+   "ts": "2026-10-12T15:16:10Z",
+   "actor": "DyTEJrz63wXkKhVz9sH31Fk6nECVnVLBPcRtV26iANJH",
+   "side": "buy",
+   "amount_usd": 108,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "3kuB3qqwzPPWHysrP7iSYVcZwN3STbYPKwumcyfRhv1gomLKeiTfnBKtF2UdBTY38WZPz5SGLypikGkHVWR3kNqX"
+  },
+  {
+   "ts": "2026-10-12T15:16:39Z",
+   "actor": "AT8jB8Cw9SUphTuXTH3Vb8zpvKbdUxqHEkaWM21ZTNwJ",
+   "side": "sell",
+   "amount_usd": 118,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "2TqidTPi9BX3fekYfuWrjYarrKwJgyZEwnHnVHmahB1LXSMtHREYQ7ReQvcpU8uxZFkHHfoYYNojgVvjcxxd3Uqi"
+  },
+  {
+   "ts": "2026-10-12T15:16:41Z",
+   "actor": "7v3SLy7m9J48pM2E45mHGaZ2DF8UMropL1KKzRcvpsRk",
+   "side": "sell",
+   "amount_usd": 1148,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "3VjRQ6YqBJwDx2XLt1ow4SpKcM9x51pUE5u8Hz7hm5kVFgfiXSzbvJbztfouaQ39y5pHmxFtGLkSzwpUD3fFwTuD"
+  },
+  {
+   "ts": "2026-10-12T15:17:37Z",
+   "actor": "Ft7icQmQFe1KWPZphU2QByo2qsd2QvNH6iTjK8nbKckr",
+   "side": "sell",
+   "amount_usd": 113,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5udwg3SwHrGTr6amM8RUtHjYJy8V4WoBWoC2ZhzbX529ruBPUhcn1KGUrLngFzvrD618GQYGHpahD6FfAWjWRCJR"
+  },
+  {
+   "ts": "2026-10-12T15:17:54Z",
+   "actor": "GmFejbikeEarY6jwYoR5Vvz8WuP8UWVpTMoe9xvE5v8C",
+   "side": "sell",
+   "amount_usd": 106,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "3ixG53ksZUBK3WSW3rFnwEQyBgjDQwdQE1YPvdX2445pjn8jfMEugSwwKDMJANVf71rB8bPSVXHtt4QQrbp73VzV"
+  },
+  {
+   "ts": "2026-10-12T15:18:27Z",
+   "actor": "FhjpxESg8c5e9jTeAYRqS6BATkjYmqMotPAyAW3RNNPX",
+   "side": "buy",
+   "amount_usd": 686,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "3JsARcQwKEXMHJFskb3UhwYFnRctpuk7VuTyMFs6jnrNJzoiExYRj5qjtBonMYK6eaffaqvh7zZfvWEhvBvoSyQ3"
+  },
+  {
+   "ts": "2026-10-12T15:19:26Z",
+   "actor": "X7Tvo3Dj2LADsibsNDSytvUSVP9fpMaDRbjFLiwYxqX",
+   "side": "sell",
+   "amount_usd": 143,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5vTK9faRs3PWSBXXr5sjz8sEGhZhuTuZFmphU44jYtRG2vS1fJEGzb6dDuc8rTf9HUVvpnvWjgaQwzJNwQRXjahf"
+  },
+  {
+   "ts": "2026-10-12T15:19:53Z",
+   "actor": "Aot4HuECTJLyw7dxMVTYNv8w6RnyUUy7u3NTfaF2P3sD",
+   "side": "sell",
+   "amount_usd": 647,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "2v9ePANgibRsLKZ6o34tCU97w8p4Rz7LQ42SY5wUyFqEWfjDQpt7s2tFrtq9ybwCGo5AkaAaz3gKLkSkL5hCpm6i"
+  },
+  {
+   "ts": "2026-10-12T15:20:10Z",
+   "actor": "4dXxHsq2rPSRNTL21JNPnwKuaRaAMST2jgg7a7hk2LNo",
+   "side": "sell",
+   "amount_usd": 1389,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "3RvgwoaQ51gU1eZRvCL87PHi6egDXpDKi7yLgjkuV75ri2Udf1wuxjUnpee2UXzMyFb4eHrSPYRbk6WpSzceFBec"
+  },
+  {
+   "ts": "2026-10-12T15:20:32Z",
+   "actor": "HNpi42nW11D6YZ9bQKZcguGEzyGXqf7LS5yKy7idwsMn",
+   "side": "sell",
+   "amount_usd": 401,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5p6Uzg2JFWZFPfyzDWBFwytfc5boHeUU8URwUYEbwp5gusPQ1JkRfqQVs85mGB3ATCZ14AyMMLD6BLS23WoLRGgn"
+  },
+  {
+   "ts": "2026-10-12T15:20:34Z",
+   "actor": "7yDMgrdZaFGegFBEeA6iRjKQPW1N8z9rFhwZv1pFZ4h9",
+   "side": "sell",
+   "amount_usd": 469,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "5aLPYmiz1s5uZJ9oGWX5zWT4tuGAasw4iSNJgomse6eRq8eZGf67vbWpXtTViJ9deKFjAzxbAoRnNP9eV8gpE8Ny"
+  },
+  {
+   "ts": "2026-10-12T15:21:19Z",
+   "actor": "CKvC5FEmcnvy7PR5KihNpZJt2FVStTNmee71KC7eBmhu",
+   "side": "sell",
+   "amount_usd": 2087,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4Wjb4fM6BUFB7Ltr8pLrP9fgxW66sTSGWBG9Vmmf4zcaeLTi19maJZWte4RiH5H5hdh1bUPk4MMfKnuK3va6GqSR"
+  },
+  {
+   "ts": "2026-10-12T15:21:41Z",
+   "actor": "AyosUDBqYQRRSgVABpi7wc9EjBzy3uzGPXMjXGR89yMF",
+   "side": "sell",
+   "amount_usd": 155,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "35FWMK7Vx2upfy3N8VMkTEjnwjqjJK6qAx1W2RwbJi2nLA9M1CRAQo4qbBLguhYnQpj4h6fzT7D6qZYCZJXHVfZF"
+  },
+  {
+   "ts": "2026-10-12T15:21:48Z",
+   "actor": "EtcypjU3iERqtNZGmTa5jQ1qSyQvTN6KX6Fet7m2KyAj",
+   "side": "sell",
+   "amount_usd": 2149,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "23HwkPAjxXJ97avarpsftc1rn1LzByC9LtEZh3BbDAwXCaQGQGhCYo2kuUGMKN3FRYi3EWjaRjszW2fhtndASs27"
+  },
+  {
+   "ts": "2026-10-12T15:24:51Z",
+   "actor": "EM295nQXqK6vduPt6GQTZxTfszbwQi9aCNHdrfq6GV56",
+   "side": "sell",
+   "amount_usd": 107,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4FeBkEwTzJWuirHEkSWrBfWrEE6kjYRPLKvFBnYof1jqvMk5J2etHpRFwLyPNng81FQ7s6jFsAA91SeHaCW6itpd"
+  },
+  {
+   "ts": "2026-10-12T15:26:13Z",
+   "actor": "HNYdqVrgfYivcusrKgtJRsxDeTMLVoT5PJoYE7oAhPXz",
+   "side": "sell",
+   "amount_usd": 167,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "uwbw42y5DggwdpEna8iEKyK7A3aukUexVZq1SN9NRZ2FwdLPEkQhgjAYK2RhFwBrQK9kuDbfPadRqzxCo7vYk1U"
+  },
+  {
+   "ts": "2026-10-12T15:26:52Z",
+   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
+   "side": "buy",
+   "amount_usd": 138,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4GEwWG6GKpYp9KMYMkVk9ZnUPZuHHfEC5jLyiRoAGYYWL8hdfAy2yiUi8zxyE7PmrvJKRLN6PuE2wRcEtVPBKxWG"
+  },
+  {
+   "ts": "2026-10-12T15:26:52Z",
+   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
+   "side": "sell",
+   "amount_usd": 1000,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4zPz7wrvp5m5zJ1FfW6cBGm9fMarJ3Xd6RzT3ozExcgZS5bHyRoLnyiJfToYBVta7QQg3SgktotQm62fz9buT9X5"
+  },
+  {
+   "ts": "2026-10-12T15:26:52Z",
+   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
+   "side": "sell",
+   "amount_usd": 511,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "52YgDueTcceQRDv1JdEP52Cp73Dvtb8RPDyarK3aQpqVdC58R8q4dgjZtCifArQmNTaA6bTDzHr3QwELBhCLiKqk"
+  },
+  {
+   "ts": "2026-10-12T15:26:57Z",
+   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
+   "side": "buy",
+   "amount_usd": 183,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3UVnvLP37EzFm1PgFMN8SRUQLNpVHaa3ynvtrUjpSDUVAWd2kwMBJahoZhFxETMoSWMZ5tWw25wjf6c16RqpD84C"
+  },
+  {
+   "ts": "2026-10-12T15:27:12Z",
+   "actor": "6LVuF6wjpLVeqdJq36bD6hYG2aQuVUSfTXWRdJDBHJyg",
+   "side": "sell",
+   "amount_usd": 114,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "2MtuGuboMW7PsNWtMHd2uy5rhyXowcfFxY1snPd5BqhqaTiQwCWrwPVd9XEpw7LbFd15UFdMhqxKbznLboZdBe7a"
+  },
+  {
+   "ts": "2026-10-12T15:27:12Z",
+   "actor": "5MmBG7LnNDdnWwMFCCZLnPxtNEZoz3uRbrADFVdwUreQ",
+   "side": "sell",
+   "amount_usd": 206,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "2MtuGuboMW7PsNWtMHd2uy5rhyXowcfFxY1snPd5BqhqaTiQwCWrwPVd9XEpw7LbFd15UFdMhqxKbznLboZdBe7a"
+  },
+  {
+   "ts": "2026-10-12T15:27:12Z",
+   "actor": "E4mmLv7MugAQoJvqbzVSRTzn6LRWtsAQgX5dYze7WzCy",
+   "side": "sell",
+   "amount_usd": 131,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "3axRqUD6idPWaqovxhaWSpJMfDx2sLbN7ciSACWemctStQCCVaA6MqhVuQnpieDpgMVWfxd5WSdhurcFnBqWFnjq"
+  },
+  {
+   "ts": "2026-10-12T15:27:12Z",
+   "actor": "6PwLMU3aTi2SGjnP5iRkxAW4VBgEdjwYdC8D7Sv3afok",
+   "side": "sell",
+   "amount_usd": 125,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "3axRqUD6idPWaqovxhaWSpJMfDx2sLbN7ciSACWemctStQCCVaA6MqhVuQnpieDpgMVWfxd5WSdhurcFnBqWFnjq"
+  },
+  {
+   "ts": "2026-10-12T15:27:13Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 100,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "42DX6n33vZeLoa5gfVxeaWuHxCDux2EpfHYzk4TfPgxHCCyQtY7QxDeB2BHk5kx7FiHr9RHHG46oC83ERPubAeUr"
+  },
+  {
+   "ts": "2026-10-12T15:27:13Z",
+   "actor": "5MmBG7LnNDdnWwMFCCZLnPxtNEZoz3uRbrADFVdwUreQ",
+   "side": "sell",
+   "amount_usd": 198,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4kFozVJPVDnTwWDJ2fkWkomRksDvEurfBWGusvNju9jBgFdfLEn454TiQNhqpvMgCmuTFiD1vWck3gY8D2AFN111"
+  },
+  {
+   "ts": "2026-10-12T15:27:13Z",
+   "actor": "5MmBG7LnNDdnWwMFCCZLnPxtNEZoz3uRbrADFVdwUreQ",
+   "side": "buy",
+   "amount_usd": 198,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4woJ7GTPKmYLmZntu6ZVYsKrnpNmdb5dUudk53pdSxFyjkMza5z9h9FdvYsgjMNUnPSRD6tFBJNDKdd8oaV2ZHux"
+  },
+  {
+   "ts": "2026-10-12T15:27:13Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 158,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "5BTzy2zxXBNMRGbBN6xVWMdC5zLuJaCKFMRpcYmLeJmn6Wuc7W3R7tKhYbAUixUp956QM4Y3QvA6Npf5feCPTV3T"
+  },
+  {
+   "ts": "2026-10-12T15:27:13Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 101,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "5Tr3PNpJiUKjJ7ZcG2o1ja4JzRyTMM9dsbH6yPo6wMfAqcJzsgdN9iguT7M3G8N1AR7a2mqDuHMUX8sm3ysDECR2"
+  },
+  {
+   "ts": "2026-10-12T15:27:14Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 161,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "2M9X2JpVqbKzBPXP9Ddm48CtKq5JPTD8tzpruJBg51GcW2gqTZ1JDy6Swu2npVGPPspe3aWp4yKWadHeLzGupBgC"
+  },
+  {
+   "ts": "2026-10-12T15:27:15Z",
+   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
+   "side": "buy",
+   "amount_usd": 164,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3WYAeDAw3imfzwGUJ28XrQJ9PZYma2BPMh8PqBseaHVtywaEdiWaycCn8fRa42w1wsJsCncdRAhoUvvWZ1WcF59o"
+  },
+  {
+   "ts": "2026-10-12T15:27:15Z",
+   "actor": "CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED",
+   "side": "sell",
+   "amount_usd": 160,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4h6RsKDzcadRyL1byypuKefcxe7vPeHZbgcJAA5NKZCsKDExn5CC1hFhTiHPaFMQ7SBvd1ZndkHg1EZB1sjB9oT7"
+  },
+  {
+   "ts": "2026-10-12T15:27:15Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 160,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4h6RsKDzcadRyL1byypuKefcxe7vPeHZbgcJAA5NKZCsKDExn5CC1hFhTiHPaFMQ7SBvd1ZndkHg1EZB1sjB9oT7"
+  },
+  {
+   "ts": "2026-10-12T15:27:15Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 153,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4ra791vugooZ1yX6JuUwjuDvVWTnHGXXfsHUXbRLuMUJ2zGgkeGXh9wC3EPxZZw9czZAuN1pXDSBvZ6GfViouqMU"
+  },
+  {
+   "ts": "2026-10-12T15:27:15Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 152,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "5KwAnB8goMdQnDRyxyGj2DmHPrnunVrqfKDH1P9PNxHtEohd8qNMrmkTSh2HL6mrbjstp1yQhVvYtgVJJrQWMmpU"
+  },
+  {
+   "ts": "2026-10-12T15:27:18Z",
+   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
+   "side": "buy",
+   "amount_usd": 165,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "QtR55MqW2krMLPo4QbwQiMnoBLbsoUDhbsJGi3xRYcFfDvjKhmWUmpvNZ75ZYTEk2fz6veV7xk7L9tmZbM9Bivj"
+  },
+  {
+   "ts": "2026-10-12T15:27:19Z",
+   "actor": "CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED",
+   "side": "sell",
+   "amount_usd": 116,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4csaxy8A49FetBESrDCfYAYA6dLp5uXT2apbABEhNiVDEG1aNdCaQ3ao13whxoYU5NzGf28Hr3rGSxXT5QCBb6Wn"
+  },
+  {
+   "ts": "2026-10-12T15:27:19Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 116,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4csaxy8A49FetBESrDCfYAYA6dLp5uXT2apbABEhNiVDEG1aNdCaQ3ao13whxoYU5NzGf28Hr3rGSxXT5QCBb6Wn"
+  },
+  {
+   "ts": "2026-10-12T15:27:19Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 207,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "66R72WZtT6WNHx6iroSpp8o3nJm4MmkhXqqdd2NQ1SUrSgEwphz2Cpe92TbUUMiApfJFphygepDdpgwg2RCWGw9R"
+  },
+  {
+   "ts": "2026-10-12T15:27:19Z",
+   "actor": "CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED",
+   "side": "sell",
+   "amount_usd": 207,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "66R72WZtT6WNHx6iroSpp8o3nJm4MmkhXqqdd2NQ1SUrSgEwphz2Cpe92TbUUMiApfJFphygepDdpgwg2RCWGw9R"
+  },
+  {
+   "ts": "2026-10-12T15:27:26Z",
+   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
+   "side": "sell",
+   "amount_usd": 205,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "2cEDtWLktmy4Awkxfu1p7TGn8qmdw2KAKKBqaueEicR2bVaTAPJxfHLqu6SUTRwHrKdrdAPmrDzc6UPGgXqsUhcT"
+  },
+  {
+   "ts": "2026-10-12T15:27:26Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 205,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "2cEDtWLktmy4Awkxfu1p7TGn8qmdw2KAKKBqaueEicR2bVaTAPJxfHLqu6SUTRwHrKdrdAPmrDzc6UPGgXqsUhcT"
+  },
+  {
+   "ts": "2026-10-12T15:27:26Z",
+   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
+   "side": "buy",
+   "amount_usd": 409,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "52KDAsAXtTyWWYgbvCm9hpvkuW72DttDJRinhHHQcuj1byEYeLhd5BATjEc3DuaEzA6XPDPv6HDoViiGPDbDPXLR"
+  },
+  {
+   "ts": "2026-10-12T15:27:27Z",
+   "actor": "E38EfTX8tEvWGx78g8PQwp78fbcJkEnLdDZK3UQXBYPS",
+   "side": "sell",
+   "amount_usd": 109,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "2Mq7PQ51Ny4V3S8SEMdnbz2Y5QiGxafBBFM9vtaxgWo9b5qYsEztyPfD1bvBapMyBitfeaEeR2BFmhgfHkXyKXqe"
+  },
+  {
+   "ts": "2026-10-12T15:27:29Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 220,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4LbivLAPC6crnpiYrkqHvyneuNTEb9AcNcxrCCbuFqdwBXp2j2xQKvVeR7TUVvrVAEuXBozXE4KSS7cHu8b3tVmD"
+  },
+  {
+   "ts": "2026-10-12T15:27:29Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 209,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4pWghmoUBuY5eJmxhkxMtuV7XMvrr5PuBTiaWCM22bTqChoHW5Y86DbVV7XoCso5kawFwYuNg7ejoc7cKuKavBPJ"
+  },
+  {
+   "ts": "2026-10-12T15:27:29Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 128,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "RnHLw2Dx4Hie9gQSQYWMwQSK7nvRPBBfiKnM5SUZYH2nhH1iCfG5bAQ4NuJowubzo2ZiSDXuEU1Ut7bDNdMfBHL"
+  },
+  {
+   "ts": "2026-10-12T15:27:29Z",
+   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
+   "side": "sell",
+   "amount_usd": 128,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "RnHLw2Dx4Hie9gQSQYWMwQSK7nvRPBBfiKnM5SUZYH2nhH1iCfG5bAQ4NuJowubzo2ZiSDXuEU1Ut7bDNdMfBHL"
+  },
+  {
+   "ts": "2026-10-12T15:27:30Z",
+   "actor": "6DvdzV1NjnhMStRKpJ3jBiraBEEpUqKywr8nDzntpp68",
+   "side": "sell",
+   "amount_usd": 191,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "rDsCoTUW8iUg5pmKwX83qLQRb4WDHvBLrdaoqMv9dKfXsmiyqhTHYyNM1qUk5Zm7btmW4y1GTAQd48unZNtNCwa"
+  },
+  {
+   "ts": "2026-10-12T15:27:31Z",
+   "actor": "7ioEZjdGdciB2jS79Rc8yqrsYanf2Q1YejHjNcQZLkER",
+   "side": "buy",
+   "amount_usd": 200,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5EA4CHuTHgqdweUx7pXxzeZ7Gt2jfBtyMgcL18NsXghgFWLwo4qP1TPv9qNk9KFiMP25uG3fvxCzwCswBJywrkfR"
+  },
+  {
+   "ts": "2026-10-12T15:27:32Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 214,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "5yayfAYBpDvgwsUERFhFJraJqnE7S8FTuA2Xj5acQ9S9YExXTN9Wc5yK2y9a7zsRMA35EeMjrUsKva7Z8JMihiFE"
+  },
+  {
+   "ts": "2026-10-12T15:27:32Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 280,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "DVWz6saLStfQgF5AEkBriXFCxcBSUyeJDMTQdXUCgDPhBsgqDqLtJnCH2v565XTGtP9BsXsZBdSdjKMaykvdnBU"
+  },
+  {
+   "ts": "2026-10-12T15:27:35Z",
+   "actor": "HNpi42nW11D6YZ9bQKZcguGEzyGXqf7LS5yKy7idwsMn",
+   "side": "buy",
+   "amount_usd": 400,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "2hEv6ngZ9tvn7LrjHticQ2oTWbMpps5Vj9djttP3KLTcSWSp5DfkyJjxmdK1m5dD82Fe16dDArwoiy3UMaRS3XWe"
+  },
+  {
+   "ts": "2026-10-12T15:27:38Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 123,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "5KnN4poAWQVBiEiqi1Uh7SKiCfmeuSmhWNKv5BYKXwneckp2BduWYbrzNVZtwABtjXbZdK2uaRbi1rG2BvM9AhfW"
+  },
+  {
+   "ts": "2026-10-12T15:27:40Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 285,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "2QzDqmx6LUpfZ5E76KVbDgqbeTsUg8W66oK4EEFyd1Q8js8hDFqS2P9axDMw9TWG3yZv1FcsuR61GG4jErRq6Pe7"
+  },
+  {
+   "ts": "2026-10-12T15:27:40Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 109,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "3Pk5JNv9FjRFvPhtBJuJv2ytFnUy2ML61X64Qsu7MHPHJRYRyj1SVdq6WrHibPbRiLegcPkjWXGofaC4PFeyj924"
+  },
+  {
+   "ts": "2026-10-12T15:27:40Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 200,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "41Cx45eE8Lf6rR1WrmURJAM4ueLK2t1ZURi5yLvCzCJmyEdo4GBSNJR2DpSdhRTtgfSgDUKEYN2kWx98vWXyWnUL"
+  },
+  {
+   "ts": "2026-10-12T15:27:40Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 101,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4npFAdsLCyB8jcP3DEuC6PEzHt4A1Rq4mk2z85js59hyQSL8sixcjvnNLUyDWnDB1XhuBJ68hj22i2bYDZxjiNja"
+  },
+  {
+   "ts": "2026-10-12T15:27:40Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 226,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "5kNNNRrdTe3zKBXt3ATTkdApXyBepxrRj5bQyVmXG8ETipq598p5E3jzDRcbEXnB8AyXjWA4b6mDUzGtLQfNawJT"
+  },
+  {
+   "ts": "2026-10-12T15:27:40Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 198,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "xYvzYPm8KDodZGj3nrB1NoadUPx36XgtMk7aRv46hiLRDRQb8A231xHV2sFVeXLM7qT8hVAF7XHzMmhfDsSiowW"
+  },
+  {
+   "ts": "2026-10-12T15:27:41Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 1024,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "SmWBxSpdBQXDKRRq2WmibzqRZ3m3o3sci63VtWUcPm8KeDeMx76AMePv3i3UqBjroR83Ckn3vPShZrTywvWwz66"
+  },
+  {
+   "ts": "2026-10-12T15:27:41Z",
+   "actor": "E38EfTX8tEvWGx78g8PQwp78fbcJkEnLdDZK3UQXBYPS",
+   "side": "buy",
+   "amount_usd": 1027,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "SmWBxSpdBQXDKRRq2WmibzqRZ3m3o3sci63VtWUcPm8KeDeMx76AMePv3i3UqBjroR83Ckn3vPShZrTywvWwz66"
+  },
+  {
+   "ts": "2026-10-12T15:27:45Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 145,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "3npdLAn8fCRimcuoHsmhtigrqQCsbqpSXEeQX2t5R8ksJnDsxPgaEw68cDpjQnSWzHTLXfwYCY3qDapCjiDywN73"
+  },
+  {
+   "ts": "2026-10-12T15:27:45Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 146,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "49tp7J3EFfymMzJ4RGF5J4HJ4eL8JbRPiyCcdPbYK7rXV5HqJ2H6KMWsBKtL9c9VRXHtF5tHd8deuDuzXx2nBLtL"
+  },
+  {
+   "ts": "2026-10-12T15:27:45Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 255,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4LKBHj3twDp8z927Qb86KJUvzbawWT5ozori7pj6aLUSVAGvvAmy9rhEEp9WJHbaFYQmF4nt1av4EVspVMQ53ydJ"
+  },
+  {
+   "ts": "2026-10-12T15:27:45Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 120,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4bTF1tzhZw2vWtNGYC4SE5bQA9Y1pdQWKXPr9Yqkm9e7hjAFUNymeoze3zxn1X4txd3b1zmbbznDkBY9HVYxgoR"
+  },
+  {
+   "ts": "2026-10-12T15:27:45Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 245,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4juA6XcCaFdVhTN3neaUhqqmJiJJ8Nt1Y2JXV1chAL8Yh5gPrDu4uaRbjnpnfb54kvX9Tyqwk4TQxeG2mW4fGFdQ"
+  },
+  {
+   "ts": "2026-10-12T15:27:45Z",
+   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
+   "side": "buy",
+   "amount_usd": 246,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4juA6XcCaFdVhTN3neaUhqqmJiJJ8Nt1Y2JXV1chAL8Yh5gPrDu4uaRbjnpnfb54kvX9Tyqwk4TQxeG2mW4fGFdQ"
+  },
+  {
+   "ts": "2026-10-12T15:27:45Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "buy",
+   "amount_usd": 119,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "5d8yYpCySdJzhQqxpzHB1WGBqLdFj42zcoswsQxQBdeJkqftW4wiGNbTLVSzh9Fx2S5gQrUUwWzt1JszAJUJWCUc"
+  },
+  {
+   "ts": "2026-10-12T15:27:45Z",
+   "actor": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+   "side": "sell",
+   "amount_usd": 323,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "5hWRiUvE18ZwREeeyrW4pkLrCj86yTK2Q4xHNPRFfuVNJbAcAV6G8wEND2Sqzt9eWVtK1HqtLPe2NLCTQQFjXJwT"
+  },
+  {
+   "ts": "2026-10-12T15:27:45Z",
+   "actor": "E38EfTX8tEvWGx78g8PQwp78fbcJkEnLdDZK3UQXBYPS",
+   "side": "buy",
+   "amount_usd": 324,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "5hWRiUvE18ZwREeeyrW4pkLrCj86yTK2Q4xHNPRFfuVNJbAcAV6G8wEND2Sqzt9eWVtK1HqtLPe2NLCTQQFjXJwT"
+  },
+  {
+   "ts": "2026-10-12T15:27:55Z",
+   "actor": "HGXr65KiTHQWNbmRR7Z9vNdJhCPRdHK4wwH27Wpt8q3b",
+   "side": "buy",
+   "amount_usd": 238,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "3CKYadTnt3py2QAaucf4nwvnTuXniaaWACtfdQ36uyLCavmj5Vmtwy8qphqx8e43GiwTRbizc1DcWFT4hjNAxcBQ"
+  },
+  {
+   "ts": "2026-10-12T15:28:01Z",
+   "actor": "3HWEqtPnx1z4oDMTxfA66pfhK7Gm8KF2LKhSPbKgPgdJ",
+   "side": "buy",
+   "amount_usd": 286,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4ZLjFK6xzS9zTKWAkrdNZWX1zbP7LaKz731A1QsA496dzmeNgKExPJBLWehdvrV7zXGmkaKbReXcNCexKcYo8c9o"
+  },
+  {
+   "ts": "2026-10-12T15:28:10Z",
+   "actor": "E38EfTX8tEvWGx78g8PQwp78fbcJkEnLdDZK3UQXBYPS",
+   "side": "buy",
+   "amount_usd": 161,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "3HXvoMhkaxEDts23GgczXmHkqupBy9FMqbZq7PUJoN87u1JPDAbN1iKDrCKPoLmKYRGzSj891j38fcQdjW9zBhPL"
+  },
+  {
+   "ts": "2026-10-12T15:28:12Z",
+   "actor": "44HM6HPHyRad6a6NuR4X8G7uJh8ZCmvdBVr1bfF3F9WD",
+   "side": "buy",
+   "amount_usd": 142,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5CJd5pndqCaDtArpydw6DrrUPQ9EE9oXbcGwDhSH6bvyytBJAEnyhVpRLwMEweKP8eVH9avf1he2TAZyHM2BvDkL"
+  },
+  {
+   "ts": "2026-10-12T15:28:13Z",
+   "actor": "EYpD1xtAL74fS1atbtqE73SkAhT9475otdxHm6SE9Mo9",
+   "side": "buy",
+   "amount_usd": 310,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "4VttCw9hK1oDA1hvfmkzoxCaFpXjCkNpUKcD27JQ4SfRxVuy1pZJQMC9qzv57TqefKyVLTKskGxS14RhoE29YjuZ"
+  },
+  {
+   "ts": "2026-10-12T15:28:16Z",
+   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
+   "side": "sell",
+   "amount_usd": 119,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2fSdwTdog58zG5i4kHWSNcBsCqTUZ2qfkfVRa9DFfpfj7KW5adk4RJizaMUrz9LeSM6KnC6YtNoHBj3pRFYgv3cx"
+  },
+  {
+   "ts": "2026-10-12T15:28:19Z",
+   "actor": "7y8ydAKdDf5BL73z1jbdvUH9AifEhTtZXJhMvPj9DofL",
+   "side": "sell",
+   "amount_usd": 143,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5qg3rYEztWRfAUgdhEJYueB4GvLna6w6fVuUeHiZvQx2vjWN3Q5sTKGAHXi51FyXKkB8mxH2yiHqdVbw5iH6ejfk"
+  },
+  {
+   "ts": "2026-10-12T15:28:19Z",
+   "actor": "97U63t3nNboovws4FXwFxLwJzgJPrjHntQUppqR1mEFD",
+   "side": "sell",
+   "amount_usd": 225,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "2K8kNtxiVpWiUEeZWd7MFg9Gw64GPHRhjvHtJmVsHVwJrFrwBruExqhNuxVp7sRY63UK8WqFT9zw7ACJ1jK1oGzS"
+  },
+  {
+   "ts": "2026-10-12T15:28:27Z",
+   "actor": "Fsye4r6D3zjQm5f9fg1ndoQXd1YNjTGB9Hoxn9gPo99r",
+   "side": "sell",
+   "amount_usd": 105,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "4ShMqf4DgZ7CGKV2YUokMFcUQL3BiGcB5MCs2q6UguKwFvtsXXRuUFt4bfzQuSJVBVajvy65CDPZnszpWCHdjhQd"
+  },
+  {
+   "ts": "2026-10-12T15:28:36Z",
+   "actor": "FKcTAoyRuVyFMtzpRwXmYX9EFDiGaRsEcerL7PQeuYxu",
+   "side": "sell",
+   "amount_usd": 243,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4MMwPBzFAQFEE7Fs7gsDeNpDRiDNaUasZwsNPYB4wxLrqQ3QDqdf9qFkMoAmUsG4WerNS8HXzPGrMoaTrQKwjWCE"
+  },
+  {
+   "ts": "2026-10-12T15:28:45Z",
+   "actor": "DUzBLHZ5RZdftPuWVijsvjupndogRM1adGJpsR7YTJro",
+   "side": "buy",
+   "amount_usd": 113,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "322FPMUwcttmjF1qYwZ3QKZoh21eMupair5EbZUDicE3acuZV7oGBqfCCA2xFSsrL9KHy6qmUFfhJBBppCfhmyX3"
+  },
+  {
+   "ts": "2026-10-12T15:28:45Z",
+   "actor": "7u3Sxhz2dpBTk7P9fgsnTeHA1rv2Es5R5rewaW7iNJnN",
+   "side": "buy",
+   "amount_usd": 141,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3vZrzMhCyzsW5V1Z4UQ6mt5pb6sWChYV2V7i2ZKiniVkQmHdWE7vJy1f2dowy7LiDGyEY1SN6QVw9EoPgjxyY8L9"
+  },
+  {
+   "ts": "2026-10-12T15:28:45Z",
+   "actor": "7u3Sxhz2dpBTk7P9fgsnTeHA1rv2Es5R5rewaW7iNJnN",
+   "side": "buy",
+   "amount_usd": 141,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "fjMm7ESoF5rqWmebnz3tKggRYR7TUTQGMDECW8v4uoUwBxiX5Vy3XpR8UEjFqmWXbc6zM3rkPhtSoMFphSt1cyR"
+  },
+  {
+   "ts": "2026-10-12T15:28:56Z",
+   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
+   "side": "buy",
+   "amount_usd": 991,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "6hXXQbJrVY7QzUAnHGvdMPiY2vmYvde6ATxh53CanfcJnRuX97CrmeeMDSkfTg7vgniFfL2aUeyBE1EA7zaLfXz"
+  },
+  {
+   "ts": "2026-10-12T15:28:57Z",
+   "actor": "3HWEqtPnx1z4oDMTxfA66pfhK7Gm8KF2LKhSPbKgPgdJ",
+   "side": "sell",
+   "amount_usd": 136,
+   "token": "CYBERLEEK",
+   "token_address": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+   "tx": "5jPDDnv8JY3XAcB6br6DcS6mAg6cbKrNfNa1jXTYjc9L6eeNgfaKyMSwQ1w2YiXXW3XGmaBAKQbCLfuxCjGnUdaJ"
+  },
+  {
+   "ts": "2026-10-12T15:28:58Z",
+   "actor": "DUzBLHZ5RZdftPuWVijsvjupndogRM1adGJpsR7YTJro",
+   "side": "buy",
+   "amount_usd": 141,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "iQAVJFjjoEgyJnK35fALBQkknr2gwVdruD4EHdM5N93pwhbvJZipCXEReTH8bQWTCrnaxjynvtNYak9PagBYuom"
+  },
+  {
+   "ts": "2026-10-12T15:29:02Z",
+   "actor": "DPV7YaUK5tmMgCyzwDL1uxyykpmoYnDvSdoYEkWqaMy7",
+   "side": "sell",
+   "amount_usd": 185,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "5g6h5er5i3Gbya4cWdN4Hnxj15FGhRJ7hiQsu6RJguPuEDxCQKquNpgpT9yQwFTxDKc1KVdWBCNxCjDLdcEZzFrg"
+  },
+  {
+   "ts": "2026-10-12T15:29:12Z",
+   "actor": "7tJVK2uEaK1tKEykDHQ8KHdaV3aXrVuSH1J4u3xgkS7U",
+   "side": "sell",
+   "amount_usd": 654,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2FNXH8Fkibkb4psdRam49J7JHPzdNfTyHJSkQeGtCRwsdwrDV2FLhx7EEoUKdT4H1mZGbQY9ofEz3hGRK6Z8m9iK"
+  },
+  {
+   "ts": "2026-10-12T15:29:12Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 534,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2izCUp5DtchW1MqMqnNjR3pmg2DkiCjJy1sJm15fU4jZszdYSKfbsHoa9vN3vg75kcrzg3UK1RA43n5SThGNNbn"
+  },
+  {
+   "ts": "2026-10-12T15:29:12Z",
+   "actor": "J6GFmfXuySyAQhKqD9brfKTLhAj3wpqZ7bpFNuqy2Dh9",
+   "side": "buy",
+   "amount_usd": 253,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5PkbTmfrD7sYLqmyrPrVgzcT37qaKDNy7gcQmriwXJPGM2f9Jtapypa5YVZZrzLakXVVV7eZy8LsxCBr5onyLDhp"
+  },
+  {
+   "ts": "2026-10-12T15:29:12Z",
+   "actor": "J6GFmfXuySyAQhKqD9brfKTLhAj3wpqZ7bpFNuqy2Dh9",
+   "side": "buy",
+   "amount_usd": 181,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5hW24Z1LE1EH59XsTJ7WpWT7Dv7Qpjew5u3sv37sS84RYaGSdBHUN8YLSqtmsgMSSxqeC7r9cUSwJNgi6qMNpSbo"
+  },
+  {
+   "ts": "2026-10-12T15:29:12Z",
+   "actor": "J6GFmfXuySyAQhKqD9brfKTLhAj3wpqZ7bpFNuqy2Dh9",
+   "side": "buy",
+   "amount_usd": 213,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "zYWTk89graq5MzqUzLZnubTaBnc5DeRbNAFG4k1nbmHgFnuSZgPkspgoHMJzLNzQNvpXtKb418XvkkTimXnemJc"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "2Bonf26MDnpJPwJkocnQLfHWjdeStLD5iCtV3yC7Q6z4",
+   "side": "buy",
+   "amount_usd": 1434,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2ExAsxdz4ienuvnaRWN5rFn7y8ZbQXj5CSwqiDptRhSCmtGFCVo8MgVzCGv4gB5GRdRpJXJLqupj6xmtCiE5JgDE"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "2Bonf26MDnpJPwJkocnQLfHWjdeStLD5iCtV3yC7Q6z4",
+   "side": "sell",
+   "amount_usd": 545,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3iXEVQR72Zb9PuPAYumFuHdRRkRHTgWiMKuYpL14VtEzy7u5agogAT4GQpbv5K5MyFEdDQsvrPTZTPJFfdow6qV8"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "6NggdhLrDzvtgrEToNm2WUeBgEiyXFHY5UVUeHL8R3e",
+   "side": "sell",
+   "amount_usd": 138,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5J4dbSkGiUX8kXdXEJfnbNxASdVLZVQqU5wvRncgVRnoEPaz1RW8jCZmY6KaTjoGsydaPi4yHXeJhNkgfhBXjJqM"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "CiP8LkGbUwMDEMcdzEiYqQyTcaFWutbhKd8Twkb6BXdH",
+   "side": "sell",
+   "amount_usd": 216,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5J4dbSkGiUX8kXdXEJfnbNxASdVLZVQqU5wvRncgVRnoEPaz1RW8jCZmY6KaTjoGsydaPi4yHXeJhNkgfhBXjJqM"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "AtcnqBxK1B6T11i6vMFtVcEbLqkKs2q3oypiP42LXk9Y",
+   "side": "buy",
+   "amount_usd": 521,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5J4dbSkGiUX8kXdXEJfnbNxASdVLZVQqU5wvRncgVRnoEPaz1RW8jCZmY6KaTjoGsydaPi4yHXeJhNkgfhBXjJqM"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "CHJd1rJGvv19WQts1c4tyK3xHs4e28NfNzFw3ZEj5f3W",
+   "side": "sell",
+   "amount_usd": 178,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5J4dbSkGiUX8kXdXEJfnbNxASdVLZVQqU5wvRncgVRnoEPaz1RW8jCZmY6KaTjoGsydaPi4yHXeJhNkgfhBXjJqM"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "8NaAuaoW4dpypixJm5KRJ6wrzMv8J3Hyo6Hi3siATQjP",
+   "side": "sell",
+   "amount_usd": 125,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5nPyHo3PZAWaB8hLTyXo15CFkie8QKEuqjusphiWf3dciQZf7hv3Tqwr4ucUbrCuUVtyZcJjyGD5MtduqP2SE9Yg"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "2zh59sJjTxmJeaH12GYcoS5mnuV4K1TxYCARBfV9ekZ6",
+   "side": "sell",
+   "amount_usd": 231,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5nPyHo3PZAWaB8hLTyXo15CFkie8QKEuqjusphiWf3dciQZf7hv3Tqwr4ucUbrCuUVtyZcJjyGD5MtduqP2SE9Yg"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "AtcnqBxK1B6T11i6vMFtVcEbLqkKs2q3oypiP42LXk9Y",
+   "side": "buy",
+   "amount_usd": 349,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5nPyHo3PZAWaB8hLTyXo15CFkie8QKEuqjusphiWf3dciQZf7hv3Tqwr4ucUbrCuUVtyZcJjyGD5MtduqP2SE9Yg"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
+   "side": "buy",
+   "amount_usd": 171,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5pDRMkZu1brDmcHp9kfc3Mz1o5evgnRPeLQCXWEAFBoSGg2xdKC28JQLurxaw4VhEJ239V4sx6KTSgccMKeTsNgf"
+  },
+  {
+   "ts": "2026-10-12T15:29:13Z",
+   "actor": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
+   "side": "sell",
+   "amount_usd": 230,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5pDRMkZu1brDmcHp9kfc3Mz1o5evgnRPeLQCXWEAFBoSGg2xdKC28JQLurxaw4VhEJ239V4sx6KTSgccMKeTsNgf"
+  },
+  {
+   "ts": "2026-10-12T15:29:15Z",
+   "actor": "AtcnqBxK1B6T11i6vMFtVcEbLqkKs2q3oypiP42LXk9Y",
+   "side": "sell",
+   "amount_usd": 781,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2RdP4kk3uLGmkBoym7L6k4zouXiusMTZFD1VBXcpBvTp36auipwq73zGeSoSW51JsmCWpAroTkXdNAYNhbj26Qvy"
+  },
+  {
+   "ts": "2026-10-12T15:29:15Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 352,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2kXieX1L23JWMs8oB4BeBZoEhRWqFBXHbppY4KwVu4cmCdgf54V2LA9BtZXku3eqsRKZpprVCHPXVzpr86eCbgWa"
+  },
+  {
+   "ts": "2026-10-12T15:29:15Z",
+   "actor": "AtcnqBxK1B6T11i6vMFtVcEbLqkKs2q3oypiP42LXk9Y",
+   "side": "sell",
+   "amount_usd": 127,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3av1sgwXvxRGRscEbmABm18tCiBXgcUjqhpUnugiegViKAVagZfWb8zrQpFD4QvjX5e3tSDMwxHJN4wLyxWNhDgR"
+  },
+  {
+   "ts": "2026-10-12T15:29:15Z",
+   "actor": "AtcnqBxK1B6T11i6vMFtVcEbLqkKs2q3oypiP42LXk9Y",
+   "side": "sell",
+   "amount_usd": 176,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "52rsZ9KAHYyXM8aEn6SGFKeA2FwzZGs8cJg3gWJCcLu3Xz5ivqMYY2si1E1GpuvbhXGtYC6SLcMSJzPbYyw998qk"
+  },
+  {
+   "ts": "2026-10-12T15:29:15Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 352,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5jepKNpGgyW7MzWvXxacuEoxVpKK8kQgmB6g6pbTPGzbCVUjrNwUnrhCgveUZgkcUzeucXc1LvitPghK2bbqwXU5"
+  },
+  {
+   "ts": "2026-10-12T15:29:15Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 352,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "XAqwC6droeikeJo8fAS3REN25ZTDaUGxTvpgF6Zii57m8zw65wDg316QZuWWUN47oQkk77v8K5Xqj8ckp9FWMsx"
+  },
+  {
+   "ts": "2026-10-12T15:29:15Z",
+   "actor": "AtcnqBxK1B6T11i6vMFtVcEbLqkKs2q3oypiP42LXk9Y",
+   "side": "sell",
+   "amount_usd": 151,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "Z2ind6cJWhwBKVXhf1YD4YTVLbQ1tzoLeEgAcsFeDYXDdLR7PZ1dztK6J7KzLZdnJPnMXYYUScsWLxbZzmnVRMj"
+  },
+  {
+   "ts": "2026-10-12T15:29:16Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 206,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2LAC8RdiCQ54ScUyyQkmhvaBTTjKdp85Rg19J5JytDttqUwBokPsfE9hRXY5XaG7tuyiw8Y8YqmaG99gYVuy5R7k"
+  },
+  {
+   "ts": "2026-10-12T15:29:16Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "sell",
+   "amount_usd": 161,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2Pw5GrZy2rajPxzQdki1GKeVeZs4Us6EcZdKrJn92o7GjukV5NGYKT4LXSEKNTGFTiHdTQrMyNm4nejK8bdum5X9"
+  },
+  {
+   "ts": "2026-10-12T15:29:16Z",
+   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
+   "side": "buy",
+   "amount_usd": 623,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3AKNqcJZS54S6jrPRZSz6FXuVMniQUn2ZGq9dDJYQWnHTzfXp9he3H7sWtJD4yMyKna1MG5ALtG4dvyEQc9qaShF"
+  },
+  {
+   "ts": "2026-10-12T15:29:16Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 204,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "41gPmGCsWdFRawdNKAEHNbJ6WN6hbL84ba3EPguMrdYFPDBuvijSnBLud9eXDfyKPZneFes2hqUpG5GJrUXcWQmV"
+  },
+  {
+   "ts": "2026-10-12T15:29:16Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 109,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4GJVqbL5ibG6cjRE7hs3hJKAvCCRbq3UKYQQF8Hvht8dS6TkDcudRVHx3RhcETR9PZwbzpXYKZxRJwQCvW6fQH9e"
+  },
+  {
+   "ts": "2026-10-12T15:29:16Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "sell",
+   "amount_usd": 234,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5kPvSrXCv1NVuts4mwArsV47yCoGnivcUAsU1jvzcR6uKajokUGC2tK2q7L2EyoQykTQt6vQyoQtJ1i78bRMxCjT"
+  },
+  {
+   "ts": "2026-10-12T15:29:16Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "sell",
+   "amount_usd": 191,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "MLQb4zAvG5gpAgLebgdFi97DSTpfTELn2bHcmGsCAdX8gNhUHTuiP8smmVqQtNr2ALSEQz4ji3RkJTsKzTUG6kF"
+  },
+  {
+   "ts": "2026-10-12T15:29:16Z",
+   "actor": "DUzBLHZ5RZdftPuWVijsvjupndogRM1adGJpsR7YTJro",
+   "side": "buy",
+   "amount_usd": 669,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "a45z5hXE6gYk5GHAeyQyZ7imDFqKHGx2WsSaAWKg93wB48Hui4xNJ73PYorFtUR7BvpuXcy4LRzt8JXT7YGC5TD"
+  },
+  {
+   "ts": "2026-10-12T15:29:16Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 230,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "nYJNUTksYstAbiWdzUhKvSztQmte9HKvUL1B5ViWNKQ2xmXN2PSAWxNQuR1L34jtmX6Cj8ZGW18xiSa4fJsDE3R"
+  },
+  {
+   "ts": "2026-10-12T15:29:17Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "sell",
+   "amount_usd": 757,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "36kCm8JBnuGPaj4nzMo88QVui9vMJfKRcdkFFrN6CKbTQ6d1S5vg7BeEfEq5wPfQLrc2kfwE6ap9aLnWqZTithxr"
+  },
+  {
+   "ts": "2026-10-12T15:29:17Z",
+   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
+   "side": "buy",
+   "amount_usd": 2120,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3iybRhzagbybkU9PgQSfxguargvJCbGkn9Vv9VgALZv3MF5bBwSG9BYikKWzDWNuwaoWRTbDPP3r8xNu2SWL93VN"
+  },
+  {
+   "ts": "2026-10-12T15:29:17Z",
+   "actor": "AtcnqBxK1B6T11i6vMFtVcEbLqkKs2q3oypiP42LXk9Y",
+   "side": "buy",
+   "amount_usd": 120,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "ifVUEGjAaV3vGHGBLMiroR48xt72r46YsPEAPrJuWppGbJV8XXAGXwfUXpeaV5cdLunAC4GkjDc2vrpALm5tjUD"
+  },
+  {
+   "ts": "2026-10-12T15:29:17Z",
+   "actor": "77uFdsGguDTy8oYskMP25nxZ3E6nz6SLkdFWyns2g3CQ",
+   "side": "buy",
+   "amount_usd": 218,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "4QyM46bdbgpeRMT2psuzHqLc1hWJQrf8FG7QyDEehubQQtwTJU7RVp3HJ5kRLUMGNahtPSP5K5dXaXRRN83GhZuP"
+  },
+  {
+   "ts": "2026-10-12T15:29:18Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "sell",
+   "amount_usd": 235,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2VFn3ZyFjWYW1Zoz39P2tvrEN6kN5Kp8zePcR9VJMu4cAADxKRr9vfh2uDXDUgciYspF4A2CYhTwLgHkpQEvcXxx"
+  },
+  {
+   "ts": "2026-10-12T15:29:18Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "sell",
+   "amount_usd": 373,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3kUW3f7TVnVaTP3AeixAEgE6TxGhcre7ecS5zEwSZpswfPjQmme8XJdAHcW9jYKi3SCXeMnqY2Fd6rpaDqB3pGvy"
+  },
+  {
+   "ts": "2026-10-12T15:29:18Z",
+   "actor": "B6U51EejRbBhyFmnyEzbzZabwzSYgxjFjx3aV7b7orFF",
+   "side": "sell",
+   "amount_usd": 510,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5PU2nJHvnGiRq4jpjsBCvcZ5CNHzAzkihgQ2JazMRTDtyEyf8PbWkWy7CEPsGyzutkc5PrP4TXHA3nCx7eWnpGny"
+  },
+  {
+   "ts": "2026-10-12T15:29:18Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 423,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5RUpZCMk32opsbDsd55ZAatx3eyT3A3JvX5aBkV5qivBCinkfywRMNipU2ad7BTwk6stKpY53uZVtFREWauoFaTv"
+  },
+  {
+   "ts": "2026-10-12T15:29:18Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "sell",
+   "amount_usd": 274,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5u32XedAUyzdPUZmtYe19bBvHYkhtZgQQnUCwXURLzL3saxcbpHgha3YAw2JPXo1CgS9o6HFbo8px5zKDoP3m4ZY"
+  },
+  {
+   "ts": "2026-10-12T15:29:19Z",
+   "actor": "HfHjjyB7S3dmb1dWWp4tBZNzGadm1ME5Zc7JjGWwTpcB",
+   "side": "buy",
+   "amount_usd": 167,
+   "token": "🌱 ALTAI",
+   "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+   "tx": "285v2GGXameGuweRyqKY4uZZFz7yeub8n58pAUNdWVUkQNKfuJrHLhAX1zYkc255ud5FG6UexxSGBb5B2E7txC1w"
+  },
+  {
+   "ts": "2026-10-12T15:29:20Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 213,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2vFGhkE45NULNh5WDvnzRBozRRyQSwqyxJajgRMF7Xtzp8JcQ3faA6276EnnwdDbLoWg6SgabFctLF1AxWAG24U9"
+  },
+  {
+   "ts": "2026-10-12T15:29:20Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "sell",
+   "amount_usd": 470,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5zuw6KGgJeuufzUkZ5RfeDzuDYMaKzumg6gstvL15b4Cybv4rUtsTLTG84fgsFqHDtvCPRsJgeTq8sv17kwiqsVN"
+  },
+  {
+   "ts": "2026-10-12T15:29:20Z",
+   "actor": "6MVboLQD6gVUokvum5SqFWEWtFQX65ZEdEfEkjWyKdgj",
+   "side": "buy",
+   "amount_usd": 463,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5zuw6KGgJeuufzUkZ5RfeDzuDYMaKzumg6gstvL15b4Cybv4rUtsTLTG84fgsFqHDtvCPRsJgeTq8sv17kwiqsVN"
+  },
+  {
+   "ts": "2026-10-12T15:29:21Z",
+   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
+   "side": "buy",
+   "amount_usd": 405,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "3Gwaien5gywrR8bbpsgFF7eNpbBaCyDUwrRDDHdiH4qGwL86jhb2p3T1YWW8YCNd6Cbxw5BYS6cqVFWid5R7nXQx"
+  },
+  {
+   "ts": "2026-10-12T15:29:22Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "sell",
+   "amount_usd": 372,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "39A42qYACqzmnuP4LBUA3yzmjSxyRwp9NdL74A1tv42c13Mc8iQB5HdAECkJdmvqb8XAgu6hx8qoCxixARFZ5ZWT"
+  },
+  {
+   "ts": "2026-10-12T15:29:22Z",
+   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
+   "side": "buy",
+   "amount_usd": 461,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5DyzGQxbKYvXQEYfBM44UikGRoE539WVv8cu1dLhqh6fq7DRnevsiTLw4zzZXxjvEsJrBBsXnRdMrwtrx8AV4K2q"
+  },
+  {
+   "ts": "2026-10-12T15:29:22Z",
+   "actor": "6MVboLQD6gVUokvum5SqFWEWtFQX65ZEdEfEkjWyKdgj",
+   "side": "sell",
+   "amount_usd": 462,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5DyzGQxbKYvXQEYfBM44UikGRoE539WVv8cu1dLhqh6fq7DRnevsiTLw4zzZXxjvEsJrBBsXnRdMrwtrx8AV4K2q"
+  },
+  {
+   "ts": "2026-10-12T15:29:22Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 322,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "Yksndx9ujjpgxr6DWbp81fmjTE2cgww1nkxwhTZdmhKZxPnXHw1QSsn7JmTSqkDsNRP8i9EFZ1FXdvJCRXdbi7J"
+  },
+  {
+   "ts": "2026-10-12T15:29:22Z",
+   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
+   "side": "sell",
+   "amount_usd": 375,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "Yksndx9ujjpgxr6DWbp81fmjTE2cgww1nkxwhTZdmhKZxPnXHw1QSsn7JmTSqkDsNRP8i9EFZ1FXdvJCRXdbi7J"
+  },
+  {
+   "ts": "2026-10-12T15:29:23Z",
+   "actor": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
+   "side": "sell",
+   "amount_usd": 125,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3QojmF6MhhaSh1Ymm2CCyWed6Ehyx9oCSfsYvBabyfa3HBqQ5MF1HdyzA2KLWf2N7jx8HeN2LS1PoBjfe6A8H6Jp"
+  },
+  {
+   "ts": "2026-10-12T15:29:23Z",
+   "actor": "JDZp1eafxvBLge52VmTfHwBiQs6h3awgeCEvRVur1Cpn",
+   "side": "buy",
+   "amount_usd": 122,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3QojmF6MhhaSh1Ymm2CCyWed6Ehyx9oCSfsYvBabyfa3HBqQ5MF1HdyzA2KLWf2N7jx8HeN2LS1PoBjfe6A8H6Jp"
+  },
+  {
+   "ts": "2026-10-12T15:29:24Z",
+   "actor": "D7sZfY6mrfjdauaXhaRzhL7QNzWVjXtkLScQNMXJqc2p",
+   "side": "sell",
+   "amount_usd": 137,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3B4qhqejc1yikNNJVVqeNp9dtk6h5AuSieyQVZ4J7eGYoQ4AWaP2nitRLRqHGqzctv87VncoGEg7a3yZNLp1ZDfW"
+  },
+  {
+   "ts": "2026-10-12T15:29:24Z",
+   "actor": "DUzBLHZ5RZdftPuWVijsvjupndogRM1adGJpsR7YTJro",
+   "side": "buy",
+   "amount_usd": 354,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5WiNBF7MLPvCAZvyn8N7cn5eviPCBxX3GRtgWzezsEN8XSMnc5C3C71gJTSVXkg791NW4GCDCpkDPXfs2cUhU4pU"
+  },
+  {
+   "ts": "2026-10-12T15:29:24Z",
+   "actor": "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
+   "side": "buy",
+   "amount_usd": 311,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4L66bjnVgz2HigcV27KJy8WStuYAnQ6jtaYrBMHT1R3Zhfwq7MRjFdvYY2dJCvZcCR5tzzpNvbZBkCQVSjNLeFgW"
+  },
+  {
+   "ts": "2026-10-12T15:29:24Z",
+   "actor": "AqqQuXtFzNHrJ8vWfemRipANptDvviB42C3gf3nR3z9J",
+   "side": "sell",
+   "amount_usd": 311,
+   "token": "STRK",
+   "token_address": "HsRpHQn6VbyMs5b5j5SV6xQ2VvpvvCCzu19GjytVSCoz",
+   "tx": "4L66bjnVgz2HigcV27KJy8WStuYAnQ6jtaYrBMHT1R3Zhfwq7MRjFdvYY2dJCvZcCR5tzzpNvbZBkCQVSjNLeFgW"
+  },
+  {
+   "ts": "2026-10-12T15:29:25Z",
+   "actor": "6AVEvHxTgnyTpPPtVxWhJ1G3zScYumZwnRQACQFrUwkR",
+   "side": "sell",
+   "amount_usd": 110,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4e61UELCk4m13JptoWyxbJbt2bGq4AbXkxNWBT3xZRnwkg1tTojzzWLd97FZiodp8EoR8y8vjzKP3bnUvyDfWEZD"
+  },
+  {
+   "ts": "2026-10-12T15:29:25Z",
+   "actor": "6AVEvHxTgnyTpPPtVxWhJ1G3zScYumZwnRQACQFrUwkR",
+   "side": "sell",
+   "amount_usd": 244,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "552c27TS3Mvtso63XdBw7dGZK4s3nh3hFise2GtaiQzUdWRytWesnpN3ZjZPfunL5DMZrV4wPfLSZPs1jZexbHr"
+  },
+  {
+   "ts": "2026-10-12T15:29:26Z",
+   "actor": "2S8xfwN6ABmuwk4kd7aqG1b2ZyuFrYsKugaqYDPsGpLk",
+   "side": "sell",
+   "amount_usd": 229,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2TGVvXSbk2d896qTBAkDxsxFihT51JifTVpZ1FLKFJxTJ6x8Pu56SWenyxYoUnNQDHgWVeH3SL4a2vEJY7jsV3v6"
+  },
+  {
+   "ts": "2026-10-12T15:29:26Z",
+   "actor": "8ZUm1sUGyz9D84j8qSFPW4YGTrXmS1XToV5HiAvhbGvr",
+   "side": "sell",
+   "amount_usd": 251,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2TGVvXSbk2d896qTBAkDxsxFihT51JifTVpZ1FLKFJxTJ6x8Pu56SWenyxYoUnNQDHgWVeH3SL4a2vEJY7jsV3v6"
+  },
+  {
+   "ts": "2026-10-12T15:29:26Z",
+   "actor": "Ft6d5MnTBYu4A8e8Y4mz2uMUnSoQ7pct8jBjmzeHqqBx",
+   "side": "buy",
+   "amount_usd": 470,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2TGVvXSbk2d896qTBAkDxsxFihT51JifTVpZ1FLKFJxTJ6x8Pu56SWenyxYoUnNQDHgWVeH3SL4a2vEJY7jsV3v6"
+  },
+  {
+   "ts": "2026-10-12T15:29:26Z",
+   "actor": "DC99qH3jXiq5pPWQd6PjjJcCxTV593s58CLPxWGpEywt",
+   "side": "sell",
+   "amount_usd": 1149,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2gztEt6xpStA4D9k1mCyxD3Ae7cSVpuAcsLLsUAAj6w3fTt4c7sfVgnKaKNKeR6EvsCdJBiumVJdxKzTufMk9MFZ"
+  },
+  {
+   "ts": "2026-10-12T15:29:26Z",
+   "actor": "DC99qH3jXiq5pPWQd6PjjJcCxTV593s58CLPxWGpEywt",
+   "side": "buy",
+   "amount_usd": 1150,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3uXJtXpuSfTG2PK7wGuBga6D6atYvwDWMH5bwLVQikD5ArVhYj9a31DXqsBRok4TKd5HGKfyvwNkvm9VJK9nehye"
+  },
+  {
+   "ts": "2026-10-12T15:29:26Z",
+   "actor": "CvQc2TWe4BPJFQS99qFEUfG71Q92N4EWyxcirJ2MUpsv",
+   "side": "sell",
+   "amount_usd": 234,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4GNPXPmbDGf8q23zb5TeuzCwNVsG52Asbcj7mGfjAG9d2RpijymGsXo967wWxZRu9nSe4wZadv3DbcWaMauQ8v2Q"
+  },
+  {
+   "ts": "2026-10-12T15:29:26Z",
+   "actor": "Ft6d5MnTBYu4A8e8Y4mz2uMUnSoQ7pct8jBjmzeHqqBx",
+   "side": "buy",
+   "amount_usd": 230,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4GNPXPmbDGf8q23zb5TeuzCwNVsG52Asbcj7mGfjAG9d2RpijymGsXo967wWxZRu9nSe4wZadv3DbcWaMauQ8v2Q"
+  },
+  {
+   "ts": "2026-10-12T15:29:26Z",
+   "actor": "6AVEvHxTgnyTpPPtVxWhJ1G3zScYumZwnRQACQFrUwkR",
+   "side": "sell",
+   "amount_usd": 105,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "SzwD4oz7p2qYeK8FN46qvTdGCbWjVQsGeGkhu79rdNREzTWBnPzdEdCa8qP9Qik1oQm8FCkcs5FoHNgtYzFbtk7"
+  },
+  {
+   "ts": "2026-10-12T15:29:28Z",
+   "actor": "DUzBLHZ5RZdftPuWVijsvjupndogRM1adGJpsR7YTJro",
+   "side": "buy",
+   "amount_usd": 141,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "YdFgvojNTzfHjWmkCbfLQwvjDnJs1DRCoUC8dr9LuRp4hP2Q1RPKHmLokYAkBZKULchxffSWfkggdxjkrUggBRD"
+  },
+  {
+   "ts": "2026-10-12T15:29:29Z",
+   "actor": "Ft6d5MnTBYu4A8e8Y4mz2uMUnSoQ7pct8jBjmzeHqqBx",
+   "side": "sell",
+   "amount_usd": 162,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4rQjfXTDsVPSBeeENf3PyHeMYQRg2BaJUhk2jgjFW436ZiCbq6PZjivSC8rdzJXtS7BWDDNcBF1Ut9zgavRXsZPZ"
+  },
+  {
+   "ts": "2026-10-12T15:29:31Z",
+   "actor": "6AVEvHxTgnyTpPPtVxWhJ1G3zScYumZwnRQACQFrUwkR",
+   "side": "sell",
+   "amount_usd": 218,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "gLhVRjTd2EWJFEXbPqi17oxjYkNgcHgAn6uc6PAGFhcAwSe5gdgdybzd8jSdwvrhcNsvTpf8gGEbigF5j4fLye9"
+  },
+  {
+   "ts": "2026-10-12T15:29:34Z",
+   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
+   "side": "buy",
+   "amount_usd": 176,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "2CGF8s3vE1HnCCDwe6BB1HUgmfahuKewrs6uZcE1VUxQgWfTZvvUwYr5y5yjiPjKVFemWDavT2juBAyd7WEDJaez"
+  },
+  {
+   "ts": "2026-10-12T15:29:34Z",
+   "actor": "3937AWMX2cyCbawBFubdH4XFh4Tx6AueKvdck2PHzUUj",
+   "side": "sell",
+   "amount_usd": 178,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "2CGF8s3vE1HnCCDwe6BB1HUgmfahuKewrs6uZcE1VUxQgWfTZvvUwYr5y5yjiPjKVFemWDavT2juBAyd7WEDJaez"
+  },
+  {
+   "ts": "2026-10-12T15:29:35Z",
+   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
+   "side": "sell",
+   "amount_usd": 107,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "3Dy8CabjZeahWMmqh1NFzzqdPFBzZdyiFnHc48xxumn8QvfKC1CZxrhtSogWUkueMR24gjwwe6vmqJ8qixwVKtB6"
+  },
+  {
+   "ts": "2026-10-12T15:29:35Z",
+   "actor": "3937AWMX2cyCbawBFubdH4XFh4Tx6AueKvdck2PHzUUj",
+   "side": "buy",
+   "amount_usd": 106,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "3Dy8CabjZeahWMmqh1NFzzqdPFBzZdyiFnHc48xxumn8QvfKC1CZxrhtSogWUkueMR24gjwwe6vmqJ8qixwVKtB6"
+  },
+  {
+   "ts": "2026-10-12T15:29:36Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "buy",
+   "amount_usd": 238,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "4JAEe9tyVczkdUW5vYVqZtYKcB6jhZinhWUAifMctLTXnq6d3hpjL7NpgWJwFicKyrpgUfepmwSf7H4vtfuekNoV"
+  },
+  {
+   "ts": "2026-10-12T15:29:36Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "buy",
+   "amount_usd": 217,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "LrJigrtTZCLJL5S25dvyz15i7Djtb2dmic4ZqXZfiWFVkx6edrkNfcrRyQx3N5wu5iEc4f6bh6AVqpxsud1QYjA"
+  },
+  {
+   "ts": "2026-10-12T15:29:37Z",
+   "actor": "3937AWMX2cyCbawBFubdH4XFh4Tx6AueKvdck2PHzUUj",
+   "side": "sell",
+   "amount_usd": 309,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "3xmGvffeBTsmvUBVyvfBxnxz8dhQhdkzgx8AffgDJfuZTp73PwZcu1qWme7QRxUvL8is1KHQNt19mx6iMyS5R1sD"
+  },
+  {
+   "ts": "2026-10-12T15:29:37Z",
+   "actor": "88huna2pHHF4EiAZd2ZAKKQLjEjvAcKzTQSAvPwC7Ffd",
+   "side": "sell",
+   "amount_usd": 161,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4d8V6xjEm4X9H7rKpuiGo9oAvjN7iLr6BAYYUnYRkVuDAi5stuUHzSqHRLWXmAfc6dy3mdy87MFiySy71SthhDGN"
+  },
+  {
+   "ts": "2026-10-12T15:29:41Z",
+   "actor": "7K1ygpyD3EXtyfnQ1X8Vsk5tn2PR7Whah96dCZoR7uZ",
+   "side": "sell",
+   "amount_usd": 210,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2465NernVLwrk2Dfug5HpZsYs3uCLggxermhJvQZmmHjL2zfvHGtYitD7MvRTZWBeViDiSgjhYBweENNR4XZToJf"
+  },
+  {
+   "ts": "2026-10-12T15:29:41Z",
+   "actor": "tQi75x9GeqsDeFdPVdwn6fwfiNLog53STe56Wjt4MVj",
+   "side": "sell",
+   "amount_usd": 233,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2465NernVLwrk2Dfug5HpZsYs3uCLggxermhJvQZmmHjL2zfvHGtYitD7MvRTZWBeViDiSgjhYBweENNR4XZToJf"
+  },
+  {
+   "ts": "2026-10-12T15:29:41Z",
+   "actor": "8pNSgAe9JPi7fSodDSAXmjY9tbkPZQ5TpdR6LddhJtse",
+   "side": "sell",
+   "amount_usd": 196,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2465NernVLwrk2Dfug5HpZsYs3uCLggxermhJvQZmmHjL2zfvHGtYitD7MvRTZWBeViDiSgjhYBweENNR4XZToJf"
+  },
+  {
+   "ts": "2026-10-12T15:29:41Z",
+   "actor": "4NryX8FrVbhbKNoNSq1tgt31R1Y6WSAZifYKYcdpX2WR",
+   "side": "buy",
+   "amount_usd": 630,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2465NernVLwrk2Dfug5HpZsYs3uCLggxermhJvQZmmHjL2zfvHGtYitD7MvRTZWBeViDiSgjhYBweENNR4XZToJf"
+  },
+  {
+   "ts": "2026-10-12T15:29:41Z",
+   "actor": "9pkJqJLtefuna3GLtKZyF5DBWwEGUdxZUSGCmf5jZhA9",
+   "side": "sell",
+   "amount_usd": 1180,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "5S7gtfN7FtKzYKqvzyVbDo99EYGtqD3rrzecBzWhMSXXdfmUZHB4fYefcY3YgFKsKW5sZLXgAByjmKvF2D6m6JGR"
+  },
+  {
+   "ts": "2026-10-12T15:29:41Z",
+   "actor": "9pkJqJLtefuna3GLtKZyF5DBWwEGUdxZUSGCmf5jZhA9",
+   "side": "buy",
+   "amount_usd": 1189,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "61HyCcmsCAvGJNWXZfB1ze7PqA8kx5VLt9dA4NjX3zW7pABEiST9Jk3c2TGLkBcs8FB7Fj564rUsBS1QX7wABRKy"
+  },
+  {
+   "ts": "2026-10-12T15:29:41Z",
+   "actor": "7tJVK2uEaK1tKEykDHQ8KHdaV3aXrVuSH1J4u3xgkS7U",
+   "side": "sell",
+   "amount_usd": 1189,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "61HyCcmsCAvGJNWXZfB1ze7PqA8kx5VLt9dA4NjX3zW7pABEiST9Jk3c2TGLkBcs8FB7Fj564rUsBS1QX7wABRKy"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
+   "side": "sell",
+   "amount_usd": 107,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "45siNRzNknrXk3FZbd8M9PzZYhwo3ko3oZeN1oWJgQzgaDYT9pJvpJf8cboJqMx7w3bGWxDsYMkfY8kh6uygHJ6S"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "buy",
+   "amount_usd": 106,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "45siNRzNknrXk3FZbd8M9PzZYhwo3ko3oZeN1oWJgQzgaDYT9pJvpJf8cboJqMx7w3bGWxDsYMkfY8kh6uygHJ6S"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "buy",
+   "amount_usd": 224,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "TNMzC95k7pw82J2D9MeG7t6ktAftoRpzKtXNj4jntjoELJZahhk37ALMQQMNB3cdvw7HXEv7DyuhJsrofaSGEmp"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "8KiEjU7G1G4XraNwms7KRvNPsK6j8tBf9NW3KNn25kxX",
+   "side": "sell",
+   "amount_usd": 1198,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "2WcVb7NL1ggCo9xmcvhHHdHKqA7Y4Et9KRVCuNdGoxTLHLFEyhsBf77wJvvwrSzbhrWGUVx4fV81qfvNXoaA4YxM"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "8KiEjU7G1G4XraNwms7KRvNPsK6j8tBf9NW3KNn25kxX",
+   "side": "buy",
+   "amount_usd": 1200,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "3Gi3MSVFaBXVyos9GYU95VRoyTMt6jRxrgrkfrwRzjko71WEyZHVbkRaA3eavq5rz3sWToCgfuMkihxKUMC4Q1bt"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "3TTnxJ8raPQGjVEL4bfQ7jMLxWUHG7YNaTznx44zg9dL",
+   "side": "sell",
+   "amount_usd": 240,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4FjiRhkFBSHWzzRdadUaSBXF3XPiaWy91PQDdPP5Eg7VoUDbM6FSw1SeyArmHmsN8ErKdMr5GNZRfHZFaCjmXG9o"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "3ejF2MB1jLSBfwNQEwNHL8YX8GC8fi2NVTow2favLoGE",
+   "side": "buy",
+   "amount_usd": 463,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4FjiRhkFBSHWzzRdadUaSBXF3XPiaWy91PQDdPP5Eg7VoUDbM6FSw1SeyArmHmsN8ErKdMr5GNZRfHZFaCjmXG9o"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "8Us88r2MJ5dVJp4m2arWVpsmCMrCXGMAFrvRsYeghpBK",
+   "side": "sell",
+   "amount_usd": 229,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4FjiRhkFBSHWzzRdadUaSBXF3XPiaWy91PQDdPP5Eg7VoUDbM6FSw1SeyArmHmsN8ErKdMr5GNZRfHZFaCjmXG9o"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "Cx44fWySyhQhtY2FJ5L1X2ZZDdFXrGgU9x4m8SrogY9g",
+   "side": "sell",
+   "amount_usd": 185,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4trbfPQVS9atf3FSLATyqLSKgSZNfoDyhEPNvvUT1K2fTzBV8CfTbjz5zTFQzyFqqt6p3zv8dF9NcwdD3Bb5goGF"
+  },
+  {
+   "ts": "2026-10-12T15:29:42Z",
+   "actor": "3ejF2MB1jLSBfwNQEwNHL8YX8GC8fi2NVTow2favLoGE",
+   "side": "buy",
+   "amount_usd": 183,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4trbfPQVS9atf3FSLATyqLSKgSZNfoDyhEPNvvUT1K2fTzBV8CfTbjz5zTFQzyFqqt6p3zv8dF9NcwdD3Bb5goGF"
+  },
+  {
+   "ts": "2026-10-12T15:29:52Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "buy",
+   "amount_usd": 273,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "4V9kmqnzV1rNUkEScpQ2dHgFJdshMByy68jAB3SD5WfHwWCfZDeXR5XoQc1aBkGfURcZBhQVDnnk3XyriExiiXfW"
+  },
+  {
+   "ts": "2026-10-12T15:29:52Z",
+   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
+   "side": "sell",
+   "amount_usd": 276,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "4V9kmqnzV1rNUkEScpQ2dHgFJdshMByy68jAB3SD5WfHwWCfZDeXR5XoQc1aBkGfURcZBhQVDnnk3XyriExiiXfW"
+  },
+  {
+   "ts": "2026-10-12T15:29:52Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 124,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "dzTKS3XDVqpJe8MipFj97U5dadWDRwsR4Y5ydauxSKMFFs9Rh9tnLgokaYgWYWJPaibEDjqM5euYuM7k7FGGRH2"
+  },
+  {
+   "ts": "2026-10-12T15:29:52Z",
+   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
+   "side": "sell",
+   "amount_usd": 287,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "fTjdz3or3Jq6jiTd58Cqjyb8uPTq8LQam3PxQkQH5pKWMFJBjQoYkg8QNy5yFNUhouBapHbLVx53UkU9CCvZoMK"
+  },
+  {
+   "ts": "2026-10-12T15:29:52Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "buy",
+   "amount_usd": 284,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "fTjdz3or3Jq6jiTd58Cqjyb8uPTq8LQam3PxQkQH5pKWMFJBjQoYkg8QNy5yFNUhouBapHbLVx53UkU9CCvZoMK"
+  },
+  {
+   "ts": "2026-10-12T15:29:55Z",
+   "actor": "4NryX8FrVbhbKNoNSq1tgt31R1Y6WSAZifYKYcdpX2WR",
+   "side": "sell",
+   "amount_usd": 459,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "4mrP1ApyiyhdUQ9TSy4fxsFzQEfAcjN3JXpGyS7gbTtAi2tEpbUQdzPrKDiZWuD8FUEdZVSQN96yGYUgAyXrf6qp"
+  },
+  {
+   "ts": "2026-10-12T15:29:56Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 109,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "4XpyogTuNG12hVZ8dM3Ct7c4XuksegkYmAC2bA6shtiJdXJiCbQbKkP1uzYJNA76ahCfbAeNJ39DnTzKjkNWgUo5"
+  },
+  {
+   "ts": "2026-10-12T15:29:59Z",
+   "actor": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
+   "side": "buy",
+   "amount_usd": 176,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "5nGJ82QaeeEJ5J1akxaNP8QYcUFYVLSjzvvXXnPLMM7j4tXzbpgrTRM8WVW9ioYg4UxyVMmR6JEh8U1sMDS8SZem"
+  },
+  {
+   "ts": "2026-10-12T15:29:59Z",
+   "actor": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+   "side": "sell",
+   "amount_usd": 176,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "5nGJ82QaeeEJ5J1akxaNP8QYcUFYVLSjzvvXXnPLMM7j4tXzbpgrTRM8WVW9ioYg4UxyVMmR6JEh8U1sMDS8SZem"
+  },
+  {
+   "ts": "2026-10-12T15:30:00Z",
+   "actor": "Fhbh1DTUDKt6qu9zVg8Q5VgnZa1WWWbxBxG6pCoJoggA",
+   "side": "buy",
+   "amount_usd": 108,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "5oxHc75jRA4xb8SR8kWKDRuv77QJ1a1qDRQLgrSuzr7s3Ypjvo2CB5QFCgLUBDwQYRnZZTjLSf7tjZ8rLKgHkeCw"
+  },
+  {
+   "ts": "2026-10-12T15:30:00Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 110,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "5oxHc75jRA4xb8SR8kWKDRuv77QJ1a1qDRQLgrSuzr7s3Ypjvo2CB5QFCgLUBDwQYRnZZTjLSf7tjZ8rLKgHkeCw"
+  },
+  {
+   "ts": "2026-10-12T15:30:00Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 101,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "aLCx1Z6zCWCSF1x7XFP31PqDPBbS3AJwKdG5NMTNspfAyKdSWwEVzaTyxqqRMgT32AzQN5Rkh8v5gyVb9dEKb1X"
+  },
+  {
+   "ts": "2026-10-12T15:30:00Z",
+   "actor": "6XQXE3xpQWPvKhFscfZYnJCiWWGgZuxCGtpAVRm2E8R5",
+   "side": "sell",
+   "amount_usd": 109,
+   "token": "SPCX",
+   "token_address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+   "tx": "21a8uSDnApMLVX5zxrTzUp5nSJmvQVED4ZaVAojg2aaktZhdVE1avDaa59Tt55czAAfKvyZntCCYD6hnaNQwdnof"
+  },
+  {
+   "ts": "2026-10-12T15:30:06Z",
+   "actor": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+   "side": "buy",
+   "amount_usd": 222,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "2eYR4f13pvgvXf2FADuQgfrusAqVkjyYQznrpQRW7nAYtDRUWgvrT7aXYzULD8GSXBJLzb9pQ54g59DXbKsCh4JB"
+  },
+  {
+   "ts": "2026-10-12T15:30:06Z",
+   "actor": "5YiF14xqz2ZHAnMPt7WuHxRRkgByN3jRXcQwBKGxdD5a",
+   "side": "sell",
+   "amount_usd": 220,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "2eYR4f13pvgvXf2FADuQgfrusAqVkjyYQznrpQRW7nAYtDRUWgvrT7aXYzULD8GSXBJLzb9pQ54g59DXbKsCh4JB"
+  },
+  {
+   "ts": "2026-10-12T15:30:06Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 172,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "3pbL3zmvpBeSfe1r1zr2mcPAwt36B3Kwh7i3ZJfUnUqbBax7bfSY1inFLT2zvNYjSHUdKCyzFa3TKecyYvHysRGs"
+  },
+  {
+   "ts": "2026-10-12T15:30:06Z",
+   "actor": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
+   "side": "sell",
+   "amount_usd": 111,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "66SQJYAUB6fzG9Dkr9uDwHGYAUqQmAkLvpWEYSDT2vQ5gVTvGfs6D3mscJgiaX2dnb9HZ1asXF974uKQ142Hu747"
+  },
+  {
+   "ts": "2026-10-12T15:30:06Z",
+   "actor": "HbjYfcWZBjCBYTJpZkLGxqArVmZVu3mQcRudb6Wg1sVh",
+   "side": "buy",
+   "amount_usd": 111,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "66SQJYAUB6fzG9Dkr9uDwHGYAUqQmAkLvpWEYSDT2vQ5gVTvGfs6D3mscJgiaX2dnb9HZ1asXF974uKQ142Hu747"
+  },
+  {
+   "ts": "2026-10-12T15:30:08Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 139,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "4RuTBueVS1fE4y2hkNQcp2B9kVmrtxp5dQek8ELN1H1UgNZn7r4bCe2M8K4Mn5dEZMNYX1m2BsCWupPoWqUUoeGp"
+  },
+  {
+   "ts": "2026-10-12T15:30:08Z",
+   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
+   "side": "buy",
+   "amount_usd": 137,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "4RuTBueVS1fE4y2hkNQcp2B9kVmrtxp5dQek8ELN1H1UgNZn7r4bCe2M8K4Mn5dEZMNYX1m2BsCWupPoWqUUoeGp"
+  },
+  {
+   "ts": "2026-10-12T15:30:08Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 104,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "4TwUHhCGH8R1LVD4vVnYPcKRcNZ21MbMv1gqTU4ZRABSiot9xkMw5SDYJ4zLMArkvayDE3F4aTdJV8AKugepBxZ"
+  },
+  {
+   "ts": "2026-10-12T15:30:08Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 108,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "4hx57ZyKj9wNFeBBJqNMPeNK57iJqpZtxCrR2qkttqrQp6YTukcrFLH5TV36nwrZjo4H8Hy9MXza6rafCog8j1MV"
+  },
+  {
+   "ts": "2026-10-12T15:30:08Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 217,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "59hM2kTP5nixT365xp2jh1WQeUkF7JCh5zfM7hC6TpCRq3njfYMkmXcjnRkfKrhBwTgewypxz9itBQgJdKhFAjnc"
+  },
+  {
+   "ts": "2026-10-12T15:30:08Z",
+   "actor": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
+   "side": "buy",
+   "amount_usd": 214,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "59hM2kTP5nixT365xp2jh1WQeUkF7JCh5zfM7hC6TpCRq3njfYMkmXcjnRkfKrhBwTgewypxz9itBQgJdKhFAjnc"
+  },
+  {
+   "ts": "2026-10-12T15:30:08Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 103,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "61cN1WRtBAamXVviyZdTQWbMqVqgXNGqPvLrAeNVoPjtKFYEMYcHXFkn6Ynk2gQnFm4LQ2DNRAS8pjNDkeCnouvR"
+  },
+  {
+   "ts": "2026-10-12T15:30:10Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "buy",
+   "amount_usd": 320,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "3h2rCPUVf2QwmXzPH5cJLa9pgc2F4JJX9SEyTCds61r9DV1P8Che8h8MZj8MGG2imiyhyqK4fYRLfgC1oEtcrrAT"
+  },
+  {
+   "ts": "2026-10-12T15:30:12Z",
+   "actor": "CreQJ2t94QK5dsxUZGXfPJ8Nx7wA9LHr5chxjSMkbNft",
+   "side": "sell",
+   "amount_usd": 500,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "3Yo8VKuDKsFvx1CLEDEH8FsoKx1pdvNo1QZXJd3XXkP6zQqdBNPE46TmtqQo1DEpczjSmuDzLQDsaFtY3czNBxA4"
+  },
+  {
+   "ts": "2026-10-12T15:30:22Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "buy",
+   "amount_usd": 108,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "aKmg4DSXXnMtVBsT6M9dsfKd7R47gskxrrSdfPzqJ4BAXg65Xks9jgEQk77nWwnxguFxCyi7x9FhqXmcFz7sm9z"
+  },
+  {
+   "ts": "2026-10-12T15:30:28Z",
+   "actor": "4sA1UuyJQctxQxGWqRGbFPbrkUDNmK1gMhB7AdJiQmC4",
+   "side": "sell",
+   "amount_usd": 259,
+   "token": "PUMP",
+   "token_address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "tx": "2aE35kN5kym4Cj6vMRgWfYn1tv4F5qeE4hmixQLyVZz7uoPdkHS72LjuEsRidf3LHzDnYtmbL3APXFoud4RNVvAM"
   }
  ]
 }
