@@ -1,38 +1,38 @@
 {
  "chain": "solana",
- "generated_at": "2026-10-17T12:33:16.642Z",
+ "generated_at": "2026-10-18T12:51:23.321Z",
  "tokens": [
   {
    "symbol": "PUMP",
    "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "volume_24h_usd": 50024602
-  },
-  {
-   "symbol": "HYPE",
-   "address": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
-   "volume_24h_usd": 18871752
-  },
-  {
-   "symbol": "SPCX",
-   "address": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-   "volume_24h_usd": 16850783
+   "volume_24h_usd": 30313483
   },
   {
    "symbol": "ZEC",
    "address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
-   "volume_24h_usd": 16063306
+   "volume_24h_usd": 17136357
+  },
+  {
+   "symbol": "HYPE",
+   "address": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+   "volume_24h_usd": 14775808
   },
   {
    "symbol": "TRUMP",
    "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
-   "volume_24h_usd": 14207399
+   "volume_24h_usd": 10254217
+  },
+  {
+   "symbol": "WNEAR",
+   "address": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
+   "volume_24h_usd": 9311547
   }
  ],
  "creatures": [
   {
    "address": "99mRw3EzdJZWEUjgp1nrU4WeHsukUBjbh7gYE7pm4F3c",
    "species": "whale",
-   "trades_24h_usd": 552321,
+   "trades_24h_usd": 507008,
    "win_rate": null,
    "glow": 0.5,
    "realized_pnl_usd": null,
@@ -44,9 +44,25 @@
    "size": 1
   },
   {
-   "address": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
+   "address": "FkaLnX17cXZGyeu3kZGdHCNdFMJJzBrPPYVvd18B3MZp",
    "species": "whale",
-   "trades_24h_usd": 503994,
+   "trades_24h_usd": 353250,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "PUMP",
+    "HYPE",
+    "ZEC"
+   ],
+   "size": 0.93
+  },
+  {
+   "address": "6LTovUz1CgxQwuXMezvbU6byAofqmJLiASayh1UK6ohq",
+   "species": "shark",
+   "trades_24h_usd": 177356,
    "win_rate": 1,
    "glow": 1,
    "realized_pnl_usd": 92222.32088689662,
@@ -55,65 +71,48 @@
    "top_tokens": [
     "PUMP"
    ],
-   "size": 0.98
+   "size": 0.78
   },
   {
-   "address": "BCvYeeeehuPQ7gxGhzBjGTNEtCiSyPSbsKuCqapbSvVm",
+   "address": "MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa",
    "species": "shark",
-   "trades_24h_usd": 496781,
-   "win_rate": 0.24324324324324326,
-   "glow": 0.24324324324324326,
-   "realized_pnl_usd": 935672.4056130854,
-   "traded_times": 1829,
-   "traded_token_count": 37,
-   "top_tokens": [
-    "PUMP",
-    "ANSEM",
-    "CATE",
-    "PUMPCADE",
-    "JUP"
-   ],
-   "size": 0.97
-  },
-  {
-   "address": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
-   "species": "shark",
-   "trades_24h_usd": 329793,
+   "trades_24h_usd": 176758,
    "win_rate": null,
    "glow": 0.5,
    "realized_pnl_usd": null,
    "traded_times": null,
    "traded_token_count": null,
    "top_tokens": [
-    "PUMP"
+    "HYPE",
+    "WNEAR"
    ],
-   "size": 0.86
+   "size": 0.78
   },
   {
-   "address": "FjL6tYBGtWF5zSK5pYpHu8cJzVoo6igX2j8QwPXF2F1V",
+   "address": "Ftg5nJtPYZyPkQap2pjsVknnCx5BPXzE8d1N4neyZMzS",
    "species": "shark",
-   "trades_24h_usd": 329378,
-   "win_rate": 0.2727272727272727,
-   "glow": 0.2727272727272727,
-   "realized_pnl_usd": -94546.7147114615,
-   "traded_times": 261,
-   "traded_token_count": 11,
+   "trades_24h_usd": 120133,
+   "win_rate": 0.46153846153846156,
+   "glow": 0.46153846153846156,
+   "realized_pnl_usd": 12282.433611069195,
+   "traded_times": 85,
+   "traded_token_count": 13,
    "top_tokens": [
-    "BP",
-    "JIMOTHY",
-    "HYPE",
-    "ZCAT",
-    "PUMP"
+    "CARS",
+    "META",
+    "⚠️ REDACTED",
+    "ZEC",
+    "LEVERHEDGE"
    ],
-   "size": 0.86
+   "size": 0.7
   },
   {
    "address": "5KXDF6QnqhBj72hDtJNkkpFaQVUfbFXNybMsp3DiK6tD",
    "species": "dolphin",
-   "trades_24h_usd": 207579,
-   "win_rate": 0.5125,
-   "glow": 0.5125,
-   "realized_pnl_usd": -18425.772842808583,
+   "trades_24h_usd": 105101,
+   "win_rate": 0.4875,
+   "glow": 0.4875,
+   "realized_pnl_usd": -18425.772842808587,
    "traded_times": 133003,
    "traded_token_count": 80,
    "top_tokens": [
@@ -123,109 +122,102 @@
     "TOPENAI",
     "MCDX"
    ],
-   "size": 0.74
+   "size": 0.67
   },
   {
-   "address": "8K7ZfGZYvB7NuHhabAxNdxubDzDVbkLgADKxtooFFrQ2",
+   "address": "EHcege7dok1iYs7SxL2XzDPvhg6XzMVcx2V5SkMUurJP",
    "species": "dolphin",
-   "trades_24h_usd": 175835,
-   "win_rate": 0,
-   "glow": 0,
-   "realized_pnl_usd": -93756.74024659971,
-   "traded_times": 84553,
-   "traded_token_count": 2,
-   "top_tokens": [
-    "WNEAR",
-    "ZEC"
-   ],
-   "size": 0.7
-  },
-  {
-   "address": "5FWbu1KohCDg1hYYNJvVQbnwj3KWAnY8rswpCNQAEWKn",
-   "species": "dolphin",
-   "trades_24h_usd": 152309,
-   "win_rate": 0,
-   "glow": 0,
-   "realized_pnl_usd": -3285.3577565458145,
-   "traded_times": 4688,
-   "traded_token_count": 5,
-   "top_tokens": [
-    "NEURALINK",
-    "🌱 MUSK4",
-    "TSLAX",
-    "SPCX",
-    "DOGE"
-   ],
-   "size": 0.66
-  },
-  {
-   "address": "A9PzVmoBvTMLSh8VcaPQfYc3qwH63pmLuMxRmWraqGYk",
-   "species": "dolphin",
-   "trades_24h_usd": 122383,
+   "trades_24h_usd": 71897,
    "win_rate": null,
    "glow": 0.5,
    "realized_pnl_usd": null,
    "traded_times": null,
    "traded_token_count": null,
    "top_tokens": [
+    "HYPE",
+    "TRUMP"
+   ],
+   "size": 0.59
+  },
+  {
+   "address": "EUYZaQqCBg37GBdBKjuxtu8SWUSB5t5zYwM5VzeZoMbi",
+   "species": "dolphin",
+   "trades_24h_usd": 65277,
+   "win_rate": 0.5,
+   "glow": 0.5,
+   "realized_pnl_usd": 27717.414228955244,
+   "traded_times": 194,
+   "traded_token_count": 6,
+   "top_tokens": [
+    "ZCAT",
+    "WNEAR",
+    "JUP",
+    "STONK",
     "ZEC"
    ],
-   "size": 0.6
+   "size": 0.57
   },
   {
-   "address": "8fXqSbDQvg1fbVXVkA5YfBbFkBWAFYGTYHiRFtfSUiLw",
+   "address": "GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA",
    "species": "dolphin",
-   "trades_24h_usd": 112778,
-   "win_rate": 0.09090909090909091,
-   "glow": 0.09090909090909091,
-   "realized_pnl_usd": -171705.7263395377,
-   "traded_times": 388,
-   "traded_token_count": 11,
+   "trades_24h_usd": 55273,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
    "top_tokens": [
-    "BORDR",
-    "STONK",
-    "SNDK",
-    "NEET",
+    "HYPE",
+    "TRUMP"
+   ],
+   "size": 0.54
+  },
+  {
+   "address": "HbjYfcWZBjCBYTJpZkLGxqArVmZVu3mQcRudb6Wg1sVh",
+   "species": "dolphin",
+   "trades_24h_usd": 53806,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
     "PUMP"
    ],
-   "size": 0.58
+   "size": 0.53
   },
   {
-   "address": "HJKiaB4mcLe9wz87XMr7FowsExUS8wn2HrDuMxMGmYTi",
+   "address": "FhdW3Y6Ea6hXKbkGkt5YSAVtDNd5qJ8USevMaPyEr45S",
    "species": "dolphin",
-   "trades_24h_usd": 83819,
-   "win_rate": 0.2916666666666667,
-   "glow": 0.2916666666666667,
-   "realized_pnl_usd": 3919.2349612315097,
-   "traded_times": 191,
-   "traded_token_count": 24,
+   "trades_24h_usd": 52904,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
    "top_tokens": [
-    "ZEC",
-    "RETIRE",
-    "QENIS",
-    "NOTHING",
-    "67"
+    "WNEAR"
    ],
-   "size": 0.5
+   "size": 0.53
   },
   {
-   "address": "7tJVK2uEaK1tKEykDHQ8KHdaV3aXrVuSH1J4u3xgkS7U",
+   "address": "9SMp4yLKGtW9TnLimfVPkDARsyNSfJw43WMke4r7KoZj",
    "species": "fish",
-   "trades_24h_usd": 77483,
-   "win_rate": 1,
-   "glow": 1,
-   "realized_pnl_usd": 21545.54773818978,
-   "traded_times": 80755,
-   "traded_token_count": 1,
+   "trades_24h_usd": 51431,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
    "top_tokens": [
-    "SPCX"
+    "PUMP"
    ],
-   "size": 0.48
+   "size": 0.53
   },
   {
    "address": "BrxKsMhe5cweBWC1RLzWMmH5ufKLCU1FpygTkSiapnHN",
    "species": "fish",
-   "trades_24h_usd": 59177,
+   "trades_24h_usd": 50294,
    "win_rate": 0,
    "glow": 0,
    "realized_pnl_usd": -17885.51554396902,
@@ -234,210 +226,193 @@
    "top_tokens": [
     "ZEC"
    ],
-   "size": 0.4
+   "size": 0.52
   },
   {
-   "address": "864Ltax5VXZrfNSusWKZdGYrNTK5MBDBkivvQ2ViYLBN",
+   "address": "A9PzVmoBvTMLSh8VcaPQfYc3qwH63pmLuMxRmWraqGYk",
    "species": "fish",
-   "trades_24h_usd": 59113,
-   "win_rate": 0.5555555555555556,
-   "glow": 0.5555555555555556,
-   "realized_pnl_usd": 77638.29282663064,
-   "traded_times": 408,
-   "traded_token_count": 9,
-   "top_tokens": [
-    "ZEC",
-    "ZCAT",
-    "SPX",
-    "ANSEM",
-    "⚠️ HOUSECAT"
-   ],
-   "size": 0.4
-  },
-  {
-   "address": "37Esco3UwppV6B1HkasUdVkyHU9ZZF85Ag67sqkYTZwh",
-   "species": "fish",
-   "trades_24h_usd": 56290,
-   "win_rate": 0.5,
+   "trades_24h_usd": 41551,
+   "win_rate": null,
    "glow": 0.5,
-   "realized_pnl_usd": 0,
-   "traded_times": 5,
-   "traded_token_count": 2,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
    "top_tokens": [
-    "ZEC",
-    "HYPE"
+    "HYPE",
+    "ZEC"
    ],
-   "size": 0.39
+   "size": 0.48
   },
   {
-   "address": "ByiAbN9MJhfQKGK5WJrfgko6XS88qqERQVRLWZTsvyTf",
+   "address": "FeaP3Xkq48hq3WhPBqM3WuwTqxiaowE6UoQD2GrXd3RR",
    "species": "fish",
-   "trades_24h_usd": 52140,
-   "win_rate": 0.4146341463414634,
-   "glow": 0.4146341463414634,
-   "realized_pnl_usd": -302296.4125290494,
-   "traded_times": 2074,
-   "traded_token_count": 82,
+   "trades_24h_usd": 39379,
+   "win_rate": 0.43333333333333335,
+   "glow": 0.43333333333333335,
+   "realized_pnl_usd": -5792.398911792212,
+   "traded_times": 321,
+   "traded_token_count": 30,
    "top_tokens": [
-    "ZEC",
-    "PUMP",
-    "$ELIZA",
-    "MET",
-    "FXN"
+    "ORE",
+    "OMNI",
+    "HOTBOT",
+    "CATGPT",
+    "HAMSTER"
+   ],
+   "size": 0.47
+  },
+  {
+   "address": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+   "species": "fish",
+   "trades_24h_usd": 37499,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "TRUMP"
+   ],
+   "size": 0.46
+  },
+  {
+   "address": "GvPT9HAWQLF9mUsuHwrhwsUTiWPfDQXV17hVy5WjSk5y",
+   "species": "fish",
+   "trades_24h_usd": 36599,
+   "win_rate": 0.42857142857142855,
+   "glow": 0.42857142857142855,
+   "realized_pnl_usd": 1.1467200375013756e-15,
+   "traded_times": 1253,
+   "traded_token_count": 7,
+   "top_tokens": [
+    "CBBTC",
+    "FARTCOIN",
+    "SMOLE",
+    "TRX"
+   ],
+   "size": 0.45
+  },
+  {
+   "address": "4AFAkCSkSNmra64irggEFd8ZtF4WCtFe51qVaFFNBL2D",
+   "species": "fish",
+   "trades_24h_usd": 33636,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "PUMP"
+   ],
+   "size": 0.44
+  },
+  {
+   "address": "m7VmSjdSN6isudY6PVRa7GuZbG8rPBpB2X2DGHR5awz",
+   "species": "fish",
+   "trades_24h_usd": 29106,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "HYPE",
+    "ZEC"
+   ],
+   "size": 0.41
+  },
+  {
+   "address": "2QDGj5BWMSNyEfmyDFx7eEvWWm4KujUPJ38Xdkntvxtd",
+   "species": "fish",
+   "trades_24h_usd": 28350,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "PUMP"
+   ],
+   "size": 0.4
+  },
+  {
+   "address": "3HQ2u8zPXJmp127LddWnHy26Mia3rsPbz6hjC3iE7nug",
+   "species": "fish",
+   "trades_24h_usd": 23989,
+   "win_rate": 0.25,
+   "glow": 0.25,
+   "realized_pnl_usd": -286.5165294850308,
+   "traded_times": 1079,
+   "traded_token_count": 8,
+   "top_tokens": [
+    "STRK",
+    "WLD",
+    "W",
+    "AVAX",
+    "HYPE"
    ],
    "size": 0.37
   },
   {
-   "address": "5a3Szint9TupD8YNgmoaVcWgu3YwWhuZdF22PgtCp9ha",
+   "address": "9FMUjZHCJEeoz1Au9RB7RsgCEeaDfQ164TToKfixCSHi",
    "species": "fish",
-   "trades_24h_usd": 46673,
-   "win_rate": 0.35185185185185186,
-   "glow": 0.35185185185185186,
-   "realized_pnl_usd": -48480.50009338363,
-   "traded_times": 1403,
-   "traded_token_count": 54,
-   "top_tokens": [
-    "USELESS",
-    "ZCAT",
-    "CBBTC",
-    "STONK",
-    "FARTCOIN"
-   ],
-   "size": 0.34
-  },
-  {
-   "address": "CCVZm1VzQb4nAcskBDe8kJbf2a5nMjpoxXMepmgqWuos",
-   "species": "fish",
-   "trades_24h_usd": 45100,
-   "win_rate": 0.2,
-   "glow": 0.2,
-   "realized_pnl_usd": 94887.24033137421,
-   "traded_times": 482,
-   "traded_token_count": 10,
-   "top_tokens": [
-    "ZEC",
-    "ZCAT",
-    "⚠️ KNEWIT",
-    "⚠️ ZIVIDEND",
-    "CUPSEY"
-   ],
-   "size": 0.33
-  },
-  {
-   "address": "6HHBEAJTpXjx3nye3zP49LkQdyhV1Sscms7rgwmkMjtN",
-   "species": "fish",
-   "trades_24h_usd": 44930,
-   "win_rate": 0.45454545454545453,
-   "glow": 0.45454545454545453,
-   "realized_pnl_usd": 243.86986988477292,
-   "traded_times": 208,
-   "traded_token_count": 11,
-   "top_tokens": [
-    "PUMP",
-    "META",
-    "CATE",
-    "WWW",
-    "ANSEM"
-   ],
-   "size": 0.33
-  },
-  {
-   "address": "EwwyxpPXUgC2U3KsjCxvnFyQ1PNHFWopp7BhmCzMEsxG",
-   "species": "fish",
-   "trades_24h_usd": 43591,
-   "win_rate": 0.1111111111111111,
-   "glow": 0.1111111111111111,
-   "realized_pnl_usd": -5623.481264770423,
-   "traded_times": 70,
-   "traded_token_count": 9,
-   "top_tokens": [
-    "CARDS",
-    "BP",
-    "PUMP",
-    "SI",
-    "GRASS"
-   ],
-   "size": 0.32
-  },
-  {
-   "address": "GvwJ2x7h6C4VH9ozwxZ1cyUeGwK3Zt4axx61peDFmvJh",
-   "species": "fish",
-   "trades_24h_usd": 42378,
+   "trades_24h_usd": 18780,
    "win_rate": null,
    "glow": 0.5,
    "realized_pnl_usd": null,
    "traded_times": null,
    "traded_token_count": null,
    "top_tokens": [
-    "HYPE"
+    "HYPE",
+    "TRUMP",
+    "ZEC"
    ],
    "size": 0.32
   },
   {
-   "address": "DgHAu1pJKydHqRM7SteoS2K4U8pNMkxW4X2SsSTHYwwY",
+   "address": "4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS",
    "species": "fish",
-   "trades_24h_usd": 42224,
-   "win_rate": 0.36619718309859156,
-   "glow": 0.36619718309859156,
-   "realized_pnl_usd": 52936.13766570694,
-   "traded_times": 3326,
-   "traded_token_count": 213,
-   "top_tokens": [
-    "BATON",
-    "PAID",
-    "ATTN",
-    "WECX",
-    "CATE"
-   ],
-   "size": 0.31
-  },
-  {
-   "address": "5azLWnTEGdETPwjiXb55x6MUuqpK9QQAazNqihCxtcgq",
-   "species": "fish",
-   "trades_24h_usd": 41624,
+   "trades_24h_usd": 18128,
    "win_rate": null,
    "glow": 0.5,
    "realized_pnl_usd": null,
    "traded_times": null,
    "traded_token_count": null,
    "top_tokens": [
-    "HYPE"
+    "TRUMP"
    ],
    "size": 0.31
   },
   {
-   "address": "EhpnK9Zj7RPrmrviz4QD9aHWMCeb4SxNoqswk6jDRdDb",
+   "address": "sEW23BTEyA9Ra8CfJiPLYKiTiFUBLdwrz7qhzLeBjTY",
    "species": "fish",
-   "trades_24h_usd": 40451,
-   "win_rate": 0.6,
-   "glow": 0.6,
-   "realized_pnl_usd": 366419.4558014382,
-   "traded_times": 578,
-   "traded_token_count": 25,
+   "trades_24h_usd": 17887,
+   "win_rate": 0.2857142857142857,
+   "glow": 0.2857142857142857,
+   "realized_pnl_usd": -33795.57624514681,
+   "traded_times": 435,
+   "traded_token_count": 56,
    "top_tokens": [
-    "SCNSOL",
-    "ZEC",
     "PUMP",
-    "BP",
-    "JUPSOL"
+    "NVDAX",
+    "AAPLX",
+    "LEVERHEDGE",
+    "STONK"
    ],
-   "size": 0.3
+   "size": 0.31
   },
   {
-   "address": "4fVLGvqFx3LHog7wLwvHMPsZsw8pqQwehP5yHN6JVtWq",
+   "address": "GENJ7J2kRA9g4JtJXQWzLZkMWJZMmBhCGyGjmUGXdQS6",
    "species": "fish",
-   "trades_24h_usd": 39920,
-   "win_rate": 0.25925925925925924,
-   "glow": 0.25925925925925924,
-   "realized_pnl_usd": -3492.6184159444665,
-   "traded_times": 565,
-   "traded_token_count": 27,
+   "trades_24h_usd": 17357,
+   "win_rate": 0,
+   "glow": 0,
+   "realized_pnl_usd": -791.9929122044371,
+   "traded_times": 29,
+   "traded_token_count": 2,
    "top_tokens": [
-    "RACE",
-    "SPCX",
-    "GLDX",
-    "SPYX",
-    "FWDI"
+    "FARTCOIN",
+    "PUMP"
    ],
    "size": 0.3
   }
