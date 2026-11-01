@@ -1,5 +1,4281 @@
 {
  "chain": "robinhood",
- "generated_at": "2026-10-31T21:37:56.294Z",
- "events": []
+ "generated_at": "2026-11-01T06:10:12.116Z",
+ "events": [
+  {
+   "ts": "2026-10-31T09:35:58Z",
+   "actor": "0xefc3c98f6a30c6e90b02e194e1df766991545db3",
+   "side": "sell",
+   "amount_usd": 14887,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xc213d227bdc6f69832ebf39e9669d37353f2e848217238733c7410a7336b4a63"
+  },
+  {
+   "ts": "2026-10-31T09:36:14Z",
+   "actor": "0x0c5ee774e875d2d662ec0a806ec6bac72bfd4f1e",
+   "side": "buy",
+   "amount_usd": 15437,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xdb48774e87a175c5d44a057235abfcd7e116e668f94ad72c0456a94349ee29eb"
+  },
+  {
+   "ts": "2026-10-31T09:36:49Z",
+   "actor": "0x085787ebca6490b4bb0ee02b8d54503896e7a345",
+   "side": "sell",
+   "amount_usd": 15129,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x3d108470222e925d4549023d0054c34fc1cbe82a4b1a09f3c252fae69fa39700"
+  },
+  {
+   "ts": "2026-10-31T09:37:05Z",
+   "actor": "0x5c17167b950328a4338863a22b77791165097b24",
+   "side": "buy",
+   "amount_usd": 15194,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x54da2fafdd26495f6b2689e4b921f13dfb520a1d5b1ac2b24a0c07fbaf8f09e1"
+  },
+  {
+   "ts": "2026-10-31T09:37:39Z",
+   "actor": "0x93db0e79bad3e60e9f104073ab377c2cb28c5ff7",
+   "side": "sell",
+   "amount_usd": 14892,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x3f07ea331582c78a1fd2238b7deef3b8ebdfd3728bee65f6e219e3f391921d82"
+  },
+  {
+   "ts": "2026-10-31T09:38:20Z",
+   "actor": "0xdb56b3ddd687279f8678b51629711b01a7eb1c7d",
+   "side": "buy",
+   "amount_usd": 14936,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd45f4ea8a333dc067ccf328074728b11cef04e71cec08c7cfbfbf1e16c70af99"
+  },
+  {
+   "ts": "2026-10-31T09:38:54Z",
+   "actor": "0x83f9a1bdb07965168255e7c6333b7d4c8daffe32",
+   "side": "sell",
+   "amount_usd": 14638,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd58ab9acc871b94f7978e5106ba957e0d39e3ab5760c03865d9e96a59b03c8da"
+  },
+  {
+   "ts": "2026-10-31T09:40:35Z",
+   "actor": "0x95110d20da505cff13cf39dc283e5b1cc417e8b5",
+   "side": "buy",
+   "amount_usd": 14639,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd022db1a39a735b1121a10e4b12e5df1837ad1ba3aac8a0e3cdd8099fb9f0ce4"
+  },
+  {
+   "ts": "2026-10-31T09:41:09Z",
+   "actor": "0x053f3d4e1bfca92101b6006d2a845aa2a51036a1",
+   "side": "sell",
+   "amount_usd": 14348,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd00ebdee46f1da57a238de54fedc6a5f490be9fa77bdde34a1a65ed1f2ca5de1"
+  },
+  {
+   "ts": "2026-10-31T09:46:02Z",
+   "actor": "0x95bcd6ae3fa05d4f49921152c8946189cbb7df4e",
+   "side": "sell",
+   "amount_usd": 6863,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x885aa94c100fe3c8052cd6cc11fc2d25a7af59d0765d2b4fde089443c5593b09"
+  },
+  {
+   "ts": "2026-10-31T09:46:18Z",
+   "actor": "0x1dfa38d52bbfad4ab985004a347ce5f867b650b6",
+   "side": "buy",
+   "amount_usd": 15309,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xcc8507d391cbe80e5bd50e94fdde01ad7a7b40821e7cbc794ec99b1bb6087c91"
+  },
+  {
+   "ts": "2026-10-31T09:46:52Z",
+   "actor": "0x0d46d01006953e420a543876c0a3007c088e9161",
+   "side": "sell",
+   "amount_usd": 15004,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x472abc14f1516c4410f93a01cefdd927d588976ffc3a15c27541ba2ec04084fe"
+  },
+  {
+   "ts": "2026-10-31T09:47:07Z",
+   "actor": "0x204f954e867827107d0edc3abc23ff5b4077a913",
+   "side": "buy",
+   "amount_usd": 14745,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x8608b6a03b4cd5cc69fa464678f9463fa8eec2ddbf6740dada88107844e59da7"
+  },
+  {
+   "ts": "2026-10-31T09:47:41Z",
+   "actor": "0x4aacd25fb52374baa753bb2a5395d9ae5cec9c3f",
+   "side": "sell",
+   "amount_usd": 14451,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x325aa97e458c7bac2520f64a270d6cc6affb6297c5ed524e0edff78e2a714b81"
+  },
+  {
+   "ts": "2026-10-31T09:47:57Z",
+   "actor": "0x6173df248a413568990b68f6678d3f5da0c63449",
+   "side": "buy",
+   "amount_usd": 15315,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xfd147bdb7fd7b55b8974b1370e30d2a2ecf6796918ea0dc73bd53b2353321e81"
+  },
+  {
+   "ts": "2026-10-31T09:48:31Z",
+   "actor": "0x5a90eec1de9ce638df6caabc841cc46822ce3725",
+   "side": "sell",
+   "amount_usd": 15011,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb27b703cffc676813b0e7ad7477905273596c2268839543824efcb3bc51ca4ae"
+  },
+  {
+   "ts": "2026-10-31T09:48:47Z",
+   "actor": "0x4a0bc48b93af37478923cffeebd839de6474694a",
+   "side": "buy",
+   "amount_usd": 14702,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xf835188a2b79f90632dcdbf135adfa48ac23b49672b9b3a85d7128295f9c94cf"
+  },
+  {
+   "ts": "2026-10-31T09:49:21Z",
+   "actor": "0x8cb7cec83f24bdd19130a69f5bae9a901f8c6ae2",
+   "side": "sell",
+   "amount_usd": 14409,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x25f2afae59ac9c2d4ebce5b7c1bd466e2bb334a8b12a8e6571feee56dbb04f83"
+  },
+  {
+   "ts": "2026-10-31T09:49:37Z",
+   "actor": "0x891b39af50d13fd3487abded825d4eb8965431e0",
+   "side": "buy",
+   "amount_usd": 15428,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xc141b8cf25de116130962c3daa7b58c5568ae4cd3945bef366787437fc2d7876"
+  },
+  {
+   "ts": "2026-10-31T09:50:11Z",
+   "actor": "0x037a80ea332170202506916be8d9e56e037bf730",
+   "side": "sell",
+   "amount_usd": 15121,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb439b38146e48cb01ae2cbaa0831dab8c2cbcfa2c43c381c63834e5e9ac6adce"
+  },
+  {
+   "ts": "2026-10-31T09:50:26Z",
+   "actor": "0x6a0c8f0017ee5ec995828c53319c64edceb2e2ee",
+   "side": "buy",
+   "amount_usd": 14938,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x10113b9a390a64e665c29088c17e564b30e0a36bf981763ad3ab8a5fe3192d03"
+  },
+  {
+   "ts": "2026-10-31T09:51:00Z",
+   "actor": "0x4c7a384ac851269004b76d137575cf7406072887",
+   "side": "sell",
+   "amount_usd": 14641,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x1d98c855e1f47e8df09623e8fe58f4b9bea11448f2a03fdd3b8a1e0f6427d150"
+  },
+  {
+   "ts": "2026-10-31T09:51:16Z",
+   "actor": "0xc95c3eafe87314107593dbff71830e77e0b139a0",
+   "side": "buy",
+   "amount_usd": 15012,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x4b6d8a070ceaec1060e4d20058f5f440750de72da2fb9d718bf1e936c5adc180"
+  },
+  {
+   "ts": "2026-10-31T09:51:50Z",
+   "actor": "0xa38603f32b0d7aa8bf1ac1d1b5fa2420696981ef",
+   "side": "sell",
+   "amount_usd": 14713,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x6b0d3ffda345f37b6da4260b80c0463435f5a305b0d583e06be3a7b6cbadbc48"
+  },
+  {
+   "ts": "2026-10-31T09:52:06Z",
+   "actor": "0x4e9a2f129d13226504160b3f644653a96bc58cdc",
+   "side": "buy",
+   "amount_usd": 15394,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xdc2f3d42c9f0d21a15f9cc92f137e8137b0d644f38e0804c07b349fdfdeb703e"
+  },
+  {
+   "ts": "2026-10-31T09:52:40Z",
+   "actor": "0x240a2130a416613d3eef6249ea0d7b1c36df56ff",
+   "side": "sell",
+   "amount_usd": 15088,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x0f3e35b9cd29e64a95f864cc3334ad5c88e9893d792cf4ae9535c7c0fa89128a"
+  },
+  {
+   "ts": "2026-10-31T09:52:55Z",
+   "actor": "0x985a7a4b6083d452d2a22098797993c3d92a2eb9",
+   "side": "buy",
+   "amount_usd": 14720,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x23c60405a7c256d6b73993b1d33c931ae80d61ec67fdd01479ae1ede7c7a5537"
+  },
+  {
+   "ts": "2026-10-31T09:53:29Z",
+   "actor": "0x39b16f00d52a9104bdeda72c42593756adbba0af",
+   "side": "sell",
+   "amount_usd": 14427,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xbcf9cd10bc3c15ab95d49519b3065ae91d3420489b1fc10ff6a6d4b3ae0e8465"
+  },
+  {
+   "ts": "2026-10-31T09:53:45Z",
+   "actor": "0x98ff580e09c166b9cc3e3dbff0b49182b37a17d0",
+   "side": "buy",
+   "amount_usd": 14918,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2c426449480b189346b8cf3b1a37a5049322a7801623a60d465b644a741ed091"
+  },
+  {
+   "ts": "2026-10-31T09:54:20Z",
+   "actor": "0xb6e2b68ba2b331e1e4e7163b06bdb31a9f16a996",
+   "side": "sell",
+   "amount_usd": 14621,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd2fc1f174c95d187712a4d054a5d8064728e22d38e2d8f3db7ea1b1901667257"
+  },
+  {
+   "ts": "2026-10-31T09:54:35Z",
+   "actor": "0x1128a48f8aa5cda8c860a1330ef06c7d5d3003ca",
+   "side": "buy",
+   "amount_usd": 15109,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb3471251eed2512235389acfee0ad0e531222c491ad0a0a63e399c4edabbce35"
+  },
+  {
+   "ts": "2026-10-31T09:55:09Z",
+   "actor": "0xa0644ddc4a039cc5fb3ea396953fb987a084d515",
+   "side": "sell",
+   "amount_usd": 14808,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x8374caa5fb2867a247c2120b1d230a353027748ea106fe67d167be662a162303"
+  },
+  {
+   "ts": "2026-10-31T09:55:25Z",
+   "actor": "0x38114411d7831b541656a42c2165d39524d1b47b",
+   "side": "buy",
+   "amount_usd": 14698,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x3960359011d0d6b7b926014fcd015e5138dd434ad9a5f20ed3ebf573c7b0c0d9"
+  },
+  {
+   "ts": "2026-10-31T09:55:59Z",
+   "actor": "0xbff69da0932b4d0e42026476161245f6dc3f9f97",
+   "side": "sell",
+   "amount_usd": 14405,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x79813840b912b0150762906a112738e1a985ba626ff36f5af8708d28eb64b2a5"
+  },
+  {
+   "ts": "2026-10-31T09:56:15Z",
+   "actor": "0x9f81d834e0188dd18cc96727e37c55ee12ce1ab6",
+   "side": "buy",
+   "amount_usd": 15340,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xdde97f53ab2326dc1aba331e8d0ae948a7facbc7d75a2f5b920fd6eaa8a0253b"
+  },
+  {
+   "ts": "2026-10-31T09:56:48Z",
+   "actor": "0xe55ff5d4286c414e0f5efe12f1b266641f072b09",
+   "side": "sell",
+   "amount_usd": 15035,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x886f2f7d757580b463d5b40a97ad2cc7518ba2e10028afdb9fadca39d1a3d13c"
+  },
+  {
+   "ts": "2026-10-31T09:57:04Z",
+   "actor": "0x1e598a9f9c173b7a71d18c71756ab77e20e78c0e",
+   "side": "buy",
+   "amount_usd": 14646,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x95729e8df2665f95663e6e570e98d7750633b2c7b0054921f79fecb855afbca1"
+  },
+  {
+   "ts": "2026-10-31T09:57:39Z",
+   "actor": "0xf2b1e926eaaa921690e515ed595a791e5d03e60f",
+   "side": "sell",
+   "amount_usd": 14354,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xade80f3ffd49187a90bd4efc0a25b609e6dd829ceefcad99f09635559463165e"
+  },
+  {
+   "ts": "2026-10-31T09:57:54Z",
+   "actor": "0x9eb1f7501418b3cc7f479eddf9c662ce9bd50508",
+   "side": "buy",
+   "amount_usd": 15046,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x557611b8242b2154cc0c3c45531c72a67c2923b0f25f88c859b068d18954ce02"
+  },
+  {
+   "ts": "2026-10-31T09:58:28Z",
+   "actor": "0x5d0caeb036ba684f65e53e99f5872a2c326df831",
+   "side": "sell",
+   "amount_usd": 14746,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xa8ae879a5f0d54f3b01298984f38ae87215d07b7c5b853b50295fddf9cf054ea"
+  },
+  {
+   "ts": "2026-10-31T09:58:43Z",
+   "actor": "0x033d9b4c17adf9e44eb6708914c491e64e266fcc",
+   "side": "buy",
+   "amount_usd": 14893,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xfdaa863afbab5f33a2e01a23fb756eaa8d31bd9ee13cb6bd436fb12b4a1bd13a"
+  },
+  {
+   "ts": "2026-10-31T09:59:18Z",
+   "actor": "0x21dddc227dddf296c4c45bcaf3d028b7aaeac01b",
+   "side": "sell",
+   "amount_usd": 14597,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x097de9e36fd56f9789e104d23984ec2206d4a062a89410f762af4816619a4b5c"
+  },
+  {
+   "ts": "2026-10-31T09:59:33Z",
+   "actor": "0xcc355d2ce39bf480f745288e12046c749a4695ce",
+   "side": "buy",
+   "amount_usd": 15001,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xf7a6fd306300f0a54a6d0e06c6d99487ebe1ccf4683cce287e83053499b3969a"
+  },
+  {
+   "ts": "2026-10-31T10:00:07Z",
+   "actor": "0x5cf3daa18a19e9cd72d005ed27d380a3d0381e0f",
+   "side": "sell",
+   "amount_usd": 14702,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb0ac10b25f9cc5c5d887756a2cc01366dd86910a9d0a9c592c02b1139d421e62"
+  },
+  {
+   "ts": "2026-10-31T10:00:23Z",
+   "actor": "0xf5aeb46a86fb0c126389d5eaf2a5ae96c0e5d46d",
+   "side": "buy",
+   "amount_usd": 14880,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xc0c2e60be28f8716e4e0f31f66d846e7cb133e0852662334ccb4d02b830bcd08"
+  },
+  {
+   "ts": "2026-10-31T10:00:57Z",
+   "actor": "0xbbe68c5154ca9f12f4b31f70b82f536c243cf4e4",
+   "side": "sell",
+   "amount_usd": 14583,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x63e15aa6cd8830150e00b328f366c6dccda40c9497ca7d2131d93f8cae331d24"
+  },
+  {
+   "ts": "2026-10-31T10:01:15Z",
+   "actor": "0x30e9172094f1c92e396169333fddda6b5e08c154",
+   "side": "buy",
+   "amount_usd": 15385,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x9e6b7dc8c4b7dd20d2c40512f197e9bb295403ca38501bd94b13d72f6e6a377d"
+  },
+  {
+   "ts": "2026-10-31T10:01:50Z",
+   "actor": "0xf0dd5981a316fc048c4b101cb171208a4c62589a",
+   "side": "sell",
+   "amount_usd": 15079,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x00ff484bdfc72d0bb97d8e1b270ee97fcb5f43a49e426fbc0c8bd9f7fffa8aed"
+  },
+  {
+   "ts": "2026-10-31T10:02:05Z",
+   "actor": "0x4a90a6b79d4c43b1318b45d20ece6a11dfc92624",
+   "side": "buy",
+   "amount_usd": 15147,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xa8d6c1585563e81e1466ffbb68ecd650f49e571d15ffa5c3c61012800aee8922"
+  },
+  {
+   "ts": "2026-10-31T10:02:39Z",
+   "actor": "0x47dfe32e406a11495dc3a56edf31340e06ec61a3",
+   "side": "sell",
+   "amount_usd": 14845,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xcbb745ad0ef814bc3cfc4389424a2960d42fd8c13979ca3d53df6538027487f7"
+  },
+  {
+   "ts": "2026-10-31T10:02:58Z",
+   "actor": "0x3b7c61355ef8f63df78bbaaca4ffd10820a48f65",
+   "side": "buy",
+   "amount_usd": 15437,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xcc16f025dda3ee9431431b257af6fbb4619ce2236e8255d513b2ced15b299781"
+  },
+  {
+   "ts": "2026-10-31T10:03:33Z",
+   "actor": "0x60e67d5a769c115a3a6fd2e5ebb01b858b0f7717",
+   "side": "sell",
+   "amount_usd": 15129,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x70ccdbb36c66b658372e3a5a259755d3e82b501b65c0cd7307b5ca2c7f5622d0"
+  },
+  {
+   "ts": "2026-10-31T10:03:49Z",
+   "actor": "0xa5a860d94b53818ffd93d3c8a5aaaf8c56033770",
+   "side": "buy",
+   "amount_usd": 14601,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xde5e74bedadd6c57bc1943c85a088e86f4c5938493fe3babe1193b180cea53c0"
+  },
+  {
+   "ts": "2026-10-31T10:04:23Z",
+   "actor": "0xd14f53654e2270e35b4c8a882ef3dc87b56d276a",
+   "side": "sell",
+   "amount_usd": 14310,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x10e988419c18f16c3ceda6880f94cc51ca0dc6d949e7dfe3d03f9563e4f6a11c"
+  },
+  {
+   "ts": "2026-10-31T10:04:38Z",
+   "actor": "0xd8054e48835a30f8ddb00eebbfdb7a6950245f9a",
+   "side": "buy",
+   "amount_usd": 15459,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x6899251596940048c0a0bc0bcb63fbb2ae923fc0abf89b754d7516e72b58c7a0"
+  },
+  {
+   "ts": "2026-10-31T10:05:12Z",
+   "actor": "0x57ac3c95c6852f82d4750c6399f6fffc95d3dd2e",
+   "side": "sell",
+   "amount_usd": 15151,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xc7f8a4e83e91a0980d3fc10d8438b5d3636b5075ef4849baeb2b6bad6a925b54"
+  },
+  {
+   "ts": "2026-10-31T10:05:27Z",
+   "actor": "0x0a0628a92907f64b5a816c67c3c3298ac41a8f8e",
+   "side": "buy",
+   "amount_usd": 15347,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xf17f26d6c733f7d85fb55779e5e0311fb40e3e857b51b0bbe30442a2acf42169"
+  },
+  {
+   "ts": "2026-10-31T10:06:01Z",
+   "actor": "0xc4ee83cfa63f534b9fe8643bad455c2e1bbe4da6",
+   "side": "sell",
+   "amount_usd": 15041,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x144c1030c7ec107d6e5e4c4e245b298f16d31fd27ee8d28510692bce5f1d4e1d"
+  },
+  {
+   "ts": "2026-10-31T10:06:17Z",
+   "actor": "0x4aa62b5993f3bf0f5b761247277803376c383d3c",
+   "side": "buy",
+   "amount_usd": 15360,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x7a48e0fbd0adf2fd7ed3ce1d3957403a1b5fa504518a5e5ce82fcd7d7abf135b"
+  },
+  {
+   "ts": "2026-10-31T10:06:50Z",
+   "actor": "0xf41a72dcab5bd70becb46e31359e397d78a6fb0a",
+   "side": "sell",
+   "amount_usd": 15055,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xbc72e75ea0e5625a8c2e2aa80362e4a14b4a0d6dd7c9d5e1df627c0840534373"
+  },
+  {
+   "ts": "2026-10-31T10:07:06Z",
+   "actor": "0x8ee38fe28c90cb3f4031f983d68b5c95469fe8a4",
+   "side": "buy",
+   "amount_usd": 14877,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2ba28d08df785244c048169d0a6d75ab45b45a89e00a243475a1111e1e4bce7e"
+  },
+  {
+   "ts": "2026-10-31T10:07:40Z",
+   "actor": "0xecf4a116e6d2f0047a4c3eebff4b318816067131",
+   "side": "sell",
+   "amount_usd": 14581,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd2d80aa921795c61c3652e5d6f3399bf0115c44a8a9dde2269aea97550f3bab6"
+  },
+  {
+   "ts": "2026-10-31T10:07:56Z",
+   "actor": "0xea79a46e1509bda52d3b45eed909206ee4ae5b6b",
+   "side": "buy",
+   "amount_usd": 15385,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xfd78930ae571f1d3b5db332918ccce0d99dad39f7b3176751ec79c799a275280"
+  },
+  {
+   "ts": "2026-10-31T10:08:30Z",
+   "actor": "0x7569aeed46098fb0cb3d57be7d2be9b4e6fe2b77",
+   "side": "sell",
+   "amount_usd": 15079,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x699931d42a8e8ad55942b54456ce73cfdcf8aa1992f1772ab46caa5e8b18fbcd"
+  },
+  {
+   "ts": "2026-10-31T10:08:46Z",
+   "actor": "0x745a4767a935d39bb0dc8e4b0486d5ca08abb7b6",
+   "side": "buy",
+   "amount_usd": 14608,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x47f0986d660c0dab045e4cdd720ea6685b33039094db487a3584462d73f7089d"
+  },
+  {
+   "ts": "2026-10-31T10:09:21Z",
+   "actor": "0x45f5634904dc7227d3a17d32d669be79f50a8a47",
+   "side": "sell",
+   "amount_usd": 14317,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd33a4c788ba7944a14485e629d7445f94bfbb2e965a9d7cc85760e8a5ac465ee"
+  },
+  {
+   "ts": "2026-10-31T10:09:36Z",
+   "actor": "0x2feb8b398f399f75aef64f0d4f83577ca4c598f4",
+   "side": "buy",
+   "amount_usd": 14931,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xc7b3c12104e565d997ef53155a003cc906a87e4776d3336dd2d040328e9d9431"
+  },
+  {
+   "ts": "2026-10-31T10:10:10Z",
+   "actor": "0xa50f797efac9e6d7da69efbfa4c1e699c24cf387",
+   "side": "sell",
+   "amount_usd": 14634,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x4f084a76312d81ee25f1df13c303b03d503074fb1d9fd7d06f1a2aabed3fc708"
+  },
+  {
+   "ts": "2026-10-31T10:10:25Z",
+   "actor": "0xbb642b5b5c11316b9d4e4910fce536d0f872750b",
+   "side": "buy",
+   "amount_usd": 14751,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd76dbd8de106262ef25edba9b2cef17ced3fe4272641479df4ba821a546e28fb"
+  },
+  {
+   "ts": "2026-10-31T10:11:00Z",
+   "actor": "0x4b1f72e80340e2c799e0d2e7b8dbb82611fec9e3",
+   "side": "sell",
+   "amount_usd": 14458,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xf56824866ee0b611fb64d418695fbc6d6f2b602f2e3e385c4c75705530909a8a"
+  },
+  {
+   "ts": "2026-10-31T10:11:18Z",
+   "actor": "0x03e57e268f7fe7886908644e48351728612ac3cb",
+   "side": "buy",
+   "amount_usd": 14646,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x433a75029b0dc7110141d2b1617013ecee45298825b9d0886010eff4c8d8a8c6"
+  },
+  {
+   "ts": "2026-10-31T10:11:52Z",
+   "actor": "0x032eba3e334c588b2c3301cf9eed8621b3a69992",
+   "side": "sell",
+   "amount_usd": 14354,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x87ae57cad07f14e2042a6d045438a7e75bc9891c5138097d519790c009a896c2"
+  },
+  {
+   "ts": "2026-10-31T10:12:07Z",
+   "actor": "0xeb0af4e0ae7850b3a9c2aab35b60228d97bc2a8e",
+   "side": "buy",
+   "amount_usd": 15284,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x43e6adb01fa71ca5b63c7e572b801250b1626bee2b9e75edcf6956cf27180515"
+  },
+  {
+   "ts": "2026-10-31T10:12:41Z",
+   "actor": "0x93edd2f0c9307e9e72b3c863973196e48707e990",
+   "side": "sell",
+   "amount_usd": 14980,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x274eb01f8c9657b12d2453739a0d2517dbabb1cb469a7c5c2463295b308606b1"
+  },
+  {
+   "ts": "2026-10-31T10:12:57Z",
+   "actor": "0x39066f84fedad14da31493a1274e51d1cffba511",
+   "side": "buy",
+   "amount_usd": 14738,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xae096e9221f83e98bdf2d62734278ae8b782fed7356a73b7052f3ae958234986"
+  },
+  {
+   "ts": "2026-10-31T10:13:31Z",
+   "actor": "0x662fd8f4051d1ea36a154c190f48eadd035dc60d",
+   "side": "sell",
+   "amount_usd": 14445,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x849ee5de7d1b23fef9113346b1c07c4da5fdd33620821b920c17a94ea6a3fefe"
+  },
+  {
+   "ts": "2026-10-31T10:13:47Z",
+   "actor": "0xcd1ed46910da7f64daeafca5143cf1ff4d1dd2e2",
+   "side": "buy",
+   "amount_usd": 14756,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x0a9df963680ec71f33538604adc3ade545a881b7fa612c40bfc4093cc6e3ae5a"
+  },
+  {
+   "ts": "2026-10-31T10:14:21Z",
+   "actor": "0x3cfb76f8cae20700f9bb02d20d02e778cdf68040",
+   "side": "sell",
+   "amount_usd": 14462,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2600479ebf9a6246ae8fca0b8888d41b55b47147719cb444c28afdd5afd53f1e"
+  },
+  {
+   "ts": "2026-10-31T10:14:37Z",
+   "actor": "0xa4fd67e705550cf6127bc1c9226cf41548d289f5",
+   "side": "buy",
+   "amount_usd": 14830,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xdd0fc53405cc2ad01a6d139feabfa9821445a7a2cb48c329197b14f50f5ecd27"
+  },
+  {
+   "ts": "2026-10-31T10:15:11Z",
+   "actor": "0x6fbae55d31c22e63871bf096e3ed49c3d3409c41",
+   "side": "sell",
+   "amount_usd": 14535,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb951ae32d433ab68720851d7807efcf82a4fc26ada9a5702d960242777b84abc"
+  },
+  {
+   "ts": "2026-10-31T10:15:26Z",
+   "actor": "0x73f8aab91792a30d451dd42759f982e0d28b2c75",
+   "side": "buy",
+   "amount_usd": 15145,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xaaa2ac3260e3b5d8758923efb486ef605d47e8fc7c0ebdd5c7bf4e46013a1d7f"
+  },
+  {
+   "ts": "2026-10-31T10:16:00Z",
+   "actor": "0xeb0d824b25f09cbd983283f4111355e865213ed9",
+   "side": "sell",
+   "amount_usd": 14843,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xe0107669ece138794a344cb3e25560850065582e3f417f99c1db16628d416c85"
+  },
+  {
+   "ts": "2026-10-31T10:16:16Z",
+   "actor": "0x555765260276a6a0753d89e32e8af051eb2c8956",
+   "side": "buy",
+   "amount_usd": 14664,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2e0e744107f762d8d9987c540a14e5ff87d37e764f6fcf0919a2fd46a192d429"
+  },
+  {
+   "ts": "2026-10-31T10:16:52Z",
+   "actor": "0x3124650c33113cdd3b862a99dd97a31f07ddf4c0",
+   "side": "sell",
+   "amount_usd": 14372,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xc0e8e7f88c64a86a9f727d39c74fb9e63006825975abab35be2289a741290a9f"
+  },
+  {
+   "ts": "2026-10-31T10:17:08Z",
+   "actor": "0x33897b89313bb95e5927aa68949eaaa4fd1af697",
+   "side": "buy",
+   "amount_usd": 14817,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x8556c1d7a7be23e088e12757bef248649712e9b61d7daa9a307808c484f5afb9"
+  },
+  {
+   "ts": "2026-10-31T10:17:42Z",
+   "actor": "0x74e11cb9e724072e47d83d3446bf478af91a2ce8",
+   "side": "sell",
+   "amount_usd": 14522,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb7e15e6c0791ba711cc4f4126daf9deec89002ffd81d02c9c6980a100d68ad06"
+  },
+  {
+   "ts": "2026-10-31T10:18:03Z",
+   "actor": "0xe441de5f4037ee92c2d5094907b17a24e68c98aa",
+   "side": "buy",
+   "amount_usd": 14871,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x578198e359f3421ae1cc3a1288214d6a098ee51ee8b36e1f4a5c0c1701b717da"
+  },
+  {
+   "ts": "2026-10-31T10:18:38Z",
+   "actor": "0x68f77a74a3a327c9683dd922db495715dda66be6",
+   "side": "sell",
+   "amount_usd": 14575,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xbc36645a792cda699cd06c51c66f3d937d524bb35c4b79a8c517005f5e3b7354"
+  },
+  {
+   "ts": "2026-10-31T10:18:54Z",
+   "actor": "0xe3816951a2d289497e00836d16d78014c7eaeef3",
+   "side": "buy",
+   "amount_usd": 15077,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xade6ca19ce2a8423b797d79c7443c28cb5bef7d50931a10b5527d61593db26af"
+  },
+  {
+   "ts": "2026-10-31T10:19:27Z",
+   "actor": "0x4e975a89d914ad26a713e4e7171bbb83485f9325",
+   "side": "sell",
+   "amount_usd": 14777,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2a32f7e7d8dad5d200974aa1d27fc859ada7e017a0f7dbf499c98bfc0ac3c500"
+  },
+  {
+   "ts": "2026-10-31T10:19:43Z",
+   "actor": "0xb42b855f0c4343f6af13d5c411911b918b80709c",
+   "side": "buy",
+   "amount_usd": 15446,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd66685b4a91a0704f5fdb2ba29e977d63091aa82b62657b0be3cc3a52b3b6b91"
+  },
+  {
+   "ts": "2026-10-31T10:20:17Z",
+   "actor": "0xb6d2b5c3934411925751e846bd905bc9c8145fed",
+   "side": "sell",
+   "amount_usd": 15138,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2b5d05219be5abad40eec4544f5971409c2d9b0b5cb3c05e1c16a60242791455"
+  },
+  {
+   "ts": "2026-10-31T10:20:33Z",
+   "actor": "0x8dc9c33f3a93ea60bb5c28527023cfcb11f61d6a",
+   "side": "buy",
+   "amount_usd": 15097,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x401c54e2ce07cd206fa1be7e44f601a5cb74574ccc8f5625e6ce6369662bf00d"
+  },
+  {
+   "ts": "2026-10-31T10:21:07Z",
+   "actor": "0x7981a0d604fd9638f307a9db9f10c79f5d4a0d4e",
+   "side": "sell",
+   "amount_usd": 14797,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x91ced222f007c984488bb074ce21c354e0678dbc4a299e2ae827b1b139c41865"
+  },
+  {
+   "ts": "2026-10-31T10:21:23Z",
+   "actor": "0xe3c31ac5128f31e18d9495004a05a85df9bf6831",
+   "side": "buy",
+   "amount_usd": 15268,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x0263b65001612a6a7e8bd85162c1baad238fbe2b6bd58cbd36c3d88bf8625443"
+  },
+  {
+   "ts": "2026-10-31T10:21:57Z",
+   "actor": "0x3e09a33cfc6ba763c0c4afe7cdb15c164468c360",
+   "side": "sell",
+   "amount_usd": 14964,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2f489f722df27d4c977a5a8b26f0fdf3e266b5920975e1548770d559ead1b5d6"
+  },
+  {
+   "ts": "2026-10-31T10:22:13Z",
+   "actor": "0x43f422b35e9f29672183ab6cfdc180bf1f2eccc3",
+   "side": "buy",
+   "amount_usd": 14680,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x33f16964c5454b2bb9e92355dd353f3176486bc5a821fac86b85ae7bac6339fd"
+  },
+  {
+   "ts": "2026-10-31T10:22:47Z",
+   "actor": "0x6510e664532da88c3d315ef49ff7e11aec0e5724",
+   "side": "sell",
+   "amount_usd": 14387,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xcaa5b5a506ab4acd95949644245a74da1ed4b7706075fc99030b3bed943cdfe6"
+  },
+  {
+   "ts": "2026-10-31T10:23:53Z",
+   "actor": "0x450949e19152b66a8b9474977b13e00b7674588d",
+   "side": "buy",
+   "amount_usd": 14924,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x58082680bd40794b76666bd9f13f0fa0a0f6952f709acc6f49fbf9886b73012b"
+  },
+  {
+   "ts": "2026-10-31T10:24:27Z",
+   "actor": "0xf593ec3cc30111acbdc95d558758925229decf90",
+   "side": "sell",
+   "amount_usd": 14627,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x343344b077921bf9a2b54235d5856b1aea0607e731586a33fd6a8a003c66c22d"
+  },
+  {
+   "ts": "2026-10-31T10:25:07Z",
+   "actor": "0x106aa5d75999c3b9b9e00be0b2c14edfe21df13a",
+   "side": "buy",
+   "amount_usd": 14691,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x85063c78595db32391f4f945eb7ca12ad793892c0ec386ffb581b3d0c6ff939f"
+  },
+  {
+   "ts": "2026-10-31T10:25:41Z",
+   "actor": "0x658913e109098c0945c592113a8ecf35446681a6",
+   "side": "sell",
+   "amount_usd": 14398,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x95a9148fe6966dd643c6a4638a74423c42123c541947c50d4cd4a68b4a4e8bb4"
+  },
+  {
+   "ts": "2026-10-31T10:29:54Z",
+   "actor": "0xf4912f03c022d769947b8db3bf9abc25c608552d",
+   "side": "sell",
+   "amount_usd": 6834,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xe69db0b7e2ef413912773ef3ecd1199bdb224737c873720d1634698c7beb0171"
+  },
+  {
+   "ts": "2026-10-31T10:30:09Z",
+   "actor": "0xa2568b05a2c17bb8d05b6496cc4662dc78f6e486",
+   "side": "buy",
+   "amount_usd": 14933,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xc04bc4070cc575c9a78706217f066fa3b3461c7a20a72a84ac431b81721a2f22"
+  },
+  {
+   "ts": "2026-10-31T10:30:44Z",
+   "actor": "0x85f3f8f09568e11d510ed9b676afd102a489d93d",
+   "side": "sell",
+   "amount_usd": 14636,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x327ff657e4611dfce342d3293aa90a80ebf938c6d596bc86f0bfb78364793062"
+  },
+  {
+   "ts": "2026-10-31T10:30:59Z",
+   "actor": "0xa9f0af293720344bef0e45b2b0f15f1820b03c90",
+   "side": "buy",
+   "amount_usd": 14610,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xe126fd3eac16a0ad9e250bcb270567b0522d1cb6dd186a987e57b088f27c9b2a"
+  },
+  {
+   "ts": "2026-10-31T10:31:33Z",
+   "actor": "0x914dbd48b56aa00dca87ad8d711c68b09e942b20",
+   "side": "sell",
+   "amount_usd": 14319,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x7af734dd995e4aaa8320c6b01560eb83d2a218ec0eb058bbf7d1cba31e0b7ddc"
+  },
+  {
+   "ts": "2026-10-31T10:31:49Z",
+   "actor": "0xd6897269a8b371516d00ba1014f88ce0ae2578f0",
+   "side": "buy",
+   "amount_usd": 14891,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x61f99357585c44ccddb26976796c34294b8e798b33906f6ecf3b880cd5fd6c91"
+  },
+  {
+   "ts": "2026-10-31T10:32:23Z",
+   "actor": "0xec69947c786f9f60cd928f3558be819f37d05aec",
+   "side": "sell",
+   "amount_usd": 14594,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x71766ab191d17666b3c0ce9f8703ff1031fcfe472827742d2824c266da5babdf"
+  },
+  {
+   "ts": "2026-10-31T10:32:38Z",
+   "actor": "0x78978f80c4a5cfca9526bcdc2a7c9fe6aa47c5b2",
+   "side": "buy",
+   "amount_usd": 15048,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x68d7f41162dc822bd9fd642977c92b9c0a1e419096312d3c3a9a82d2bf73ccf9"
+  },
+  {
+   "ts": "2026-10-31T10:33:12Z",
+   "actor": "0xcc47b79fbd8d6e7e699d14af1d75da150b45bb86",
+   "side": "sell",
+   "amount_usd": 14749,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x1296922bc45740921dd453eee7241f40256e5b3bc63db2b28862c0f1f14d15ff"
+  },
+  {
+   "ts": "2026-10-31T10:33:28Z",
+   "actor": "0xe62211d48c5cd26a294a6135631ee48108fecb09",
+   "side": "buy",
+   "amount_usd": 14893,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x32826adfedca6551e5534cbbab64db65248cc2ba076dcefe476f86d8c52ae622"
+  },
+  {
+   "ts": "2026-10-31T10:34:02Z",
+   "actor": "0x63fb1753c1c6ea343d1f9ddec4032c0bba59da99",
+   "side": "sell",
+   "amount_usd": 14597,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x80283be711e7997bdfdad473172ea021d0cb92e412674fd5d74e16980251eaab"
+  },
+  {
+   "ts": "2026-10-31T10:34:17Z",
+   "actor": "0x3f83c43c6659919329b32e76fa3fed5c81429b7d",
+   "side": "buy",
+   "amount_usd": 15356,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x399ebf233175d91a829d9849bd67328d7a78d4a8320a7c7319073505a7607e05"
+  },
+  {
+   "ts": "2026-10-31T10:34:51Z",
+   "actor": "0x7e67a06323e0acca38397beec59165cbde669f6d",
+   "side": "sell",
+   "amount_usd": 15050,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xf890f780b3f54d37e0fb57bf741360c3ec692515ff668b6346da197e99c89b6d"
+  },
+  {
+   "ts": "2026-10-31T10:35:07Z",
+   "actor": "0x8f044864a51635faa012b0054f9303362845a144",
+   "side": "buy",
+   "amount_usd": 14850,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x4590fe8d4b51b512e7164673f144da3cfa828cac7c228d5886aa006dc87c5f4b"
+  },
+  {
+   "ts": "2026-10-31T10:35:41Z",
+   "actor": "0x653a382fae45ecdc96533c4c2ec321901a73d0ce",
+   "side": "sell",
+   "amount_usd": 14555,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb765bfd89f7a6ff1bc24f6dd064527ab5b9d2c6794b2135087682afe9fa07181"
+  },
+  {
+   "ts": "2026-10-31T10:35:56Z",
+   "actor": "0x3ee0f960859ebc5d42f17c8485f2b57785610adc",
+   "side": "buy",
+   "amount_usd": 14821,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x67dd65f630d8871050796b99a0e666244d7c3c0ff56d7834b4d6df5a540a7de8"
+  },
+  {
+   "ts": "2026-10-31T10:36:30Z",
+   "actor": "0x9164ed41bacd53c27c656a88ddcc4afbace1625c",
+   "side": "sell",
+   "amount_usd": 14526,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xdc44beb60e53801ef318ff3320043aa9252f34e1f3034300e19282dad3b21055"
+  },
+  {
+   "ts": "2026-10-31T10:36:46Z",
+   "actor": "0x4dcff5d38d1720cf020ace95377802c53cf5f3cd",
+   "side": "buy",
+   "amount_usd": 15407,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x4b4d65e7da47c303f7e74c1a767f704f4e36a57fdac841bf8141e892a44742f8"
+  },
+  {
+   "ts": "2026-10-31T10:37:19Z",
+   "actor": "0x84d57a8abfce65eb48ad8dd8c88152eeb91c9149",
+   "side": "sell",
+   "amount_usd": 15101,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x40cec56d392a141918daf4a46b9e2d13d11482d99279379621840ceda5bc2882"
+  },
+  {
+   "ts": "2026-10-31T10:37:35Z",
+   "actor": "0xeddb13f5c7dad862afef5f65df4ab75bc55d59ad",
+   "side": "buy",
+   "amount_usd": 15284,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb01fb57798abea45758475f57764220a37443dfd9d1aa0a69be51214f2bb75c6"
+  },
+  {
+   "ts": "2026-10-31T10:38:09Z",
+   "actor": "0x8e7dfb2992511178ce7f6b8328d2718abc894dd5",
+   "side": "sell",
+   "amount_usd": 14980,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x6c3c5317f91dcf02c8b5bd50030b1d22c840ba8480d0acd713b2ee911eb93fc5"
+  },
+  {
+   "ts": "2026-10-31T10:38:24Z",
+   "actor": "0x4c705d6788dc55689ba3cb4a539f46328317a2dc",
+   "side": "buy",
+   "amount_usd": 14812,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x011dced3fd85eae63fb45eb5d01316e6eb257aee8dfcbc64ee26620de7ce7858"
+  },
+  {
+   "ts": "2026-10-31T10:39:02Z",
+   "actor": "0x3bd739192b11ebf8e6327a21baa41a1e6906b1f0",
+   "side": "sell",
+   "amount_usd": 14517,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xebff2c78727046ec36427b2214d7ee512ef1c4906655b2132fcd9201fb519fd7"
+  },
+  {
+   "ts": "2026-10-31T10:39:18Z",
+   "actor": "0x5218ca727c71f3bd58fd23e31073fc238bf643e4",
+   "side": "buy",
+   "amount_usd": 14857,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x7174b31692098b4e18d61447e31f58e6174c0515e006ba951c32991438d101bc"
+  },
+  {
+   "ts": "2026-10-31T10:39:53Z",
+   "actor": "0xb6805bfdc9bf2b8e698fd88704308b9a4ae722d3",
+   "side": "sell",
+   "amount_usd": 14561,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x9d04f39b7b9db9a857d2f1dd5123f94147b358f6a639523b24b01ef11886b6b9"
+  },
+  {
+   "ts": "2026-10-31T10:40:08Z",
+   "actor": "0x69227655746f82671102d8c58acda7b55581b845",
+   "side": "buy",
+   "amount_usd": 15401,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xa58febd259ed3313b45befd1a40dce4305c7c8ac23836edcdee40558a08a02d7"
+  },
+  {
+   "ts": "2026-10-31T10:40:42Z",
+   "actor": "0xacfa60ad2505df151b5d36cda31e308e2ab4f073",
+   "side": "sell",
+   "amount_usd": 15094,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x3b8772854b74d82c64a3aa2e267c00f32ba26eebcf96520691f3650c9ff793d1"
+  },
+  {
+   "ts": "2026-10-31T10:40:57Z",
+   "actor": "0xf253343f101fbbc6ae85898b6c9ff1422fd1dd0a",
+   "side": "buy",
+   "amount_usd": 15387,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xc2b7c6e901fde0d5f5bba6cc032d89ed9536305d501578fa09be90a5b8fd9e7e"
+  },
+  {
+   "ts": "2026-10-31T10:41:31Z",
+   "actor": "0x9f4d074a9dde4730d88342f0b3e4a054bafdba27",
+   "side": "sell",
+   "amount_usd": 15081,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x684362bde6853cc8d9988c97b29a709f02b34bc0955988c62e53c34efc96cd74"
+  },
+  {
+   "ts": "2026-10-31T10:41:47Z",
+   "actor": "0x2d0efe3a94f682176d536929d902fa54eaaababf",
+   "side": "buy",
+   "amount_usd": 15120,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x4d59358ee40337b3a3c1605f9bc761b841b917177c2462f310ffb4b0490afa09"
+  },
+  {
+   "ts": "2026-10-31T10:42:21Z",
+   "actor": "0xb734e08861aa2a0dffab3a897739b31adb0fd8e4",
+   "side": "sell",
+   "amount_usd": 14819,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x3eae0c0ea788acfc359b5899f29ab48b367e70ec168e4c0d10cd3d80a18ec64c"
+  },
+  {
+   "ts": "2026-10-31T10:42:37Z",
+   "actor": "0x65c50a79d25d2b52d3a807fe676b7151686094fb",
+   "side": "buy",
+   "amount_usd": 15088,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x70e97df80aa55feee2d79c5489b673040f9ce0aaaec54e0c46c53a475caf16b7"
+  },
+  {
+   "ts": "2026-10-31T10:43:10Z",
+   "actor": "0x4bb1bd0f252590f317dc87617b9d1af2342fa82b",
+   "side": "sell",
+   "amount_usd": 14788,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd1f4c4edb06d584fcb5452c9f00db40615950ce97188f8744e70e3da74a2c3d1"
+  },
+  {
+   "ts": "2026-10-31T10:43:26Z",
+   "actor": "0x86abc6fb14afde3513b920099a05309d8970d995",
+   "side": "buy",
+   "amount_usd": 15019,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x4a7471aaa020c3b379f503d700327a3f7d0560b2c6fd0f26a8fa355d70c9c18b"
+  },
+  {
+   "ts": "2026-10-31T10:44:00Z",
+   "actor": "0x576e5a106593a50226a2b598ad2f21d0ab0bae57",
+   "side": "sell",
+   "amount_usd": 14720,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x3291af7dddd1e4d5ec661b586b8933b406feb764d666c44e0aec171fb791fd0a"
+  },
+  {
+   "ts": "2026-10-31T10:44:15Z",
+   "actor": "0x1ac1cec17bde87cd20d7ab0479f9c2526a7ca498",
+   "side": "buy",
+   "amount_usd": 15349,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x5484519d51e4105e7f854fc1e61ea5b492571945031bcfdc999c4e282499a214"
+  },
+  {
+   "ts": "2026-10-31T10:44:49Z",
+   "actor": "0xb3b13dda20c1d38c1972056134fb36d0519d1844",
+   "side": "sell",
+   "amount_usd": 15044,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x9e3e180c98b2869a5976e8fc49cf67d33dc6897c1e198dd7d2bc1ce6c29f7450"
+  },
+  {
+   "ts": "2026-10-31T10:45:05Z",
+   "actor": "0xac6ce13745ce520c5661d672d4f663acd7db8442",
+   "side": "buy",
+   "amount_usd": 15041,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x33124cee2fa67d9620e8ac4c641383f8058dcff4e13a46007d87143d8d5ee064"
+  },
+  {
+   "ts": "2026-10-31T10:45:39Z",
+   "actor": "0x256de19d25eeb5bdc1942c4122b7a28162a0c15b",
+   "side": "sell",
+   "amount_usd": 14742,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xee7545cc22081683c8aed5e644f365d467a66f27576ac169f623962e80e27f52"
+  },
+  {
+   "ts": "2026-10-31T10:45:54Z",
+   "actor": "0x183102bbddd693aadd2966028eb748d2f45f76cf",
+   "side": "buy",
+   "amount_usd": 14792,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x8354a834d098ff8cfbfe1c9e9d9592f65651e3aa279914c52dbfd919e6fc7154"
+  },
+  {
+   "ts": "2026-10-31T10:50:56Z",
+   "actor": "0x9b77f31d6201407becf8b28873d532ebb6ec6962",
+   "side": "sell",
+   "amount_usd": 14498,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2a3e5e33d88a8b589a573ebcc1cc5a82edc33a39ea29976aaafe91c420700825"
+  },
+  {
+   "ts": "2026-10-31T10:51:11Z",
+   "actor": "0x8e54e6cab39ee8e54a65e9d8d977262f752c272f",
+   "side": "buy",
+   "amount_usd": 14893,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x523b95296cee27dbe79ae4cfa99fa673be9340b919b75de677c97d99e4ba0da6"
+  },
+  {
+   "ts": "2026-10-31T10:51:45Z",
+   "actor": "0x0acd70bc95dcc0aefdef6c6ecede661486ee2189",
+   "side": "sell",
+   "amount_usd": 14597,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xe272adb04d6939ba7451319924d3568c11879bd5c78d97fb717aaad533210323"
+  },
+  {
+   "ts": "2026-10-31T10:52:01Z",
+   "actor": "0xef2dbc0562f06286501d6765983a967cb62e32a0",
+   "side": "buy",
+   "amount_usd": 15268,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x85c1a3c0ed3309c8e2b6daab6d7aae85153a2b1660b7c035163c977e99a8d44d"
+  },
+  {
+   "ts": "2026-10-31T10:52:35Z",
+   "actor": "0xe67ac6f10e00ff82f37ddb46d38f61c6f2bca64d",
+   "side": "sell",
+   "amount_usd": 14964,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x1c78f393f1850fc55eb600bf16c9c48a2941da63b4be99c93f6a383f53c80902"
+  },
+  {
+   "ts": "2026-10-31T10:52:51Z",
+   "actor": "0xc7e3bb5d0939a149088c1e66bbb504e9efd2b680",
+   "side": "buy",
+   "amount_usd": 15169,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x7f181c2a8b517b5945b1de5082ae4bebc3d7852d090585f8c34845c30a09eaa2"
+  },
+  {
+   "ts": "2026-10-31T10:53:24Z",
+   "actor": "0x885369a42384e1bf52dea23aaa203712bb6492e3",
+   "side": "sell",
+   "amount_usd": 14867,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x7f771941ddfc6ca666c29d15e1d80e72ebf988516bac0516d65400c735b66a7a"
+  },
+  {
+   "ts": "2026-10-31T10:53:40Z",
+   "actor": "0x26ebfa7cfd53ed3e6c246f62243cf9807838e216",
+   "side": "buy",
+   "amount_usd": 14707,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xce9fbbf84ca4206514cf9ef37ded1748bd279d3ef3357b68c56fc1b9e72fa413"
+  },
+  {
+   "ts": "2026-10-31T10:54:14Z",
+   "actor": "0xc5f154c539839d07c20082e5c0a63e403e80587b",
+   "side": "sell",
+   "amount_usd": 14414,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x9709b673fc83c6c33646806b6a7e4a66db99ff8694dd812eef289d2cce7d12f8"
+  },
+  {
+   "ts": "2026-10-31T10:54:30Z",
+   "actor": "0x5bca0afb615162debbc21a52cbe284caf029f4e3",
+   "side": "buy",
+   "amount_usd": 15106,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xa156fe30b4f663e164cd7c763b8b42b0ff20f8260e2d7ba9e15353b9bf7ab0ca"
+  },
+  {
+   "ts": "2026-10-31T10:55:04Z",
+   "actor": "0x2df82b97b7fbea6eb238bc55c892183179f7fce1",
+   "side": "sell",
+   "amount_usd": 14806,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd3678c4d1f0cd37f8ff28cd3bd0b436e940001e3a8fb1ee12e6cc626c8c111df"
+  },
+  {
+   "ts": "2026-10-31T10:55:22Z",
+   "actor": "0xaf2c7f2d1c1bf85e9fa0708ce73dd1a7375201b1",
+   "side": "buy",
+   "amount_usd": 15082,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2b7b39692023a8c91f468f53f2e9e31d60811c1e61d2b47c7a14b942c50e6c1d"
+  },
+  {
+   "ts": "2026-10-31T10:55:56Z",
+   "actor": "0xdcb211c3d2acb2734317216b67f3421232af3acf",
+   "side": "sell",
+   "amount_usd": 14782,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x32594a5aa64179f535404c06bed01276125ab681217da24baf51ef7598329608"
+  },
+  {
+   "ts": "2026-10-31T10:56:12Z",
+   "actor": "0xc8e44e53b27e964f6973ac3c3a592b0e1b58e37a",
+   "side": "buy",
+   "amount_usd": 14765,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd4ee85b197a4da0abd0f01ba5fea81d7ea97c879391497786642c1d073bc117d"
+  },
+  {
+   "ts": "2026-10-31T10:56:46Z",
+   "actor": "0x7b67b697cf7e13d2117d6cea690eb2b653e09982",
+   "side": "sell",
+   "amount_usd": 14471,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x67120657bee4c6755efd377896f0fbcc5aefa30fbcf6c1fe63c6249be801e00f"
+  },
+  {
+   "ts": "2026-10-31T10:57:01Z",
+   "actor": "0xba55403939e6fbed70301033409f65c52b899b7a",
+   "side": "buy",
+   "amount_usd": 15172,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x1d01fb9e1acd2e9461460b3aa5c949173f21233843d68d53cd289340efbdf769"
+  },
+  {
+   "ts": "2026-10-31T10:57:35Z",
+   "actor": "0x1ff8b8590ed1c49fa536c703bc29eb2caf34cb57",
+   "side": "sell",
+   "amount_usd": 14870,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x5994aef4ffe079500b13e6d53be3a2b20a86b061c27677f26411aac029c535d8"
+  },
+  {
+   "ts": "2026-10-31T10:57:50Z",
+   "actor": "0x1ce0a843625a92dac9e170c8df41f1211e66621f",
+   "side": "buy",
+   "amount_usd": 14965,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x1095460d58f2aeb3468a8753ea450bf63312f6035bb01082755c553a248dd42f"
+  },
+  {
+   "ts": "2026-10-31T10:58:24Z",
+   "actor": "0x2524e68c21cc98e46939915911408146d4fbc597",
+   "side": "sell",
+   "amount_usd": 14667,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x9618de5bdf55fd14020f03d656548f17f57253f4db4561216e08f932b8cb885c"
+  },
+  {
+   "ts": "2026-10-31T10:58:40Z",
+   "actor": "0xff812a30635ca33fababb93d254330917b062a86",
+   "side": "buy",
+   "amount_usd": 15088,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xf13200ded2afb2fca86a9d20f28411ba585816bf0bb7ed60141c1fba01a91131"
+  },
+  {
+   "ts": "2026-10-31T10:59:14Z",
+   "actor": "0x5bf619dd2b5e3686bf4e33a7d31eba7ca1ec6d38",
+   "side": "sell",
+   "amount_usd": 14788,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x764faa94a63ef5675a9e9c34c98495e39572b34b6b214067bc418d36008aab6d"
+  },
+  {
+   "ts": "2026-10-31T10:59:29Z",
+   "actor": "0x982f4ba9259df84095ec9d49aec87daeac379dbb",
+   "side": "buy",
+   "amount_usd": 15342,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x92deb0d9ccab95035ce3766f2b2183fac1ca3459edf92d6edcf29568c4ed11d5"
+  },
+  {
+   "ts": "2026-10-31T11:00:03Z",
+   "actor": "0x3dcd150990501e1167ba39dfe2e791c3ec0bb30f",
+   "side": "sell",
+   "amount_usd": 15037,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x14b00233bc1b28b48f89e36d4eb1e708e702e73ad3cea23759bb85780c3624cd"
+  },
+  {
+   "ts": "2026-10-31T11:00:18Z",
+   "actor": "0x57c3cae6a1d06a5337ca4d74cf225dd07555a240",
+   "side": "buy",
+   "amount_usd": 14859,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xf9b9470043234f02b4d98e90e8a9fedb54e282d7934d5dfe56922bb36562a9cb"
+  },
+  {
+   "ts": "2026-10-31T11:00:52Z",
+   "actor": "0x95488d0971ef852adab4677312db39ad284123f9",
+   "side": "sell",
+   "amount_usd": 14564,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x2d5215a8ba903f4d1537a088af8abd6abf7e3c5837bf258d29a7441b47a05f67"
+  },
+  {
+   "ts": "2026-10-31T11:01:08Z",
+   "actor": "0x32095dcd5f2946b03c55fc0740adb5a21e45734d",
+   "side": "buy",
+   "amount_usd": 15356,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x368bcc11f757f7c48ffdecedc56c22f671baadbb91d0bd7a8c66bf642fbfa75a"
+  },
+  {
+   "ts": "2026-10-31T11:01:42Z",
+   "actor": "0x6b66e6e68f56d08f0654e799df24dbb3f64fc7df",
+   "side": "sell",
+   "amount_usd": 15050,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x277e02d3b3a1d264be95e1bc3241e1069670c84dffa5ab108652c2f9569695a8"
+  },
+  {
+   "ts": "2026-10-31T11:01:57Z",
+   "actor": "0x1101f20db31001757f741f62891821539965a540",
+   "side": "buy",
+   "amount_usd": 15264,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x95535d135430dd29445fbabf4740ff21c5a45aac3bcf9318a4d71246d77e62ea"
+  },
+  {
+   "ts": "2026-10-31T11:02:31Z",
+   "actor": "0x9b3d84f3ebb3e13f69afe76eed9aa6c92de64cef",
+   "side": "sell",
+   "amount_usd": 14960,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb1e1b3955331c9a49d49cfa9f3c238bc3ce94442703b51eb71ff5065216a0a18"
+  },
+  {
+   "ts": "2026-10-31T11:02:47Z",
+   "actor": "0x163e66d3bfef44063fc00936c7d873337fe780a2",
+   "side": "buy",
+   "amount_usd": 15093,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x60e2fa16f3fb9ecb861662839d5bf3792e2236305e33f6a39d74c1cd37496d51"
+  },
+  {
+   "ts": "2026-10-31T11:03:25Z",
+   "actor": "0xdd89407b2d815b5048c555e7dc4ce923ee740774",
+   "side": "sell",
+   "amount_usd": 14793,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xcc203b36d6a5433c9ee26b8b3b0cce451075bda3da0338d3c74525bc30ad0135"
+  },
+  {
+   "ts": "2026-10-31T11:03:41Z",
+   "actor": "0x5c411953cfd349abfafe016db2101f3e4dcca636",
+   "side": "buy",
+   "amount_usd": 14774,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x96b4a64808ccfb019952aa95880445d08f4ab2f40e3a7df43353a1b4e7d442a5"
+  },
+  {
+   "ts": "2026-10-31T11:04:15Z",
+   "actor": "0x0cd9485267a1270dba00c0ecb1d6e04c01d8edfb",
+   "side": "sell",
+   "amount_usd": 14480,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xbf03cd7948c1a3a530dbe34aafbe87017091867378e97b2e4cf0f40bcfd608e3"
+  },
+  {
+   "ts": "2026-10-31T11:04:30Z",
+   "actor": "0x7d6df111c0cb5b7139c2dd3d1a0f94f49633c398",
+   "side": "buy",
+   "amount_usd": 14763,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x0b1c18167ae00dc5d31ca5cae2b19ef10e9307dcc0e54aec00fcca026295b8c3"
+  },
+  {
+   "ts": "2026-10-31T11:05:04Z",
+   "actor": "0x2b7d7b084d8a9ea9d8080b7dc22f69766a808443",
+   "side": "sell",
+   "amount_usd": 14469,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xdf4fe9cb841a99d9b4066663ae9d28cb17075d21dcbcffd9ae56b98f3e2b8f7d"
+  },
+  {
+   "ts": "2026-10-31T11:05:20Z",
+   "actor": "0x2a1e3e04524eaa9b91864a0dfe45ee054d172b8d",
+   "side": "buy",
+   "amount_usd": 15430,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x0b0e624d19adae2b487e7c058ba8250e32d5e79bfdee40bdf829615f3ebddfc4"
+  },
+  {
+   "ts": "2026-10-31T11:05:54Z",
+   "actor": "0x77065cc9c278da6bba3ceed49587ad5883c201cf",
+   "side": "sell",
+   "amount_usd": 15123,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd9223fadd607ad9daf58f0d1ceb1a4784b22277dfb95bf12b06be8d9e852dba7"
+  },
+  {
+   "ts": "2026-10-31T11:06:10Z",
+   "actor": "0xed4f12a0c88f00dc8d84ed1969baaff915c3a715",
+   "side": "buy",
+   "amount_usd": 15008,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xa6d0c77c273199ab55433b1d74974ad3642a6d1da9284eeb116ab45c4c7dd190"
+  },
+  {
+   "ts": "2026-10-31T11:06:43Z",
+   "actor": "0xc95183cef792bbc3eb7098bc69f2cbfc6a9f0614",
+   "side": "sell",
+   "amount_usd": 14709,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x1ee23304917237bb0f5fe4eb026bc8e5ceb87a5963aee50556d4673c74efd0db"
+  },
+  {
+   "ts": "2026-10-31T11:06:59Z",
+   "actor": "0xdf6665892bd68f50676f4a0769189549f53d51e7",
+   "side": "buy",
+   "amount_usd": 14648,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xfa80d8dbb4383ae535831ee183162ac9fb13f97841ecb9492d28f177da1d5870"
+  },
+  {
+   "ts": "2026-10-31T11:07:33Z",
+   "actor": "0x732bdf189af12875b384b7ee8894cf11e3727faa",
+   "side": "sell",
+   "amount_usd": 14357,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x3c49f0b7d863333f9dd923fc898a30f8e94251dee01dbde8a577a7517a5cb215"
+  },
+  {
+   "ts": "2026-10-31T11:07:48Z",
+   "actor": "0xadf383df97dad87b9ad5263a184b429264001f57",
+   "side": "buy",
+   "amount_usd": 15439,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xdddb2224cbed5965a75cee298c5934608f52ae0e5c681cb0e8c10c4ab376c46c"
+  },
+  {
+   "ts": "2026-10-31T11:08:22Z",
+   "actor": "0xd27c6e8247524be3b616333e0e2014e4fe3383ec",
+   "side": "sell",
+   "amount_usd": 15132,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd48922fa6637894667ce97e6498ff58d552840708ab087041e1f3fdaa34dfe18"
+  },
+  {
+   "ts": "2026-10-31T11:08:38Z",
+   "actor": "0x0845123b8008b42108f7a9d55928ea6967d35fc6",
+   "side": "buy",
+   "amount_usd": 14731,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x7c2c82bd98814f24188226f249cf5398979642f3721cb0f4d649eb1cbbb46f20"
+  },
+  {
+   "ts": "2026-10-31T11:09:14Z",
+   "actor": "0xfe67301583f47b0cd598e7941b426f8e72692fbc",
+   "side": "sell",
+   "amount_usd": 14438,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x01b990d673c44c7bfa0001925141505195673fb0afb5f62cd569ba503f7d5336"
+  },
+  {
+   "ts": "2026-10-31T11:09:30Z",
+   "actor": "0xbfe00ee609ef6cf4127ac0e21042449d95806b9f",
+   "side": "buy",
+   "amount_usd": 14839,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xcbcc783f2eb284412681ceb833a3bc0260883c21753a2257d39a46f4e5d60883"
+  },
+  {
+   "ts": "2026-10-31T11:10:04Z",
+   "actor": "0x83967a8af1a7f6d9c6fc323a839b02edbd251a4b",
+   "side": "sell",
+   "amount_usd": 14544,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x5a020bab1fb548e644401759599f26b343a3150203af60a6f578f5dfb5a648c7"
+  },
+  {
+   "ts": "2026-10-31T11:10:20Z",
+   "actor": "0x59daddaf4f0b8e48ab764e6e0cdd39a6111a810f",
+   "side": "buy",
+   "amount_usd": 15205,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xb857275eb1be20a4555643ac49240dd3d5266271c4f6008bf1187a24955d3a00"
+  },
+  {
+   "ts": "2026-10-31T11:10:53Z",
+   "actor": "0x598458b090fdbdca7516dd617f1c34c607e0c145",
+   "side": "sell",
+   "amount_usd": 14903,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x76f37e0c23d20ef8f78578c4da83d253af81378fbd358acfa5df8a3134534cd0"
+  },
+  {
+   "ts": "2026-10-31T11:11:17Z",
+   "actor": "0x6dbaa3466601efd5a469f2b1b63d024b0603d51c",
+   "side": "buy",
+   "amount_usd": 14987,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xd2ffad1040bde95b112cc317b732082e81f4bd2583fa19a8594e7bb19657d7a7"
+  },
+  {
+   "ts": "2026-10-31T11:11:51Z",
+   "actor": "0x57dd86619c25dcd90b5599aed5f04a113ce07775",
+   "side": "sell",
+   "amount_usd": 14689,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xc32fd4ab48c471badb3609c5efdf95fbdb1f1360b701057bafe393ff1c3d3ad9"
+  },
+  {
+   "ts": "2026-10-31T11:13:31Z",
+   "actor": "0x51a5bbd46eb0af4ee83271392f6ad9e641472234",
+   "side": "buy",
+   "amount_usd": 14675,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0x97a49f049932954da69f2a73fac029835d1194e066b575ceeed0c60578633bed"
+  },
+  {
+   "ts": "2026-10-31T11:14:05Z",
+   "actor": "0x7a2093f9a409919fe7ba8447cf5dd72175b6498a",
+   "side": "sell",
+   "amount_usd": 14383,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xe08393a8253d85cd2c2f9786a56dc31464fccb32938362498c299113a54ef3fc"
+  },
+  {
+   "ts": "2026-10-31T11:24:00Z",
+   "actor": "0xb48c7aa0c51d03a1cea898c2d284ac23e7492eb3",
+   "side": "sell",
+   "amount_usd": 6834,
+   "token": "MOW",
+   "token_address": "0x0b7c6c138dc75622f4200d157b13fb93e6bd94fa",
+   "tx": "0xeef396fc44764b550da9d16882b8bde79ff6c43534598c6c22d3feabc1af570a"
+  },
+  {
+   "ts": "2026-11-01T05:44:02Z",
+   "actor": "0xaf1c383ce06debbf9f3c91349fd03cf651221121",
+   "side": "sell",
+   "amount_usd": 104,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x282c3156d85d107ceff1ce03be950d553b1e4c328cce3980b926a826d672127d"
+  },
+  {
+   "ts": "2026-11-01T05:44:10Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 303,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x1d0538e5f6c5adbf33b11384868b213451656113745277f30bbde9b36e269854"
+  },
+  {
+   "ts": "2026-11-01T05:45:17Z",
+   "actor": "0xa4b24d30313c1de69312a593cc5f777a74056248",
+   "side": "buy",
+   "amount_usd": 129,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x38ff252c4b6526e53bd1558e3e6abdf1c0f05d760347d4582c727aceb02b4795"
+  },
+  {
+   "ts": "2026-11-01T05:46:42Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 124,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x2ac73f61612618c2277d4577122150dc2ebe4fcc41128f996cbb3d9aa7aed997"
+  },
+  {
+   "ts": "2026-11-01T05:46:42Z",
+   "actor": "0x462f3e5acaa384dd1fe0213d111a7e054baeb78b",
+   "side": "sell",
+   "amount_usd": 127,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x75aa0fb6af82de773e2aca44ff2357004fd6c4cfd469fca61ca1126be5a53f64"
+  },
+  {
+   "ts": "2026-11-01T05:49:05Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 161,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xfa51502d8f7001e92cbe56d8a3bd723899a7e83acd844b3c3693c5acb05c6c77"
+  },
+  {
+   "ts": "2026-11-01T05:49:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 372,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x66ea122a730239016f3b2845068608b6875818e97ce5380e7136098697b4da17"
+  },
+  {
+   "ts": "2026-11-01T05:49:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 525,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x84558c5196f9953539394704f32d30bbe8277d223e649134e51a3e1f13266946"
+  },
+  {
+   "ts": "2026-11-01T05:49:25Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "sell",
+   "amount_usd": 197,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x8c8152a4185e1b7df1fb4c1afb6e148e517543ad692c4af5eb2853bc848dcc3f"
+  },
+  {
+   "ts": "2026-11-01T05:49:25Z",
+   "actor": "0x869b66b87240e346f36b6ba30836619de8a5250b",
+   "side": "buy",
+   "amount_usd": 300,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xff1571ddd445747c04e650ec52a003c8cde0b8ac57e12939230e7636cc781aa8"
+  },
+  {
+   "ts": "2026-11-01T05:49:49Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 369,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xb3cebc7925e702cb1e7e7ae5c1e3607dd5e645d5447b69dd9a1650233f038262"
+  },
+  {
+   "ts": "2026-11-01T05:49:49Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 343,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xe9d42a85ff4d22c21cc48d23d7981a4829423116226ba7ef3ed833ebe36e4f34"
+  },
+  {
+   "ts": "2026-11-01T05:49:50Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 995,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xb2aa54badcb6af522d4eb44cb582bf58e8a8977b6f470bdaf4281862fb9fd41a"
+  },
+  {
+   "ts": "2026-11-01T05:49:57Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 162,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x783d84175a64970a6a44c33acb9bd08f11136405ab13976c3493902de6575a1d"
+  },
+  {
+   "ts": "2026-11-01T05:49:57Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 709,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xd820dfc930a7af0ab60f84711170d12c080da0d6358bc9a8c9720b87fb61f94a"
+  },
+  {
+   "ts": "2026-11-01T05:50:06Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 359,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x8e0b1204650aaee42e52c71df3df0f05bd62b9baf3399ffa758f45248ba5d04f"
+  },
+  {
+   "ts": "2026-11-01T05:50:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 616,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x8557b064d6e08adae5da49e321aeb4e3ab6823b228bc6983efcb6e807fc4c5ec"
+  },
+  {
+   "ts": "2026-11-01T05:50:18Z",
+   "actor": "0x8d31fa1a5d1521425e72edbd564f6a2b8288a2f5",
+   "side": "sell",
+   "amount_usd": 180,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x032f8c300cb000b802b8852b29381647c7e0473bddedb03847b449ab43e8e8cf"
+  },
+  {
+   "ts": "2026-11-01T05:50:24Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 197,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x0a8520171975c131b66dda4a66ffbd3136b0b8e69c382ba68f02be29760355f1"
+  },
+  {
+   "ts": "2026-11-01T05:50:24Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 552,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xf6305601298620e84915688df307cdfea02ec33f38be0d5e72fd49ea501fc0c1"
+  },
+  {
+   "ts": "2026-11-01T05:50:37Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 260,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x21ccca952bf8710de436242b0e76454ffbd74bb61d27dedc07cd7f59ed22ef42"
+  },
+  {
+   "ts": "2026-11-01T05:50:37Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 176,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x7f760c21c399ec6a2996c842f147abee42c3bf440d371f2f84d1d895d05b241b"
+  },
+  {
+   "ts": "2026-11-01T05:50:39Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 245,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x3a51a808ee3f2966d9a033627ae58cc9ac04df080a2af0794bc715597a9eafd8"
+  },
+  {
+   "ts": "2026-11-01T05:50:47Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 101,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xba7f803e52b55d60fd3c20e2a4d6b3c0c5d6f680e2fc91490af76fd0723ff721"
+  },
+  {
+   "ts": "2026-11-01T05:50:48Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 424,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xf2a96939cc4a6e1d61e08e7bbc1b97a8ae6c29453b6697220fddb9029b68f8ff"
+  },
+  {
+   "ts": "2026-11-01T05:50:50Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "sell",
+   "amount_usd": 174,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x58edcd3656f0c08d3316165867ff4072c442e5d04f0c2ee6f0ffa8e996eb54b4"
+  },
+  {
+   "ts": "2026-11-01T05:51:01Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 2175,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x0346d39c2b293da0ee5726e2ef216a67bfa2895045534e00c07a4a1b350d7684"
+  },
+  {
+   "ts": "2026-11-01T05:51:01Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 668,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x2e0dd6a2aa476279eca27b43a9105b8082598281b253f4441e121cc96cc64a70"
+  },
+  {
+   "ts": "2026-11-01T05:51:01Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 853,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x3168202728fe282a414c4addf25a77eec32bdeb6edc86dd775263ff48684671c"
+  },
+  {
+   "ts": "2026-11-01T05:51:01Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 102,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x59ba2ed47004f9b8cee8c64d3f6184afdf42f312fb4f18d1f49d1640b70a90db"
+  },
+  {
+   "ts": "2026-11-01T05:51:01Z",
+   "actor": "0x2417c0170e63a1d41ec8d1d819b857f09e3d48bb",
+   "side": "sell",
+   "amount_usd": 170,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x87c7a821e7856de86b7ade10e76e9a0d779f7c6287a201e8a3202353c736d3fd"
+  },
+  {
+   "ts": "2026-11-01T05:51:01Z",
+   "actor": "0x2417c0170e63a1d41ec8d1d819b857f09e3d48bb",
+   "side": "sell",
+   "amount_usd": 160,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xb7d5b1693d20f0db6d585f88444550012b3aae7a37d1a28f17de9433132cc541"
+  },
+  {
+   "ts": "2026-11-01T05:51:02Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "sell",
+   "amount_usd": 263,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x3b0f5a987fb6ce110bb1b78accba8438874e3194bf7d2aae1121a5a39e775040"
+  },
+  {
+   "ts": "2026-11-01T05:51:07Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 296,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x139948fbf9403ab94ccb5ca6cee94115973d608f2cbf120ce65edba37112f8b3"
+  },
+  {
+   "ts": "2026-11-01T05:51:07Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 427,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x2b7f54b818a5db3133241c6cc9dfc415ef5288d75a3afbca744653e7d18f27e9"
+  },
+  {
+   "ts": "2026-11-01T05:51:07Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 530,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xb7ef6825e3b7d2bbfe9bf61a3238d8178f631b1313e72886fa1e6121d6cb7c37"
+  },
+  {
+   "ts": "2026-11-01T05:51:07Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 463,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xbb0b726a8224226cf63646de10b237d66c8c53c25471e79428572f809ca93f4c"
+  },
+  {
+   "ts": "2026-11-01T05:51:07Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 286,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xc381a3cf9237abe8adc8d0c83c94c2d19c2c81f082e2f29a3ed5ee1a92f88cbe"
+  },
+  {
+   "ts": "2026-11-01T05:51:07Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 296,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xccec91fe3f57934806823820c33d152d17470efc654748728a22ba2a2d9d6d9e"
+  },
+  {
+   "ts": "2026-11-01T05:51:09Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 296,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x24ca3c7367af1047234b78da795e41c0783e0d0c33fe17e0109c7e7d7d7cfda0"
+  },
+  {
+   "ts": "2026-11-01T05:51:09Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 286,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xcd98bdf48d70b9cc8dd4ba893af2d056764c2f48e37d490436f9976772cf5a99"
+  },
+  {
+   "ts": "2026-11-01T05:51:09Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 674,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xd2f157c4806891efede90924f9e13f17f6c5cf6798e928cedb270bb3897bd200"
+  },
+  {
+   "ts": "2026-11-01T05:51:40Z",
+   "actor": "0xe2c14a66dd4cdba65428244d99791fa498428cbe",
+   "side": "buy",
+   "amount_usd": 100,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x1d21405726f51fc6ccb4da507d90c5d060359f45847673f7511045d153ccaf51"
+  },
+  {
+   "ts": "2026-11-01T05:51:56Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 113,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x011ba7cfdcb124726ef0292a716641ad0f10210f1ff1738ec078dbf1f6b1443c"
+  },
+  {
+   "ts": "2026-11-01T05:51:58Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 338,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xe27ad933b1ed7f401641fcc2cce17fdc33de03899503022d2c37ecf694c54480"
+  },
+  {
+   "ts": "2026-11-01T05:52:10Z",
+   "actor": "0x06c2846605473d60a3fb2f7180aec05823f9f4e4",
+   "side": "sell",
+   "amount_usd": 183,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x3415fe9e61d0dadd5a9cdbbcad3d224bb6fbd359bb94b42d26085eb24778e03c"
+  },
+  {
+   "ts": "2026-11-01T05:52:12Z",
+   "actor": "0xe2c14a66dd4cdba65428244d99791fa498428cbe",
+   "side": "sell",
+   "amount_usd": 100,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xfd7d9e41b7d3beb17e1bbd25f9116875066d808c68ebfe539154bcc185c9321b"
+  },
+  {
+   "ts": "2026-11-01T05:52:12Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 104,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xadf78405c8a5b8ba1eb79a25aa1cb2fdc1104a2603625f2046037ea258dc1a85"
+  },
+  {
+   "ts": "2026-11-01T05:52:12Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 605,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xf49fd9cff332da5bc4f542e2ad8fec686171bb0e2e59ef7e811b59e94d57be90"
+  },
+  {
+   "ts": "2026-11-01T05:52:47Z",
+   "actor": "0x06c2846605473d60a3fb2f7180aec05823f9f4e4",
+   "side": "sell",
+   "amount_usd": 168,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x30bd247d57a4d1ead0c6e01b8afcbfd04c769efc6b332d3b3228a0f02afe477b"
+  },
+  {
+   "ts": "2026-11-01T05:53:10Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 289,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x0535c97488ddaa392175aa0ce9abe1c18fdb190f67b09b10e3353833e370e8f3"
+  },
+  {
+   "ts": "2026-11-01T05:53:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 449,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x32fccfc9154a9c89e14b3d6a5715815f7c6ba2734f9889d01c718ee8c0c51248"
+  },
+  {
+   "ts": "2026-11-01T05:53:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 2595,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xd1f63b24f1e81ec3239864b347d2282412b7d77ebb5e9e6508e8836928accb6b"
+  },
+  {
+   "ts": "2026-11-01T05:53:14Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 624,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xa5e61c339b1951ed18e406d301621eb3198d26a00f6b9857d63197a9e00c1f0a"
+  },
+  {
+   "ts": "2026-11-01T05:53:39Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 324,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x7b9cea7150af8760cabe49f1aa638d0f79cd77933a17e04d66905427afa0e07a"
+  },
+  {
+   "ts": "2026-11-01T05:54:19Z",
+   "actor": "0x06c2846605473d60a3fb2f7180aec05823f9f4e4",
+   "side": "buy",
+   "amount_usd": 272,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x92051f8aed9458bd83ce70dbc129acd0150a2a80defeac37f5f0f5f1ce183b51"
+  },
+  {
+   "ts": "2026-11-01T05:54:33Z",
+   "actor": "0x8d31fa1a5d1521425e72edbd564f6a2b8288a2f5",
+   "side": "sell",
+   "amount_usd": 165,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xbcafcbd5784bfb16eaf6c5e2eafc62aa6ef493d897b2e426dda8d9ba5a91910e"
+  },
+  {
+   "ts": "2026-11-01T05:55:31Z",
+   "actor": "0x8e6c3bc1876bf32967d9d097f03208f45057b20a",
+   "side": "sell",
+   "amount_usd": 698,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xcc2e3f1bb3ac78b2d9c21129caf4e6f1e6a4d34b3d23207b814bbd3bd4354da0"
+  },
+  {
+   "ts": "2026-11-01T05:55:39Z",
+   "actor": "0xe0648e6874f3165c9f957a3a7ddb7313ac1a49c3",
+   "side": "sell",
+   "amount_usd": 1054,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x3c8deaf0154f2088bcc28dfe5cc1a0d1f579c53d63b9f270b5917eec72b9ec87"
+  },
+  {
+   "ts": "2026-11-01T05:55:56Z",
+   "actor": "0x8d31fa1a5d1521425e72edbd564f6a2b8288a2f5",
+   "side": "sell",
+   "amount_usd": 100,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x43a8d542a9c0bd91f33680ffa1f1b50b15b01d1b4bcef29da4834485ff1edf34"
+  },
+  {
+   "ts": "2026-11-01T05:56:08Z",
+   "actor": "0x2417c0170e63a1d41ec8d1d819b857f09e3d48bb",
+   "side": "sell",
+   "amount_usd": 122,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x4853ec5931b4c62bbf8ef113226e711e8ae595acc7951c17898a0123c4406a76"
+  },
+  {
+   "ts": "2026-11-01T05:56:08Z",
+   "actor": "0x2417c0170e63a1d41ec8d1d819b857f09e3d48bb",
+   "side": "sell",
+   "amount_usd": 621,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x91f95bcf61a3b8feb84286eb4a77711763e31a7026aec4d83c1a778ba34d76fa"
+  },
+  {
+   "ts": "2026-11-01T05:56:08Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 274,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x9d4e1a66b3ea7247b6b3452649f2a51178aecccf59425c511401abd9daef43bf"
+  },
+  {
+   "ts": "2026-11-01T05:56:08Z",
+   "actor": "0x2417c0170e63a1d41ec8d1d819b857f09e3d48bb",
+   "side": "sell",
+   "amount_usd": 1000,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xbbe626cb932e9de12f78cbaf846c8c9b8084ead0a46646da48090a35c354b503"
+  },
+  {
+   "ts": "2026-11-01T05:56:08Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 834,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xbe14b9d95baf4d2679cc99dbbd398b4c70e0b93d68dd55491632bca188b75a36"
+  },
+  {
+   "ts": "2026-11-01T05:57:08Z",
+   "actor": "0xb2bba6396967dabd3d80913ec9382ea64ed334f9",
+   "side": "buy",
+   "amount_usd": 1358,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x3c152cf0fc52b84a41031451e12d9c182139fed105975aac3520e83b9486a6cc"
+  },
+  {
+   "ts": "2026-11-01T05:57:20Z",
+   "actor": "0xc0fb9dce4004bc67e302ce55830ec624a04d256e",
+   "side": "sell",
+   "amount_usd": 747,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x876c5e2999972352c9ef854111c5d8fbd6e36e63a9dd1a0b623cc94763236af0"
+  },
+  {
+   "ts": "2026-11-01T05:57:54Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "sell",
+   "amount_usd": 258,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x54d4772c9429004a11bc99266f092b1571dfd4886c3b4b300c2a69cb36af1bef"
+  },
+  {
+   "ts": "2026-11-01T05:57:57Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 113,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x4f6cfbcbbffbfbbeb28190f7daedde516975d2a89e0dc0f82025fce1c869bfae"
+  },
+  {
+   "ts": "2026-11-01T05:57:57Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "sell",
+   "amount_usd": 312,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x7143a1b382b91b6e35b4d5890bcb55d3e9f9207e3f1414f2030d736132de7f1e"
+  },
+  {
+   "ts": "2026-11-01T05:58:02Z",
+   "actor": "0x8d31fa1a5d1521425e72edbd564f6a2b8288a2f5",
+   "side": "sell",
+   "amount_usd": 137,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x6c2e47bd7e05b5c60b8d308d2b952be34ec2e4332b38d15d974b84f311cd1bdc"
+  },
+  {
+   "ts": "2026-11-01T05:58:06Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "sell",
+   "amount_usd": 265,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x8a37fcdf8412006558d0b110b00dab8a4cd1313edca4dc48a01ee6806c1e85f1"
+  },
+  {
+   "ts": "2026-11-01T05:58:06Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "sell",
+   "amount_usd": 121,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xb630015765e8d86e89d0069f4f0657d2816b5e338e2a5549498fd7ad58792d65"
+  },
+  {
+   "ts": "2026-11-01T05:58:14Z",
+   "actor": "0x8d31fa1a5d1521425e72edbd564f6a2b8288a2f5",
+   "side": "buy",
+   "amount_usd": 112,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x68af28b64782d614a857a79912347b79ecc2af41e6c5ff22eea1c580cd5cdce3"
+  },
+  {
+   "ts": "2026-11-01T05:58:31Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 189,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xf1c572fe4f6abe6c3eb19b79480eca756fb6d05d7e5de5afd9023975d246e163"
+  },
+  {
+   "ts": "2026-11-01T05:58:31Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 133,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x57d1deea382628e41ecfefe42c05ceebe1778b02b0b7fae1c04dd00d4f072315"
+  },
+  {
+   "ts": "2026-11-01T05:58:31Z",
+   "actor": "0xcce581f206e26f105b8c09e85e92c57edae23673",
+   "side": "sell",
+   "amount_usd": 261,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xcd4c61d92cbe5f51978ff96c0b4af8ac39d3b9993df0a74258480fb7783adf45"
+  },
+  {
+   "ts": "2026-11-01T05:58:43Z",
+   "actor": "0x0cd8793cc091408a1d12754fa5f10551c2036284",
+   "side": "buy",
+   "amount_usd": 1186,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x9bc82c8e13809f572d2c98bc7d2e94e85d9d5c868d09355f6ca8909e70b291da"
+  },
+  {
+   "ts": "2026-11-01T05:59:46Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "sell",
+   "amount_usd": 279,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x66b2469979bdf5a8df6c8a66a8194ffba09a7523dcc9c5062918f62f89ed82b1"
+  },
+  {
+   "ts": "2026-11-01T05:59:55Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "sell",
+   "amount_usd": 302,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x767cd42354ca35dfaa24600e4c470e3d7550e0b5a112eb4d145b1c10313065bd"
+  },
+  {
+   "ts": "2026-11-01T05:59:56Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "sell",
+   "amount_usd": 319,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xb706460f5abf3aeff8aca517a3c52164c590a08bf9b9cb16841841ce794248e9"
+  },
+  {
+   "ts": "2026-11-01T06:00:01Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 135,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x76f84d89e623b7751de0558e388c9cfb3a6135dd827bbe852451da7efe21204a"
+  },
+  {
+   "ts": "2026-11-01T06:00:01Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 435,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xaba1294cc3e12f1f2c98c0669a12c230539490c3f64a842c648d1fca07ad1879"
+  },
+  {
+   "ts": "2026-11-01T06:00:01Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 358,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x35d3e96df165fddcf8d100ecb88f2a2175752c0a4185f36bf8f86a51f7e8c1c6"
+  },
+  {
+   "ts": "2026-11-01T06:00:01Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 688,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x5136e5269ffd3f6af6e3f0239b88e7b7d5f8e97fb84933aa2997eb2f01b16075"
+  },
+  {
+   "ts": "2026-11-01T06:00:01Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 115,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x97ff77503a0a945bf467f9b9f92e3c7421e293c0bd92f61e76fa6ffd8d7792f2"
+  },
+  {
+   "ts": "2026-11-01T06:00:02Z",
+   "actor": "0x2417c0170e63a1d41ec8d1d819b857f09e3d48bb",
+   "side": "buy",
+   "amount_usd": 1000,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x22ed19b1d315131eea96f1640fb4203d5bf6de0d1d2f372221c417c53eaa5af2"
+  },
+  {
+   "ts": "2026-11-01T06:00:02Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 3804,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x4224e17c39beb45b189b8744131e7afe61de5778b2f1418f1794d223e5b37919"
+  },
+  {
+   "ts": "2026-11-01T06:00:02Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 3804,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x95b2a9580c1a67fd8986ba00162bae97ac238ef3b507c2cbbeedf12a8d84a650"
+  },
+  {
+   "ts": "2026-11-01T06:00:07Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 832,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x263986f76eaa43a475a5063edcba06760cd2f6d96c4696922d129b9ca0e61ea2"
+  },
+  {
+   "ts": "2026-11-01T06:00:07Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 912,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x7b7a1c89e41937aac3ae80349ef46b34f5a4f29ceffc388952c01ecd31c50970"
+  },
+  {
+   "ts": "2026-11-01T06:00:07Z",
+   "actor": "0x5aae05c3977726a93fa2775151b68e7469508238",
+   "side": "sell",
+   "amount_usd": 383,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xe4c5bbb9b823a3ee80ba9c346a2fa698da514e5d104f9c730cbaad34dd869b7e"
+  },
+  {
+   "ts": "2026-11-01T06:00:08Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 1048,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xb801c6d1e0a51ab2079667bfdfc26d36f5419d985afc84afdd340d765ac4b429"
+  },
+  {
+   "ts": "2026-11-01T06:00:15Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 1000,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xea7c2b9ef21918fd808ab06feba11f675488cfdf91fa17dab4b5507ffc36b634"
+  },
+  {
+   "ts": "2026-11-01T06:00:16Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 499,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x5d76ed79822eb1a8a94ecd550a79d6587887e5174521323fcfb3e7a121802dcc"
+  },
+  {
+   "ts": "2026-11-01T06:00:16Z",
+   "actor": "0x9b169052ee1569ec5bdf51dbf48d2962526cf6d9",
+   "side": "buy",
+   "amount_usd": 271,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x8fbfe9ec8af42b5c029d1f2047d318a3d2f285550ec7d000a3cef3b93e753eac"
+  },
+  {
+   "ts": "2026-11-01T06:00:17Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 511,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x08ef94694038b539a5e94bfab83a1bac76f931e4e63ee11e6bd2ec1a91a4fbbb"
+  },
+  {
+   "ts": "2026-11-01T06:00:17Z",
+   "actor": "0x9b169052ee1569ec5bdf51dbf48d2962526cf6d9",
+   "side": "buy",
+   "amount_usd": 350,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x30f9c1a04c1e0c478f042634451875a0c0ee098a833f23ff85832c9beb0f17e6"
+  },
+  {
+   "ts": "2026-11-01T06:00:17Z",
+   "actor": "0x9b169052ee1569ec5bdf51dbf48d2962526cf6d9",
+   "side": "buy",
+   "amount_usd": 356,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x32995cd4a4a55b1cfde1b22c1e2953c2b3933d225524557eb76f41e57b2e6d58"
+  },
+  {
+   "ts": "2026-11-01T06:00:17Z",
+   "actor": "0x9f736f87e6293ac1bd9142e257dbfac8b7acf1ae",
+   "side": "buy",
+   "amount_usd": 470,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x3cb160511a247586d5deb6a74844655637c71523b8ab2a807810fb4e6109aa81"
+  },
+  {
+   "ts": "2026-11-01T06:00:17Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 724,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x7a4a9fd718733594741bc9c6a7588e3c66ddaa5b3dfdf0b0142f1bfd45f0a027"
+  },
+  {
+   "ts": "2026-11-01T06:00:17Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 836,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xb21673cc34b1b2ef2d801b394950a1536ea7ee9c1fa0b8b817dde3673b119494"
+  },
+  {
+   "ts": "2026-11-01T06:00:18Z",
+   "actor": "0xe3467e50a367bf760b5b9a3381556dbdb901af4b",
+   "side": "buy",
+   "amount_usd": 350,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x4dcf7c360fde5fe548a54902290c2af036af14d0c292ea6f572db37400b60fa8"
+  },
+  {
+   "ts": "2026-11-01T06:00:19Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 480,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x47828c7c61426281984381c13a65de9bd4eb704a689c4ef4189562fb60b28861"
+  },
+  {
+   "ts": "2026-11-01T06:00:19Z",
+   "actor": "0xc4eba7652892ab88ad4a4d6d440ce9892766c3b0",
+   "side": "sell",
+   "amount_usd": 544,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x47828c7c61426281984381c13a65de9bd4eb704a689c4ef4189562fb60b28861"
+  },
+  {
+   "ts": "2026-11-01T06:00:22Z",
+   "actor": "0xbd34d2af79ed417d775dac558ec4f86d14d00d31",
+   "side": "buy",
+   "amount_usd": 420,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xe9efddbce3980f9c9e10e00bb78ee2ac720cc39aeed3ca4eb0f523acc2e03a25"
+  },
+  {
+   "ts": "2026-11-01T06:00:26Z",
+   "actor": "0x9f736f87e6293ac1bd9142e257dbfac8b7acf1ae",
+   "side": "buy",
+   "amount_usd": 131,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x03bd0a3df9bd4dd0713489c8cf500da92166ab652f3c279e48a4672b0283bc37"
+  },
+  {
+   "ts": "2026-11-01T06:00:26Z",
+   "actor": "0xcce581f206e26f105b8c09e85e92c57edae23673",
+   "side": "buy",
+   "amount_usd": 406,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x05809f4a0794b4a2231653ed199f3535d51b5f0ee9732ad3375bfc68862b0909"
+  },
+  {
+   "ts": "2026-11-01T06:00:26Z",
+   "actor": "0x9b169052ee1569ec5bdf51dbf48d2962526cf6d9",
+   "side": "buy",
+   "amount_usd": 356,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x10cd77715345dbb45da6e0cc62a4fda4843c6d6a54c6d3a1838154086f53d97a"
+  },
+  {
+   "ts": "2026-11-01T06:00:26Z",
+   "actor": "0x9f736f87e6293ac1bd9142e257dbfac8b7acf1ae",
+   "side": "buy",
+   "amount_usd": 400,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x33b55a50ff8bc6bf414cee4dad1d8b78a88ceb74df6c7dee480383bfe1b6cbed"
+  },
+  {
+   "ts": "2026-11-01T06:00:26Z",
+   "actor": "0x2f4579ca81717d3d61bf8b6f06571877bbe54a07",
+   "side": "buy",
+   "amount_usd": 134,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x4fc44459d5ae949da0be47322f8db0994c76de14709b30bb8d5849391c24edd1"
+  },
+  {
+   "ts": "2026-11-01T06:00:26Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 1141,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x611ec459d83063db1a904d2ca3d85abd87b1ccd2e6792ed89f92804854cbd9b0"
+  },
+  {
+   "ts": "2026-11-01T06:00:26Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 733,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x9361492f77f697e4e5ee78297e272cab38a5a8ddbc7bd957f2c4785483c325cc"
+  },
+  {
+   "ts": "2026-11-01T06:00:26Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 1063,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xc40c968d0481921e00b34ca77484fcfd56dffcac3bb57955885f68c399c65eb7"
+  },
+  {
+   "ts": "2026-11-01T06:00:26Z",
+   "actor": "0x9b169052ee1569ec5bdf51dbf48d2962526cf6d9",
+   "side": "buy",
+   "amount_usd": 206,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xe35727f4644a4d1ffd7a50dce9f25489fed644091b4330fbb1629f04b881f051"
+  },
+  {
+   "ts": "2026-11-01T06:00:47Z",
+   "actor": "0xb2dcbb3cb8163ceb28dbc614f838d88589a64412",
+   "side": "buy",
+   "amount_usd": 481,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xf2bf883a6ca5f6ee24d3487038c504e8503519484dfdb500106107bd8ac59530"
+  },
+  {
+   "ts": "2026-11-01T06:01:11Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 315,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x99dc6317ed38317f2911c71bee7d1e476b4fb43d7dc012068f3271307604b7ef"
+  },
+  {
+   "ts": "2026-11-01T06:01:18Z",
+   "actor": "0x8d31fa1a5d1521425e72edbd564f6a2b8288a2f5",
+   "side": "sell",
+   "amount_usd": 117,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x3ff9cf00406540f69e0e129fd0b848f90847a960998ab0d977ad95bb0c5e17f6"
+  },
+  {
+   "ts": "2026-11-01T06:01:21Z",
+   "actor": "0x06c2846605473d60a3fb2f7180aec05823f9f4e4",
+   "side": "sell",
+   "amount_usd": 358,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x8d5d813f63b1df6aac87e721459fdc41a9a6d2791890ec4d9cd9b3760e60cb3c"
+  },
+  {
+   "ts": "2026-11-01T06:01:28Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 386,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x4665dd1a2c7b6c014d4feefce97ab819f90ab12b180437c08790d80515e46f06"
+  },
+  {
+   "ts": "2026-11-01T06:01:28Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 160,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xd226cdeb076a83fc85791814ed4c5d74ab4aa4ffe13a9d9bb0417ddc7175bc00"
+  },
+  {
+   "ts": "2026-11-01T06:01:55Z",
+   "actor": "0xe06ffaf010801dda1316f372e963309d86e1f603",
+   "side": "sell",
+   "amount_usd": 989,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xd4fc441cdf503aea8d5af39e3833dd92245839b1de54896a811346d4a3a4f4ac"
+  },
+  {
+   "ts": "2026-11-01T06:02:02Z",
+   "actor": "0xbef85dc17643d4f39a3862cd1ac457b7a46b51ed",
+   "side": "sell",
+   "amount_usd": 726,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x4dfcf23579e894d4b1334ffb875cd1d2b54dba82db7bd69297782d7d51ef9e00"
+  },
+  {
+   "ts": "2026-11-01T06:03:24Z",
+   "actor": "0x4ebea34ca7aac0967a58bed132587c94c2b29124",
+   "side": "buy",
+   "amount_usd": 1992,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x7e79e6d4e33229618841f5d95c9693be87daf4fe6674ee3df17bf491b666ee39"
+  },
+  {
+   "ts": "2026-11-01T06:04:29Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 3804,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xfe31aaff348ecf2b8c1d992db59f4a9aab14b3d1c2e517c37f1cf16a751e0fa8"
+  },
+  {
+   "ts": "2026-11-01T06:04:37Z",
+   "actor": "0xa94af48bba4bddde00853f6985e6beafb2b0f87f",
+   "side": "buy",
+   "amount_usd": 200,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x2381d95c9f83fd6869a410b03822fdf4726e030e9892081308b18ab8eda5831e"
+  },
+  {
+   "ts": "2026-11-01T06:05:03Z",
+   "actor": "0x63597473c91b366788eb5372192f4922b87cb7b6",
+   "side": "buy",
+   "amount_usd": 1250,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xc83c2ab3f4e98034e40d13e5e23722ca26b6057b87bcc3ed620b252616fe837d"
+  },
+  {
+   "ts": "2026-11-01T06:05:34Z",
+   "actor": "0x2f4579ca81717d3d61bf8b6f06571877bbe54a07",
+   "side": "buy",
+   "amount_usd": 293,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x57806b364ea9b9a4f1d08c68112848eda18091da7e9dfee90476f628e9b1e44e"
+  },
+  {
+   "ts": "2026-11-01T06:05:52Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 515,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x5c149d8e33d6487a9a175dcd80ea3c85f79d052e0da1f159385e2ec05e3d04a4"
+  },
+  {
+   "ts": "2026-11-01T06:05:54Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 158,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x1e0ac2a0c06becbca8d92836c6807a4b8245fa8143b3b1a0aa4f837d99f6cf06"
+  },
+  {
+   "ts": "2026-11-01T06:05:54Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 427,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x33b879e77f03c0c61c532db6f7fef7a0a8b7285493b75380f2cf74eec4cf64e0"
+  },
+  {
+   "ts": "2026-11-01T06:05:54Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 290,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xd293e579abc2f5cdeac6d83c475616dfdb5e95e690a62f70162a21e450558161"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 538,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x22f218d6a07a4b1dd594815d955399bb241a3a25f1adc8a7f255f5e406f7e5b8"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 143,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x2883a29a7c2eabffad616ddfa9139f0beba3a05a3b0f7b81f0d6eac5ee1e4447"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 624,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x2eff95ba198dae2dcc440262a70f2088390d0e26baa3609d5c6a112c2841750c"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 232,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x351705c19552c35b81300cf13aa25f3e073e02ab948cc701865b963c823331d1"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 196,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x3b4bf1d51ff21c100a3340db9b87a42e0dc742d6f8b668b2a340d462da7ee3e6"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 200,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x4654e2b46435eab4fb0561497f1de315368fdfcb96a6735ed90e93194f328484"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 299,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x54f75432aa5d4ab66f1718f8b3c09b39ac81fc26538086e80ea0421881994649"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 300,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x596658f75468527aa02d28dbc725bb16f9dc1ad4af760de0062bfcfacf7c76e9"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 743,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x68fefa83ab61ec4591557198b9647861a042965d04c89f6468ad3d1d16cf7487"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0xce94090458719c167af5477db61c9bc985961d1b",
+   "side": "buy",
+   "amount_usd": 230,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x7bcbbbce7514b60b523fd673d776b74c78202fa7df1547112b79f30a02a6d132"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 186,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x87a0054f2d0811d26f04e15060fbbaf8432a85f8d53fee1a320a0bf9f9cc159a"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "buy",
+   "amount_usd": 113,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x911742b3a7df0c9e0a2ebded286bbb87f230a4117111404092a831c30cb296da"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 398,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x992c39c2b4e7a7d04325c5224636b57906f88d95f5bce4d384b2d65cc4ce5fb1"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 100,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xa4862014311898731b5d82a28611acaa52e2ba8ffab8034ecb4a92ae52318e31"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 478,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xa88118e0dfb45b69289f0f8d4ec15c229990d7467dd2a525778c4fc1dbeee941"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 406,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xaadb6236784220852fd3ef39047fdeff91d56ee82abe46da353e8289a2002c6d"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 300,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xc1b760ed6f1e95636b48850c3d7e2246731122cbcbe16a035891b8e583c5f32d"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 175,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xcd350a5c5137093a297ece9c0b1e51257428fb48b1addf8c0baaa9ac64d089da"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "buy",
+   "amount_usd": 121,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xd2ac115f6922d41cab77b8c7b113945fc8b9713d986a996e1611b53f72918168"
+  },
+  {
+   "ts": "2026-11-01T06:06:10Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 900,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xec00e9e23cfa90f68128b8f55fe9fda3fd90d0571fe13fc84c384e0ae2f2d1ee"
+  },
+  {
+   "ts": "2026-11-01T06:06:11Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 249,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xa489e1ac2218781d693a40b526d8d7ec8089d491ad4097b1a4cb9cb4e50e7dfb"
+  },
+  {
+   "ts": "2026-11-01T06:06:12Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 478,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x02559b265aaec788722d0cad90d7a2d629e198a426607224d2fd4a21f2b3ec9d"
+  },
+  {
+   "ts": "2026-11-01T06:06:12Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 586,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x543d6f77cf559050ac0e2717f39ba50c08c25845ffe01f97b5c66218aa6b5c3f"
+  },
+  {
+   "ts": "2026-11-01T06:06:12Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 593,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x83243a93f89a4a422bba9f5c5885e32d8c7062f8f4aacfdb92643bc128bfbe29"
+  },
+  {
+   "ts": "2026-11-01T06:06:12Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "buy",
+   "amount_usd": 122,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x8e2424beb92639fd56fd88b56d6e2d493ae63f3fc2c7346149f29a60183aca52"
+  },
+  {
+   "ts": "2026-11-01T06:06:12Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 555,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xac151621d1a72ca31c2f88ade9ff489bc424a6aa3ad8800e0f913563f83796b8"
+  },
+  {
+   "ts": "2026-11-01T06:06:12Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 200,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xc9c90569ca4305cc76900f22f4ccbac67a63535c3f1a0c8a9a96e8fe73c1b896"
+  },
+  {
+   "ts": "2026-11-01T06:06:16Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 567,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x0c964f495397d23a9292068b04b595aa82564d150a55afab8f72b94ec99a5786"
+  },
+  {
+   "ts": "2026-11-01T06:06:19Z",
+   "actor": "0xc2e2063b468fe3e63316c85d2af36adf9b4d5c80",
+   "side": "buy",
+   "amount_usd": 338,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xbd23403576033edecc2ba3e389c51063867972da0c24f5753e172177d7d02a64"
+  },
+  {
+   "ts": "2026-11-01T06:06:31Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 157,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x3622bf3e40f6a34120af4f5a9cc6fc497fd01c0be6d6b268c7083e40273bc868"
+  },
+  {
+   "ts": "2026-11-01T06:06:31Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 682,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x69c6d2f61f75a597199a8d28b3bb076309bd1e75275b65115e42dba0d3741eb9"
+  },
+  {
+   "ts": "2026-11-01T06:06:31Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 193,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x9125a38c4b42c3d7631876ebee11bf6c2a1b6f62aaa064b3fa8485f2ba89072e"
+  },
+  {
+   "ts": "2026-11-01T06:06:31Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 119,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x927153bbe908cd4a9c68f7e29b573e596212eef0e123bd117f506f28d4f89182"
+  },
+  {
+   "ts": "2026-11-01T06:06:32Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 211,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0xe78059f4143417351ed6dce68a9840a4029e47fe1ffcbb00000245ba38daabff"
+  },
+  {
+   "ts": "2026-11-01T06:06:33Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 363,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x57df73bc7905306f7c405b6f2a3a584e806be70b391f58a0763b6c10dc6004b1"
+  },
+  {
+   "ts": "2026-11-01T06:06:33Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 430,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x700c16c492ab14dc8b8dcc251bd9a393c270ddfef8df0b0e418fc483b7075fc1"
+  },
+  {
+   "ts": "2026-11-01T06:06:51Z",
+   "actor": "0x2f73c8ede57c4ac1eae78f57bec324d3771858a4",
+   "side": "buy",
+   "amount_usd": 379,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0x592069fb88983ac7783328b639f42560a859cc43ac243dcc0e0107062fdd4a96"
+  },
+  {
+   "ts": "2026-11-01T06:07:04Z",
+   "actor": "0xfe29135a34921c73026839bbed5982033ad4bc2c",
+   "side": "buy",
+   "amount_usd": 2564,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x96ea0ab32d7d2bdeee4bbab44afa7c2ac4912a575d6d055ca4dda9cf9d789c63"
+  },
+  {
+   "ts": "2026-11-01T06:08:05Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 182,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xba8e989e41cf927f3563f0ba9a2fb3afbd804af342f89e45f27dd61e9cffd883"
+  },
+  {
+   "ts": "2026-11-01T06:08:08Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 320,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x105c0a58cfeb5a618af526534e26e76d71f9e44ec98e7e3a18dd25e5ac78b7e7"
+  },
+  {
+   "ts": "2026-11-01T06:08:08Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 206,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x1c5648ffc39dd7a71aeeedb3eeb1707a7cd689727b3d25dba5cc5a7428580120"
+  },
+  {
+   "ts": "2026-11-01T06:08:08Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 300,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x1dbc26e0138eb5e953f0ef6752430da40eaf4bf020e14a0f17d35a40d53dbe56"
+  },
+  {
+   "ts": "2026-11-01T06:08:08Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 135,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x20e815ad24db8e090dab4ac5f27ebd650bbdabacf8d04e0c64ef0375243ecbc1"
+  },
+  {
+   "ts": "2026-11-01T06:08:08Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 229,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x2a9d8dcdb77c935c37494b8f2400d56079a623b6e9275d61da4212ba5dedfd86"
+  },
+  {
+   "ts": "2026-11-01T06:08:08Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 186,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x5d974df573f7c7bfda5aaf57b42ce0612a09199d4d31c1ae8c48c5729b7547c1"
+  },
+  {
+   "ts": "2026-11-01T06:08:08Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 1040,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x741b0bcd063e7e1c4487f888e8812fcfeb3c083b9805e38d80df6540da98a40d"
+  },
+  {
+   "ts": "2026-11-01T06:08:08Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 906,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xfc7a452ef93af570a63a2ab0db4a097f220abdabd5e143b08e5cd75e4be4b86d"
+  },
+  {
+   "ts": "2026-11-01T06:08:09Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 318,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x2aa0fd5992787f687801d5ac6184373a957875f13e2244a2e669d30dd1dd31e7"
+  },
+  {
+   "ts": "2026-11-01T06:08:09Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 837,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xbe63e965ad7e1dca93f59ad47fbbdd849b8767ea952d00bf030a495839ecae27"
+  },
+  {
+   "ts": "2026-11-01T06:08:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 946,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x13eb8fd87993b60e52ed86f3beb8fc436b482f2363137cae05294b978cb76b1b"
+  },
+  {
+   "ts": "2026-11-01T06:08:10Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 127,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x4b453519b4ab26b46f4dbf65bf9f3a10fefc35a25630e2efff694b933e3aec57"
+  },
+  {
+   "ts": "2026-11-01T06:08:10Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 1499,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x67faeb2a6201854042b3b013ea10110c34a6d690f319f507b140fb2b72f85012"
+  },
+  {
+   "ts": "2026-11-01T06:08:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 419,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x9df7083725e54a110fae79f367cc7a07d28ec3d394b278ff1c95bb124080733c"
+  },
+  {
+   "ts": "2026-11-01T06:08:10Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 189,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xd8c9f91a3bef61f494b693b4c4fda4af74568a88ab6384e13e6e1e8aaf1ec917"
+  },
+  {
+   "ts": "2026-11-01T06:08:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 909,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xdec4151f08370eb3fa3a2249ebdc16c993282d478764e52788652ee51530db69"
+  },
+  {
+   "ts": "2026-11-01T06:08:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 285,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xe90b94554feac77657523ee259eb65d60b24444527dc8ce4e81b7421e20490e1"
+  },
+  {
+   "ts": "2026-11-01T06:08:10Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 923,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xf388375a17dd09b457fed2875f820b30e105ce2219a3ff162618c09e3f9de234"
+  },
+  {
+   "ts": "2026-11-01T06:08:11Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 184,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xd9844de54aee690d215dff5a60e276ec25143506334623a4de00ddddd165038a"
+  },
+  {
+   "ts": "2026-11-01T06:08:20Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "sell",
+   "amount_usd": 204,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x4f9dad1827b6ad40d700542811e51baead8d04d01a690961843d9f5e3d7c0b26"
+  },
+  {
+   "ts": "2026-11-01T06:08:20Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 117,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x6d18ddafe321c37c15a8090cb35b896f211c9a76468ba6ba7bb005a31f748f06"
+  },
+  {
+   "ts": "2026-11-01T06:08:28Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 3804,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xd7f40a25d327a882637e4624f627c0876373ebaed8fec65c2b8592290dc9e5b4"
+  },
+  {
+   "ts": "2026-11-01T06:08:32Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "sell",
+   "amount_usd": 601,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x27fa8c854a826ca837324a74de2af9159c5603d204305a70bf800629d5ae91e3"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 569,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x0fb678a79c83ecdb23dd465ea604fc7522886b159c10519478eb7575cf80a950"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 233,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x35832b41a3f74e2298654e1b490e3ad8ebbf0e8fb77783e8ca8021d0586f82ed"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0xce94090458719c167af5477db61c9bc985961d1b",
+   "side": "buy",
+   "amount_usd": 964,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x3d9197512c0ef7094a94097c0f155f03cefa4fcc2c1036d42d5d728c96986398"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 215,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x551e533160247de939af7fb5b8d2e9b04cd5ac8728636f8c0e5b7c73c5cca3fb"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "buy",
+   "amount_usd": 241,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x6bc2bd02c159517d71347701fc353bed7d66b2e5e9457f06303a5c54dabdd833"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 500,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x6f4b1693142cfa566acb28c0c07fcd272525e072f31a057882feea7510e12c38"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 688,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x728f93ec785a5e3188ac2427e8ea872700ec0b1ed08169506f281b583cc057c5"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 112,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x8b10d986b5a8ead4f6898664be7a947cc024f503fc91d2460c872c0b95ae1c31"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 198,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x9d4e7d265f766eb0c99b7182e31ef600388bf9911df66cc1bc668e956a765e94"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 240,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xac81bd0a91d1729a5133860003a967b4a0a78d4588cfe6542187c21f25c60391"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 331,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xacc8f6ae22be6e6c074b5c03b3e789f0fb10515f40e59111b5ca4dc01e2df3ee"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 587,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xad92d1ae03a4b8c69a56134862f58d96935d748043e41e976207180313509f58"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 372,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xb0e7b3f591e0d6ffbdb2b96ed34203bcc4b6dd50f140396cbb719219821df064"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 394,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xb871d8f439b12512ce89fbeda3ab41eefc070e88259665a8bd138bbad2dd55b5"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 850,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xcae80ce5507bcc8d5a538c22dc7b9f58d0486924ae07a6679655e044bf22b87a"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 396,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xd87a4f446d62e3b17fa5c3b1453bc65a6f5f63ce8f954f0bff03df21069e83a4"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 476,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xf6a61e94a1ad2daaab49c2daf29cb96ba661c5d12ce4ede26a81aba710413e8d"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 1258,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xfd3000ae4fc20ca6466145c23be317d37c1aab26bc5fedc9757a879f066e33ed"
+  },
+  {
+   "ts": "2026-11-01T06:08:37Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 662,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xfdf89f7dd536da7c668b01fa2d1dc82111c89e5d1bc7ba0b457f9dcc65d431fc"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "buy",
+   "amount_usd": 157,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x1ddf911ff3bf6485196529458568264854d91f971c85d8082664a80ab50c5f26"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 304,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x55ff6f10b34cdcbe3407b04a28b05a9717b39b2e84cccb748d894d354f19c969"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 195,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x60f6ab4972d9636f0bbe7daddd77f3e75d5385e7cb0d71bad89bc86b462ef1e0"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 724,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x8e2cfe3fa2d67e41bc3828956dd00e5020a49e7a21d0295b45addfbaf849849d"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 124,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x95bfcde050bc6022ee26cf17f71aea27a99bbef48aaee4b82e0d621e25eef0d1"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 713,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x9979bad8218b73f91e4fead02ee016afba0884bc205b536300d53a291fb95352"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 295,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x9a33c3cc3ebed6592bba4a0bfe2a2a2698efb1859ae31c73a6dcb22a9e9c3945"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 400,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x9c3c19ad95a734564f2f4ed2ec13051c8616a770b7a578ec37f68a548aefbbf3"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 393,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xa6ecb5d7bfafce482dac2e914068e73e5328011e43df8864b9f56407947ad591"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 308,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xadb504432f0577441ef1383d948834522838aa513bbebfe1f440ee96e508b750"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 196,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xbc393153644ac8c8e3ce1fe7f2212941b14fe2f846300417b201c5dfa831aadd"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 600,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xc2cd799ef260d00a57e72d112207a3c83aed2b72f2552c39340a50e00d03fef0"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 226,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xcab21e54c2c6714fb400e4258625e52ea59707442f0d61078a497a5e12c0f2b2"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 198,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xcb4756d93fedf72dbbca4de43d0397928c0fcdfbc1f5d79c07b0234fc3682a00"
+  },
+  {
+   "ts": "2026-11-01T06:08:41Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 171,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xd5b2359972287a571d2526e3bdb20687e91a7fdd2a0d84886dd7b70ffd1c8a01"
+  },
+  {
+   "ts": "2026-11-01T06:08:42Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 1177,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xb4ea0142a1f576c090d186c49ab7437e4223fcb9add047b168064832b27f1a5d"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 177,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x1c7eb6d9f92cc92ce8b858ea418a4e16df32ca370bf4d76a0b76f8c9b80b0d64"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 800,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x25475637eb47658233426566b1ffa17290674bc073f142d3e88e0658adbbbab0"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 420,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x392bf22754b5e6ff03a8f8ea2304927dd322c78c5ce39e2d0839d6e5d129ff94"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 355,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x4a1f0ad47542faf0d0720b06df9d0ffc3aece1b725e97a424b3864150af7f795"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 120,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x4ec897b26a2dfa7b15103ab3549eac6fe15f144b2da80543cb00e4acc7aa72b0"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 400,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x5a0e3bb344dcd28b58dba77901de27c88cdcda31f6ea58c6e0f652cf3bcccff9"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 1412,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x7636342e78de28fd1a23021b1f28ef72087469b89efc21d5be393aa01c3733ee"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "buy",
+   "amount_usd": 178,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x8dcabaf9e8be59e02b03323c589d74fbdb81f63c614441202c8908e1c3ac2594"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 433,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x9c39eb4c8aed258fd1a327617889de7fc6e0cc68f5bc79edc6e1e882dd33f992"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 1315,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xa36e876106aa1972637d69f452046dffea24f106951c3125f0db257326e52af0"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 358,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xaa5c56d6e6be154f4d57c04df901733b3585cabc80cf94c69c7085b9b26ab3bf"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 203,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xad746e8635841084562695123c64bdc5230b4277231eec80151f5631d735dcc6"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 265,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xd4981aeb5bb279a552e0f524da97de0962cf7830243e0742b4591401ca3ee63d"
+  },
+  {
+   "ts": "2026-11-01T06:08:43Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 499,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xfcf88e4d4d3349cdf86dad349ceec67dc63e444fc022b45ddf4a80ecfcbacb4f"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 499,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x03990e009448daead7342ed3fdd286cb5508fb239b8d0b02f2475faa0d6a3788"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 680,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x0c0c0d8f02fdd327a51f7452e8f4f2c3c955acbfa997cd47f4cc893cfdcdb590"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 1390,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x1633d18159e9d6c1f37d2e759f5ddbac5104ddd891ec79c4ea2246e1526fe7e4"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 2278,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x3808d30276c84c4e8876ded906e7f95b383a8be8569ee836832bb0ecd0461458"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 1005,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x49b65467740691af23f3cc27b7570a605b29a31e15c8b90c948dd5e93362eb76"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 461,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x51285d84c53fb08cb542f8f9ee45e2eae7039b0f59888a1c78ca2cffe15fae01"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 2719,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x99ccd62ced85267fe258cd8f454e69fd4b2918ad9b13d81c3dae1712a8791a76"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 198,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xbcf65e50424459061ab1f920046e33d1cca408711cd0cf279fade7048c9da1d2"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 475,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xc151778cf4d33cbbfcc86072d0ad550b903feca0574f4ca2766338d2d652f99b"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 300,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xd2e77987deb0bb9949631129a234aacd05cafe7ea809bfb0b76cb9850dffaa4a"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0xb42522dc545a7b8106f34ed400618eefc051b89c",
+   "side": "buy",
+   "amount_usd": 206,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xd9837c0e04b7ef4f0c756159ac9f425baef843826180ddbf21b490fe7d04da0b"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 192,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xdadc49b0a2f09f31033819e1514a7bbe83017e449cbebb821543fe9500508594"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 602,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xe6ad25fa53efae73f9afbdc1d0f68bbb926001dcc9c497399a800c189aecf556"
+  },
+  {
+   "ts": "2026-11-01T06:08:44Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "buy",
+   "amount_usd": 200,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xf9978eef47a088ad7c091226ed4444a5e7b14ed76b2d5836619cdc718076955d"
+  },
+  {
+   "ts": "2026-11-01T06:08:45Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "buy",
+   "amount_usd": 157,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x5894578b1809e50e448d178bf975c8c1911c7f5884ededc645e40dedd70fc317"
+  },
+  {
+   "ts": "2026-11-01T06:08:45Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 579,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xe5d74f6e6b98a6cb294a4e14b5e7ae3d43955c8e7075e9ffc1f7439089bdbf71"
+  },
+  {
+   "ts": "2026-11-01T06:08:46Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 587,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x01cda2fdf07b6bb18c364e0ee7c1fcf5cf99570e5a22e9ac696f7ad7a85d8b7d"
+  },
+  {
+   "ts": "2026-11-01T06:08:49Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 899,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x166390d2129c9939f09ab48c65f8a4c6dbb5ca5dea095df2114b14fdb6a5ad2c"
+  },
+  {
+   "ts": "2026-11-01T06:08:49Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 600,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x64f06b7d4a6092cd5450a60b6ae0fcae4133bee97f02e0fa81f89cef1ac7faa4"
+  },
+  {
+   "ts": "2026-11-01T06:08:49Z",
+   "actor": "0x0cfd7a9cf876e3779359653cac2de7a1fe0e15a5",
+   "side": "buy",
+   "amount_usd": 141,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x9a20fa6bcf92cde46c1b2924ca212ab03dd872ba6a3f5bd594aca91b66a573ed"
+  },
+  {
+   "ts": "2026-11-01T06:08:49Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "buy",
+   "amount_usd": 475,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x9d4fdd0ed04b545a69bfafb0400e02b8d714dc3cb53e17242b1a3a528188bf6d"
+  },
+  {
+   "ts": "2026-11-01T06:08:49Z",
+   "actor": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
+   "side": "buy",
+   "amount_usd": 127,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xb180711ab4e3f2ba85e6cf2bf4bc7ac0149085e8d4324e727369f1dda5200f10"
+  },
+  {
+   "ts": "2026-11-01T06:08:49Z",
+   "actor": "0xc33acc93942105c57602e59e8e448c20ba718a85",
+   "side": "buy",
+   "amount_usd": 112,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xd46225f312d494b44dc0248b450dd10132360a61a561a90464279b3736ab4466"
+  },
+  {
+   "ts": "2026-11-01T06:08:50Z",
+   "actor": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "side": "buy",
+   "amount_usd": 1071,
+   "token": "NVDA",
+   "token_address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "tx": "0xde689a2d48adfb911e60cf8faeb1bd8e29124278bdac10904109bf4e1c95fdaa"
+  },
+  {
+   "ts": "2026-11-01T06:08:59Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 700,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x01920d84f5b4aad347e844ca195c772c89aa8c93be545e838afd70a484cddd09"
+  },
+  {
+   "ts": "2026-11-01T06:08:59Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 220,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x116da04072f6f78c1522ec0adfffa7203c75e45cb1b5d0d36d260617218204c8"
+  },
+  {
+   "ts": "2026-11-01T06:08:59Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 400,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x70a3d29da895c9ab0865809686d987596ad3ea8bd024673555b3fc8a83295583"
+  },
+  {
+   "ts": "2026-11-01T06:08:59Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 256,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xa8fdb9bd42308eee6f116dc688571014540854d12552a2003c94ea19eacf8ac3"
+  },
+  {
+   "ts": "2026-11-01T06:08:59Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 300,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xb662ea8afb9b6eb04241aa8f58e5a90da82fb11e6193cf8ba9440166f395097e"
+  },
+  {
+   "ts": "2026-11-01T06:08:59Z",
+   "actor": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "side": "buy",
+   "amount_usd": 400,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xbc23b25221508b36ee2070a1c4c7dab06092285b20b64badd6ca7fd15c69a8a5"
+  },
+  {
+   "ts": "2026-11-01T06:09:02Z",
+   "actor": "0xa94af48bba4bddde00853f6985e6beafb2b0f87f",
+   "side": "buy",
+   "amount_usd": 300,
+   "token": "SPCX",
+   "token_address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "tx": "0x1d716af75baae47b77bea9f30544b322f5e1ce64c6ce9ca1431e54687b04be36"
+  },
+  {
+   "ts": "2026-11-01T06:09:10Z",
+   "actor": "0x0a83985e4a6e8dae2b67bed4f2d9268f6806ce00",
+   "side": "buy",
+   "amount_usd": 701,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x4bf52c7b8cde4046fc16b0072c116d5e83e34c7b5bfe64ddd3102d3ee1b1df17"
+  },
+  {
+   "ts": "2026-11-01T06:09:12Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "sell",
+   "amount_usd": 500,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x5861e64a7eaafe5030f2b6328684b847567489955e5ea8f07aea8dc34d9c0bc7"
+  },
+  {
+   "ts": "2026-11-01T06:09:16Z",
+   "actor": "0x2417c0170e63a1d41ec8d1d819b857f09e3d48bb",
+   "side": "sell",
+   "amount_usd": 148,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x2fc77b469a14472d9a8c115b84d9457e8c8fbd79426af7dd496b396c0dafaeef"
+  },
+  {
+   "ts": "2026-11-01T06:09:16Z",
+   "actor": "0x2417c0170e63a1d41ec8d1d819b857f09e3d48bb",
+   "side": "sell",
+   "amount_usd": 467,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0xfd4e1f44e64279c63182ca2acd26aa3419ebbb9ba6286800aac18551f40ede3f"
+  },
+  {
+   "ts": "2026-11-01T06:09:17Z",
+   "actor": "0x907d1d174569b11624bdcefd20dcef27600237f8",
+   "side": "sell",
+   "amount_usd": 500,
+   "token": "PONS",
+   "token_address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "tx": "0x899caad3cf18d8127868da388aa0c424b3d17fb8e6ff7bdea033a8e5c25c1052"
+  }
+ ]
 }
