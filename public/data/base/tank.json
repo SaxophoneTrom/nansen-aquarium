@@ -1,53 +1,38 @@
 {
  "chain": "base",
- "generated_at": "2026-11-24T19:46:17.085Z",
+ "generated_at": "2026-11-25T18:53:01.435Z",
  "tokens": [
   {
    "symbol": "NVDA",
    "address": "0xb20000000000000000000078ee7ce2fe4908108c",
-   "volume_24h_usd": 38352721
+   "volume_24h_usd": 34550406
   },
   {
    "symbol": "SNDK",
    "address": "0xb200000000000000000000397293cb8cda9a10c5",
-   "volume_24h_usd": 33234357
+   "volume_24h_usd": 27329718
   },
   {
    "symbol": "MSTR",
    "address": "0xb2000000000000000000004884b426556b92883d",
-   "volume_24h_usd": 21398497
+   "volume_24h_usd": 19230244
   },
   {
-   "symbol": "AMZN",
-   "address": "0xb200000000000000000000d9192b6b456483c2e8",
-   "volume_24h_usd": 16993105
+   "symbol": "BSW",
+   "address": "0x3c5cd672b204ba0fc48e93b98c0922920a87912d",
+   "volume_24h_usd": 16298870
   },
   {
-   "symbol": "AERO",
-   "address": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-   "volume_24h_usd": 15134386
+   "symbol": "VVV",
+   "address": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+   "volume_24h_usd": 14096079
   }
  ],
  "creatures": [
   {
    "address": "0x278d858f05b94576c1e6f73285886876ff6ef8d2",
    "species": "whale",
-   "trades_24h_usd": 12633032,
-   "win_rate": null,
-   "glow": 0.5,
-   "realized_pnl_usd": null,
-   "traded_times": null,
-   "traded_token_count": null,
-   "top_tokens": [
-    "NVDA",
-    "SNDK"
-   ],
-   "size": 1
-  },
-  {
-   "address": "0x4446adc0b8136ffc55ddb7a488ba5509ace2a5ef",
-   "species": "whale",
-   "trades_24h_usd": 10638326,
+   "trades_24h_usd": 17332177,
    "win_rate": null,
    "glow": 0.5,
    "realized_pnl_usd": null,
@@ -57,17 +42,32 @@
     "NVDA",
     "SNDK",
     "MSTR",
-    "AMZN"
+    "VVV"
    ],
-   "size": 0.98
+   "size": 1
+  },
+  {
+   "address": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "species": "whale",
+   "trades_24h_usd": 13270698,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "SNDK",
+    "VVV"
+   ],
+   "size": 0.97
   },
   {
    "address": "0xe4a42541e0f1623539652d33c612e9aee950c827",
    "species": "shark",
-   "trades_24h_usd": 8883868,
-   "win_rate": 0.4666666666666667,
-   "glow": 0.4666666666666667,
-   "realized_pnl_usd": 2406.3831991731763,
+   "trades_24h_usd": 12833377,
+   "win_rate": 0.43333333333333335,
+   "glow": 0.43333333333333335,
+   "realized_pnl_usd": 2406.383199173177,
    "traded_times": 79505,
    "traded_token_count": 30,
    "top_tokens": [
@@ -77,26 +77,104 @@
     "WETH",
     "MUC"
    ],
-   "size": 0.95
+   "size": 0.96
   },
   {
-   "address": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+   "address": "0x4446adc0b8136ffc55ddb7a488ba5509ace2a5ef",
    "species": "shark",
-   "trades_24h_usd": 3900274,
+   "trades_24h_usd": 10195687,
    "win_rate": null,
    "glow": 0.5,
    "realized_pnl_usd": null,
    "traded_times": null,
    "traded_token_count": null,
    "top_tokens": [
-    "AERO"
+    "NVDA",
+    "SNDK",
+    "MSTR",
+    "VVV"
    ],
-   "size": 0.85
+   "size": 0.93
+  },
+  {
+   "address": "0x43307b536cfdec1dbe1d8f53b2e62e51716085ca",
+   "species": "shark",
+   "trades_24h_usd": 3211501,
+   "win_rate": 0.5,
+   "glow": 0.5,
+   "realized_pnl_usd": -718.3763986555539,
+   "traded_times": 30342,
+   "traded_token_count": 2,
+   "top_tokens": [
+    "ETH",
+    "BSW"
+   ],
+   "size": 0.79
+  },
+  {
+   "address": "0x08fb33543ad633db94282df364ad80feb8d9fc35",
+   "species": "dolphin",
+   "trades_24h_usd": 3131016,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "VVV",
+    "NVDA"
+   ],
+   "size": 0.79
+  },
+  {
+   "address": "0x2b8cc63d9b290db9a432ecbbfbe9a22ab7bd9a26",
+   "species": "dolphin",
+   "trades_24h_usd": 2954651,
+   "win_rate": 0.5,
+   "glow": 0.5,
+   "realized_pnl_usd": 29408.637467033666,
+   "traded_times": 27901,
+   "traded_token_count": 2,
+   "top_tokens": [
+    "BSW",
+    "ETH"
+   ],
+   "size": 0.78
+  },
+  {
+   "address": "0x746527ef1cb0238b9fe7e87f556592995349f11a",
+   "species": "dolphin",
+   "trades_24h_usd": 2946019,
+   "win_rate": 0,
+   "glow": 0,
+   "realized_pnl_usd": -27870.447579287902,
+   "traded_times": 31609,
+   "traded_token_count": 2,
+   "top_tokens": [
+    "ETH",
+    "BSW"
+   ],
+   "size": 0.78
+  },
+  {
+   "address": "0x8a2af32e8e8ad9223aac23197478ed838158df8d",
+   "species": "dolphin",
+   "trades_24h_usd": 2839995,
+   "win_rate": 0,
+   "glow": 0,
+   "realized_pnl_usd": -835.1142092411976,
+   "traded_times": 19185,
+   "traded_token_count": 2,
+   "top_tokens": [
+    "ETH",
+    "BSW"
+   ],
+   "size": 0.78
   },
   {
    "address": "0x29be31e7ef434a74d69da1cb6b51ad65c83e9a7b",
-   "species": "shark",
-   "trades_24h_usd": 3531112,
+   "species": "dolphin",
+   "trades_24h_usd": 2562276,
    "win_rate": 0.09523809523809523,
    "glow": 0.09523809523809523,
    "realized_pnl_usd": -650.966765310138,
@@ -109,80 +187,29 @@
     "VVV",
     "ZRO"
    ],
-   "size": 0.83
+   "size": 0.76
   },
   {
-   "address": "0x08fb33543ad633db94282df364ad80feb8d9fc35",
+   "address": "0x8b12ca0e3f55da41b11be7381d673efb96e61a8e",
    "species": "dolphin",
-   "trades_24h_usd": 2981551,
+   "trades_24h_usd": 1222863,
    "win_rate": null,
    "glow": 0.5,
    "realized_pnl_usd": null,
    "traded_times": null,
    "traded_token_count": null,
    "top_tokens": [
-    "AERO"
+    "VVV"
    ],
-   "size": 0.81
-  },
-  {
-   "address": "0x30a05155585ff7f356283a0bcabcb98eb8b1283d",
-   "species": "dolphin",
-   "trades_24h_usd": 2009975,
-   "win_rate": 0.25,
-   "glow": 0.25,
-   "realized_pnl_usd": -6130.679028467752,
-   "traded_times": 91580,
-   "traded_token_count": 16,
-   "top_tokens": [
-    "SPCX",
-    "CBBTC",
-    "AERO",
-    "MSTR",
-    "WETH"
-   ],
-   "size": 0.76
-  },
-  {
-   "address": "0x0120833f9a895f3f75db17cc55b8ed95423022d8",
-   "species": "dolphin",
-   "trades_24h_usd": 1535961,
-   "win_rate": 0.36363636363636365,
-   "glow": 0.36363636363636365,
-   "realized_pnl_usd": -1695.9060450157147,
-   "traded_times": 15904,
-   "traded_token_count": 22,
-   "top_tokens": [
-    "AMDC",
-    "INTC",
-    "NVDA",
-    "MSTR",
-    "ANTC"
-   ],
-   "size": 0.72
-  },
-  {
-   "address": "0x03a76cd88814c9fcf57d12d7c1c0e2969e613e31",
-   "species": "dolphin",
-   "trades_24h_usd": 517185,
-   "win_rate": 0.3333333333333333,
-   "glow": 0.3333333333333333,
-   "realized_pnl_usd": 696.7346599951995,
-   "traded_times": 25882,
-   "traded_token_count": 3,
-   "top_tokens": [
-    "SNDK",
-    "MSTR"
-   ],
-   "size": 0.58
+   "size": 0.67
   },
   {
    "address": "0x891ce12e2fc0669d4341ede24ab24c1c9ce8a03b",
-   "species": "dolphin",
-   "trades_24h_usd": 446998,
+   "species": "fish",
+   "trades_24h_usd": 1037674,
    "win_rate": 0.13432835820895522,
    "glow": 0.13432835820895522,
-   "realized_pnl_usd": -5212.200347452208,
+   "realized_pnl_usd": -5212.20034745222,
    "traded_times": 108625,
    "traded_token_count": 67,
    "top_tokens": [
@@ -192,51 +219,132 @@
     "WETH",
     "CBBTC"
    ],
-   "size": 0.56
+   "size": 0.65
   },
   {
-   "address": "0x5feea8f691be66225cb7add010d9ec04333f2289",
-   "species": "dolphin",
-   "trades_24h_usd": 232926,
-   "win_rate": 0.21428571428571427,
-   "glow": 0.21428571428571427,
-   "realized_pnl_usd": -3354.1150399917137,
-   "traded_times": 30175,
-   "traded_token_count": 14,
-   "top_tokens": [
-    "META",
-    "SPCX",
-    "AAPL",
-    "GOOGL",
-    "NVDA"
-   ],
-   "size": 0.48
-  },
-  {
-   "address": "0x8ad92cf63fef985d02c038e99b682306ccdeb3e9",
+   "address": "0x03a76cd88814c9fcf57d12d7c1c0e2969e613e31",
    "species": "fish",
-   "trades_24h_usd": 230732,
-   "win_rate": 0.6666666666666666,
-   "glow": 0.6666666666666666,
-   "realized_pnl_usd": 4335.140019869674,
-   "traded_times": 6148,
+   "trades_24h_usd": 784717,
+   "win_rate": 0.3333333333333333,
+   "glow": 0.3333333333333333,
+   "realized_pnl_usd": 696.7346599951996,
+   "traded_times": 25882,
+   "traded_token_count": 3,
+   "top_tokens": [
+    "SNDK",
+    "MSTR"
+   ],
+   "size": 0.62
+  },
+  {
+   "address": "0x0120833f9a895f3f75db17cc55b8ed95423022d8",
+   "species": "fish",
+   "trades_24h_usd": 457456,
+   "win_rate": 0.391304347826087,
+   "glow": 0.391304347826087,
+   "realized_pnl_usd": -3167.8828195879687,
+   "traded_times": 22423,
+   "traded_token_count": 23,
+   "top_tokens": [
+    "CRCL",
+    "NVDA",
+    "INTC",
+    "AMDC",
+    "SNDK"
+   ],
+   "size": 0.55
+  },
+  {
+   "address": "0x604d9cb8f7cbd05b9d56206112ca9ea13304f1ea",
+   "species": "fish",
+   "trades_24h_usd": 263647,
+   "win_rate": 0.16666666666666666,
+   "glow": 0.16666666666666666,
+   "realized_pnl_usd": 141301.32588350138,
+   "traded_times": 137959,
    "traded_token_count": 12,
    "top_tokens": [
-    "AERO",
-    "CBBTC",
-    "ETH",
-    "ABASWETH",
-    "INFI"
+    "WETH",
+    "VVV",
+    "MORPHO",
+    "ZEN",
+    "CBXRP"
    ],
    "size": 0.48
+  },
+  {
+   "address": "0x4623be8e66e455b6954dd46149a0585dddbc6c87",
+   "species": "fish",
+   "trades_24h_usd": 217264,
+   "win_rate": 0.2727272727272727,
+   "glow": 0.2727272727272727,
+   "realized_pnl_usd": -5334.197300375096,
+   "traded_times": 74340,
+   "traded_token_count": 11,
+   "top_tokens": [
+    "WETH",
+    "LINK",
+    "VVV",
+    "CBBTC",
+    "XDP"
+   ],
+   "size": 0.46
+  },
+  {
+   "address": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+   "species": "fish",
+   "trades_24h_usd": 205214,
+   "win_rate": 0.09523809523809523,
+   "glow": 0.09523809523809523,
+   "realized_pnl_usd": -136536.13395020965,
+   "traded_times": 96261,
+   "traded_token_count": 21,
+   "top_tokens": [
+    "WETH",
+    "AERO",
+    "VVV",
+    "VIRTUAL",
+    "CBBTC"
+   ],
+   "size": 0.45
+  },
+  {
+   "address": "0x2192bc3b4028acc1113f2cd9ac2cba70c36520db",
+   "species": "fish",
+   "trades_24h_usd": 189715,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "VVV",
+    "MSTR"
+   ],
+   "size": 0.44
+  },
+  {
+   "address": "0xd37bf735609f92f50be687e82a1364dfd2fac218",
+   "species": "fish",
+   "trades_24h_usd": 122001,
+   "win_rate": 0.5,
+   "glow": 0.5,
+   "realized_pnl_usd": 2123.276066185841,
+   "traded_times": 347,
+   "traded_token_count": 2,
+   "top_tokens": [
+    "VVV",
+    "ETH"
+   ],
+   "size": 0.39
   },
   {
    "address": "0xc67489dbd11f4d980db4313890dcfe4ca3f3ea27",
    "species": "fish",
-   "trades_24h_usd": 203446,
+   "trades_24h_usd": 121165,
    "win_rate": 0.25,
    "glow": 0.25,
-   "realized_pnl_usd": 153764.03480533423,
+   "realized_pnl_usd": 153764.03480533438,
    "traded_times": 62629,
    "traded_token_count": 4,
    "top_tokens": [
@@ -245,199 +353,80 @@
     "WETH",
     "CBBTC"
    ],
-   "size": 0.46
+   "size": 0.39
   },
   {
    "address": "0x2bf1502b2dc467edfe6fced21a3d39df4a184cac",
    "species": "fish",
-   "trades_24h_usd": 202695,
-   "win_rate": 0.7142857142857143,
-   "glow": 0.7142857142857143,
-   "realized_pnl_usd": -1008.687833006549,
-   "traded_times": 34965,
+   "trades_24h_usd": 87053,
+   "win_rate": 0.5714285714285714,
+   "glow": 0.5714285714285714,
+   "realized_pnl_usd": -1782.5835281188279,
+   "traded_times": 36201,
    "traded_token_count": 7,
    "top_tokens": [
     "SNDK",
     "AMZN",
-    "MUC",
+    "MSTR",
     "NVDA",
     "PLTRC"
-   ],
-   "size": 0.46
-  },
-  {
-   "address": "0x8a42956bc6c6a03731b6d49c0d9f1c68d6f7e15f",
-   "species": "fish",
-   "trades_24h_usd": 161024,
-   "win_rate": null,
-   "glow": 0.5,
-   "realized_pnl_usd": null,
-   "traded_times": null,
-   "traded_token_count": null,
-   "top_tokens": [
-    "AERO"
-   ],
-   "size": 0.43
-  },
-  {
-   "address": "0x3eed9d526294ca3e400b44c77ff60e889f01afe7",
-   "species": "fish",
-   "trades_24h_usd": 155885,
-   "win_rate": 0.5,
-   "glow": 0.5,
-   "realized_pnl_usd": 41601.951832726896,
-   "traded_times": 9219,
-   "traded_token_count": 4,
-   "top_tokens": [
-    "AMZN"
-   ],
-   "size": 0.43
-  },
-  {
-   "address": "0xba71b7ee4733a0a60ff07f26047bf6e00b6cb389",
-   "species": "fish",
-   "trades_24h_usd": 144610,
-   "win_rate": 0.3333333333333333,
-   "glow": 0.3333333333333333,
-   "realized_pnl_usd": -1.6274622548720807,
-   "traded_times": 138,
-   "traded_token_count": 3,
-   "top_tokens": [
-    "AERO"
-   ],
-   "size": 0.42
-  },
-  {
-   "address": "0x5516d267409e6e78a2271c8690e5f17fc38f94f2",
-   "species": "fish",
-   "trades_24h_usd": 119209,
-   "win_rate": 0.25,
-   "glow": 0.25,
-   "realized_pnl_usd": 14352.496918792234,
-   "traded_times": 402,
-   "traded_token_count": 4,
-   "top_tokens": [
-    "NVDA",
-    "META",
-    "GOOGL"
-   ],
-   "size": 0.39
-  },
-  {
-   "address": "0xe955fc92f07635503f7a3c9ba4e54558292a65d5",
-   "species": "fish",
-   "trades_24h_usd": 99144,
-   "win_rate": 0.8333333333333334,
-   "glow": 0.8333333333333334,
-   "realized_pnl_usd": 13133.535926529952,
-   "traded_times": 66074,
-   "traded_token_count": 6,
-   "top_tokens": [
-    "WETH",
-    "AERO",
-    "SOL",
-    "AERO",
-    "VIRTUAL"
-   ],
-   "size": 0.37
-  },
-  {
-   "address": "0x0f8e0136f09e8b188d21eddf17f65522f81f7151",
-   "species": "fish",
-   "trades_24h_usd": 88365,
-   "win_rate": 0.4,
-   "glow": 0.4,
-   "realized_pnl_usd": -5473.748561717928,
-   "traded_times": 75983,
-   "traded_token_count": 5,
-   "top_tokens": [
-    "NVDA",
-    "SNDK",
-    "SPCX",
-    "WETH"
    ],
    "size": 0.35
   },
   {
-   "address": "0xab92d2b64ad57aceb2b2f48cb12936fdd340f681",
+   "address": "0x55f6e5ad13d64c1713851ac96b5dbfb1283c29d5",
    "species": "fish",
-   "trades_24h_usd": 77954,
-   "win_rate": 0,
-   "glow": 0,
-   "realized_pnl_usd": -679.0065986731358,
-   "traded_times": 7077,
+   "trades_24h_usd": 74350,
+   "win_rate": 1,
+   "glow": 1,
+   "realized_pnl_usd": 123.92649952010181,
+   "traded_times": 8,
    "traded_token_count": 2,
    "top_tokens": [
-    "AERO",
-    "AMZN"
-   ],
-   "size": 0.34
-  },
-  {
-   "address": "0xda83cbf90a93dc763f0d9100c58046e278f8ce30",
-   "species": "fish",
-   "trades_24h_usd": 72548,
-   "win_rate": 0.48,
-   "glow": 0.48,
-   "realized_pnl_usd": 815.7899070061019,
-   "traded_times": 89344,
-   "traded_token_count": 25,
-   "top_tokens": [
-    "CTR",
-    "ICNT",
-    "PLAY",
-    "VVV",
-    "AERO"
+    "DIEM",
+    "VVV"
    ],
    "size": 0.33
   },
   {
-   "address": "0x71def100007a540305dd65d1034d10e809679fd5",
+   "address": "0xca0d8f914eda586fbc1b835e8e214eb3f6dbd8f3",
    "species": "fish",
-   "trades_24h_usd": 65732,
-   "win_rate": 0.23076923076923078,
-   "glow": 0.23076923076923078,
-   "realized_pnl_usd": -6257.382522335034,
-   "traded_times": 99801,
-   "traded_token_count": 13,
-   "top_tokens": [
-    "AAPL",
-    "NVDA",
-    "WETH",
-    "AERO",
-    "CBBTC"
-   ],
-   "size": 0.31
-  },
-  {
-   "address": "0x5c0fdb6cd62e3e7005548853f9e90e542d4707ed",
-   "species": "fish",
-   "trades_24h_usd": 60448,
-   "win_rate": 0.3333333333333333,
-   "glow": 0.3333333333333333,
-   "realized_pnl_usd": -221.50058933301787,
-   "traded_times": 162,
-   "traded_token_count": 9,
-   "top_tokens": [
-    "GOOGL",
-    "TSLA",
-    "AAPL",
-    "AMZN",
-    "SPCX"
-   ],
-   "size": 0.3
-  },
-  {
-   "address": "0x2192bc3b4028acc1113f2cd9ac2cba70c36520db",
-   "species": "fish",
-   "trades_24h_usd": 59369,
+   "trades_24h_usd": 69233,
    "win_rate": null,
    "glow": 0.5,
    "realized_pnl_usd": null,
    "traded_times": null,
    "traded_token_count": null,
    "top_tokens": [
-    "AMZN"
+    "VVV"
+   ],
+   "size": 0.32
+  },
+  {
+   "address": "0x7a108179518799f63e6da8fa6d7de07ac0dd84cb",
+   "species": "fish",
+   "trades_24h_usd": 66215,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "VVV"
+   ],
+   "size": 0.31
+  },
+  {
+   "address": "0xd0e2f1c6b4d604da32ae5831e616d6553efdcc7f",
+   "species": "fish",
+   "trades_24h_usd": 59346,
+   "win_rate": null,
+   "glow": 0.5,
+   "realized_pnl_usd": null,
+   "traded_times": null,
+   "traded_token_count": null,
+   "top_tokens": [
+    "SNDK"
    ],
    "size": 0.3
   }
